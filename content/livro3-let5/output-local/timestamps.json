@@ -1,0 +1,222 @@
+{
+  "audio_file": "WhatsApp-Audio-2026-01-02-at-10.44.45.mp3",
+  "language": "pt",
+  "duration": 0.0,
+  "title": "NÃO FALO, MAS SEMPRE EXPLICO",
+  "full_text": "NÃO FALO, MAS SEMPRE EXPLICO\n\nNÃO FALO, MAS SEMPRE EXPLICO.\nSOU UM AMIGO CALADO.\nABERTO, TUDO LHE DIGO:\nGUARDO OS SEGREDOS, FECHADO.",
+  "word_count": 22,
+  "words": [
+    {
+      "word": "NÃO",
+      "start": 0.12,
+      "end": 0.248,
+      "confidence": 0.866,
+      "is_title": true
+    },
+    {
+      "word": "FALO,",
+      "start": 0.25,
+      "end": 0.87,
+      "confidence": 0.968,
+      "is_title": true
+    },
+    {
+      "word": "MAS",
+      "start": 0.87,
+      "end": 1.165,
+      "confidence": 0.754,
+      "is_title": true
+    },
+    {
+      "word": "SEMPRE",
+      "start": 1.165,
+      "end": 1.605,
+      "confidence": 0.983,
+      "is_title": true
+    },
+    {
+      "word": "EXPLICO",
+      "start": 1.605,
+      "end": 2.2,
+      "confidence": 0.945,
+      "line_break_after": true,
+      "is_title": true
+    },
+    {
+      "word": "NÃO",
+      "start": 3.08,
+      "end": 3.265,
+      "confidence": 0.979
+    },
+    {
+      "word": "FALO,",
+      "start": 3.265,
+      "end": 3.9,
+      "confidence": 0.999
+    },
+    {
+      "word": "MAS",
+      "start": 3.9,
+      "end": 4.185,
+      "confidence": 0.806
+    },
+    {
+      "word": "SEMPRE",
+      "start": 4.185,
+      "end": 4.625,
+      "confidence": 0.998
+    },
+    {
+      "word": "EXPLICO.",
+      "start": 4.625,
+      "end": 5.22,
+      "confidence": 0.993,
+      "line_break_after": true
+    },
+    {
+      "word": "SOU",
+      "start": 6.1,
+      "end": 6.385,
+      "confidence": 0.699
+    },
+    {
+      "word": "UM",
+      "start": 6.385,
+      "end": 6.565,
+      "confidence": 0.895
+    },
+    {
+      "word": "AMIGO",
+      "start": 6.565,
+      "end": 6.905,
+      "confidence": 0.99
+    },
+    {
+      "word": "CALADO.",
+      "start": 6.905,
+      "end": 7.58,
+      "confidence": 0.792,
+      "line_break_after": true
+    },
+    {
+      "word": "ABERTO,",
+      "start": 8.5,
+      "end": 9.17,
+      "confidence": 0.603
+    },
+    {
+      "word": "TUDO",
+      "start": 9.17,
+      "end": 9.545,
+      "confidence": 0.994
+    },
+    {
+      "word": "LHE",
+      "start": 9.545,
+      "end": 9.865,
+      "confidence": 0.582
+    },
+    {
+      "word": "DIGO:",
+      "start": 9.865,
+      "end": 10.2,
+      "confidence": 0.949,
+      "line_break_after": true
+    },
+    {
+      "word": "GUARDO",
+      "start": 11.3,
+      "end": 11.75,
+      "confidence": 0.504
+    },
+    {
+      "word": "OS",
+      "start": 11.5,
+      "end": 11.628,
+      "confidence": 0.279
+    },
+    {
+      "word": "SEGREDOS,",
+      "start": 11.63,
+      "end": 12.165,
+      "confidence": 0.802
+    },
+    {
+      "word": "FECHADO.",
+      "start": 12.165,
+      "end": 12.94,
+      "confidence": 0.863
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.829,
+    "gaps_preserved": 4,
+    "gaps_filled": 17,
+    "gaps_review": 0,
+    "low_confidence_words": 7,
+    "prosody_preserved_score": 0.0,
+    "timing_precision_ms": 42.2,
+    "word_accuracy": 0.829,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "MAS",
+    "SOU",
+    "CALADO.",
+    "ABERTO,",
+    "LHE",
+    "GUARDO",
+    "OS"
+  ],
+  "timestamp_issues": {
+    "words_checked": 22,
+    "total_issues": 5,
+    "errors": 1,
+    "warnings": 4,
+    "issues_by_type": {
+      "large_gap": 4,
+      "overlap": 1
+    },
+    "issues": [
+      {
+        "word_index": 5,
+        "type": "large_gap",
+        "message": "Large gap (880ms) before 'NÃO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "large_gap",
+        "message": "Very large gap (880ms) before 'SOU'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 14,
+        "type": "large_gap",
+        "message": "Very large gap (920ms) before 'ABERTO,'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "large_gap",
+        "message": "Very large gap (1100ms) before 'GUARDO'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 19,
+        "type": "overlap",
+        "message": "Word 'OS' overlaps with 'GUARDO' by 250ms",
+        "severity": "error",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

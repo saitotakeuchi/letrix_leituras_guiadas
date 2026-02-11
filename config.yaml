@@ -1,0 +1,114 @@
+# WordSync Engine - Project Configuration
+# Customize these settings for your project
+
+# General settings
+project:
+  name: "Letrix Leituras Guiadas"
+  language: "pt"  # Portuguese
+  version: "1.0.0"
+
+# Transcription settings
+transcription:
+  # Provider: "openai" | "local" | "whisperx"
+  # whisperx is recommended for best word-level timestamp accuracy
+  provider: "local"
+
+  # OpenAI Whisper API settings
+  whisper_model: "whisper-1"
+  response_format: "verbose_json"
+  temperature: 0
+
+  # Local whisper-timestamped model (when using --local flag)
+  local_model: "base"
+
+  # WhisperX settings (best for karaoke - uses wav2vec 2.0 alignment)
+  # Install with: pip install whisperx
+  whisperx_model: "base"  # "tiny", "base", "small", "medium", "large-v2"
+  whisperx_device: "cpu"  # "cpu" or "cuda" for GPU acceleration
+
+# Prosody analysis settings (Gemini 2.5 Flash)
+prosody:
+  enabled: true
+  model: "gemini-2.5-flash"
+  # Confidence threshold for prosodic markers
+  confidence_threshold: 0.7
+  # Features to detect
+  features:
+    - breath_pauses
+    - pitch_resets
+    - emphasis
+    - syllable_stress
+
+# Validation settings (GPT-4o)
+validation:
+  # Disabled by default - focus on better timestamps from WhisperX instead
+  enabled: false
+  model: "gpt-audio"
+  # Cross-validate when confidence below threshold
+  confidence_threshold: 0.85
+  # Use median timestamps when models disagree
+  use_median_timestamps: true
+
+# Gap classification thresholds (in milliseconds)
+gap_classification:
+  # Micro-gaps: always fill
+  micro_gap_max: 50
+  # Short gaps: fill unless audio evidence
+  short_gap_max: 150
+  # Medium gaps: context-dependent analysis
+  medium_gap_max: 400
+  # Natural pauses: keep (sentence boundaries, breaths)
+  natural_pause_max: 600
+  # Sentence boundaries: always keep
+  sentence_boundary_min: 600
+
+# Portuguese-specific liaison rules
+portuguese_rules:
+  # Article + noun blends (e.g., "o amigo")
+  article_noun_liaison: true
+  # Preposition connections (e.g., "de água")
+  preposition_liaison: true
+  # Educational pacing for children
+  preserve_educational_pauses: true
+  # Common articles to check
+  articles: ["o", "a", "os", "as", "um", "uma", "uns", "umas"]
+  # Common prepositions
+  prepositions: ["de", "da", "do", "das", "dos", "em", "na", "no", "nas", "nos", "para", "pra", "pro"]
+
+# Output settings
+output:
+  # Generate JSON alongside HTML
+  include_json: true
+  # Include quality metrics
+  include_metrics: true
+  # Embed audio as base64 (larger files but self-contained)
+  embed_audio: false
+  # CSS/JS bundling
+  bundle_assets: true
+
+# Quality metrics
+quality:
+  # Minimum acceptable confidence
+  min_confidence: 0.90
+  # Flag words below this confidence for manual review
+  review_threshold: 0.80
+  # Maximum allowed timing deviation (ms)
+  max_timing_deviation: 100
+
+# Template settings
+templates:
+  # Base template file
+  page_template: "page.html.jinja2"
+  # Custom CSS (relative to templates/)
+  styles: "styles.css"
+  # Custom JS (relative to templates/)
+  player: "player.js"
+
+# Content pages (auto-discovered from content/ folder)
+# Override individual pages here if needed
+pages: {}
+  # Example:
+  # page-001:
+  #   audio: "content/page-001/audio.mp3"
+  #   text: "content/page-001/text.txt"
+  #   title: "O Amigo"

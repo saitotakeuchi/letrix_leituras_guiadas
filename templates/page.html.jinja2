@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="{{ language }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} - {{ project_name }}</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  {% if embed_assets and css_content %}
+  <style>
+{{ css_content }}
+  </style>
+  {% else %}
+  <link rel="stylesheet" href="./styles.css">
+  {% endif %}
+
+  <!-- Word Timestamps Data -->
+  <script>
+    window.WORDSYNC_DATA = {
+      words: {{ words | to_json }},
+      duration: {{ duration }},
+      title: {{ title | to_json }},
+      audioFile: {{ audio_file | to_json }}
+    };
+  </script>
+</head>
+<body>
+  <!-- Main Content Section -->
+  <section id="content">
+    <div class="container">
+      <!-- Player Row -->
+      <div class="row mt-2 pt-lg-5 pt-1">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="card-link">
+            <!-- Background do Card (3 partes) -->
+            <div class="bg-card-link">
+              <img src="./images/bg-card-left.svg" alt="" class="bg-card-link-left">
+              <div class="bg-card-link-middle"></div>
+              <img src="./images/bg-card-right.svg" alt="" class="bg-card-link-right">
+            </div>
+
+            <!-- Grid Audio -->
+            <div class="grid-audio">
+              <div class="item-grid-audio">
+                <div class="audio-player">
+                  <div class="controls">
+                    <!-- Play/Pause Button -->
+                    <div class="play-container">
+                      <div class="toggle-play play" id="playBtn">
+                        <i class="fas fa-play"></i>
+                        <i class="fas fa-pause"></i>
+                      </div>
+                    </div>
+
+                    <!-- Timeline -->
+                    <div class="timeline" id="timeline">
+                      <div class="progress" id="progress"></div>
+                    </div>
+
+                    <!-- Time Display -->
+                    <div class="time">
+                      <div class="current" id="currentTime">0:00</div>
+                      <div class="divider">/</div>
+                      <div class="length" id="duration">{{ duration_formatted }}</div>
+                    </div>
+
+                    <!-- Face Avatar -->
+                    <div class="face-avatar">
+                      <img src="./images/face-avatar.svg" alt="Avatar">
+                    </div>
+                  </div>
+
+                  <!-- Audio Element -->
+                  <audio id="audioElement" preload="metadata">
+                    <source src="{{ audio_src }}" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Karaoke Text Area -->
+      <div class="lk-karaoke-wrap mt-4">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="lk-text-panel" id="lk-text-panel">
+            <!-- Título -->
+            <div id="audio-container">
+              <h1>
+                {% for word in words %}{% if word.is_title %}{% if word.start == 0 and word.end == 0 %}<span class="word no-sync">{{ word.word }} </span>{% else %}<span class="word" data-start="{{ word.start }}" data-end="{{ word.end }}">{{ word.word }} </span>{% endif %}{% endif %}{% endfor %}
+              </h1>
+            </div>
+
+            <!-- Transcript Container (body text only) -->
+            <div class="transcript-container" id="transcript">
+              {% for word in words %}{% if not word.is_title %}<span class="word" data-start="{{ word.start }}" data-end="{{ word.end }}"{% if word.confidence < 0.8 %} data-low-confidence="true"{% endif %}>{{ word.word }} </span>{% if word.line_break_after %}<br>{% endif %}{% endif %}{% endfor %}
+            </div>
+          </div>
+        </div>
+
+        {% if referencia %}
+        <!-- Referência -->
+        <div class="lk-ref">
+          <strong>Referência:</strong>
+          <p>{{ referencia }}</p>
+        </div>
+        {% endif %}
+
+        {% if metrics %}
+        <!-- Quality Metrics (hidden by default) -->
+        <div class="lk-metrics" id="metrics" style="display: none;">
+          <div class="metrics-content">
+            <strong>Quality Metrics</strong>
+            <p>Confidence: {{ (metrics.average_confidence * 100) | round(1) }}%</p>
+            <p>Timing: ±{{ metrics.timing_precision_ms | round(0) }}ms</p>
+            <p>Gaps: {{ metrics.gaps_preserved }} kept, {{ metrics.gaps_filled }} filled</p>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  {% if embed_assets and js_content %}
+  <script>
+{{ js_content }}
+  </script>
+  {% else %}
+  <script src="./player.js"></script>
+  {% endif %}
+
+  <!-- Initialize with preloaded data -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Player is initialized automatically by player.js
+      // Additional initialization can go here if needed
+
+      // Toggle metrics visibility (dev mode)
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'm' && e.ctrlKey) {
+          const metrics = document.getElementById('metrics');
+          if (metrics) {
+            metrics.style.display = metrics.style.display === 'none' ? 'block' : 'none';
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
