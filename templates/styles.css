@@ -12,7 +12,8 @@
    CSS VARIABLES
    ============================================ */
 :root {
-    --color-player: #fdbe3f; /* Yellow main player color */
+    --color-accent: #fdbe3f; /* Themed color: header, title, play btn, text area */
+    --color-player: #fdbe3f; /* Yellow main player color (timeline - stays yellow) */
     --color-progress: #d69a21; /* Dark yellow progress bar */
     --color-progress-handle: #af7e1b; /* Progress handle color */
     --color-border-dark: #221e03; /* Dark border for timeline */
@@ -199,7 +200,7 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     margin: 0;
-    color: #fdbe3f;
+    color: var(--color-accent);
     filter: brightness(0.65);
 }
 
@@ -374,7 +375,7 @@ header {
 .play-container {
     width: 60px;
     height: 60px;
-    border: 5px solid #fdbe3f;
+    border: 5px solid var(--color-accent);
     filter: brightness(0.65);
     flex: 0 0 60px;
     border-radius: 50%;
@@ -389,7 +390,7 @@ header {
         width: 40px;
         height: 40px;
         flex: 0 0 40px;
-        border: 3px solid #fdbe3f;
+        border: 3px solid var(--color-accent);
     }
 }
 
@@ -402,7 +403,7 @@ header {
 
 .toggle-play i {
     cursor: pointer;
-    color: #fdbe3f;
+    color: var(--color-accent);
     font-size: 24px;
 }
 
@@ -577,7 +578,7 @@ header {
     z-index: 0;
     position: absolute;
     inset: -50px 0 0;
-    background-color: var(--color-player) !important;
+    background-color: var(--color-accent) !important;
     color: white !important;
 }
 

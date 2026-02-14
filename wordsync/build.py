@@ -12,6 +12,7 @@ Output formats:
 
 import base64
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -281,7 +282,17 @@ def _build_template_context(
 
         # Reference
         "referencia": referencia,
+
+        # Per-livro theming
+        "livro_number": _extract_livro_number(sync_result.audio_file),
+        "logo_file": f"letrix-{_extract_livro_number(sync_result.audio_file)}.png",
     }
+
+
+def _extract_livro_number(audio_file: str) -> int:
+    """Extract livro number from audio filename (e.g. 'livro3_let5.mp3' → 3)."""
+    match = re.search(r'livro(\d+)', audio_file)
+    return int(match.group(1)) if match else 3
 
 
 def _load_asset(path: Path, settings: Settings) -> str:

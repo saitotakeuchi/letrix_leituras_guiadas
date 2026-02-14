@@ -21,6 +21,22 @@
   <link rel="stylesheet" href="./styles.css">
   {% endif %}
 
+  {% if livro_number == 4 %}
+  <style>
+    :root {
+      --color-accent: #61a165;
+      --color-bg-page: rgb(224, 249, 188);
+    }
+  </style>
+  {% elif livro_number == 5 %}
+  <style>
+    :root {
+      --color-accent: #514380;
+      --color-bg-page: rgb(225, 190, 245);
+    }
+  </style>
+  {% endif %}
+
   <!-- Word Timestamps Data -->
   <script>
     window.WORDSYNC_DATA = {
@@ -33,10 +49,10 @@
 </head>
 <body>
   <!-- Header -->
-  <header style="background-color: #fdbe3f;">
+  <header style="background-color: var(--color-accent);">
     <div class="bg-header">
-      <div class="bg-header-right-bottom" style="border-color: #f9eacd;"></div>
-      <div class="bg-header-left-bottom" style="border-color: #f9eacd;"></div>
+      <div class="bg-header-right-bottom" style="border-color: var(--color-bg-page);"></div>
+      <div class="bg-header-left-bottom" style="border-color: var(--color-bg-page);"></div>
       <img class="bg-header-left" src="./images/header-left.svg" alt="Background Form">
       <div class="bg-header-middle"></div>
       <img class="bg-header-right" src="./images/header-right.svg" alt="Background Form">
@@ -44,7 +60,7 @@
     <div class="container-header">
       <div class="logo">
         <a href="https://homolog.meuletrix.com.br">
-          <img src="./images/link-01.png" alt="Logotipo Letrix">
+          <img src="./images/{{ logo_file }}" alt="Logotipo Letrix">
         </a>
       </div>
     </div>
@@ -55,7 +71,7 @@
     <div class="container">
       <!-- Page Title -->
       <div class="page-title-wrap">
-        <h1 class="page-title" style="color: #fdbe3f; filter: brightness(0.65);">
+        <h1 class="page-title">
           Leitura Guiada
         </h1>
       </div>
