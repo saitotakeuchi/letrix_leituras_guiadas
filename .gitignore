@@ -38,16 +38,28 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Project specific
-output/
-*.mp3
+# Build output in page folders (generated, not tracked)
+content/*/index.html
+content/*/index.json
+content/*/timestamps.json
+content/*/audio.mp3
+content/*/images/
+content/*/styles.css
+content/*/player.js
+
+# Audio files (large binaries - except mp3 which are tracked)
 *.wav
 *.ogg
 *.flac
 *.m4a
+*.mp4
 
-# Keep content directory structure but ignore audio
-content/*/audio.*
+# Temp source files (docx, original audio)
+temp/
+
+# Legacy
+/output/
+/index.html
 
 # Logs
 *.log

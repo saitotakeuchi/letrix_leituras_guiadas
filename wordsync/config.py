@@ -191,7 +191,7 @@ class Settings(BaseSettings):
         if self.content_dir is None:
             self.content_dir = self.project_root / "content"
         if self.output_dir is None:
-            self.output_dir = self.project_root / "output"
+            self.output_dir = self.content_dir
         if self.templates_dir is None:
             self.templates_dir = self.project_root / "templates"
 

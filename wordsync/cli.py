@@ -153,12 +153,14 @@ def sync(
         progress.update(task, description="Building output...")
 
         # Determine output location
-        # Output to content/page-name/output/ folder (same folder as input audio)
         if output:
             output_dir = Path(output)
+        elif audio.parent.name == "content":
+            # Audio is in a content/ subfolder → output to page root (parent of content/)
+            output_dir = audio.parent.parent
         else:
-            # Output to 'output' subfolder in same directory as audio file
-            output_dir = audio.parent / "output"
+            # Legacy: output alongside audio
+            output_dir = audio.parent
         output_dir.mkdir(parents=True, exist_ok=True)
 
         # Save JSON
@@ -211,7 +213,10 @@ def build(
     if page_id.endswith(".json"):
         json_path = Path(page_id)
     else:
-        json_path = settings.output_dir / page_id / "timestamps.json"
+        # Look in content_dir first (new layout), fall back to output_dir (legacy)
+        json_path = settings.content_dir / page_id / "timestamps.json"
+        if not json_path.exists():
+            json_path = settings.output_dir / page_id / "timestamps.json"
 
     if not json_path.exists():
         console.print(f"[red]Error:[/red] Timestamps not found: {json_path}")
@@ -221,10 +226,90 @@ def build(
 
     result = load_sync_result(json_path)
 
+    # Find source audio for referencia.txt
+    source_audio_path = None
+    source_dir = settings.content_dir / page_id / "content" if not page_id.endswith(".json") else None
+    if source_dir and source_dir.exists():
+        for ext in [".mp3", ".wav", ".ogg", ".flac", ".m4a"]:
+            candidates = list(source_dir.glob(f"*{ext}"))
+            if candidates:
+                source_audio_path = candidates[0]
+                break
+
     output_path = output or json_path.parent / "index.html"
-    html_path = build_page(result, output_path, settings, embed_audio=embed_audio)
+    html_path = build_page(
+        result, output_path, settings,
+        embed_audio=embed_audio,
+        source_audio_path=source_audio_path,
+    )
 
     console.print(f"[green]Built:[/green] {html_path}")
+
+
+@app.command()
+def restyle(
+    page_id: Annotated[
+        Optional[str],
+        typer.Argument(help="Page ID to rebuild (or all if omitted)"),
+    ] = None,
+) -> None:
+    """
+    Rebuild HTML for all pages from existing timestamps.
+
+    Use this to quickly apply template/CSS/JS changes without
+    re-running transcription. Requires timestamps.json to exist.
+    """
+    from wordsync.process import load_sync_result
+    from wordsync.build import build_page
+
+    settings = get_settings()
+    reload_settings()
+
+    if page_id:
+        # Single page
+        json_path = settings.content_dir / page_id / "timestamps.json"
+        if not json_path.exists():
+            console.print(f"[red]Error:[/red] No timestamps.json in {page_id}")
+            raise typer.Exit(1)
+
+        result = load_sync_result(json_path)
+        source_audio = _find_source_audio(settings.content_dir / page_id, settings)
+        build_page(result, json_path.parent / "index.html", settings, source_audio_path=source_audio)
+        console.print(f"[green]Rebuilt:[/green] {page_id}")
+        return
+
+    # All pages
+    pages = sorted(settings.content_dir.glob("*/timestamps.json"))
+    if not pages:
+        console.print("[yellow]No pages with timestamps.json found[/yellow]")
+        raise typer.Exit(1)
+
+    console.print(f"[bold]Rebuilding {len(pages)} pages...[/bold]")
+
+    for json_path in pages:
+        page_dir = json_path.parent
+        page_name = page_dir.name
+        try:
+            result = load_sync_result(json_path)
+            source_audio = _find_source_audio(page_dir, settings)
+            build_page(result, page_dir / "index.html", settings, source_audio_path=source_audio)
+            console.print(f"  [green]OK[/green] {page_name}")
+        except Exception as e:
+            console.print(f"  [red]FAIL[/red] {page_name}: {e}")
+
+    console.print(f"\n[green]Done.[/green] {len(pages)} pages rebuilt.")
+
+
+def _find_source_audio(page_dir: Path, settings) -> Path | None:
+    """Find source audio file in page's content/ subfolder."""
+    source_dir = page_dir / "content"
+    if not source_dir.exists():
+        source_dir = page_dir
+    for ext in [".mp3", ".wav", ".ogg", ".flac", ".m4a"]:
+        candidates = list(source_dir.glob(f"*{ext}"))
+        if candidates:
+            return candidates[0]
+    return None
 
 
 @app.command()
@@ -258,7 +343,7 @@ def batch(
     settings = get_settings()
 
     content_dir = Path(content_dir) if content_dir else settings.content_dir
-    output_dir = Path(output_dir) if output_dir else settings.output_dir
+    out_dir = Path(output_dir) if output_dir else settings.content_dir
 
     if not content_dir.exists():
         console.print(f"[red]Error:[/red] Content directory not found: {content_dir}")
@@ -269,7 +354,7 @@ def batch(
 
     if not pages:
         console.print(f"[yellow]No pages found in:[/yellow] {content_dir}")
-        console.print("Expected structure: content/page-001/audio.mp3")
+        console.print("Expected structure: content/<page>/content/audio.mp3")
         raise typer.Exit(1)
 
     console.print(f"[bold]Found {len(pages)} pages[/bold]")
@@ -298,9 +383,14 @@ def batch(
                 )
                 results.append(result)
 
-                # Build HTML
-                page_output = output_dir / page_id
-                build_page(result, page_output / "index.html", settings)
+                # Build HTML — output to page root (S3-ready)
+                page_output = out_dir / page_id
+                build_page(
+                    result,
+                    page_output / "index.html",
+                    settings,
+                    source_audio_path=page["audio"],
+                )
                 result.save_json(page_output / "timestamps.json")
 
                 progress.advance(task)
@@ -310,12 +400,12 @@ def batch(
                 continue
 
     # Build index
-    _build_index_page(results, output_dir, settings)
+    _build_index_page(results, out_dir, settings)
 
     # Summary
     console.print()
     console.print(f"[green]Processed {len(results)}/{len(pages)} pages[/green]")
-    console.print(f"Output: {output_dir}")
+    console.print(f"Output: {out_dir}")
 
 
 @app.command()
@@ -341,17 +431,20 @@ def preview(
 
     # Determine directory to serve
     if page_id:
-        serve_dir = settings.output_dir / page_id
+        # Try content_dir first (new layout), fall back to output_dir
+        serve_dir = settings.content_dir / page_id
         if not serve_dir.exists():
-            console.print(f"[red]Error:[/red] Page not found: {serve_dir}")
+            serve_dir = settings.output_dir / page_id
+        if not serve_dir.exists():
+            console.print(f"[red]Error:[/red] Page not found: {settings.content_dir / page_id}")
             raise typer.Exit(1)
         url = f"http://localhost:{port}/index.html"
     else:
-        serve_dir = settings.output_dir
+        serve_dir = settings.content_dir
         url = f"http://localhost:{port}"
 
     if not serve_dir.exists():
-        console.print(f"[red]Error:[/red] Output directory not found: {serve_dir}")
+        console.print(f"[red]Error:[/red] Content directory not found: {serve_dir}")
         console.print("Run 'wordsync sync' or 'wordsync batch' first.")
         raise typer.Exit(1)
 

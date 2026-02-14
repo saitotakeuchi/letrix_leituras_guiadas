@@ -53,7 +53,7 @@ def build_page(
     # Determine output path
     if output_path is None:
         audio_stem = Path(sync_result.audio_file).stem
-        output_path = settings.output_dir / audio_stem / "index.html"
+        output_path = settings.content_dir / audio_stem / "index.html"
     else:
         output_path = Path(output_path)
 
@@ -145,7 +145,7 @@ def build_batch(
         List of paths to generated HTML files
     """
     settings = settings or get_settings()
-    output_dir = Path(output_dir) if output_dir else settings.output_dir
+    output_dir = Path(output_dir) if output_dir else settings.content_dir
 
     results = sync_results or []
 
@@ -435,28 +435,6 @@ def _build_index_page(
     return index_path
 
 
-def generate_word_spans(words: list[dict[str, Any]]) -> str:
-    """
-    Generate HTML word spans with timestamps.
-
-    Args:
-        words: List of word dictionaries with word, start, end
-
-    Returns:
-        HTML string with span elements
-    """
-    spans = []
-    for word_data in words:
-        word = word_data["word"]
-        start = word_data["start"]
-        end = word_data["end"]
-
-        span = f'<span class="word" data-start="{start}" data-end="{end}">{word} </span>'
-        spans.append(span)
-
-    return "\n".join(spans)
-
-
 def create_preview_server(
     page_dir: str | Path,
     port: int = 8000,
@@ -470,12 +448,11 @@ def create_preview_server(
     """
     import http.server
     import socketserver
-    import os
+    from functools import partial
 
     page_dir = Path(page_dir)
-    os.chdir(page_dir)
 
-    Handler = http.server.SimpleHTTPRequestHandler
+    Handler = partial(http.server.SimpleHTTPRequestHandler, directory=str(page_dir))
 
     with socketserver.TCPServer(("", port), Handler) as httpd:
         print(f"Preview server running at http://localhost:{port}")

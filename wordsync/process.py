@@ -24,7 +24,6 @@ from wordsync.transcribe import (
     TranscriptionResult,
     Word,
     transcribe_audio,
-    align_transcription_to_text,
 )
 from wordsync.alignment import align_transcription_robust
 from wordsync.prosody import (
@@ -201,6 +200,10 @@ def process_sync(
                         # First non-empty line after title is body start
                         body_start_idx = i
                         break
+
+            # Title is always spoken in the audio — ignore skip_title_audio
+            if skip_title_audio and title_line:
+                skip_title_audio = False
 
             if skip_title_audio and body_start_idx > 0:
                 # Title NOT in audio - use only body for alignment
@@ -460,87 +463,6 @@ def ensure_minimum_duration(words: list[Word], min_duration_ms: int = 200) -> li
     return words
 
 
-def _enforce_minimum_durations(
-    words: list[Word],
-    min_duration_ms: float = 200,
-) -> list[Word]:
-    """
-    Ensure each word has minimum duration for visible highlighting.
-
-    Words with very short durations (e.g., 40ms) can appear to be skipped
-    during playback because the highlight happens too fast to be visible.
-
-    Strategy (v3):
-    1. Process in REVERSE order (so short words get fixed before predecessors)
-    2. First try to borrow from gaps
-    3. If no gaps, borrow from adjacent words that have EXCESS duration (> min + 50ms buffer)
-
-    Args:
-        words: List of words with timestamps
-        min_duration_ms: Minimum duration in milliseconds
-
-    Returns:
-        List of words with adjusted timestamps
-    """
-    if not words:
-        return words
-
-    min_sec = min_duration_ms / 1000
-    min_gap = 0.01  # 10ms minimum gap between words
-    buffer = 0.05  # 50ms buffer - only borrow if donor has min + buffer
-
-    # Process in REVERSE order - this ensures short words at the end get fixed first
-    for i in range(len(words) - 1, -1, -1):
-        word = words[i]
-        duration = word.end - word.start
-
-        if duration >= min_sec:
-            continue
-
-        deficit = min_sec - duration
-
-        # Step 1: Try to extend end into gap AFTER this word
-        if i < len(words) - 1:
-            available = words[i + 1].start - word.end - min_gap
-            if available > 0:
-                extend = min(deficit, available)
-                word.end += extend
-                deficit -= extend
-
-        # Step 2: Try to move start EARLIER into gap BEFORE this word
-        if deficit > 0 and i > 0:
-            available = word.start - words[i - 1].end - min_gap
-            if available > 0:
-                extend = min(deficit, available)
-                word.start -= extend
-                deficit -= extend
-
-        # Step 3: Borrow from PREVIOUS word if it has excess duration
-        # Only borrow if previous word will still have min_sec + buffer after
-        if deficit > 0 and i > 0:
-            prev_word = words[i - 1]
-            prev_duration = prev_word.end - prev_word.start
-            excess = prev_duration - (min_sec + buffer)
-            if excess > 0:
-                borrow = min(deficit, excess)
-                prev_word.end -= borrow
-                word.start -= borrow
-                deficit -= borrow
-
-        # Step 4: Borrow from NEXT word if it has excess duration
-        if deficit > 0 and i < len(words) - 1:
-            next_word = words[i + 1]
-            next_duration = next_word.end - next_word.start
-            excess = next_duration - (min_sec + buffer)
-            if excess > 0:
-                borrow = min(deficit, excess)
-                next_word.start += borrow
-                word.end += borrow
-                deficit -= borrow
-
-    return words
-
-
 def _calculate_metrics(
     words: list[Word],
     classification: ClassificationResult,
@@ -743,64 +665,22 @@ def _create_unspoken_title_words(title: str) -> list[Word]:
     return title_words
 
 
-def process_batch(
-    pages: list[dict[str, Any]],
-    settings: Settings | None = None,
-    progress_callback: Any = None,
-) -> list[SyncResult]:
-    """
-    Process multiple pages in batch.
-
-    Args:
-        pages: List of page configs with 'audio', 'text', 'title' keys
-        settings: Settings instance
-        progress_callback: Optional callback(page_id, current, total)
-
-    Returns:
-        List of SyncResults
-    """
-    settings = settings or get_settings()
-    results = []
-
-    total = len(pages)
-    for i, page in enumerate(pages):
-        page_id = page.get("id", f"page-{i+1:03d}")
-
-        if progress_callback:
-            progress_callback(page_id, i + 1, total)
-
-        try:
-            result = process_sync(
-                audio_path=page["audio"],
-                text_path=page.get("text"),
-                reference_text=page.get("reference_text"),
-                title=page.get("title"),
-                settings=settings,
-            )
-            results.append(result)
-        except Exception as e:
-            if settings.debug:
-                print(f"Error processing {page_id}: {e}")
-            raise
-
-    return results
-
-
 def discover_pages(content_dir: str | Path) -> list[dict[str, Any]]:
     """
     Discover pages from content directory structure.
 
-    Expected structure:
-        content/
-            page-001/
-                audio.mp3
-                text.txt
-            page-002/
-                audio.mp3
-                text.txt
+    Supports two layouts:
+        New (S3-ready):
+            content/livro3-let5/content/audio.mp3   ← source files in content/ subfolder
+            content/livro3-let5/content/text.txt
+
+        Legacy:
+            content/livro3-let5/audio.mp3            ← source files in page root
+            content/livro3-let5/text.txt
 
     Returns:
-        List of page configs
+        List of page configs with 'id', 'audio', 'text', 'title',
+        'page_dir' (page root), and 'source_dir' (where source files live).
     """
     content_dir = Path(content_dir)
     pages = []
@@ -812,10 +692,15 @@ def discover_pages(content_dir: str | Path) -> list[dict[str, Any]]:
         if not page_dir.is_dir():
             continue
 
-        # Look for audio file
+        # Determine source directory: prefer content/ subfolder, fall back to page root
+        source_dir = page_dir / "content"
+        if not source_dir.exists() or not source_dir.is_dir():
+            source_dir = page_dir
+
+        # Look for audio file in source directory
         audio_file = None
         for ext in [".mp3", ".wav", ".ogg", ".flac", ".m4a"]:
-            candidates = list(page_dir.glob(f"*{ext}"))
+            candidates = list(source_dir.glob(f"*{ext}"))
             if candidates:
                 audio_file = candidates[0]
                 break
@@ -823,10 +708,10 @@ def discover_pages(content_dir: str | Path) -> list[dict[str, Any]]:
         if not audio_file:
             continue
 
-        # Look for text file
+        # Look for text file in source directory
         text_file = None
         for name in ["text.txt", "texto.txt", "transcript.txt"]:
-            candidate = page_dir / name
+            candidate = source_dir / name
             if candidate.exists():
                 text_file = candidate
                 break
@@ -836,6 +721,8 @@ def discover_pages(content_dir: str | Path) -> list[dict[str, Any]]:
             "audio": str(audio_file),
             "text": str(text_file) if text_file else None,
             "title": page_dir.name.replace("-", " ").replace("_", " ").title(),
+            "page_dir": str(page_dir),
+            "source_dir": str(source_dir),
         })
 
     return pages

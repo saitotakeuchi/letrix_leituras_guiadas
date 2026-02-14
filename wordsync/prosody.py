@@ -522,55 +522,6 @@ def _is_portuguese_liaison(word_before: str, word_after: str, settings: Settings
     return False
 
 
-def get_prosody_at_time(
-    result: ProsodyResult,
-    time_seconds: float,
-    tolerance: float = 0.2,
-) -> list[ProsodyEvent]:
-    """
-    Get prosodic events at or near a specific time.
-
-    Args:
-        result: Prosody analysis result
-        time_seconds: Time point to query
-        tolerance: Time window in seconds
-
-    Returns:
-        List of events within tolerance of the time point
-    """
-    return [
-        e for e in result.events
-        if abs(e.start_time - time_seconds) <= tolerance
-    ]
-
-
-def get_gap_analysis_for_words(
-    result: ProsodyResult,
-    word_before: str,
-    word_after: str,
-) -> GapAnalysis | None:
-    """
-    Get gap analysis for a specific word pair.
-
-    Args:
-        result: Prosody analysis result
-        word_before: Word before the gap
-        word_after: Word after the gap
-
-    Returns:
-        GapAnalysis if found, None otherwise
-    """
-    word_before_clean = word_before.strip().lower()
-    word_after_clean = word_after.strip().lower()
-
-    for gap in result.gap_analyses:
-        if (gap.word_before.strip().lower() == word_before_clean and
-            gap.word_after.strip().lower() == word_after_clean):
-            return gap
-
-    return None
-
-
 def analyze_word_durations(
     audio_path: str | Path,
     transcription: TranscriptionResult,

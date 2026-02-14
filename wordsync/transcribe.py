@@ -8,7 +8,6 @@ Handles audio transcription with word-level timestamps using:
 The transcription result provides the foundation for the word-sync pipeline.
 """
 
-import base64
 import json
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -438,24 +437,6 @@ def transcribe_with_fallback(
         )
 
 
-def encode_audio_base64(audio_path: str | Path) -> str:
-    """
-    Encode audio file as base64 string.
-
-    Useful for embedding audio in HTML or sending to APIs that
-    accept base64-encoded audio.
-
-    Args:
-        audio_path: Path to audio file
-
-    Returns:
-        Base64-encoded string of audio content
-    """
-    audio_path = Path(audio_path)
-    with open(audio_path, "rb") as f:
-        return base64.b64encode(f.read()).decode("utf-8")
-
-
 def get_audio_mime_type(audio_path: str | Path) -> str:
     """
     Get MIME type for audio file based on extension.
@@ -482,120 +463,3 @@ def get_audio_mime_type(audio_path: str | Path) -> str:
     return mime_types.get(extension, "audio/mpeg")
 
 
-def align_transcription_to_text(
-    transcription: TranscriptionResult,
-    reference_text: str,
-) -> TranscriptionResult:
-    """
-    Align transcription words to reference text.
-
-    Handles cases where Whisper transcription differs slightly from
-    the expected text (e.g., different capitalization, punctuation).
-
-    Args:
-        transcription: Original transcription result
-        reference_text: Expected/reference text
-
-    Returns:
-        New TranscriptionResult with aligned words
-    """
-    import re
-
-    # Normalize reference text
-    ref_words = re.findall(r'\S+', reference_text)
-
-    # Simple word-by-word alignment
-    aligned_words = []
-    trans_idx = 0
-
-    for ref_word in ref_words:
-        if trans_idx >= len(transcription.words):
-            # More reference words than transcribed - use last timing
-            if aligned_words:
-                last = aligned_words[-1]
-                aligned_words.append(Word(
-                    word=ref_word,
-                    start=last.end,
-                    end=last.end + 0.3,  # Estimate duration
-                    confidence=0.5,  # Low confidence for estimated
-                ))
-            continue
-
-        trans_word = transcription.words[trans_idx]
-
-        # Check if words match (case-insensitive, ignore punctuation)
-        ref_clean = re.sub(r'[^\w]', '', ref_word.lower())
-        trans_clean = re.sub(r'[^\w]', '', trans_word.word.lower())
-
-        if ref_clean == trans_clean or _fuzzy_match(ref_clean, trans_clean):
-            aligned_words.append(Word(
-                word=ref_word,  # Use reference word (preserves punctuation)
-                start=trans_word.start,
-                end=trans_word.end,
-                confidence=trans_word.confidence,
-            ))
-            trans_idx += 1
-        else:
-            # Words don't match - try to find match ahead
-            found = False
-            for look_ahead in range(1, min(5, len(transcription.words) - trans_idx)):
-                look_word = transcription.words[trans_idx + look_ahead]
-                look_clean = re.sub(r'[^\w]', '', look_word.word.lower())
-                if ref_clean == look_clean or _fuzzy_match(ref_clean, look_clean):
-                    # Found match - insert missing words
-                    if aligned_words:
-                        last = aligned_words[-1]
-                        gap_duration = (look_word.start - last.end) / (look_ahead + 1)
-                        for skip in range(look_ahead):
-                            aligned_words.append(Word(
-                                word=ref_word if skip == 0 else ref_words[len(aligned_words)],
-                                start=last.end + gap_duration * skip,
-                                end=last.end + gap_duration * (skip + 1),
-                                confidence=0.5,
-                            ))
-                    trans_idx += look_ahead + 1
-                    found = True
-                    break
-
-            if not found:
-                # No match found - estimate timing
-                if aligned_words:
-                    last = aligned_words[-1]
-                    aligned_words.append(Word(
-                        word=ref_word,
-                        start=last.end,
-                        end=last.end + 0.3,
-                        confidence=0.3,
-                    ))
-
-    return TranscriptionResult(
-        audio_file=transcription.audio_file,
-        language=transcription.language,
-        model=transcription.model,
-        duration=transcription.duration,
-        words=aligned_words,
-        full_text=reference_text,
-        provider=transcription.provider,
-        raw_response=transcription.raw_response,
-    )
-
-
-def _fuzzy_match(a: str, b: str, threshold: float = 0.8) -> bool:
-    """
-    Check if two strings are similar enough to be considered a match.
-
-    Uses simple character overlap ratio.
-    """
-    if not a or not b:
-        return False
-
-    # Check for common substring
-    shorter, longer = (a, b) if len(a) <= len(b) else (b, a)
-    if shorter in longer:
-        return True
-
-    # Character overlap
-    common = sum(1 for c in shorter if c in longer)
-    ratio = common / max(len(a), len(b))
-
-    return ratio >= threshold

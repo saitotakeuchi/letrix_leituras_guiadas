@@ -894,11 +894,6 @@ def align_transcription_robust(
     verify_missing = getattr(alignment_settings, "verify_missing_words", True) if alignment_settings else True
     low_confidence_threshold = getattr(alignment_settings, "low_confidence_threshold", 0.6) if alignment_settings else 0.6
 
-    # Fall back to greedy if requested
-    if algorithm == "greedy":
-        from wordsync.transcribe import align_transcription_to_text
-        return align_transcription_to_text(transcription, reference_text)
-
     # Phase 1: Analyze text structure
     structure = analyze_text_structure(reference_text)
 

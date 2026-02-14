@@ -1,356 +1,140 @@
-# WordSync Engine
+# Letrix Leituras Guiadas
 
-**Karaoke Word-Sync for Letrix Leituras Guiadas**
+Karaoke-style guided reading pages for Letrix. Each page syncs highlighted words to audio using Whisper transcription + Gemini prosody analysis.
 
-A multi-modal LLM-powered engine for generating accurate word-level timestamps for karaoke-style guided reading applications.
+## Folder structure
 
-## Features
+```
+content/
+  livro3-let5/                   ← S3-ready: upload this folder directly
+    index.html                   ← generated HTML page
+    timestamps.json              ← word-level timestamps
+    audio.mp3                    ← converted audio (build output)
+    styles.css                   ← player styles
+    player.js                    ← player script
+    images/                      ← header/card images
+    content/                     ← source files (not deployed)
+      text.txt                   ← reference text (one line per verse)
+      referencia.txt             ← book/page reference for header
+      WhatsApp-Audio-....mp3     ← original audio recording
 
-- **Multi-modal Processing Pipeline**
-  - Whisper API for primary transcription
-  - Gemini 2.5 Flash for prosodic analysis (breath pauses, pitch resets)
-  - GPT-4o for cross-validation (90% fewer hallucinations)
-  - Intelligent gap classification (keep natural pauses, fill artifacts)
-
-- **Portuguese Language Optimized**
-  - Article + noun liaison rules ("o amigo")
-  - Preposition connections ("de água")
-  - Educational pacing preservation
-
-- **CLI-Driven Workflow**
-  - Process single files or batch operations
-  - Preview server for testing
-  - Quality validation tools
-
-## Installation
-
-```bash
-# Install from source
-pip install -e .
-
-# With local Whisper support (offline mode)
-pip install -e ".[local]"
-
-# Development dependencies
-pip install -e ".[dev]"
+templates/                       ← Jinja2 templates for HTML generation
+wordsync/                        ← Python package (CLI + pipeline)
 ```
 
-## Quick Start
+## Setup
 
-### 1. Configure API Keys
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
 
-Copy the example environment file and add your API keys:
+Copy `.env.example` to `.env` and add API keys:
 
 ```bash
 cp .env.example .env
 ```
 
-Edit `.env`:
+Required keys:
+- `OPENAI_API_KEY` — Whisper transcription
+- `GOOGLE_API_KEY` — Gemini prosody analysis (recommended)
 
-```env
-# Required: OpenAI for Whisper + GPT-4o
-OPENAI_API_KEY=sk-...
+## Creating a new page
 
-# Recommended: Google for Gemini prosody analysis
-GOOGLE_API_KEY=AIza...
+1. Create the folder structure:
+   ```bash
+   mkdir -p content/livro3-letXX/content
+   ```
 
-# Optional: Anthropic for Claude fallback
-ANTHROPIC_API_KEY=sk-ant-...
-```
+2. Add source files to `content/livro3-letXX/content/`:
+   - **audio file** — the recorded reading (mp3, m4a, wav)
+   - **text.txt** — reference text, first line is the title, one verse per line:
+     ```
+     CHARADAS
+     NÃO FALO, MAS SEMPRE EXPLICO.
+     SOU UM AMIGO CALADO.
+     ```
+   - **referencia.txt** — book/page reference for the header:
+     ```
+     Livro 3 — Leitura 5
+     ```
 
-### 2. Process Audio
+3. Run the sync pipeline (see below).
 
-```bash
-# Single file
-wordsync sync audio.mp3 text.txt -o output/
+## Syncing a page
 
-# With page title
-wordsync sync audio.mp3 text.txt -t "My Story" -o output/
-
-# Local Whisper (offline, no API)
-wordsync sync audio.mp3 text.txt --local
-```
-
-### 3. Preview Results
-
-```bash
-# Start preview server
-wordsync preview page-001
-
-# Or preview all pages
-wordsync preview
-```
-
-### 4. Batch Processing
+Processes audio + text to generate word-level timestamps:
 
 ```bash
-# Process all pages in content/
+wordsync sync content/livro3-letXX/content/audio.mp3 content/livro3-letXX/content/text.txt
+```
+
+This outputs `timestamps.json`, `index.html`, `audio.mp3`, `styles.css`, `player.js`, and `images/` to `content/livro3-letXX/`.
+
+Options:
+```bash
+--title "Custom Title"    # Override title from text.txt
+--skip-title              # Title is not spoken in the audio
+--no-prosody              # Skip Gemini prosody analysis
+--local                   # Use local Whisper (no API)
+--json-only               # Output timestamps.json only
+```
+
+## Rebuilding HTML
+
+Regenerate HTML from existing `timestamps.json` (no re-transcription):
+
+```bash
+wordsync build livro3-let5
+```
+
+## Batch processing
+
+Process all pages in `content/`:
+
+```bash
 wordsync batch
-
-# Custom directories
-wordsync batch --content ./my-content --output ./my-output
 ```
 
-## CLI Commands
+## Previewing
 
-| Command | Description |
-|---------|-------------|
-| `wordsync sync <audio> <text>` | Process single audio/text pair |
-| `wordsync build <page-id>` | Rebuild HTML from existing timestamps |
-| `wordsync batch` | Process all pages in content directory |
-| `wordsync preview [page-id]` | Start local preview server |
-| `wordsync validate <timestamps.json>` | Check quality metrics |
-| `wordsync info` | Show configuration and API status |
-
-### Sync Options
+Start a local server to test in the browser:
 
 ```bash
-wordsync sync audio.mp3 text.txt \
-  --output ./output \           # Output directory
-  --title "My Story" \          # Page title
-  --no-prosody \                # Disable Gemini analysis
-  --no-validate \               # Disable GPT-4o validation
-  --local \                     # Use local Whisper
-  --json-only                   # Output JSON only, no HTML
+wordsync preview livro3-let5    # Single page
+wordsync preview                # All pages
 ```
-
-## Project Structure
-
-```
-letrix_leituras_guiadas/
-├── wordsync/                    # Python package
-│   ├── __init__.py
-│   ├── cli.py                   # CLI commands (Typer)
-│   ├── config.py                # Settings (Pydantic)
-│   ├── transcribe.py            # Whisper integration
-│   ├── prosody.py               # Gemini prosody analysis
-│   ├── validate.py              # GPT-4o validation
-│   ├── classify.py              # Gap classification
-│   ├── process.py               # Pipeline orchestration
-│   └── build.py                 # HTML generation
-│
-├── templates/                   # HTML/CSS/JS templates
-│   ├── page.html.jinja2
-│   ├── styles.css
-│   └── player.js
-│
-├── content/                     # Input files
-│   └── page-XXX/
-│       ├── audio.mp3
-│       └── text.txt
-│
-├── output/                      # Generated pages
-│   └── page-XXX/
-│       ├── index.html
-│       └── timestamps.json
-│
-├── .env.example                 # API key template
-├── config.yaml                  # Project configuration
-└── pyproject.toml               # Python dependencies
-```
-
-## Content Directory Structure
-
-Place your audio/text pairs in the `content/` directory:
-
-```
-content/
-├── page-001/
-│   ├── audio.mp3
-│   └── text.txt
-├── page-002/
-│   ├── audio.mp3
-│   └── text.txt
-└── ...
-```
-
-The engine will auto-discover pages and process them in order.
 
 ## Configuration
 
-### config.yaml
+Settings are loaded from `config.yaml`, `.env`, and defaults. See `wordsync info` for current configuration.
 
-```yaml
-# General settings
-project:
-  name: "My Project"
-  language: "pt"
+Key settings in `config.yaml`:
+- `project.name` — project title
+- `project.language` — language code (default: `pt`)
+- `transcription.provider` — `openai`, `local`, or `whisperx`
+- `prosody.enabled` — enable Gemini prosody analysis
+- `output.bundle_assets` — inline CSS/JS into HTML
 
-# Gap classification thresholds (ms)
-gap_classification:
-  micro_gap_max: 50      # Always fill
-  short_gap_max: 150     # Usually fill
-  medium_gap_max: 400    # Context-dependent
-  natural_pause_max: 600 # Usually keep
-  sentence_boundary_min: 600  # Always keep
+## Deploying to S3
 
-# Portuguese rules
-portuguese_rules:
-  article_noun_liaison: true
-  preposition_liaison: true
-  articles: ["o", "a", "os", "as", "um", "uma"]
-  prepositions: ["de", "da", "do", "em", "na", "no", "para"]
-
-# Output settings
-output:
-  include_json: true
-  embed_audio: false
-  bundle_assets: true
-```
-
-## Pipeline Architecture
-
-```
-INPUT                    PROCESSING                                    OUTPUT
-─────                    ──────────                                    ──────
-audio.mp3  ──┐
-             ├──► Whisper ──► Gemini Audio ──► Gap Classifier ──► HTML + JSON
-text.txt   ──┘    (base)      (prosody)        (keep/fill)
-                     │            │
-                     └────────────┴──► GPT-4o Transcribe (validation)
-```
-
-### Gap Classification Logic
-
-| Gap Type | Duration | Audio Evidence | Action |
-|----------|----------|----------------|--------|
-| Micro-gap | <50ms | - | Always FILL |
-| Short gap | 50-150ms | No breath/pitch | FILL |
-| Medium gap | 150-400ms | Context-dependent | Analyze |
-| Natural pause | 400-600ms | Breath or pitch | KEEP |
-| Sentence boundary | >600ms | Punctuation + audio | KEEP |
-
-## API Providers
-
-### Required: OpenAI
-- **Whisper API**: Primary transcription with word timestamps
-- **GPT-4o Audio**: Cross-validation (optional but recommended)
-
-### Recommended: Google
-- **Gemini 2.5 Flash**: Prosodic analysis (breath pauses, pitch resets)
-
-### Optional: Anthropic
-- **Claude**: Text analysis fallback
-
-## Quality Metrics
-
-Output includes quality metrics:
-
-```json
-{
-  "average_confidence": 0.94,
-  "gaps_preserved": 8,
-  "gaps_filled": 12,
-  "low_confidence_words": 2,
-  "prosody_preserved_score": 0.98,
-  "timing_precision_ms": 45
-}
-```
-
-Validate with:
+Each page folder is self-contained and S3-ready. Upload the page folder directly:
 
 ```bash
-wordsync validate output/page-001/timestamps.json
+aws s3 sync content/livro3-let5/ s3://your-bucket/leituras/livro3-let5/ \
+  --exclude "content/*"
 ```
 
-## Fallback Strategy
+The `content/` subfolder contains source files and should be excluded from deployment.
 
-When APIs are unavailable:
+## CLI reference
 
-| Tier | Condition | Strategy |
-|------|-----------|----------|
-| 1 | Gemini unavailable | Duration heuristics + punctuation rules |
-| 2 | GPT-4o unavailable | Single-source Whisper with lower confidence |
-| 3 | All APIs down | Local whisper-timestamped + Portuguese rules |
-
-## API Cost Estimate
-
-| Service | Per Page | 45 Pages |
-|---------|----------|----------|
-| Whisper API | ~$0.006 | ~$0.27 |
-| Gemini 2.5 Flash | ~$0.02 | ~$0.90 |
-| GPT-4o Audio | ~$0.02 | ~$0.90 |
-| **Total** | ~$0.05 | **~$2.07** |
-
-## Keyboard Shortcuts (Player)
-
-| Key | Action |
-|-----|--------|
-| Space | Play/Pause |
-| ← | Seek back 5s |
-| → | Seek forward 5s |
-| ↑ | Previous word |
-| ↓ | Next word |
-| Home | Go to start |
-| End | Go to end |
-| Ctrl+M | Toggle metrics |
-
-## Python API
-
-```python
-from wordsync import process_sync, build_page
-
-# Process audio
-result = process_sync(
-    audio_path="audio.mp3",
-    text_path="text.txt",
-    title="My Story"
-)
-
-# Access results
-print(f"Words: {len(result.words)}")
-print(f"Confidence: {result.metrics.average_confidence:.1%}")
-
-# Build HTML
-build_page(result, "output/index.html")
-
-# Save JSON
-result.save_json("output/timestamps.json")
-```
-
-## Embedding in WordPress
-
-The generated pages are iframe-ready:
-
-```html
-<iframe
-  src="https://your-domain.com/leituras/page-001/"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allow="autoplay"
-></iframe>
-```
-
-## Troubleshooting
-
-### "OpenAI API key not configured"
-
-Set `OPENAI_API_KEY` in your `.env` file or use `--local` flag.
-
-### "Local Whisper not installed"
-
-Install local dependencies:
-```bash
-pip install wordsync[local]
-```
-
-### Low confidence warnings
-
-Review flagged words and manually adjust timestamps if needed.
-
-### Audio not playing
-
-Ensure audio files are in a supported format (MP3, WAV, OGG).
-
-## License
-
-MIT License - See LICENSE file for details.
-
-## Credits
-
-- **Whisper**: OpenAI's speech recognition model
-- **Gemini**: Google's multimodal AI
-- **GPT-4o**: OpenAI's latest multimodal model
-- **Typer**: Modern CLI framework
-- **Jinja2**: Template engine
+| Command | Description |
+|---------|-------------|
+| `wordsync sync <audio> <text>` | Process audio/text pair |
+| `wordsync build <page-id>` | Rebuild HTML from timestamps.json |
+| `wordsync batch` | Process all pages in content/ |
+| `wordsync preview [page-id]` | Local preview server |
+| `wordsync validate <timestamps.json>` | Check quality metrics |
+| `wordsync info` | Show config and API status |

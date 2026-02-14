@@ -41,6 +41,9 @@ class WordSyncPlayer {
     this.previousWordIndex = -1;  // Track previous word for detecting skipped words
     this.animationFrameId = null;  // For requestAnimationFrame loop
 
+    // Title-to-body word mirrors (for syncing highlight to title)
+    this.titleMirrors = [];
+
     // Initialize
     this.init();
   }
@@ -53,6 +56,9 @@ class WordSyncPlayer {
 
     // Collect words with timestamps
     this.collectWords();
+
+    // Build title-to-body word mirror map
+    this.buildTitleMirror();
 
     // Bind event listeners
     this.bindEvents();
@@ -83,6 +89,39 @@ class WordSyncPlayer {
         text: el.textContent.trim()
       }))
       .sort((a, b) => a.start - b.start);
+  }
+
+  /**
+   * Build a positional map from title words to body words.
+   * Title word 0 mirrors body word 0, title word 1 mirrors body word 1, etc.
+   */
+  buildTitleMirror() {
+    const titleContainer = document.querySelector('#audio-container');
+    if (!titleContainer) {
+      this.titleMirrors = [];
+      return;
+    }
+
+    this.titleMirrors = Array.from(
+      titleContainer.querySelectorAll('.word.no-sync')
+    ).map((el, i) => ({
+      element: el,
+      bodyIndex: i
+    }));
+  }
+
+  /**
+   * Mirror highlight/read state from body words to their title counterparts.
+   */
+  mirrorToTitle() {
+    for (const mirror of this.titleMirrors) {
+      if (mirror.bodyIndex >= this.words.length) continue;
+      const bodyEl = this.words[mirror.bodyIndex].element;
+      const titleEl = mirror.element;
+      titleEl.classList.toggle('active', bodyEl.classList.contains('active'));
+      titleEl.classList.toggle('highlight', bodyEl.classList.contains('highlight'));
+      titleEl.classList.toggle('read', bodyEl.classList.contains('read'));
+    }
   }
 
   bindEvents() {
@@ -163,6 +202,7 @@ class WordSyncPlayer {
       el.classList.remove('active', 'highlight');
       el.classList.add('read');
     }
+    this.mirrorToTitle();
   }
 
   onSeeked() {
@@ -238,6 +278,7 @@ class WordSyncPlayer {
       }
       this.previousWordIndex = this.currentWordIndex;
       this.currentWordIndex = -1;
+      this.mirrorToTitle();
       return;
     }
 
@@ -278,6 +319,9 @@ class WordSyncPlayer {
     // Update state
     this.previousWordIndex = this.currentWordIndex;
     this.currentWordIndex = newWordIndex;
+
+    // Mirror highlight state to title words
+    this.mirrorToTitle();
   }
 
   /**
@@ -332,6 +376,9 @@ class WordSyncPlayer {
     this.words.forEach(word => {
       word.element.classList.remove('active', 'highlight', 'read');
     });
+    for (const mirror of this.titleMirrors) {
+      mirror.element.classList.remove('active', 'highlight', 'read');
+    }
   }
 
   seekToPosition(e) {
