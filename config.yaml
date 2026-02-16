@@ -11,7 +11,7 @@ project:
 transcription:
   # Provider: "openai" | "local" | "whisperx"
   # whisperx is recommended for best word-level timestamp accuracy
-  provider: "local"
+  provider: "openai"
 
   # OpenAI Whisper API settings
   whisper_model: "whisper-1"
