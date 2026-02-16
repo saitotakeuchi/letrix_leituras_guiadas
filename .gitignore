@@ -38,12 +38,7 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Build output in page folders (generated, not tracked)
-content/*/index.html
-content/*/index.json
-content/*/timestamps.json
-content/*/audio.mp3
-content/*/images/
+# Build output in page folders (styles/player are regenerated)
 content/*/styles.css
 content/*/player.js
 

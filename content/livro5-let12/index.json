@@ -1,0 +1,4281 @@
+{
+  "audio_file": "livro5_let12.mp3",
+  "language": "pt",
+  "duration": 186.79,
+  "title": "Livro5 Let12",
+  "full_text": "Como a escrita foi inventada?\nDescubra como esse método de comunicação surgiu e sua adaptação ao passar dos séculos\nLetícia Yazbek Publicado em 31/12/2020, às 10h00 - Atualizado às 11h48\nAo longo dos anos, diferentes povos desenvolveram tipos de escritas. Siga a linha do tempo e descubra a evolução dessa forma de comunicação.\n1\n40 MIL ANTES DE CRISTO\nA FORMA MAIS ANTIGA DE ESCRITA SÃO OS SÍMBOLOS PINTADOS EM CAVERNAS DE TODO O MUNDO. ELES REPRESENTAVAM ANIMAIS, COMO MAMUTES, BISONTES E CERVOS, E CENAS DO COTIDIANO. OS DESENHOS ERAM FEITOS COM OS DEDOS OU PINCÉIS FEITOS COM PELOS DE ANIMAIS, USANDO TERRA OU PIGMENTOS OBTIDOS DA NATUREZA.\n2\n9 MIL ANTES DE CRISTO\nSURGIRAM OS PICTOGRAMAS, CONSIDERADOS UM AVANÇO EM RELAÇÃO AOS DESENHOS FEITOS NAS CAVERNAS. O PICTOGRAMA, TAMBÉM UTILIZADO EM TODO O MUNDO, REPRESENTAVA UM CONCEITO, QUE PODIA SER ABSTRATO. ELES MOSTRAVAM UMA VARIEDADE DE SITUAÇÕES E TAMBÉM PODIAM REPRESENTAR VERBOS E ADJETIVOS.\n3\n3400 ANTES DE CRISTO\nOS EGÍPCIOS CRIARAM OS HIERÓGLIFOS — DESENHOS E SÍMBOLOS QUE REPRESENTAVAM IDEIAS, CONCEITOS E OBJETOS. HAVIA CERCA DE 6 900 SÍMBOLOS, QUE ERAM UTILIZADOS JUNTOS, FORMANDO TEXTOS. ERAM ESCRITOS NO PAPIRO (TIPO DE PAPEL) E NAS PAREDES DE TEMPLOS E PIRÂMIDE. A ESCRITA ERA DOMINADA PELOS SACERDOTES E ESCRIBAS (QUE REGISTRAVAM OS ACONTECIMENTOS DO IMPÉRIO).\n4\n3200 ANTES DE CRISTO\nOS SUMÉRIOS (POVO QUE HABITAVA A MESOPOTÂMIA, ATUAL REGIÃO DO IRAQUE) INVENTARAM O SISTEMA DE ESCRITA CUNEIFORME. A CUNHA (INSTRUMENTO DE BAMBU) ERA USADA PARA GRAVAR SINAIS NA ARGILA AINDA MOLE. A ESCRITA TINHA CERCA DE 1 200 SINAIS, QUE REPRESENTAVAM NÚMEROS, NOMES, OBJETOS E ANIMAIS. ELA ERA UM MEIO DE CONTROLAR OS GASTOS DOS TEMPLOS, OS REBANHOS, AS TERRAS E A PRODUÇÃO.\n5\n1800 ANTES DE CRISTO\nSURGIU A ESCRITA CHINESA, FORMADA POR IDEOGRAMAS QUE TÊM SIGNIFICADOS DIFERENTES — HÁ UM DESENHO QUE REPRESENTA A LUA, POR EXEMPLO, E OUTRO QUE SIGNIFICA SOL. QUANDO FOI CRIADO, ESSE SISTEMA JÁ ERA MUITO DESENVOLVIDO E PARECIDO COM A ESCRITA CHINESA ATUAL: ELE INCLUÍA CERCA DE 2 500 SÍMBOLOS — A MAIORIA PODE SER LIDA ATÉ HOJE.\n6\n900 ANTES DE CRISTO\nCOM OBJETIVOS POLÍTICOS E COMERCIAIS, OS FENÍCIOS (POVO QUE HABITAVA A ATUAL REGIÃO DO LÍBANO) CRIARAM O PRIMEIRO ALFABETO. ELES APERFEIÇOARAM OS ANTIGOS PICTOGRAMAS E DESENVOLVERAM UM SISTEMA DE ESCRITA COM 20 CONSOANTES. ELES DISPENSARAM OS DESENHOS E UTILIZARAM SINAIS APENAS PARA OS SONS.\n7\n800 ANTES DE CRISTO\nOS GREGOS ADOTARAM A CRIAÇÃO FENÍCIA E FIZERAM ALGUMAS MUDANÇAS, DESENVOLVENDO O ALFABETO GREGO. OS SONS E SINAIS ERAM PARECIDOS E EMPREGADOS NA MESMA ORDEM. OS NOMES DAS LETRAS TAMBÉM ERAM SEMELHANTES — A PRIMEIRA LETRA GREGA, ALFA, FOI ORIGINADA DA FENÍCIA ALEPH.\n8\n650 ANTES DE CRISTO\nUMA VARIANTE DO ALFABETO GREGO, CHAMADA DE OCIDENTAL, ORIGINOU O ALFABETO CRIADO PELO POVO ETRUSCO, QUE VIVIA NO NORTE DA ITÁLIA. AS LETRAS E SONS SÃO PARECIDOS COM AS DO ALFABETO GREGO — FORAM FEITAS MODIFICAÇÕES NA ORDEM E ALGUMAS LETRAS FORAM EXCLUÍDAS DO NOVO ALFABETO.\n9\n500 ANTES DE CRISTO\nOS ROMANOS ADAPTARAM O ALFABETO ETRUSCO E CRIARAM O ALFABETO ROMANO OU LATINO. É O SISTEMA DE ESCRITA ALFABÉTICA MAIS USADO NO MUNDO — É O ALFABETO UTILIZADO PARA ESCREVER A LÍNGUA PORTUGUESA E A MAIORIA DOS IDIOMAS OCIDENTAIS. ELE SE ESPALHOU PELO MUNDO POR MEIO DO LATIM, COM A EXPANSÃO DO IMPÉRIO ROMANO.",
+  "word_count": 552,
+  "words": [
+    {
+      "word": "Como",
+      "start": 0.0,
+      "end": 0.305,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "a",
+      "start": 0.305,
+      "end": 0.565,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "escrita",
+      "start": 0.565,
+      "end": 0.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "foi",
+      "start": 0.805,
+      "end": 1.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "inventada?",
+      "start": 1.065,
+      "end": 1.66,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Descubra",
+      "start": 2.46,
+      "end": 2.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "como",
+      "start": 2.55,
+      "end": 2.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "esse",
+      "start": 2.785,
+      "end": 3.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "método",
+      "start": 3.085,
+      "end": 3.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 3.405,
+      "end": 4.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "comunicação",
+      "start": 4.32,
+      "end": 4.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "surgiu",
+      "start": 4.33,
+      "end": 4.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 4.765,
+      "end": 4.935,
+      "confidence": 1.0
+    },
+    {
+      "word": "sua",
+      "start": 4.935,
+      "end": 5.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "adaptação",
+      "start": 5.105,
+      "end": 5.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "ao",
+      "start": 5.705,
+      "end": 5.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "passar",
+      "start": 5.945,
+      "end": 6.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "dos",
+      "start": 6.205,
+      "end": 6.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "séculos",
+      "start": 6.545,
+      "end": 6.93,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Letícia",
+      "start": 6.94,
+      "end": 7.088,
+      "confidence": 0.3
+    },
+    {
+      "word": "Yazbek",
+      "start": 7.09,
+      "end": 7.238,
+      "confidence": 0.3
+    },
+    {
+      "word": "Publicado",
+      "start": 7.24,
+      "end": 7.388,
+      "confidence": 0.3
+    },
+    {
+      "word": "em",
+      "start": 7.39,
+      "end": 7.538,
+      "confidence": 0.3
+    },
+    {
+      "word": "31/12/2020,",
+      "start": 7.54,
+      "end": 7.688,
+      "confidence": 0.3
+    },
+    {
+      "word": "às",
+      "start": 7.69,
+      "end": 7.838,
+      "confidence": 0.3
+    },
+    {
+      "word": "10h00",
+      "start": 7.84,
+      "end": 7.988,
+      "confidence": 0.3
+    },
+    {
+      "word": "-",
+      "start": 7.99,
+      "end": 8.138,
+      "confidence": 0.3
+    },
+    {
+      "word": "Atualizado",
+      "start": 8.14,
+      "end": 8.288,
+      "confidence": 0.3
+    },
+    {
+      "word": "às",
+      "start": 8.29,
+      "end": 8.438,
+      "confidence": 0.3
+    },
+    {
+      "word": "11h48",
+      "start": 8.44,
+      "end": 7.498,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "Ao",
+      "start": 7.5,
+      "end": 7.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "longo",
+      "start": 7.55,
+      "end": 7.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "dos",
+      "start": 7.745,
+      "end": 8.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "anos,",
+      "start": 8.145,
+      "end": 8.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "diferentes",
+      "start": 8.66,
+      "end": 9.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "povos",
+      "start": 9.085,
+      "end": 9.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "desenvolveram",
+      "start": 9.505,
+      "end": 10.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "tipos",
+      "start": 10.365,
+      "end": 10.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 10.645,
+      "end": 10.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "escritas.",
+      "start": 10.985,
+      "end": 11.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "Siga",
+      "start": 12.04,
+      "end": 12.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 12.05,
+      "end": 12.37,
+      "confidence": 1.0
+    },
+    {
+      "word": "linha",
+      "start": 12.38,
+      "end": 12.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 12.39,
+      "end": 12.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "tempo",
+      "start": 12.86,
+      "end": 12.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 12.87,
+      "end": 13.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "descubra",
+      "start": 13.125,
+      "end": 13.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 13.545,
+      "end": 14.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "evolução",
+      "start": 14.12,
+      "end": 14.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "dessa",
+      "start": 14.13,
+      "end": 14.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "forma",
+      "start": 14.485,
+      "end": 14.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 14.765,
+      "end": 15.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "comunicação.",
+      "start": 15.145,
+      "end": 15.605,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "1",
+      "start": 15.605,
+      "end": 16.105,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "40",
+      "start": 16.105,
+      "end": 16.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "MIL",
+      "start": 16.465,
+      "end": 16.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANTES",
+      "start": 16.665,
+      "end": 16.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 16.985,
+      "end": 17.595,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRISTO",
+      "start": 17.595,
+      "end": 17.795,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 18.06,
+      "end": 18.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORMA",
+      "start": 18.07,
+      "end": 18.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIS",
+      "start": 18.305,
+      "end": 18.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANTIGA",
+      "start": 18.665,
+      "end": 18.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 18.985,
+      "end": 19.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITA",
+      "start": 19.345,
+      "end": 19.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÃO",
+      "start": 19.625,
+      "end": 19.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 19.845,
+      "end": 20.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÍMBOLOS",
+      "start": 20.3,
+      "end": 20.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "PINTADOS",
+      "start": 20.41,
+      "end": 20.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 20.925,
+      "end": 21.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAVERNAS",
+      "start": 21.185,
+      "end": 21.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 21.665,
+      "end": 21.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODO",
+      "start": 21.905,
+      "end": 22.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 22.145,
+      "end": 22.47,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUNDO.",
+      "start": 22.48,
+      "end": 22.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELES",
+      "start": 23.02,
+      "end": 23.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "REPRESENTAVAM",
+      "start": 23.07,
+      "end": 23.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANIMAIS,",
+      "start": 23.825,
+      "end": 24.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMO",
+      "start": 24.345,
+      "end": 24.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAMUTES,",
+      "start": 24.665,
+      "end": 25.08,
+      "confidence": 1.0
+    },
+    {
+      "word": "BISONTES",
+      "start": 25.64,
+      "end": 25.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 25.75,
+      "end": 26.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "CERVOS,",
+      "start": 26.045,
+      "end": 26.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 26.42,
+      "end": 26.93,
+      "confidence": 1.0
+    },
+    {
+      "word": "CENAS",
+      "start": 26.94,
+      "end": 26.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 26.95,
+      "end": 27.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "COTIDIANO.",
+      "start": 27.145,
+      "end": 28.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 28.005,
+      "end": 28.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESENHOS",
+      "start": 28.225,
+      "end": 28.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERAM",
+      "start": 28.705,
+      "end": 28.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "FEITOS",
+      "start": 28.965,
+      "end": 29.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 29.365,
+      "end": 29.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 29.585,
+      "end": 29.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEDOS",
+      "start": 30.0,
+      "end": 30.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "OU",
+      "start": 30.01,
+      "end": 30.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "PINCÉIS",
+      "start": 30.305,
+      "end": 30.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "FEITOS",
+      "start": 30.625,
+      "end": 31.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 31.045,
+      "end": 31.33,
+      "confidence": 1.0
+    },
+    {
+      "word": "PELOS",
+      "start": 31.34,
+      "end": 31.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 31.49,
+      "end": 32.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANIMAIS,",
+      "start": 32.12,
+      "end": 32.32,
+      "confidence": 1.0
+    },
+    {
+      "word": "USANDO",
+      "start": 32.7,
+      "end": 32.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "TERRA",
+      "start": 32.73,
+      "end": 33.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "OU",
+      "start": 33.185,
+      "end": 33.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "PIGMENTOS",
+      "start": 33.445,
+      "end": 33.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "OBTIDOS",
+      "start": 33.985,
+      "end": 34.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 34.545,
+      "end": 34.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "NATUREZA.",
+      "start": 34.765,
+      "end": 35.305,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "2",
+      "start": 35.305,
+      "end": 35.97,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "9",
+      "start": 35.98,
+      "end": 35.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "MIL",
+      "start": 35.99,
+      "end": 36.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANTES",
+      "start": 36.185,
+      "end": 36.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 36.445,
+      "end": 37.05,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRISTO",
+      "start": 37.06,
+      "end": 37.26,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SURGIRAM",
+      "start": 37.72,
+      "end": 37.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 37.925,
+      "end": 38.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "PICTOGRAMAS,",
+      "start": 38.265,
+      "end": 38.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONSIDERADOS",
+      "start": 38.805,
+      "end": 39.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 39.525,
+      "end": 39.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "AVANÇO",
+      "start": 39.885,
+      "end": 40.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 40.085,
+      "end": 40.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "RELAÇÃO",
+      "start": 40.325,
+      "end": 40.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "AOS",
+      "start": 40.625,
+      "end": 40.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESENHOS",
+      "start": 40.925,
+      "end": 41.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "FEITOS",
+      "start": 41.305,
+      "end": 41.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "NAS",
+      "start": 41.765,
+      "end": 42.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAVERNAS.",
+      "start": 42.025,
+      "end": 42.62,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 43.06,
+      "end": 43.148,
+      "confidence": 1.0
+    },
+    {
+      "word": "PICTOGRAMA,",
+      "start": 43.15,
+      "end": 43.86,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMBÉM",
+      "start": 43.86,
+      "end": 44.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "UTILIZADO",
+      "start": 44.205,
+      "end": 44.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 44.845,
+      "end": 45.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODO",
+      "start": 45.065,
+      "end": 45.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 45.245,
+      "end": 45.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUNDO,",
+      "start": 45.62,
+      "end": 45.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "REPRESENTAVA",
+      "start": 46.04,
+      "end": 46.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 46.465,
+      "end": 46.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONCEITO,",
+      "start": 46.685,
+      "end": 47.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 47.105,
+      "end": 47.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "PODIA",
+      "start": 47.365,
+      "end": 47.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "SER",
+      "start": 47.645,
+      "end": 47.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "ABSTRATO.",
+      "start": 47.885,
+      "end": 48.74,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELES",
+      "start": 48.96,
+      "end": 49.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "MOSTRAVAM",
+      "start": 49.11,
+      "end": 49.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 49.665,
+      "end": 49.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "VARIEDADE",
+      "start": 49.925,
+      "end": 50.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 50.345,
+      "end": 50.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "SITUAÇÕES",
+      "start": 50.945,
+      "end": 51.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 51.165,
+      "end": 51.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMBÉM",
+      "start": 51.465,
+      "end": 51.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "PODIAM",
+      "start": 51.805,
+      "end": 52.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "REPRESENTAR",
+      "start": 52.185,
+      "end": 52.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "VERBOS",
+      "start": 52.905,
+      "end": 53.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 53.305,
+      "end": 53.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "ADJETIVOS.",
+      "start": 53.525,
+      "end": 54.2,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "3",
+      "start": 54.62,
+      "end": 54.96,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "3400",
+      "start": 55.3,
+      "end": 55.765,
+      "confidence": 0.75
+    },
+    {
+      "word": "ANTES",
+      "start": 55.765,
+      "end": 56.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 56.205,
+      "end": 56.69,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRISTO",
+      "start": 56.7,
+      "end": 56.788,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "OS",
+      "start": 56.79,
+      "end": 57.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "EGÍPCIOS",
+      "start": 57.245,
+      "end": 57.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRIARAM",
+      "start": 57.805,
+      "end": 58.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 58.245,
+      "end": 58.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "HIERÓGLIFOS",
+      "start": 58.545,
+      "end": 59.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 59.125,
+      "end": 59.61,
+      "confidence": 0.3
+    },
+    {
+      "word": "DESENHOS",
+      "start": 59.62,
+      "end": 59.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 59.65,
+      "end": 60.13,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÍMBOLOS",
+      "start": 60.14,
+      "end": 60.218,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 60.22,
+      "end": 60.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "REPRESENTAVAM",
+      "start": 60.385,
+      "end": 61.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "IDEIAS,",
+      "start": 61.085,
+      "end": 61.5,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONCEITOS",
+      "start": 61.9,
+      "end": 62.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 62.125,
+      "end": 62.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "OBJETOS.",
+      "start": 62.405,
+      "end": 62.86,
+      "confidence": 1.0
+    },
+    {
+      "word": "HAVIA",
+      "start": 63.54,
+      "end": 63.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "CERCA",
+      "start": 63.55,
+      "end": 63.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 63.965,
+      "end": 64.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "6",
+      "start": 64.185,
+      "end": 64.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "900",
+      "start": 64.72,
+      "end": 65.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÍMBOLOS,",
+      "start": 65.145,
+      "end": 65.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 65.745,
+      "end": 65.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERAM",
+      "start": 65.965,
+      "end": 66.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "UTILIZADOS",
+      "start": 66.125,
+      "end": 66.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "JUNTOS,",
+      "start": 66.785,
+      "end": 67.26,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORMANDO",
+      "start": 67.54,
+      "end": 67.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEXTOS.",
+      "start": 67.765,
+      "end": 68.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERAM",
+      "start": 68.9,
+      "end": 68.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITOS",
+      "start": 68.93,
+      "end": 69.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 69.385,
+      "end": 69.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAPIRO",
+      "start": 69.625,
+      "end": 70.26,
+      "confidence": 1.0
+    },
+    {
+      "word": "(TIPO",
+      "start": 70.56,
+      "end": 70.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 70.61,
+      "end": 70.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAPEL)",
+      "start": 70.945,
+      "end": 71.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 71.44,
+      "end": 71.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "NAS",
+      "start": 71.57,
+      "end": 71.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAREDES",
+      "start": 71.765,
+      "end": 72.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 72.065,
+      "end": 72.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEMPLOS",
+      "start": 72.5,
+      "end": 72.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 72.65,
+      "end": 72.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "PIRÂMIDE.",
+      "start": 72.845,
+      "end": 73.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 73.66,
+      "end": 73.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITA",
+      "start": 73.845,
+      "end": 74.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERA",
+      "start": 74.145,
+      "end": 74.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "DOMINADA",
+      "start": 74.345,
+      "end": 74.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "PELOS",
+      "start": 74.905,
+      "end": 75.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "SACERDOTES",
+      "start": 75.165,
+      "end": 75.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 75.805,
+      "end": 76.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRIBAS",
+      "start": 76.205,
+      "end": 76.54,
+      "confidence": 1.0
+    },
+    {
+      "word": "(QUE",
+      "start": 76.82,
+      "end": 76.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "REGISTRAVAM",
+      "start": 76.95,
+      "end": 77.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 77.625,
+      "end": 77.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACONTECIMENTOS",
+      "start": 77.865,
+      "end": 78.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 78.465,
+      "end": 78.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "IMPÉRIO).",
+      "start": 78.825,
+      "end": 79.38,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "4",
+      "start": 80.04,
+      "end": 80.088,
+      "confidence": 0.0,
+      "line_break_after": true
+    },
+    {
+      "word": "3200",
+      "start": 80.09,
+      "end": 80.505,
+      "confidence": 0.75
+    },
+    {
+      "word": "ANTES",
+      "start": 80.505,
+      "end": 80.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 80.865,
+      "end": 81.47,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRISTO",
+      "start": 81.48,
+      "end": 81.488,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "OS",
+      "start": 81.49,
+      "end": 81.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUMÉRIOS",
+      "start": 81.965,
+      "end": 82.48,
+      "confidence": 1.0
+    },
+    {
+      "word": "(POVO",
+      "start": 82.76,
+      "end": 82.818,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 82.82,
+      "end": 82.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "HABITAVA",
+      "start": 82.97,
+      "end": 83.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 83.425,
+      "end": 83.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "MESOPOTÂMIA,",
+      "start": 83.625,
+      "end": 84.3,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATUAL",
+      "start": 84.54,
+      "end": 84.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "REGIÃO",
+      "start": 84.825,
+      "end": 85.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 85.185,
+      "end": 85.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "IRAQUE)",
+      "start": 85.405,
+      "end": 85.74,
+      "confidence": 1.0
+    },
+    {
+      "word": "INVENTARAM",
+      "start": 86.12,
+      "end": 86.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 86.485,
+      "end": 87.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "SISTEMA",
+      "start": 87.04,
+      "end": 87.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 87.05,
+      "end": 87.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITA",
+      "start": 87.6,
+      "end": 87.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "CUNEIFORME.",
+      "start": 87.61,
+      "end": 88.62,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 88.84,
+      "end": 88.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "CUNHA",
+      "start": 88.91,
+      "end": 89.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "(INSTRUMENTO",
+      "start": 89.4,
+      "end": 89.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 89.805,
+      "end": 90.21,
+      "confidence": 1.0
+    },
+    {
+      "word": "BAMBU)",
+      "start": 90.22,
+      "end": 90.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERA",
+      "start": 90.66,
+      "end": 90.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "USADA",
+      "start": 90.75,
+      "end": 91.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 91.185,
+      "end": 91.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRAVAR",
+      "start": 91.445,
+      "end": 91.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "SINAIS",
+      "start": 91.905,
+      "end": 92.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 92.265,
+      "end": 92.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "ARGILA",
+      "start": 92.525,
+      "end": 92.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "AINDA",
+      "start": 92.745,
+      "end": 93.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "MOLE.",
+      "start": 93.205,
+      "end": 93.48,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 93.84,
+      "end": 94.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITA",
+      "start": 94.005,
+      "end": 94.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "TINHA",
+      "start": 94.325,
+      "end": 94.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "CERCA",
+      "start": 94.565,
+      "end": 94.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 94.945,
+      "end": 95.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "1",
+      "start": 95.245,
+      "end": 95.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "200",
+      "start": 95.445,
+      "end": 95.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "SINAIS,",
+      "start": 95.705,
+      "end": 96.34,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 96.34,
+      "end": 96.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "REPRESENTAVAM",
+      "start": 96.585,
+      "end": 97.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÚMEROS,",
+      "start": 97.205,
+      "end": 97.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOMES,",
+      "start": 98.16,
+      "end": 98.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "OBJETOS",
+      "start": 98.54,
+      "end": 98.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 98.785,
+      "end": 99.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANIMAIS.",
+      "start": 99.025,
+      "end": 99.5,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELA",
+      "start": 100.02,
+      "end": 100.078,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERA",
+      "start": 100.08,
+      "end": 100.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 100.245,
+      "end": 100.438,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEIO",
+      "start": 100.44,
+      "end": 100.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 100.57,
+      "end": 100.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTROLAR",
+      "start": 100.905,
+      "end": 101.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 101.165,
+      "end": 101.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "GASTOS",
+      "start": 101.485,
+      "end": 101.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "DOS",
+      "start": 101.845,
+      "end": 102.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEMPLOS,",
+      "start": 102.105,
+      "end": 102.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 102.59,
+      "end": 102.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "REBANHOS,",
+      "start": 102.905,
+      "end": 103.26,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 103.42,
+      "end": 103.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "TERRAS",
+      "start": 103.84,
+      "end": 103.858,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 103.86,
+      "end": 104.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 104.025,
+      "end": 104.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRODUÇÃO.",
+      "start": 104.64,
+      "end": 104.84,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "5",
+      "start": 105.04,
+      "end": 105.245,
+      "confidence": 0.0,
+      "line_break_after": true
+    },
+    {
+      "word": "1800",
+      "start": 105.245,
+      "end": 105.685,
+      "confidence": 0.75
+    },
+    {
+      "word": "ANTES",
+      "start": 105.685,
+      "end": 106.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 106.285,
+      "end": 106.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRISTO",
+      "start": 106.84,
+      "end": 106.848,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SURGIU",
+      "start": 106.85,
+      "end": 107.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 107.645,
+      "end": 107.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITA",
+      "start": 107.945,
+      "end": 108.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHINESA,",
+      "start": 108.145,
+      "end": 108.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORMADA",
+      "start": 109.12,
+      "end": 109.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 109.425,
+      "end": 109.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "IDEOGRAMAS",
+      "start": 109.665,
+      "end": 110.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 110.285,
+      "end": 110.478,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÊM",
+      "start": 110.48,
+      "end": 110.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "SIGNIFICADOS",
+      "start": 110.59,
+      "end": 111.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIFERENTES",
+      "start": 111.365,
+      "end": 112.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 112.005,
+      "end": 112.47,
+      "confidence": 0.3
+    },
+    {
+      "word": "HÁ",
+      "start": 112.48,
+      "end": 112.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 112.55,
+      "end": 112.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESENHO",
+      "start": 112.745,
+      "end": 113.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 113.045,
+      "end": 113.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "REPRESENTA",
+      "start": 113.245,
+      "end": 113.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 113.725,
+      "end": 114.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "LUA,",
+      "start": 114.1,
+      "end": 114.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 114.2,
+      "end": 114.69,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXEMPLO,",
+      "start": 114.7,
+      "end": 114.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 115.04,
+      "end": 115.39,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTRO",
+      "start": 115.4,
+      "end": 115.428,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 115.43,
+      "end": 115.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "SIGNIFICA",
+      "start": 115.625,
+      "end": 116.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOL.",
+      "start": 116.145,
+      "end": 116.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUANDO",
+      "start": 117.0,
+      "end": 117.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOI",
+      "start": 117.05,
+      "end": 117.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRIADO,",
+      "start": 117.285,
+      "end": 117.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESSE",
+      "start": 117.92,
+      "end": 118.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "SISTEMA",
+      "start": 118.03,
+      "end": 118.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "JÁ",
+      "start": 118.405,
+      "end": 118.65,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERA",
+      "start": 118.66,
+      "end": 118.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 118.77,
+      "end": 119.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESENVOLVIDO",
+      "start": 119.165,
+      "end": 119.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 119.805,
+      "end": 120.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARECIDO",
+      "start": 120.045,
+      "end": 120.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 120.405,
+      "end": 120.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 120.625,
+      "end": 121.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITA",
+      "start": 121.08,
+      "end": 121.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHINESA",
+      "start": 121.11,
+      "end": 121.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATUAL:",
+      "start": 121.645,
+      "end": 121.96,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELE",
+      "start": 122.42,
+      "end": 122.528,
+      "confidence": 1.0
+    },
+    {
+      "word": "INCLUÍA",
+      "start": 122.53,
+      "end": 122.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "CERCA",
+      "start": 122.925,
+      "end": 123.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 123.345,
+      "end": 123.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "2",
+      "start": 123.565,
+      "end": 123.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "500",
+      "start": 123.945,
+      "end": 124.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÍMBOLOS",
+      "start": 124.285,
+      "end": 124.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 124.845,
+      "end": 125.085,
+      "confidence": 0.3
+    },
+    {
+      "word": "A",
+      "start": 125.085,
+      "end": 125.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIORIA",
+      "start": 125.305,
+      "end": 125.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "PODE",
+      "start": 125.545,
+      "end": 125.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "SER",
+      "start": 125.985,
+      "end": 126.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "LIDA",
+      "start": 126.305,
+      "end": 126.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 126.485,
+      "end": 126.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "HOJE.",
+      "start": 126.785,
+      "end": 127.085,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "6",
+      "start": 127.085,
+      "end": 127.445,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "900",
+      "start": 127.445,
+      "end": 128.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANTES",
+      "start": 128.005,
+      "end": 128.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 128.465,
+      "end": 129.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRISTO",
+      "start": 129.04,
+      "end": 129.24,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "COM",
+      "start": 129.54,
+      "end": 129.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "OBJETIVOS",
+      "start": 129.55,
+      "end": 130.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "POLÍTICOS",
+      "start": 130.085,
+      "end": 130.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 130.665,
+      "end": 130.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMERCIAIS,",
+      "start": 130.905,
+      "end": 131.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 131.52,
+      "end": 131.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "FENÍCIOS",
+      "start": 131.785,
+      "end": 132.14,
+      "confidence": 1.0
+    },
+    {
+      "word": "(POVO",
+      "start": 132.76,
+      "end": 132.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 132.77,
+      "end": 132.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "HABITAVA",
+      "start": 132.925,
+      "end": 133.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 133.425,
+      "end": 133.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATUAL",
+      "start": 133.605,
+      "end": 133.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "REGIÃO",
+      "start": 133.925,
+      "end": 134.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 134.245,
+      "end": 134.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÍBANO)",
+      "start": 134.525,
+      "end": 134.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRIARAM",
+      "start": 134.865,
+      "end": 135.53,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 135.54,
+      "end": 135.688,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRIMEIRO",
+      "start": 135.69,
+      "end": 136.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALFABETO.",
+      "start": 136.005,
+      "end": 136.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELES",
+      "start": 137.2,
+      "end": 137.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "APERFEIÇOARAM",
+      "start": 137.21,
+      "end": 138.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 138.065,
+      "end": 138.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANTIGOS",
+      "start": 138.425,
+      "end": 138.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "PICTOGRAMAS",
+      "start": 138.685,
+      "end": 139.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 139.465,
+      "end": 139.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESENVOLVERAM",
+      "start": 139.745,
+      "end": 140.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 140.385,
+      "end": 140.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "SISTEMA",
+      "start": 140.92,
+      "end": 140.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 140.93,
+      "end": 141.43,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITA",
+      "start": 141.44,
+      "end": 141.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 141.49,
+      "end": 141.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "20",
+      "start": 141.765,
+      "end": 142.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONSOANTES.",
+      "start": 142.085,
+      "end": 142.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELES",
+      "start": 143.34,
+      "end": 143.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISPENSARAM",
+      "start": 143.39,
+      "end": 144.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 144.005,
+      "end": 144.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESENHOS",
+      "start": 144.405,
+      "end": 144.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 144.645,
+      "end": 145.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "UTILIZARAM",
+      "start": 145.045,
+      "end": 145.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "SINAIS",
+      "start": 145.565,
+      "end": 145.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "APENAS",
+      "start": 145.865,
+      "end": 146.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 146.305,
+      "end": 146.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 146.525,
+      "end": 146.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "SONS.",
+      "start": 146.96,
+      "end": 146.968,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "7",
+      "start": 146.97,
+      "end": 147.89,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "800",
+      "start": 147.9,
+      "end": 147.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANTES",
+      "start": 147.91,
+      "end": 148.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 148.365,
+      "end": 148.93,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRISTO",
+      "start": 148.94,
+      "end": 149.14,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "OS",
+      "start": 149.5,
+      "end": 149.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "GREGOS",
+      "start": 149.51,
+      "end": 149.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "ADOTARAM",
+      "start": 149.805,
+      "end": 150.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 150.325,
+      "end": 150.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRIAÇÃO",
+      "start": 150.92,
+      "end": 150.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "FENÍCIA",
+      "start": 150.93,
+      "end": 151.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 151.405,
+      "end": 151.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "FIZERAM",
+      "start": 151.745,
+      "end": 152.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGUMAS",
+      "start": 152.045,
+      "end": 152.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUDANÇAS,",
+      "start": 152.445,
+      "end": 153.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESENVOLVENDO",
+      "start": 153.52,
+      "end": 153.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 153.925,
+      "end": 154.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALFABETO",
+      "start": 154.285,
+      "end": 154.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "GREGO.",
+      "start": 154.705,
+      "end": 154.96,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 155.38,
+      "end": 155.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "SONS",
+      "start": 155.51,
+      "end": 155.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 155.665,
+      "end": 156.21,
+      "confidence": 1.0
+    },
+    {
+      "word": "SINAIS",
+      "start": 156.22,
+      "end": 156.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERAM",
+      "start": 156.23,
+      "end": 156.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARECIDOS",
+      "start": 156.445,
+      "end": 156.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 156.985,
+      "end": 157.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "EMPREGADOS",
+      "start": 157.345,
+      "end": 157.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 157.825,
+      "end": 158.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "MESMA",
+      "start": 158.065,
+      "end": 158.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "ORDEM.",
+      "start": 158.385,
+      "end": 158.78,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 159.14,
+      "end": 159.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOMES",
+      "start": 159.365,
+      "end": 159.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "DAS",
+      "start": 159.605,
+      "end": 159.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "LETRAS",
+      "start": 159.925,
+      "end": 160.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMBÉM",
+      "start": 160.225,
+      "end": 160.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERAM",
+      "start": 160.685,
+      "end": 160.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEMELHANTES",
+      "start": 160.905,
+      "end": 161.55,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 161.56,
+      "end": 161.558,
+      "confidence": 0.3
+    },
+    {
+      "word": "A",
+      "start": 161.56,
+      "end": 161.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRIMEIRA",
+      "start": 161.925,
+      "end": 162.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "LETRA",
+      "start": 162.345,
+      "end": 162.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "GREGA,",
+      "start": 162.685,
+      "end": 163.08,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALFA,",
+      "start": 163.48,
+      "end": 163.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOI",
+      "start": 163.9,
+      "end": 163.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "ORIGINADA",
+      "start": 163.99,
+      "end": 164.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 164.565,
+      "end": 164.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "FENÍCIA",
+      "start": 164.765,
+      "end": 165.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALEPH.",
+      "start": 165.145,
+      "end": 165.53,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "8",
+      "start": 165.54,
+      "end": 165.688,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "650",
+      "start": 165.69,
+      "end": 165.838,
+      "confidence": 0.3
+    },
+    {
+      "word": "ANTES",
+      "start": 165.84,
+      "end": 165.988,
+      "confidence": 0.3
+    },
+    {
+      "word": "DE",
+      "start": 165.99,
+      "end": 166.138,
+      "confidence": 0.3
+    },
+    {
+      "word": "CRISTO",
+      "start": 166.14,
+      "end": 166.288,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "UMA",
+      "start": 166.29,
+      "end": 166.438,
+      "confidence": 0.3
+    },
+    {
+      "word": "VARIANTE",
+      "start": 166.44,
+      "end": 166.588,
+      "confidence": 0.3
+    },
+    {
+      "word": "DO",
+      "start": 166.59,
+      "end": 166.738,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALFABETO",
+      "start": 166.74,
+      "end": 166.888,
+      "confidence": 0.3
+    },
+    {
+      "word": "GREGO,",
+      "start": 166.89,
+      "end": 167.038,
+      "confidence": 0.3
+    },
+    {
+      "word": "CHAMADA",
+      "start": 167.04,
+      "end": 167.188,
+      "confidence": 0.3
+    },
+    {
+      "word": "DE",
+      "start": 167.19,
+      "end": 167.338,
+      "confidence": 0.3
+    },
+    {
+      "word": "OCIDENTAL,",
+      "start": 167.34,
+      "end": 167.488,
+      "confidence": 0.3
+    },
+    {
+      "word": "ORIGINOU",
+      "start": 167.49,
+      "end": 167.638,
+      "confidence": 0.3
+    },
+    {
+      "word": "O",
+      "start": 167.64,
+      "end": 167.788,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALFABETO",
+      "start": 167.79,
+      "end": 167.938,
+      "confidence": 0.3
+    },
+    {
+      "word": "CRIADO",
+      "start": 167.94,
+      "end": 168.088,
+      "confidence": 0.3
+    },
+    {
+      "word": "PELO",
+      "start": 168.09,
+      "end": 168.238,
+      "confidence": 0.3
+    },
+    {
+      "word": "POVO",
+      "start": 168.24,
+      "end": 168.388,
+      "confidence": 0.3
+    },
+    {
+      "word": "ETRUSCO,",
+      "start": 168.39,
+      "end": 168.538,
+      "confidence": 0.3
+    },
+    {
+      "word": "QUE",
+      "start": 168.54,
+      "end": 168.688,
+      "confidence": 0.3
+    },
+    {
+      "word": "VIVIA",
+      "start": 168.69,
+      "end": 168.838,
+      "confidence": 0.3
+    },
+    {
+      "word": "NO",
+      "start": 168.84,
+      "end": 168.988,
+      "confidence": 0.3
+    },
+    {
+      "word": "NORTE",
+      "start": 168.99,
+      "end": 169.138,
+      "confidence": 0.3
+    },
+    {
+      "word": "DA",
+      "start": 169.14,
+      "end": 169.288,
+      "confidence": 0.3
+    },
+    {
+      "word": "ITÁLIA.",
+      "start": 169.29,
+      "end": 169.438,
+      "confidence": 0.3
+    },
+    {
+      "word": "AS",
+      "start": 169.44,
+      "end": 169.588,
+      "confidence": 0.3
+    },
+    {
+      "word": "LETRAS",
+      "start": 169.59,
+      "end": 169.738,
+      "confidence": 0.3
+    },
+    {
+      "word": "E",
+      "start": 169.74,
+      "end": 169.888,
+      "confidence": 0.3
+    },
+    {
+      "word": "SONS",
+      "start": 169.89,
+      "end": 170.038,
+      "confidence": 0.3
+    },
+    {
+      "word": "SÃO",
+      "start": 170.04,
+      "end": 170.188,
+      "confidence": 0.3
+    },
+    {
+      "word": "PARECIDOS",
+      "start": 170.19,
+      "end": 170.338,
+      "confidence": 0.3
+    },
+    {
+      "word": "COM",
+      "start": 170.34,
+      "end": 170.488,
+      "confidence": 0.3
+    },
+    {
+      "word": "AS",
+      "start": 170.49,
+      "end": 170.638,
+      "confidence": 0.3
+    },
+    {
+      "word": "DO",
+      "start": 170.64,
+      "end": 170.788,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALFABETO",
+      "start": 170.79,
+      "end": 170.938,
+      "confidence": 0.3
+    },
+    {
+      "word": "GREGO",
+      "start": 170.94,
+      "end": 171.088,
+      "confidence": 0.3
+    },
+    {
+      "word": "—",
+      "start": 171.09,
+      "end": 171.238,
+      "confidence": 0.3
+    },
+    {
+      "word": "FORAM",
+      "start": 171.24,
+      "end": 171.388,
+      "confidence": 0.3
+    },
+    {
+      "word": "FEITAS",
+      "start": 171.39,
+      "end": 171.538,
+      "confidence": 0.3
+    },
+    {
+      "word": "MODIFICAÇÕES",
+      "start": 171.54,
+      "end": 171.688,
+      "confidence": 0.3
+    },
+    {
+      "word": "NA",
+      "start": 171.69,
+      "end": 171.838,
+      "confidence": 0.3
+    },
+    {
+      "word": "ORDEM",
+      "start": 171.84,
+      "end": 171.988,
+      "confidence": 0.3
+    },
+    {
+      "word": "E",
+      "start": 171.99,
+      "end": 172.138,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALGUMAS",
+      "start": 172.14,
+      "end": 172.288,
+      "confidence": 0.3
+    },
+    {
+      "word": "LETRAS",
+      "start": 172.29,
+      "end": 172.438,
+      "confidence": 0.3
+    },
+    {
+      "word": "FORAM",
+      "start": 172.44,
+      "end": 172.588,
+      "confidence": 0.3
+    },
+    {
+      "word": "EXCLUÍDAS",
+      "start": 172.59,
+      "end": 172.738,
+      "confidence": 0.3
+    },
+    {
+      "word": "DO",
+      "start": 172.74,
+      "end": 172.888,
+      "confidence": 0.3
+    },
+    {
+      "word": "NOVO",
+      "start": 172.89,
+      "end": 173.038,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALFABETO.",
+      "start": 173.04,
+      "end": 173.188,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "9",
+      "start": 173.19,
+      "end": 165.838,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "500",
+      "start": 165.84,
+      "end": 166.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANTES",
+      "start": 166.285,
+      "end": 166.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 166.685,
+      "end": 167.23,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRISTO",
+      "start": 167.24,
+      "end": 167.44,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "OS",
+      "start": 167.62,
+      "end": 167.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "ROMANOS",
+      "start": 167.73,
+      "end": 168.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "ADAPTARAM",
+      "start": 168.125,
+      "end": 168.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 168.785,
+      "end": 169.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALFABETO",
+      "start": 169.145,
+      "end": 169.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "ETRUSCO",
+      "start": 169.505,
+      "end": 169.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 169.965,
+      "end": 170.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRIARAM",
+      "start": 170.285,
+      "end": 170.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 170.525,
+      "end": 170.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALFABETO",
+      "start": 170.925,
+      "end": 171.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "ROMANO",
+      "start": 171.345,
+      "end": 171.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "OU",
+      "start": 171.705,
+      "end": 171.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "LATINO.",
+      "start": 171.965,
+      "end": 172.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 172.78,
+      "end": 172.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 172.81,
+      "end": 173.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "SISTEMA",
+      "start": 173.32,
+      "end": 173.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 173.33,
+      "end": 173.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITA",
+      "start": 173.84,
+      "end": 173.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALFABÉTICA",
+      "start": 173.85,
+      "end": 174.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIS",
+      "start": 174.505,
+      "end": 174.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "USADO",
+      "start": 174.905,
+      "end": 175.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 175.225,
+      "end": 175.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUNDO",
+      "start": 175.68,
+      "end": 175.688,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 175.69,
+      "end": 176.07,
+      "confidence": 0.3
+    },
+    {
+      "word": "É",
+      "start": 176.08,
+      "end": 176.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 176.11,
+      "end": 176.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALFABETO",
+      "start": 176.425,
+      "end": 176.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "UTILIZADO",
+      "start": 176.765,
+      "end": 177.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 177.345,
+      "end": 177.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCREVER",
+      "start": 177.605,
+      "end": 177.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 177.925,
+      "end": 178.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÍNGUA",
+      "start": 178.46,
+      "end": 178.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "PORTUGUESA",
+      "start": 178.47,
+      "end": 179.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 179.165,
+      "end": 179.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 179.345,
+      "end": 179.81,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIORIA",
+      "start": 179.82,
+      "end": 179.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "DOS",
+      "start": 179.83,
+      "end": 180.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "IDIOMAS",
+      "start": 180.145,
+      "end": 180.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "OCIDENTAIS.",
+      "start": 180.565,
+      "end": 181.4,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELE",
+      "start": 181.88,
+      "end": 181.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 181.97,
+      "end": 182.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPALHOU",
+      "start": 182.345,
+      "end": 182.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "PELO",
+      "start": 182.505,
+      "end": 182.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUNDO",
+      "start": 182.805,
+      "end": 183.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 183.065,
+      "end": 183.39,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEIO",
+      "start": 183.4,
+      "end": 183.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 183.55,
+      "end": 183.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "LATIM,",
+      "start": 183.745,
+      "end": 184.14,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 184.3,
+      "end": 184.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 184.41,
+      "end": 184.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXPANSÃO",
+      "start": 184.665,
+      "end": 184.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 184.965,
+      "end": 185.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "IMPÉRIO",
+      "start": 185.205,
+      "end": 185.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "ROMANO.",
+      "start": 185.465,
+      "end": 185.9,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.904,
+    "gaps_preserved": 24,
+    "gaps_filled": 497,
+    "gaps_review": 30,
+    "low_confidence_words": 77,
+    "prosody_preserved_score": 0.034,
+    "timing_precision_ms": 29.9,
+    "word_accuracy": 0.904,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "Letícia",
+    "Yazbek",
+    "Publicado",
+    "em",
+    "31/12/2020,",
+    "às",
+    "10h00",
+    "-",
+    "Atualizado",
+    "às",
+    "11h48",
+    "1",
+    "2",
+    "3400",
+    "—",
+    "4",
+    "3200",
+    "5",
+    "1800",
+    "—",
+    "—",
+    "6",
+    "7",
+    "—",
+    "8",
+    "650",
+    "ANTES",
+    "DE",
+    "CRISTO",
+    "UMA",
+    "VARIANTE",
+    "DO",
+    "ALFABETO",
+    "GREGO,",
+    "CHAMADA",
+    "DE",
+    "OCIDENTAL,",
+    "ORIGINOU",
+    "O",
+    "ALFABETO",
+    "CRIADO",
+    "PELO",
+    "POVO",
+    "ETRUSCO,",
+    "QUE",
+    "VIVIA",
+    "NO",
+    "NORTE",
+    "DA",
+    "ITÁLIA.",
+    "AS",
+    "LETRAS",
+    "E",
+    "SONS",
+    "SÃO",
+    "PARECIDOS",
+    "COM",
+    "AS",
+    "DO",
+    "ALFABETO",
+    "GREGO",
+    "—",
+    "FORAM",
+    "FEITAS",
+    "MODIFICAÇÕES",
+    "NA",
+    "ORDEM",
+    "E",
+    "ALGUMAS",
+    "LETRAS",
+    "FORAM",
+    "EXCLUÍDAS",
+    "DO",
+    "NOVO",
+    "ALFABETO.",
+    "9",
+    "—"
+  ],
+  "timestamp_issues": {
+    "words_checked": 552,
+    "total_issues": 117,
+    "errors": 78,
+    "warnings": 39,
+    "issues_by_type": {
+      "large_gap": 4,
+      "syllable_mismatch": 59,
+      "too_short": 52,
+      "round_timestamps": 2
+    },
+    "issues": [
+      {
+        "word_index": 5,
+        "type": "large_gap",
+        "message": "Very large gap (800ms) before 'Descubra'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 5,
+        "type": "syllable_mismatch",
+        "message": "Word 'Descubra' (3 syllables) has only 88ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "too_short",
+        "message": "Word 'comunicação' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "syllable_mismatch",
+        "message": "Word 'comunicação' (5 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 19,
+        "type": "syllable_mismatch",
+        "message": "Word 'Letícia' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 21,
+        "type": "syllable_mismatch",
+        "message": "Word 'Publicado' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 27,
+        "type": "syllable_mismatch",
+        "message": "Word 'Atualizado' (5 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "too_short",
+        "message": "Word '11h48' has very short duration (-942ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 30,
+        "type": "too_short",
+        "message": "Word 'Ao' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 40,
+        "type": "too_short",
+        "message": "Word 'Siga' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 40,
+        "type": "syllable_mismatch",
+        "message": "Word 'Siga' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 42,
+        "type": "too_short",
+        "message": "Word 'linha' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 42,
+        "type": "syllable_mismatch",
+        "message": "Word 'linha' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 44,
+        "type": "too_short",
+        "message": "Word 'tempo' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 44,
+        "type": "syllable_mismatch",
+        "message": "Word 'tempo' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 48,
+        "type": "too_short",
+        "message": "Word 'evolução' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 48,
+        "type": "syllable_mismatch",
+        "message": "Word 'evolução' (4 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 59,
+        "type": "too_short",
+        "message": "Word 'A' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 67,
+        "type": "syllable_mismatch",
+        "message": "Word 'SÍMBOLOS' (3 syllables) has only 108ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 75,
+        "type": "too_short",
+        "message": "Word 'ELES' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 75,
+        "type": "syllable_mismatch",
+        "message": "Word 'ELES' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 80,
+        "type": "large_gap",
+        "message": "Large gap (560ms) before 'BISONTES' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 80,
+        "type": "syllable_mismatch",
+        "message": "Word 'BISONTES' (3 syllables) has only 108ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "too_short",
+        "message": "Word 'CENAS' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "syllable_mismatch",
+        "message": "Word 'CENAS' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 93,
+        "type": "too_short",
+        "message": "Word 'DEDOS' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 93,
+        "type": "syllable_mismatch",
+        "message": "Word 'DEDOS' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 93,
+        "type": "round_timestamps",
+        "message": "Word 'DEDOS' has suspiciously round timestamps (30.0-30.0)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 101,
+        "type": "too_short",
+        "message": "Word 'USANDO' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 101,
+        "type": "syllable_mismatch",
+        "message": "Word 'USANDO' (3 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 109,
+        "type": "too_short",
+        "message": "Word '9' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 159,
+        "type": "syllable_mismatch",
+        "message": "Word 'CRISTO' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 166,
+        "type": "too_short",
+        "message": "Word 'DESENHOS' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 166,
+        "type": "syllable_mismatch",
+        "message": "Word 'DESENHOS' (3 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 168,
+        "type": "too_short",
+        "message": "Word 'SÍMBOLOS' has very short duration (78ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 168,
+        "type": "syllable_mismatch",
+        "message": "Word 'SÍMBOLOS' (3 syllables) has only 78ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 175,
+        "type": "too_short",
+        "message": "Word 'HAVIA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 175,
+        "type": "syllable_mismatch",
+        "message": "Word 'HAVIA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 187,
+        "type": "too_short",
+        "message": "Word 'ERAM' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 187,
+        "type": "syllable_mismatch",
+        "message": "Word 'ERAM' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 191,
+        "type": "too_short",
+        "message": "Word '(TIPO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 191,
+        "type": "syllable_mismatch",
+        "message": "Word '(TIPO' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 215,
+        "type": "too_short",
+        "message": "Word '4' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 219,
+        "type": "too_short",
+        "message": "Word 'CRISTO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 219,
+        "type": "syllable_mismatch",
+        "message": "Word 'CRISTO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 222,
+        "type": "too_short",
+        "message": "Word '(POVO' has very short duration (58ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 222,
+        "type": "syllable_mismatch",
+        "message": "Word '(POVO' (2 syllables) has only 58ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 233,
+        "type": "too_short",
+        "message": "Word 'SISTEMA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 233,
+        "type": "syllable_mismatch",
+        "message": "Word 'SISTEMA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 235,
+        "type": "too_short",
+        "message": "Word 'ESCRITA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 235,
+        "type": "syllable_mismatch",
+        "message": "Word 'ESCRITA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 237,
+        "type": "too_short",
+        "message": "Word 'A' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 242,
+        "type": "syllable_mismatch",
+        "message": "Word 'ERA' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 262,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'NOMES,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 266,
+        "type": "too_short",
+        "message": "Word 'ELA' has very short duration (58ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 266,
+        "type": "syllable_mismatch",
+        "message": "Word 'ELA' (2 syllables) has only 58ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 279,
+        "type": "too_short",
+        "message": "Word 'TERRAS' has very short duration (18ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 279,
+        "type": "syllable_mismatch",
+        "message": "Word 'TERRAS' (2 syllables) has only 18ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 287,
+        "type": "too_short",
+        "message": "Word 'CRISTO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 287,
+        "type": "syllable_mismatch",
+        "message": "Word 'CRISTO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 300,
+        "type": "too_short",
+        "message": "Word 'HÁ' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 306,
+        "type": "too_short",
+        "message": "Word 'LUA,' has very short duration (80ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 310,
+        "type": "too_short",
+        "message": "Word 'OUTRO' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 310,
+        "type": "syllable_mismatch",
+        "message": "Word 'OUTRO' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 314,
+        "type": "too_short",
+        "message": "Word 'QUANDO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 314,
+        "type": "syllable_mismatch",
+        "message": "Word 'QUANDO' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 327,
+        "type": "too_short",
+        "message": "Word 'ESCRITA' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 327,
+        "type": "syllable_mismatch",
+        "message": "Word 'ESCRITA' (3 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 350,
+        "type": "too_short",
+        "message": "Word 'COM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 357,
+        "type": "too_short",
+        "message": "Word '(POVO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 357,
+        "type": "large_gap",
+        "message": "Large gap (620ms) before '(POVO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 357,
+        "type": "syllable_mismatch",
+        "message": "Word '(POVO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 369,
+        "type": "too_short",
+        "message": "Word 'ELES' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 369,
+        "type": "syllable_mismatch",
+        "message": "Word 'ELES' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 377,
+        "type": "too_short",
+        "message": "Word 'SISTEMA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 377,
+        "type": "syllable_mismatch",
+        "message": "Word 'SISTEMA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 379,
+        "type": "too_short",
+        "message": "Word 'ESCRITA' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 379,
+        "type": "syllable_mismatch",
+        "message": "Word 'ESCRITA' (3 syllables) has only 48ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 383,
+        "type": "too_short",
+        "message": "Word 'ELES' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 383,
+        "type": "syllable_mismatch",
+        "message": "Word 'ELES' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 393,
+        "type": "too_short",
+        "message": "Word 'SONS.' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 395,
+        "type": "too_short",
+        "message": "Word '800' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 399,
+        "type": "too_short",
+        "message": "Word 'OS' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 399,
+        "type": "round_timestamps",
+        "message": "Word 'OS' has suspiciously round timestamps (149.5-149.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 403,
+        "type": "too_short",
+        "message": "Word 'CRIAÇÃO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 403,
+        "type": "syllable_mismatch",
+        "message": "Word 'CRIAÇÃO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 416,
+        "type": "too_short",
+        "message": "Word 'SINAIS' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 416,
+        "type": "syllable_mismatch",
+        "message": "Word 'SINAIS' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 431,
+        "type": "too_short",
+        "message": "Word '—' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 448,
+        "type": "syllable_mismatch",
+        "message": "Word 'VARIANTE' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 450,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALFABETO' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 452,
+        "type": "syllable_mismatch",
+        "message": "Word 'CHAMADA' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 454,
+        "type": "syllable_mismatch",
+        "message": "Word 'OCIDENTAL,' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 455,
+        "type": "syllable_mismatch",
+        "message": "Word 'ORIGINOU' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 457,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALFABETO' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 461,
+        "type": "syllable_mismatch",
+        "message": "Word 'ETRUSCO,' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 467,
+        "type": "syllable_mismatch",
+        "message": "Word 'ITÁLIA.' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 473,
+        "type": "syllable_mismatch",
+        "message": "Word 'PARECIDOS' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 477,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALFABETO' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 482,
+        "type": "syllable_mismatch",
+        "message": "Word 'MODIFICAÇÕES' (5 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 486,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALGUMAS' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 489,
+        "type": "syllable_mismatch",
+        "message": "Word 'EXCLUÍDAS' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 492,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALFABETO.' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 493,
+        "type": "too_short",
+        "message": "Word '9' has very short duration (-7352ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 511,
+        "type": "too_short",
+        "message": "Word 'É' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 513,
+        "type": "too_short",
+        "message": "Word 'SISTEMA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 513,
+        "type": "syllable_mismatch",
+        "message": "Word 'SISTEMA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 515,
+        "type": "too_short",
+        "message": "Word 'ESCRITA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 515,
+        "type": "syllable_mismatch",
+        "message": "Word 'ESCRITA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 520,
+        "type": "too_short",
+        "message": "Word 'MUNDO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 520,
+        "type": "syllable_mismatch",
+        "message": "Word 'MUNDO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 522,
+        "type": "too_short",
+        "message": "Word 'É' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 529,
+        "type": "too_short",
+        "message": "Word 'LÍNGUA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 529,
+        "type": "syllable_mismatch",
+        "message": "Word 'LÍNGUA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 533,
+        "type": "too_short",
+        "message": "Word 'MAIORIA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 533,
+        "type": "syllable_mismatch",
+        "message": "Word 'MAIORIA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 537,
+        "type": "syllable_mismatch",
+        "message": "Word 'ELE' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

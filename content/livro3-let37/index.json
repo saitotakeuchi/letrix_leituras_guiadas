@@ -1,0 +1,317 @@
+{
+  "audio_file": "livro3_let37.mp3",
+  "language": "pt",
+  "duration": 15.5,
+  "title": "Livro3 Let37",
+  "full_text": "Lamento à beira-mar\nQUEM GOSTA DE CAFÉ ADOÇADO COM AREIA,\nUMA PITADA DE SAL NO CHÁ QUE VAI TOMAR,\nSABOR DE PEIXE NO OVO ESTALADO – NÃO RECEIA\nAS LANCHONETES JUNTO AO MAR.",
+  "word_count": 33,
+  "words": [
+    {
+      "word": "Lamento",
+      "start": 0.0,
+      "end": 0.705,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "à",
+      "start": 0.705,
+      "end": 0.965,
+      "confidence": 0.0,
+      "is_title": true
+    },
+    {
+      "word": "beira-mar",
+      "start": 0.965,
+      "end": 1.22,
+      "confidence": 0.625,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 2.62,
+      "end": 2.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "GOSTA",
+      "start": 2.63,
+      "end": 3.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 3.005,
+      "end": 3.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAFÉ",
+      "start": 3.32,
+      "end": 3.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "ADOÇADO",
+      "start": 3.47,
+      "end": 4.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 4.025,
+      "end": 4.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "AREIA,",
+      "start": 4.365,
+      "end": 4.68,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "UMA",
+      "start": 5.74,
+      "end": 5.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "PITADA",
+      "start": 5.81,
+      "end": 6.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 6.285,
+      "end": 6.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "SAL",
+      "start": 6.78,
+      "end": 6.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 6.79,
+      "end": 7.01,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHÁ",
+      "start": 7.02,
+      "end": 7.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 7.17,
+      "end": 7.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAI",
+      "start": 7.345,
+      "end": 7.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "TOMAR,",
+      "start": 7.525,
+      "end": 7.88,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SABOR",
+      "start": 9.12,
+      "end": 9.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 9.21,
+      "end": 9.75,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEIXE",
+      "start": 9.76,
+      "end": 9.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 9.77,
+      "end": 10.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "OVO",
+      "start": 10.045,
+      "end": 10.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTALADO",
+      "start": 10.225,
+      "end": 11.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "–",
+      "start": 11.045,
+      "end": 11.87,
+      "confidence": 0.3
+    },
+    {
+      "word": "NÃO",
+      "start": 11.88,
+      "end": 11.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "RECEIA",
+      "start": 11.99,
+      "end": 12.605,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "AS",
+      "start": 12.605,
+      "end": 13.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "LANCHONETES",
+      "start": 13.085,
+      "end": 13.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "JUNTO",
+      "start": 13.785,
+      "end": 14.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "AO",
+      "start": 14.185,
+      "end": 14.47,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAR.",
+      "start": 14.48,
+      "end": 14.68,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.937,
+    "gaps_preserved": 3,
+    "gaps_filled": 29,
+    "gaps_review": 0,
+    "low_confidence_words": 3,
+    "prosody_preserved_score": 0.094,
+    "timing_precision_ms": 33.0,
+    "word_accuracy": 0.937,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "à",
+    "beira-mar",
+    "–"
+  ],
+  "timestamp_issues": {
+    "words_checked": 33,
+    "total_issues": 10,
+    "errors": 3,
+    "warnings": 7,
+    "issues_by_type": {
+      "too_short": 4,
+      "large_gap": 3,
+      "syllable_mismatch": 3
+    },
+    "issues": [
+      {
+        "word_index": 3,
+        "type": "too_short",
+        "message": "Word 'QUEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 3,
+        "type": "large_gap",
+        "message": "Large gap (1400ms) before 'QUEM' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "too_short",
+        "message": "Word 'UMA' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "large_gap",
+        "message": "Large gap (1060ms) before 'UMA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "syllable_mismatch",
+        "message": "Word 'UMA' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "too_short",
+        "message": "Word 'SAL' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 19,
+        "type": "large_gap",
+        "message": "Large gap (1240ms) before 'SABOR' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 19,
+        "type": "syllable_mismatch",
+        "message": "Word 'SABOR' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 21,
+        "type": "too_short",
+        "message": "Word 'PEIXE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 21,
+        "type": "syllable_mismatch",
+        "message": "Word 'PEIXE' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

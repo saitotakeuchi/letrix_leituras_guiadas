@@ -1,0 +1,2840 @@
+{
+  "audio_file": "livro4_let52.mp3",
+  "language": "pt",
+  "duration": 128.78,
+  "title": "Livro4 Let52",
+  "full_text": "A história sem fim\nESTA HISTÓRIA ACONTECEU NUM REINO DISTANTE. LÁ VIVIAM UM REI, UMA RAINHA E UMA PRINCESA NA IDADE DE CASAR. COMO O REI GOSTAVA MUITO DE HISTÓRIAS SEM FIM, RESOLVEU FAZER UM CONCURSO E GANHARIA A MÃO DA PRINCESA QUEM CONTASSE A MELHOR HISTÓRIA. QUEM FRACASSASSE PERDERIA A CABEÇA.\nMUITOS JOVENS PRÍNCIPES, BELOS E RICOS, E AVENTUREIROS, POBRES E MALTRAPILHOS, SE CANDIDATARAM, MAS NENHUM SOBREVIVEU. FOI ENTÃO QUE UM JOVEM MUITO POBRE APARECEU E PEDIU PARA NARRAR SUA HISTÓRIA.\nO REI, A RAINHA, A PRINCESA... A CORTE INTEIRA JÁ NÃO SUPORTAVA MAIS TANTA HISTÓRIA SEM FIM RUIM NEM TANTA CABEÇA ROLADA. MAS O REI DISSE:\n— CONTE LOGO ESSE SEU CONTO. E QUE SEJA UM BOM CONTO PARA SUA CABEÇA CONTINUAR NO PESCOÇO!\nE O JOVEM AVENTUREIRO CONTOU:\n— ERA UMA VEZ UM HOMEM QUE FEZ UM CELEIRO TÃO GRANDE QUE OCUPAVA UM MORRO INTEIRO E TÃO ALTO QUE QUASE CHEGAVA AO CÉU. QUANDO TERMINOU, DEIXOU UM BURAQUINHO NO TETO, PELO QUAL SÓ UM GAFANHOTO PODERIA ENTRAR. DEPOIS, ENCHEU O CELEIRO DE TRIGO ATÉ EM CIMA.\nTÃO LOGO TERMINOU, UM GAFANHOTO PASSOU PELO BURACO E LEVOU UM GRÃOZINHO DE TRIGO.\n— NÃO ACHEI GRAÇA NESSA HISTÓRIA — EXCLAMOU O REI.\n— NÃO ACHEI GRAÇA NESSA HISTÓRIA — COMUNICOU A RAINHA.\n— NÃO ACHEI GRAÇA NESSA HISTÓRIA — RECLAMOU A PRINCESA.\n— NÃO ACHAMOS GRAÇA NESSA HISTÓRIA — DECLAROU A CORTE INTEIRA.\n— POR FAVOR, TENHAM UM POUCO DE PACIÊNCIA — PEDIU O JOVEM AVENTUREIRO.\nE CONTINUOU A NARRATIVA:\n— ENTÃO, MAIS UM GAFANHOTO ENTROU PELO BURAQUINHO E LEVOU OUTRO GRÃO DE TRIGO. DEPOIS, OUTRO GAFANHOTO PASSOU E PEGOU OUTRO GRÃO DE TRIGO.\nE O JOVEM CONTINUOU A LADAINHA DE “OUTRO GAFANHOTO ENTROU PELO BURAQUINHO E PEGOU OUTRO GRÃO DE TRIGO”, ATÉ QUE A RAINHA, A PRINCESA... A CORTE INTEIRA CAIU NO SONO. SÓ O REI, DE OLHOS QUASE FECHADOS, AINDA FICOU SUPORTANDO MAIS UMA NUVEM DE GAFANHOTOS ENTRANDO PELO BURAQUINHO E PEGANDO GRÃOS DE TRIGO, ATÉ QUE PERGUNTOU IRRITADO:\nATÉ QUANDO VAI ISSO? SERÁ QUE NÃO TEM FIM?\n— NÃO, MAJESTADE, NÃO TEM FIM — O AVENTUREIRO RESPONDEU.\n— NESSE CASO, VOCÊ VENCEU E GANHOU A MÃO DE MINHA FILHA — DISSE O MONARCA.\nO JOVEM AVENTUREIRO E A PRINCESA ENTÃO SE CASARAM, MAS SÓ DEPOIS DE ELE PROMETER QUE NUNCA MAIS CONTARIA HISTÓRIAS SEM FIM.\nFIM!",
+  "word_count": 390,
+  "words": [
+    {
+      "word": "A",
+      "start": 0.0,
+      "end": 0.245,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "história",
+      "start": 0.245,
+      "end": 0.605,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "sem",
+      "start": 0.605,
+      "end": 0.995,
+      "confidence": 1.0
+    },
+    {
+      "word": "fim",
+      "start": 0.995,
+      "end": 1.165,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ESTA",
+      "start": 1.165,
+      "end": 1.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIA",
+      "start": 1.745,
+      "end": 2.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACONTECEU",
+      "start": 2.125,
+      "end": 2.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "NUM",
+      "start": 2.725,
+      "end": 2.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "REINO",
+      "start": 2.965,
+      "end": 3.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISTANTE.",
+      "start": 3.145,
+      "end": 3.74,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÁ",
+      "start": 4.22,
+      "end": 4.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIVIAM",
+      "start": 4.33,
+      "end": 4.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 4.705,
+      "end": 5.05,
+      "confidence": 1.0
+    },
+    {
+      "word": "REI,",
+      "start": 5.06,
+      "end": 5.22,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 5.26,
+      "end": 5.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "RAINHA",
+      "start": 5.41,
+      "end": 5.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 5.78,
+      "end": 5.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 5.93,
+      "end": 6.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRINCESA",
+      "start": 6.145,
+      "end": 6.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 6.645,
+      "end": 6.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "IDADE",
+      "start": 6.825,
+      "end": 7.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 7.065,
+      "end": 7.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "CASAR.",
+      "start": 7.325,
+      "end": 7.86,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMO",
+      "start": 8.12,
+      "end": 8.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 8.17,
+      "end": 8.37,
+      "confidence": 1.0
+    },
+    {
+      "word": "REI",
+      "start": 8.38,
+      "end": 8.428,
+      "confidence": 1.0
+    },
+    {
+      "word": "GOSTAVA",
+      "start": 8.43,
+      "end": 8.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 8.825,
+      "end": 9.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 9.185,
+      "end": 9.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIAS",
+      "start": 9.74,
+      "end": 9.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEM",
+      "start": 9.75,
+      "end": 10.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "FIM,",
+      "start": 10.08,
+      "end": 10.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "RESOLVEU",
+      "start": 10.74,
+      "end": 11.015,
+      "confidence": 1.0
+    },
+    {
+      "word": "FAZER",
+      "start": 11.015,
+      "end": 11.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 11.185,
+      "end": 11.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONCURSO",
+      "start": 11.385,
+      "end": 11.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 11.885,
+      "end": 12.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "GANHARIA",
+      "start": 12.105,
+      "end": 12.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 12.565,
+      "end": 12.79,
+      "confidence": 1.0
+    },
+    {
+      "word": "MÃO",
+      "start": 12.8,
+      "end": 12.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 12.81,
+      "end": 13.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRINCESA",
+      "start": 13.005,
+      "end": 13.51,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUEM",
+      "start": 13.52,
+      "end": 13.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTASSE",
+      "start": 13.65,
+      "end": 14.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 14.105,
+      "end": 14.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "MELHOR",
+      "start": 14.405,
+      "end": 14.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIA.",
+      "start": 14.585,
+      "end": 15.02,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUEM",
+      "start": 15.46,
+      "end": 15.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "FRACASSASSE",
+      "start": 15.59,
+      "end": 16.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERDERIA",
+      "start": 16.205,
+      "end": 16.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 16.765,
+      "end": 17.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABEÇA.",
+      "start": 17.32,
+      "end": 17.52,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MUITOS",
+      "start": 17.98,
+      "end": 18.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOVENS",
+      "start": 18.03,
+      "end": 18.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRÍNCIPES,",
+      "start": 18.345,
+      "end": 18.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "BELOS",
+      "start": 18.925,
+      "end": 19.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 19.305,
+      "end": 19.79,
+      "confidence": 1.0
+    },
+    {
+      "word": "RICOS,",
+      "start": 19.8,
+      "end": 19.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 19.81,
+      "end": 20.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "AVENTUREIROS,",
+      "start": 20.045,
+      "end": 20.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "POBRES",
+      "start": 20.685,
+      "end": 21.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 21.105,
+      "end": 21.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "MALTRAPILHOS,",
+      "start": 21.305,
+      "end": 21.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 21.965,
+      "end": 22.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "CANDIDATARAM,",
+      "start": 22.405,
+      "end": 23.08,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 23.08,
+      "end": 23.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "NENHUM",
+      "start": 23.265,
+      "end": 23.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOBREVIVEU.",
+      "start": 23.525,
+      "end": 24.22,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOI",
+      "start": 24.74,
+      "end": 24.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTÃO",
+      "start": 24.77,
+      "end": 25.115,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 25.115,
+      "end": 25.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 25.285,
+      "end": 25.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOVEM",
+      "start": 25.525,
+      "end": 25.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 25.725,
+      "end": 26.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "POBRE",
+      "start": 26.165,
+      "end": 26.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "APARECEU",
+      "start": 26.405,
+      "end": 26.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 26.885,
+      "end": 27.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEDIU",
+      "start": 27.245,
+      "end": 27.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 27.445,
+      "end": 27.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "NARRAR",
+      "start": 27.705,
+      "end": 28.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUA",
+      "start": 28.085,
+      "end": 28.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIA.",
+      "start": 28.265,
+      "end": 28.645,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 28.645,
+      "end": 29.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "REI,",
+      "start": 29.145,
+      "end": 29.4,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 29.56,
+      "end": 29.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "RAINHA,",
+      "start": 29.745,
+      "end": 30.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 30.09,
+      "end": 30.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRINCESA...",
+      "start": 30.465,
+      "end": 30.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 31.26,
+      "end": 31.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "CORTE",
+      "start": 31.41,
+      "end": 31.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "INTEIRA",
+      "start": 31.86,
+      "end": 31.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "JÁ",
+      "start": 31.97,
+      "end": 32.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 32.225,
+      "end": 32.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUPORTAVA",
+      "start": 32.405,
+      "end": 32.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIS",
+      "start": 32.885,
+      "end": 33.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "TANTA",
+      "start": 33.305,
+      "end": 33.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIA",
+      "start": 33.505,
+      "end": 33.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEM",
+      "start": 33.925,
+      "end": 34.27,
+      "confidence": 1.0
+    },
+    {
+      "word": "FIM",
+      "start": 34.28,
+      "end": 34.48,
+      "confidence": 1.0
+    },
+    {
+      "word": "RUIM",
+      "start": 34.64,
+      "end": 34.88,
+      "confidence": 1.0
+    },
+    {
+      "word": "NEM",
+      "start": 35.16,
+      "end": 35.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "TANTA",
+      "start": 35.345,
+      "end": 35.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABEÇA",
+      "start": 35.605,
+      "end": 35.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "ROLADA.",
+      "start": 35.965,
+      "end": 36.78,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 36.86,
+      "end": 37.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 37.045,
+      "end": 37.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "REI",
+      "start": 37.305,
+      "end": 37.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISSE:",
+      "start": 37.485,
+      "end": 37.765,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 37.765,
+      "end": 38.41,
+      "confidence": 0.3
+    },
+    {
+      "word": "CONTE",
+      "start": 38.42,
+      "end": 38.428,
+      "confidence": 1.0
+    },
+    {
+      "word": "LOGO",
+      "start": 38.43,
+      "end": 38.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESSE",
+      "start": 38.745,
+      "end": 38.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEU",
+      "start": 38.965,
+      "end": 39.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTO.",
+      "start": 39.445,
+      "end": 39.74,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 39.84,
+      "end": 39.958,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 39.96,
+      "end": 40.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEJA",
+      "start": 40.125,
+      "end": 40.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 40.325,
+      "end": 40.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "BOM",
+      "start": 40.585,
+      "end": 40.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTO",
+      "start": 40.805,
+      "end": 41.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 41.08,
+      "end": 41.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUA",
+      "start": 41.23,
+      "end": 41.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABEÇA",
+      "start": 41.505,
+      "end": 41.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTINUAR",
+      "start": 41.845,
+      "end": 42.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 42.405,
+      "end": 42.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "PESCOÇO!",
+      "start": 42.665,
+      "end": 43.16,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 43.46,
+      "end": 43.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 43.59,
+      "end": 44.05,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOVEM",
+      "start": 44.06,
+      "end": 44.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "AVENTUREIRO",
+      "start": 44.07,
+      "end": 44.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTOU:",
+      "start": 44.585,
+      "end": 45.225,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 45.225,
+      "end": 45.45,
+      "confidence": 0.3
+    },
+    {
+      "word": "ERA",
+      "start": 45.46,
+      "end": 45.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 45.51,
+      "end": 45.795,
+      "confidence": 1.0
+    },
+    {
+      "word": "VEZ",
+      "start": 45.795,
+      "end": 45.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 45.965,
+      "end": 46.41,
+      "confidence": 1.0
+    },
+    {
+      "word": "HOMEM",
+      "start": 46.42,
+      "end": 46.428,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 46.43,
+      "end": 46.69,
+      "confidence": 1.0
+    },
+    {
+      "word": "FEZ",
+      "start": 46.7,
+      "end": 46.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 46.77,
+      "end": 47.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "CELEIRO",
+      "start": 47.025,
+      "end": 47.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÃO",
+      "start": 47.205,
+      "end": 47.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRANDE",
+      "start": 47.565,
+      "end": 47.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 47.885,
+      "end": 48.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "OCUPAVA",
+      "start": 48.105,
+      "end": 48.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 48.605,
+      "end": 48.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "MORRO",
+      "start": 48.84,
+      "end": 48.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "INTEIRO",
+      "start": 48.99,
+      "end": 49.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 49.385,
+      "end": 49.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÃO",
+      "start": 49.585,
+      "end": 49.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALTO",
+      "start": 49.785,
+      "end": 50.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 50.045,
+      "end": 50.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUASE",
+      "start": 50.305,
+      "end": 50.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHEGAVA",
+      "start": 50.565,
+      "end": 50.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "AO",
+      "start": 50.965,
+      "end": 51.39,
+      "confidence": 1.0
+    },
+    {
+      "word": "CÉU.",
+      "start": 51.4,
+      "end": 51.6,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUANDO",
+      "start": 51.9,
+      "end": 51.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "TERMINOU,",
+      "start": 51.95,
+      "end": 52.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEIXOU",
+      "start": 52.72,
+      "end": 52.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 52.885,
+      "end": 53.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "BURAQUINHO",
+      "start": 53.145,
+      "end": 53.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 53.465,
+      "end": 53.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "TETO,",
+      "start": 54.0,
+      "end": 54.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "PELO",
+      "start": 54.01,
+      "end": 54.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUAL",
+      "start": 54.325,
+      "end": 54.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÓ",
+      "start": 54.505,
+      "end": 54.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 54.765,
+      "end": 54.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "GAFANHOTO",
+      "start": 54.965,
+      "end": 55.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "PODERIA",
+      "start": 55.405,
+      "end": 55.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTRAR.",
+      "start": 55.805,
+      "end": 56.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEPOIS,",
+      "start": 56.445,
+      "end": 57.02,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENCHEU",
+      "start": 57.3,
+      "end": 57.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 57.545,
+      "end": 57.81,
+      "confidence": 1.0
+    },
+    {
+      "word": "CELEIRO",
+      "start": 57.82,
+      "end": 57.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 57.91,
+      "end": 58.35,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRIGO",
+      "start": 58.36,
+      "end": 58.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 58.37,
+      "end": 58.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 58.625,
+      "end": 58.93,
+      "confidence": 1.0
+    },
+    {
+      "word": "CIMA.",
+      "start": 58.94,
+      "end": 59.14,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "TÃO",
+      "start": 59.52,
+      "end": 59.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "LOGO",
+      "start": 59.59,
+      "end": 59.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "TERMINOU,",
+      "start": 59.825,
+      "end": 60.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 60.46,
+      "end": 60.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "GAFANHOTO",
+      "start": 60.705,
+      "end": 61.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "PASSOU",
+      "start": 61.125,
+      "end": 61.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "PELO",
+      "start": 61.445,
+      "end": 61.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "BURACO",
+      "start": 61.745,
+      "end": 62.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 62.145,
+      "end": 62.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "LEVOU",
+      "start": 62.46,
+      "end": 62.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 62.57,
+      "end": 62.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRÃOZINHO",
+      "start": 62.985,
+      "end": 63.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 63.205,
+      "end": 63.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRIGO.",
+      "start": 63.68,
+      "end": 63.688,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 63.69,
+      "end": 64.11,
+      "confidence": 0.3
+    },
+    {
+      "word": "NÃO",
+      "start": 64.12,
+      "end": 64.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACHEI",
+      "start": 64.23,
+      "end": 64.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRAÇA",
+      "start": 64.525,
+      "end": 64.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "NESSA",
+      "start": 64.945,
+      "end": 65.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIA",
+      "start": 65.225,
+      "end": 65.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 65.725,
+      "end": 66.145,
+      "confidence": 0.3
+    },
+    {
+      "word": "EXCLAMOU",
+      "start": 66.145,
+      "end": 66.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 66.485,
+      "end": 66.79,
+      "confidence": 1.0
+    },
+    {
+      "word": "REI.",
+      "start": 66.8,
+      "end": 66.908,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 66.91,
+      "end": 67.29,
+      "confidence": 0.3
+    },
+    {
+      "word": "NÃO",
+      "start": 67.3,
+      "end": 67.308,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACHEI",
+      "start": 67.31,
+      "end": 67.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRAÇA",
+      "start": 67.605,
+      "end": 67.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "NESSA",
+      "start": 67.985,
+      "end": 68.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIA",
+      "start": 68.285,
+      "end": 68.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 68.685,
+      "end": 68.985,
+      "confidence": 0.3
+    },
+    {
+      "word": "COMUNICOU",
+      "start": 68.985,
+      "end": 69.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 69.305,
+      "end": 69.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "RAINHA.",
+      "start": 69.74,
+      "end": 69.848,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 69.85,
+      "end": 70.31,
+      "confidence": 0.3
+    },
+    {
+      "word": "NÃO",
+      "start": 70.32,
+      "end": 70.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACHEI",
+      "start": 70.35,
+      "end": 70.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRAÇA",
+      "start": 70.645,
+      "end": 71.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "NESSA",
+      "start": 71.045,
+      "end": 71.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIA",
+      "start": 71.345,
+      "end": 71.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 71.765,
+      "end": 72.125,
+      "confidence": 0.3
+    },
+    {
+      "word": "RECLAMOU",
+      "start": 72.125,
+      "end": 72.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 72.385,
+      "end": 72.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRINCESA.",
+      "start": 72.725,
+      "end": 73.325,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 73.325,
+      "end": 73.53,
+      "confidence": 0.3
+    },
+    {
+      "word": "NÃO",
+      "start": 73.54,
+      "end": 73.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACHAMOS",
+      "start": 73.59,
+      "end": 74.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRAÇA",
+      "start": 74.045,
+      "end": 74.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "NESSA",
+      "start": 74.445,
+      "end": 74.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIA",
+      "start": 74.745,
+      "end": 75.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 75.165,
+      "end": 75.465,
+      "confidence": 0.3
+    },
+    {
+      "word": "DECLAROU",
+      "start": 75.465,
+      "end": 75.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 75.745,
+      "end": 76.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "CORTE",
+      "start": 76.145,
+      "end": 76.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "INTEIRA.",
+      "start": 76.345,
+      "end": 76.865,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 76.865,
+      "end": 77.13,
+      "confidence": 0.3
+    },
+    {
+      "word": "POR",
+      "start": 77.14,
+      "end": 77.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "FAVOR,",
+      "start": 77.23,
+      "end": 77.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "TENHAM",
+      "start": 77.78,
+      "end": 77.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 77.91,
+      "end": 78.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "POUCO",
+      "start": 78.32,
+      "end": 78.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 78.33,
+      "end": 79.01,
+      "confidence": 1.0
+    },
+    {
+      "word": "PACIÊNCIA",
+      "start": 79.02,
+      "end": 79.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 79.05,
+      "end": 79.41,
+      "confidence": 0.3
+    },
+    {
+      "word": "PEDIU",
+      "start": 79.42,
+      "end": 79.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 79.49,
+      "end": 79.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOVEM",
+      "start": 79.96,
+      "end": 79.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "AVENTUREIRO.",
+      "start": 79.97,
+      "end": 80.56,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 80.8,
+      "end": 81.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTINUOU",
+      "start": 81.185,
+      "end": 81.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 81.525,
+      "end": 82.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "NARRATIVA:",
+      "start": 82.005,
+      "end": 82.225,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 82.225,
+      "end": 82.525,
+      "confidence": 0.3
+    },
+    {
+      "word": "ENTÃO,",
+      "start": 82.525,
+      "end": 82.84,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIS",
+      "start": 83.16,
+      "end": 83.308,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 83.31,
+      "end": 83.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "GAFANHOTO",
+      "start": 83.685,
+      "end": 83.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTROU",
+      "start": 83.925,
+      "end": 84.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "PELO",
+      "start": 84.265,
+      "end": 84.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "BURAQUINHO",
+      "start": 84.505,
+      "end": 85.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 85.025,
+      "end": 85.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "LEVOU",
+      "start": 85.285,
+      "end": 85.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTRO",
+      "start": 85.505,
+      "end": 85.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRÃO",
+      "start": 85.865,
+      "end": 86.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 86.065,
+      "end": 86.55,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRIGO.",
+      "start": 86.56,
+      "end": 86.76,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEPOIS,",
+      "start": 87.1,
+      "end": 87.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTRO",
+      "start": 87.7,
+      "end": 87.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "GAFANHOTO",
+      "start": 87.79,
+      "end": 88.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "PASSOU",
+      "start": 88.305,
+      "end": 88.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 88.725,
+      "end": 89.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEGOU",
+      "start": 89.1,
+      "end": 89.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTRO",
+      "start": 89.23,
+      "end": 89.65,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRÃO",
+      "start": 89.66,
+      "end": 89.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 89.81,
+      "end": 90.33,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRIGO.",
+      "start": 90.34,
+      "end": 90.54,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 90.7,
+      "end": 90.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 90.79,
+      "end": 91.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOVEM",
+      "start": 91.2,
+      "end": 91.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTINUOU",
+      "start": 91.21,
+      "end": 91.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 91.765,
+      "end": 91.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "LADAINHA",
+      "start": 91.965,
+      "end": 92.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 92.385,
+      "end": 92.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "“OUTRO",
+      "start": 92.625,
+      "end": 92.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "GAFANHOTO",
+      "start": 92.885,
+      "end": 93.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTROU",
+      "start": 93.405,
+      "end": 93.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "PELO",
+      "start": 93.785,
+      "end": 94.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "BURAQUINHO",
+      "start": 94.005,
+      "end": 94.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 94.525,
+      "end": 94.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEGOU",
+      "start": 95.0,
+      "end": 95.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTRO",
+      "start": 95.09,
+      "end": 95.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRÃO",
+      "start": 95.445,
+      "end": 95.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 95.645,
+      "end": 96.15,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRIGO”,",
+      "start": 96.16,
+      "end": 96.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 96.5,
+      "end": 96.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 96.57,
+      "end": 96.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 96.725,
+      "end": 96.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "RAINHA,",
+      "start": 96.965,
+      "end": 97.22,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 97.42,
+      "end": 97.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRINCESA...",
+      "start": 97.665,
+      "end": 98.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 98.44,
+      "end": 98.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "CORTE",
+      "start": 98.645,
+      "end": 99.05,
+      "confidence": 1.0
+    },
+    {
+      "word": "INTEIRA",
+      "start": 99.06,
+      "end": 99.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAIU",
+      "start": 99.17,
+      "end": 99.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 99.545,
+      "end": 99.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "SONO.",
+      "start": 100.0,
+      "end": 100.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÓ",
+      "start": 100.4,
+      "end": 100.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 100.645,
+      "end": 100.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "REI,",
+      "start": 100.96,
+      "end": 101.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 101.04,
+      "end": 101.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "OLHOS",
+      "start": 101.5,
+      "end": 101.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUASE",
+      "start": 101.51,
+      "end": 101.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "FECHADOS,",
+      "start": 101.785,
+      "end": 102.4,
+      "confidence": 1.0
+    },
+    {
+      "word": "AINDA",
+      "start": 102.8,
+      "end": 102.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "FICOU",
+      "start": 102.965,
+      "end": 103.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUPORTANDO",
+      "start": 103.285,
+      "end": 103.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIS",
+      "start": 103.825,
+      "end": 104.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 104.225,
+      "end": 104.47,
+      "confidence": 1.0
+    },
+    {
+      "word": "NUVEM",
+      "start": 104.48,
+      "end": 104.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 104.63,
+      "end": 104.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "GAFANHOTOS",
+      "start": 104.985,
+      "end": 105.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTRANDO",
+      "start": 105.465,
+      "end": 105.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "PELO",
+      "start": 105.865,
+      "end": 106.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "BURAQUINHO",
+      "start": 106.165,
+      "end": 106.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 106.705,
+      "end": 107.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEGANDO",
+      "start": 107.065,
+      "end": 107.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRÃOS",
+      "start": 107.245,
+      "end": 107.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 107.585,
+      "end": 108.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRIGO,",
+      "start": 108.12,
+      "end": 108.32,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 108.42,
+      "end": 108.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 108.57,
+      "end": 108.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERGUNTOU",
+      "start": 108.865,
+      "end": 109.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "IRRITADO:",
+      "start": 109.225,
+      "end": 110.06,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ATÉ",
+      "start": 110.26,
+      "end": 110.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUANDO",
+      "start": 110.445,
+      "end": 110.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAI",
+      "start": 110.685,
+      "end": 110.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "ISSO?",
+      "start": 110.985,
+      "end": 111.3,
+      "confidence": 1.0
+    },
+    {
+      "word": "SERÁ",
+      "start": 111.65,
+      "end": 111.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 111.945,
+      "end": 112.17,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 112.18,
+      "end": 112.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM",
+      "start": 112.33,
+      "end": 112.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "FIM?",
+      "start": 112.6,
+      "end": 112.728,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 112.73,
+      "end": 113.205,
+      "confidence": 0.3
+    },
+    {
+      "word": "NÃO,",
+      "start": 113.205,
+      "end": 113.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAJESTADE,",
+      "start": 113.54,
+      "end": 114.15,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 114.15,
+      "end": 114.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM",
+      "start": 114.325,
+      "end": 114.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "FIM",
+      "start": 114.565,
+      "end": 114.738,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 114.74,
+      "end": 114.878,
+      "confidence": 0.3
+    },
+    {
+      "word": "O",
+      "start": 114.88,
+      "end": 115.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "AVENTUREIRO",
+      "start": 115.045,
+      "end": 115.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "RESPONDEU.",
+      "start": 115.485,
+      "end": 116.065,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 116.065,
+      "end": 116.69,
+      "confidence": 0.3
+    },
+    {
+      "word": "NESSE",
+      "start": 116.7,
+      "end": 116.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "CASO,",
+      "start": 116.71,
+      "end": 117.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOCÊ",
+      "start": 117.105,
+      "end": 117.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "VENCEU",
+      "start": 117.465,
+      "end": 117.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 117.905,
+      "end": 118.13,
+      "confidence": 1.0
+    },
+    {
+      "word": "GANHOU",
+      "start": 118.14,
+      "end": 118.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 118.29,
+      "end": 118.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "MÃO",
+      "start": 118.62,
+      "end": 118.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 118.63,
+      "end": 118.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINHA",
+      "start": 118.825,
+      "end": 119.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "FILHA",
+      "start": 119.025,
+      "end": 119.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "—",
+      "start": 119.325,
+      "end": 119.69,
+      "confidence": 0.3
+    },
+    {
+      "word": "DISSE",
+      "start": 119.7,
+      "end": 119.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 119.71,
+      "end": 119.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "MONARCA.",
+      "start": 119.985,
+      "end": 120.4,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 120.76,
+      "end": 120.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOVEM",
+      "start": 120.925,
+      "end": 121.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "AVENTUREIRO",
+      "start": 121.165,
+      "end": 121.71,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 121.72,
+      "end": 121.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 121.87,
+      "end": 122.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRINCESA",
+      "start": 122.165,
+      "end": 122.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTÃO",
+      "start": 122.485,
+      "end": 122.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 122.765,
+      "end": 123.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "CASARAM,",
+      "start": 123.085,
+      "end": 123.4,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 123.74,
+      "end": 123.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÓ",
+      "start": 123.905,
+      "end": 124.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEPOIS",
+      "start": 124.085,
+      "end": 124.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 124.365,
+      "end": 124.558,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELE",
+      "start": 124.56,
+      "end": 124.688,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROMETER",
+      "start": 124.69,
+      "end": 125.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 125.065,
+      "end": 125.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "NUNCA",
+      "start": 125.5,
+      "end": 125.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIS",
+      "start": 125.63,
+      "end": 125.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTARIA",
+      "start": 125.985,
+      "end": 126.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIAS",
+      "start": 126.325,
+      "end": 126.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEM",
+      "start": 126.765,
+      "end": 127.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "FIM.",
+      "start": 127.1,
+      "end": 127.098,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "FIM!",
+      "start": 127.1,
+      "end": 127.3,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.968,
+    "gaps_preserved": 19,
+    "gaps_filled": 354,
+    "gaps_review": 16,
+    "low_confidence_words": 18,
+    "prosody_preserved_score": 0.021,
+    "timing_precision_ms": 30.0,
+    "word_accuracy": 0.968,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "FIM."
+  ],
+  "timestamp_issues": {
+    "words_checked": 390,
+    "total_issues": 60,
+    "errors": 32,
+    "warnings": 28,
+    "issues_by_type": {
+      "too_short": 32,
+      "syllable_mismatch": 26,
+      "round_timestamps": 2
+    },
+    "issues": [
+      {
+        "word_index": 23,
+        "type": "too_short",
+        "message": "Word 'COMO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "syllable_mismatch",
+        "message": "Word 'COMO' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "too_short",
+        "message": "Word 'REI' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "too_short",
+        "message": "Word 'HISTÓRIAS' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "syllable_mismatch",
+        "message": "Word 'HISTÓRIAS' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "too_short",
+        "message": "Word 'MÃO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 52,
+        "type": "too_short",
+        "message": "Word 'MUITOS' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 52,
+        "type": "syllable_mismatch",
+        "message": "Word 'MUITOS' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 57,
+        "type": "too_short",
+        "message": "Word 'RICOS,' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 57,
+        "type": "syllable_mismatch",
+        "message": "Word 'RICOS,' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 68,
+        "type": "too_short",
+        "message": "Word 'FOI' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 90,
+        "type": "syllable_mismatch",
+        "message": "Word 'INTEIRA' (3 syllables) has only 108ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 109,
+        "type": "too_short",
+        "message": "Word 'CONTE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 109,
+        "type": "syllable_mismatch",
+        "message": "Word 'CONTE' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 128,
+        "type": "too_short",
+        "message": "Word 'JOVEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 128,
+        "type": "syllable_mismatch",
+        "message": "Word 'JOVEM' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 132,
+        "type": "too_short",
+        "message": "Word 'ERA' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 132,
+        "type": "syllable_mismatch",
+        "message": "Word 'ERA' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 136,
+        "type": "too_short",
+        "message": "Word 'HOMEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 136,
+        "type": "syllable_mismatch",
+        "message": "Word 'HOMEM' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 138,
+        "type": "too_short",
+        "message": "Word 'FEZ' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 156,
+        "type": "too_short",
+        "message": "Word 'QUANDO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 156,
+        "type": "syllable_mismatch",
+        "message": "Word 'QUANDO' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 162,
+        "type": "too_short",
+        "message": "Word 'TETO,' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 162,
+        "type": "syllable_mismatch",
+        "message": "Word 'TETO,' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 162,
+        "type": "round_timestamps",
+        "message": "Word 'TETO,' has suspiciously round timestamps (54.0-54.0)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 173,
+        "type": "syllable_mismatch",
+        "message": "Word 'CELEIRO' (3 syllables) has only 88ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 175,
+        "type": "too_short",
+        "message": "Word 'TRIGO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 175,
+        "type": "syllable_mismatch",
+        "message": "Word 'TRIGO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 179,
+        "type": "too_short",
+        "message": "Word 'TÃO' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 192,
+        "type": "too_short",
+        "message": "Word 'TRIGO.' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 192,
+        "type": "syllable_mismatch",
+        "message": "Word 'TRIGO.' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 204,
+        "type": "too_short",
+        "message": "Word 'NÃO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 214,
+        "type": "too_short",
+        "message": "Word 'NÃO' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 224,
+        "type": "too_short",
+        "message": "Word 'NÃO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 239,
+        "type": "too_short",
+        "message": "Word 'POUCO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 239,
+        "type": "syllable_mismatch",
+        "message": "Word 'POUCO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 241,
+        "type": "too_short",
+        "message": "Word 'PACIÊNCIA' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 241,
+        "type": "syllable_mismatch",
+        "message": "Word 'PACIÊNCIA' (3 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 243,
+        "type": "too_short",
+        "message": "Word 'PEDIU' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 243,
+        "type": "syllable_mismatch",
+        "message": "Word 'PEDIU' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 245,
+        "type": "too_short",
+        "message": "Word 'JOVEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 245,
+        "type": "syllable_mismatch",
+        "message": "Word 'JOVEM' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 266,
+        "type": "syllable_mismatch",
+        "message": "Word 'OUTRO' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 277,
+        "type": "too_short",
+        "message": "Word 'JOVEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 277,
+        "type": "syllable_mismatch",
+        "message": "Word 'JOVEM' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 288,
+        "type": "syllable_mismatch",
+        "message": "Word 'PEGOU' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 293,
+        "type": "too_short",
+        "message": "Word 'ATÉ' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 293,
+        "type": "syllable_mismatch",
+        "message": "Word 'ATÉ' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 301,
+        "type": "syllable_mismatch",
+        "message": "Word 'INTEIRA' (3 syllables) has only 108ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 307,
+        "type": "too_short",
+        "message": "Word 'REI,' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 309,
+        "type": "too_short",
+        "message": "Word 'OLHOS' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 309,
+        "type": "syllable_mismatch",
+        "message": "Word 'OLHOS' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 309,
+        "type": "round_timestamps",
+        "message": "Word 'OLHOS' has suspiciously round timestamps (101.5-101.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 352,
+        "type": "too_short",
+        "message": "Word 'NESSE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 352,
+        "type": "syllable_mismatch",
+        "message": "Word 'NESSE' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 359,
+        "type": "too_short",
+        "message": "Word 'MÃO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 364,
+        "type": "too_short",
+        "message": "Word 'DISSE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 364,
+        "type": "syllable_mismatch",
+        "message": "Word 'DISSE' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 388,
+        "type": "too_short",
+        "message": "Word 'FIM.' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

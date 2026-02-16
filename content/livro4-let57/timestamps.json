@@ -1,0 +1,236 @@
+{
+  "audio_file": "livro4_let57.mp3",
+  "language": "pt",
+  "duration": 11.96,
+  "title": "Livro4 Let57",
+  "full_text": "O jacaré e a lagartixa\nO JACARÉ\nÉ UMA\nLA...\nGAR...\nTI...\nI...\nI...\nI...\nI...\nI...\nXA\nQUE\nESPICHA...\nÉ OU NÃO É?",
+  "word_count": 24,
+  "words": [
+    {
+      "word": "O",
+      "start": 0.0,
+      "end": 0.285,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "jacaré",
+      "start": 0.285,
+      "end": 0.605,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "e",
+      "start": 0.605,
+      "end": 0.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 0.805,
+      "end": 1.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "lagartixa",
+      "start": 1.025,
+      "end": 1.56,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 2.02,
+      "end": 2.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "JACARÉ",
+      "start": 2.05,
+      "end": 2.505,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "É",
+      "start": 2.505,
+      "end": 3.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 3.045,
+      "end": 3.645,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "LA...",
+      "start": 3.645,
+      "end": 3.93,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "GAR...",
+      "start": 3.94,
+      "end": 4.088,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "TI...",
+      "start": 4.09,
+      "end": 4.238,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "I...",
+      "start": 4.24,
+      "end": 4.388,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "I...",
+      "start": 4.39,
+      "end": 4.538,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "I...",
+      "start": 4.54,
+      "end": 4.688,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "I...",
+      "start": 4.69,
+      "end": 4.845,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "I...",
+      "start": 4.845,
+      "end": 5.145,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "XA",
+      "start": 5.145,
+      "end": 7.385,
+      "confidence": 0.222,
+      "line_break_after": true
+    },
+    {
+      "word": "QUE",
+      "start": 7.385,
+      "end": 9.605,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ESPICHA...",
+      "start": 9.605,
+      "end": 10.1,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "É",
+      "start": 10.6,
+      "end": 10.618,
+      "confidence": 1.0
+    },
+    {
+      "word": "OU",
+      "start": 10.62,
+      "end": 10.775,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 10.775,
+      "end": 10.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "É?",
+      "start": 10.945,
+      "end": 11.145,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.734,
+    "gaps_preserved": 1,
+    "gaps_filled": 21,
+    "gaps_review": 1,
+    "low_confidence_words": 9,
+    "prosody_preserved_score": 0.043,
+    "timing_precision_ms": 42.3,
+    "word_accuracy": 0.734,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "LA...",
+    "GAR...",
+    "TI...",
+    "I...",
+    "I...",
+    "I...",
+    "I...",
+    "I...",
+    "XA"
+  ],
+  "timestamp_issues": {
+    "words_checked": 24,
+    "total_issues": 4,
+    "errors": 2,
+    "warnings": 2,
+    "issues_by_type": {
+      "too_short": 2,
+      "too_long": 2
+    },
+    "issues": [
+      {
+        "word_index": 5,
+        "type": "too_short",
+        "message": "Word 'O' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 17,
+        "type": "too_long",
+        "message": "Word 'XA' has unusually long duration (2240ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "too_long",
+        "message": "Word 'QUE' has unusually long duration (2220ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "too_short",
+        "message": "Word 'É' has very short duration (18ms)",
+        "severity": "error",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "audio_file": "livro4_let75.mp3",
+  "language": "pt",
+  "duration": 20.6,
+  "title": "Livro4 Let75",
+  "full_text": "Ipê-roxo\nO IPÊ\nFOI PARA A CIDADE.\nO CABURÉ\nFICOU COM SAUDADE.\nO IPÊ\nENFEITOU A AVENIDA.\nO CABURÉ\nDESANIMOU DA VIDA.\nO IPÊ\nVIVE NA RUA.\nO CABURÉ CHORA PARA A LUA.\nO IPÊ\nVAI VOLTAR!\nO CABURÉ\nVAI SE ALEGRAR!\nO IPÊ CRÊ,\nO CABURÉ TEM FÉ!",
+  "word_count": 49,
+  "words": [
+    {
+      "word": "Ipê-roxo",
+      "start": 0.34,
+      "end": 0.82,
+      "confidence": 0.571,
+      "line_break_after": true,
+      "is_title": true
+    },
+    {
+      "word": "O",
+      "start": 1.48,
+      "end": 1.478,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "IPÊ",
+      "start": 1.48,
+      "end": 1.528,
+      "confidence": 0.667,
+      "line_break_after": true
+    },
+    {
+      "word": "FOI",
+      "start": 1.53,
+      "end": 2.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 2.125,
+      "end": 2.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 2.345,
+      "end": 2.93,
+      "confidence": 1.0
+    },
+    {
+      "word": "CIDADE.",
+      "start": 2.94,
+      "end": 3.14,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 3.32,
+      "end": 3.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABURÉ",
+      "start": 3.47,
+      "end": 3.805,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "FICOU",
+      "start": 3.805,
+      "end": 4.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 4.445,
+      "end": 4.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "SAUDADE.",
+      "start": 4.725,
+      "end": 5.24,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 5.68,
+      "end": 5.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "IPÊ",
+      "start": 5.845,
+      "end": 6.085,
+      "confidence": 0.667,
+      "line_break_after": true
+    },
+    {
+      "word": "ENFEITOU",
+      "start": 6.085,
+      "end": 6.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 6.845,
+      "end": 7.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "AVENIDA.",
+      "start": 7.185,
+      "end": 7.48,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 7.88,
+      "end": 8.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABURÉ",
+      "start": 8.03,
+      "end": 8.485,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DESANIMOU",
+      "start": 8.485,
+      "end": 9.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 9.325,
+      "end": 9.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIDA.",
+      "start": 9.84,
+      "end": 10.04,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 10.24,
+      "end": 10.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "IPÊ",
+      "start": 10.84,
+      "end": 10.848,
+      "confidence": 0.667,
+      "line_break_after": true
+    },
+    {
+      "word": "VIVE",
+      "start": 10.85,
+      "end": 11.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 11.285,
+      "end": 11.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "RUA.",
+      "start": 11.84,
+      "end": 12.04,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 12.22,
+      "end": 12.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABURÉ",
+      "start": 12.37,
+      "end": 12.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHORA",
+      "start": 12.705,
+      "end": 12.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 12.985,
+      "end": 13.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 13.245,
+      "end": 13.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "LUA.",
+      "start": 13.62,
+      "end": 13.82,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 14.06,
+      "end": 14.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "IPÊ",
+      "start": 14.285,
+      "end": 14.465,
+      "confidence": 0.667,
+      "line_break_after": true
+    },
+    {
+      "word": "VAI",
+      "start": 14.465,
+      "end": 14.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOLTAR!",
+      "start": 14.985,
+      "end": 15.42,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 15.8,
+      "end": 15.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABURÉ",
+      "start": 15.95,
+      "end": 16.365,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "VAI",
+      "start": 16.365,
+      "end": 16.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 16.885,
+      "end": 17.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALEGRAR!",
+      "start": 17.225,
+      "end": 17.66,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 17.82,
+      "end": 18.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "IPÊ",
+      "start": 18.04,
+      "end": 18.108,
+      "confidence": 0.667
+    },
+    {
+      "word": "CRÊ,",
+      "start": 18.11,
+      "end": 18.8,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 18.8,
+      "end": 19.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABURÉ",
+      "start": 19.085,
+      "end": 19.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM",
+      "start": 19.285,
+      "end": 19.535,
+      "confidence": 1.0
+    },
+    {
+      "word": "FÉ!",
+      "start": 19.535,
+      "end": 19.735,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.957,
+    "gaps_preserved": 9,
+    "gaps_filled": 39,
+    "gaps_review": 0,
+    "low_confidence_words": 6,
+    "prosody_preserved_score": 0.083,
+    "timing_precision_ms": 33.6,
+    "word_accuracy": 0.957,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "Ipê-roxo",
+    "IPÊ",
+    "IPÊ",
+    "IPÊ",
+    "IPÊ",
+    "IPÊ"
+  ],
+  "timestamp_issues": {
+    "words_checked": 49,
+    "total_issues": 8,
+    "errors": 3,
+    "warnings": 5,
+    "issues_by_type": {
+      "too_short": 4,
+      "large_gap": 1,
+      "syllable_mismatch": 3
+    },
+    "issues": [
+      {
+        "word_index": 1,
+        "type": "too_short",
+        "message": "Word 'O' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 1,
+        "type": "large_gap",
+        "message": "Large gap (660ms) before 'O' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 2,
+        "type": "too_short",
+        "message": "Word 'IPÊ' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 2,
+        "type": "syllable_mismatch",
+        "message": "Word 'IPÊ' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "too_short",
+        "message": "Word 'IPÊ' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "syllable_mismatch",
+        "message": "Word 'IPÊ' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 43,
+        "type": "too_short",
+        "message": "Word 'IPÊ' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 43,
+        "type": "syllable_mismatch",
+        "message": "Word 'IPÊ' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

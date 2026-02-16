@@ -1,0 +1,233 @@
+{
+  "audio_file": "livro3_let10.mp3",
+  "language": "pt",
+  "duration": 13.52,
+  "title": "Livro3 Let10",
+  "full_text": "Eu fui lá não sei aonde\nEU FUI LÁ NÃO SEI AONDE,\nVISITAR NÃO SEI A QUEM.\nVOLTEI ASSIM, NÃO SEI COMO,\nGOSTANDO NÃO SEI DE QUEM.",
+  "word_count": 27,
+  "words": [
+    {
+      "word": "Eu",
+      "start": 0.0,
+      "end": 0.345,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "fui",
+      "start": 0.345,
+      "end": 0.525,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "lá",
+      "start": 0.525,
+      "end": 0.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "não",
+      "start": 0.805,
+      "end": 1.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "sei",
+      "start": 1.08,
+      "end": 1.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "aonde",
+      "start": 1.23,
+      "end": 1.72,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "EU",
+      "start": 2.7,
+      "end": 2.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "FUI",
+      "start": 2.865,
+      "end": 3.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÁ",
+      "start": 3.065,
+      "end": 3.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 3.325,
+      "end": 3.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEI",
+      "start": 3.62,
+      "end": 3.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "AONDE,",
+      "start": 3.77,
+      "end": 4.26,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "VISITAR",
+      "start": 5.54,
+      "end": 5.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 6.14,
+      "end": 6.35,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEI",
+      "start": 6.36,
+      "end": 6.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 6.51,
+      "end": 6.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUEM.",
+      "start": 6.92,
+      "end": 7.12,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "VOLTEI",
+      "start": 8.2,
+      "end": 8.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "ASSIM,",
+      "start": 8.35,
+      "end": 8.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 9.04,
+      "end": 9.255,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEI",
+      "start": 9.255,
+      "end": 9.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMO,",
+      "start": 9.425,
+      "end": 9.88,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "GOSTANDO",
+      "start": 11.06,
+      "end": 11.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 11.76,
+      "end": 11.958,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEI",
+      "start": 11.96,
+      "end": 12.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 12.11,
+      "end": 12.55,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUEM.",
+      "start": 12.56,
+      "end": 12.76,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 1.0,
+    "gaps_preserved": 4,
+    "gaps_filled": 19,
+    "gaps_review": 3,
+    "low_confidence_words": 0,
+    "prosody_preserved_score": 0.154,
+    "timing_precision_ms": 26.9,
+    "word_accuracy": 1.0,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [],
+  "timestamp_issues": {
+    "words_checked": 27,
+    "total_issues": 4,
+    "errors": 0,
+    "warnings": 4,
+    "issues_by_type": {
+      "large_gap": 4
+    },
+    "issues": [
+      {
+        "word_index": 6,
+        "type": "large_gap",
+        "message": "Large gap (980ms) before 'EU' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 12,
+        "type": "large_gap",
+        "message": "Large gap (1280ms) before 'VISITAR' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 17,
+        "type": "large_gap",
+        "message": "Very large gap (1080ms) before 'VOLTEI'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 22,
+        "type": "large_gap",
+        "message": "Large gap (1180ms) before 'GOSTANDO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

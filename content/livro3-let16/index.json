@@ -1,0 +1,249 @@
+{
+  "audio_file": "livro3_let16.mp3",
+  "language": "pt",
+  "duration": 13.54,
+  "title": "Livro3 Let16",
+  "full_text": "Adivinha\nADIVINHA UM MAR QUE FAZ QÜEM-QÜEM\nE DE QUEM SE OUVE O ECO\nVAMOS, ME DIZ DEPRESSA\nNÃO É PATO, É…\nMARRECO",
+  "word_count": 23,
+  "words": [
+    {
+      "word": "Adivinha",
+      "start": 0.0,
+      "end": 0.82,
+      "confidence": 1.0,
+      "line_break_after": true,
+      "is_title": true
+    },
+    {
+      "word": "ADIVINHA",
+      "start": 2.3,
+      "end": 2.308,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "UM",
+      "start": 2.31,
+      "end": 2.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAR",
+      "start": 2.585,
+      "end": 2.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 2.745,
+      "end": 2.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "FAZ",
+      "start": 2.925,
+      "end": 3.24,
+      "confidence": 1.0
+    },
+    {
+      "word": "QÜEM-QÜEM",
+      "start": 3.7,
+      "end": 3.9,
+      "confidence": 0.125,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 4.78,
+      "end": 4.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 4.93,
+      "end": 5.17,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUEM",
+      "start": 5.18,
+      "end": 5.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 5.29,
+      "end": 5.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUVE",
+      "start": 5.74,
+      "end": 5.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 5.77,
+      "end": 6.17,
+      "confidence": 1.0
+    },
+    {
+      "word": "ECO",
+      "start": 6.18,
+      "end": 6.38,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "VAMOS,",
+      "start": 7.26,
+      "end": 7.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "ME",
+      "start": 8.14,
+      "end": 8.158,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIZ",
+      "start": 8.16,
+      "end": 8.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEPRESSA",
+      "start": 8.325,
+      "end": 9.3,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NÃO",
+      "start": 10.0,
+      "end": 10.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 10.11,
+      "end": 10.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "PATO,",
+      "start": 10.385,
+      "end": 10.76,
+      "confidence": 1.0
+    },
+    {
+      "word": "É…",
+      "start": 11.08,
+      "end": 11.645,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MARRECO",
+      "start": 11.645,
+      "end": 12.68,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.962,
+    "gaps_preserved": 4,
+    "gaps_filled": 15,
+    "gaps_review": 3,
+    "low_confidence_words": 1,
+    "prosody_preserved_score": 0.182,
+    "timing_precision_ms": 32.4,
+    "word_accuracy": 0.962,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "QÜEM-QÜEM"
+  ],
+  "timestamp_issues": {
+    "words_checked": 23,
+    "total_issues": 9,
+    "errors": 4,
+    "warnings": 5,
+    "issues_by_type": {
+      "too_short": 3,
+      "large_gap": 4,
+      "syllable_mismatch": 2
+    },
+    "issues": [
+      {
+        "word_index": 1,
+        "type": "too_short",
+        "message": "Word 'ADIVINHA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 1,
+        "type": "large_gap",
+        "message": "Large gap (1480ms) before 'ADIVINHA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 1,
+        "type": "syllable_mismatch",
+        "message": "Word 'ADIVINHA' (4 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 7,
+        "type": "large_gap",
+        "message": "Large gap (880ms) before 'E' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 11,
+        "type": "too_short",
+        "message": "Word 'OUVE' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 11,
+        "type": "syllable_mismatch",
+        "message": "Word 'OUVE' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 14,
+        "type": "large_gap",
+        "message": "Large gap (880ms) before 'VAMOS,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "too_short",
+        "message": "Word 'ME' has very short duration (18ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "large_gap",
+        "message": "Large gap (700ms) before 'NÃO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

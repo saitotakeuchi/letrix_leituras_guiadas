@@ -1,0 +1,223 @@
+{
+  "audio_file": "livro3_let11.mp3",
+  "language": "pt",
+  "duration": 12.54,
+  "title": "Livro3 Let11",
+  "full_text": "Quem quiser saber meu nome\nQUEM QUISER SABER MEU NOME,\nDÊ UMA VOLTA NO JARDIM;\nQUE MEU NOME ESTÁ ESCRITO\nNUMA FOLHA DE JASMIM.",
+  "word_count": 24,
+  "words": [
+    {
+      "word": "Quem",
+      "start": 0.0,
+      "end": 0.365,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "quiser",
+      "start": 0.365,
+      "end": 0.785,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "saber",
+      "start": 0.785,
+      "end": 1.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "meu",
+      "start": 1.165,
+      "end": 1.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "nome",
+      "start": 1.485,
+      "end": 1.78,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 2.74,
+      "end": 2.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUISER",
+      "start": 2.965,
+      "end": 3.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "SABER",
+      "start": 3.345,
+      "end": 3.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEU",
+      "start": 3.665,
+      "end": 4.21,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME,",
+      "start": 4.22,
+      "end": 4.42,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DÊ",
+      "start": 5.46,
+      "end": 5.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 5.51,
+      "end": 5.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOLTA",
+      "start": 5.745,
+      "end": 6.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 6.045,
+      "end": 6.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "JARDIM;",
+      "start": 6.285,
+      "end": 6.86,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUE",
+      "start": 7.8,
+      "end": 7.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEU",
+      "start": 7.965,
+      "end": 8.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 8.225,
+      "end": 8.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTÁ",
+      "start": 8.505,
+      "end": 8.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCRITO",
+      "start": 8.825,
+      "end": 9.38,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NUMA",
+      "start": 10.36,
+      "end": 10.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOLHA",
+      "start": 10.685,
+      "end": 10.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 10.945,
+      "end": 11.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "JASMIM.",
+      "start": 11.365,
+      "end": 11.58,
+      "confidence": 0.833
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.993,
+    "gaps_preserved": 4,
+    "gaps_filled": 19,
+    "gaps_review": 0,
+    "low_confidence_words": 0,
+    "prosody_preserved_score": 0.174,
+    "timing_precision_ms": 31.9,
+    "word_accuracy": 0.993,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [],
+  "timestamp_issues": {
+    "words_checked": 24,
+    "total_issues": 5,
+    "errors": 1,
+    "warnings": 4,
+    "issues_by_type": {
+      "large_gap": 4,
+      "too_short": 1
+    },
+    "issues": [
+      {
+        "word_index": 5,
+        "type": "large_gap",
+        "message": "Large gap (960ms) before 'QUEM' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "too_short",
+        "message": "Word 'DÊ' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "large_gap",
+        "message": "Large gap (1040ms) before 'DÊ' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "large_gap",
+        "message": "Very large gap (940ms) before 'QUE'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "large_gap",
+        "message": "Large gap (980ms) before 'NUMA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

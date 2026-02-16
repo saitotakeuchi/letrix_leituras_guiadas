@@ -1,0 +1,545 @@
+{
+  "audio_file": "livro3_let47.mp3",
+  "language": "pt",
+  "duration": 32.44,
+  "title": "Livro3 Let47",
+  "full_text": "Papo de gato\nMIAU, PURR, HISS, UAW! EIS ALGUNS EXEMPLOS DO VOCABULÁRIO FELINO. USANDO COMPUTADORES, ZOÓLOGOS NORTE-AMERICANOS DESCOBRIRAM QUE O TRADICIONAL “MIAU” É UMA AGLUTINAÇÃO DE “MIU” E “AAU”. O SOM “MIU” É UMA ESPÉCIE DE OBSERVAÇÃO SEM AGRESSIVIDADE, O AAU É SOM DE FRUSTRAÇÃO, LIGEIRAMENTE AGRESSIVO. A COMBINAÇÃO DE AMBOS SIGNIFICA ALGO COMO “OI, TUDO BEM? ESTOU A FIM DE COMER, DE PREFERÊNCIA ‘JÁ’.”",
+  "word_count": 65,
+  "words": [
+    {
+      "word": "Papo",
+      "start": 0.0,
+      "end": 0.465,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "de",
+      "start": 0.465,
+      "end": 1.23,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "gato",
+      "start": 1.24,
+      "end": 1.44,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MIAU,",
+      "start": 2.04,
+      "end": 2.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "PURR,",
+      "start": 2.92,
+      "end": 3.12,
+      "confidence": 0.6
+    },
+    {
+      "word": "HISS,",
+      "start": 3.3,
+      "end": 3.6,
+      "confidence": 0.667
+    },
+    {
+      "word": "UAW!",
+      "start": 3.78,
+      "end": 4.04,
+      "confidence": 0.333
+    },
+    {
+      "word": "EIS",
+      "start": 5.1,
+      "end": 5.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGUNS",
+      "start": 5.21,
+      "end": 5.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXEMPLOS",
+      "start": 5.665,
+      "end": 6.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 6.165,
+      "end": 6.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOCABULÁRIO",
+      "start": 6.545,
+      "end": 7.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "FELINO.",
+      "start": 7.085,
+      "end": 7.58,
+      "confidence": 1.0
+    },
+    {
+      "word": "USANDO",
+      "start": 8.84,
+      "end": 8.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMPUTADORES,",
+      "start": 8.87,
+      "end": 9.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "ZOÓLOGOS",
+      "start": 10.32,
+      "end": 10.58,
+      "confidence": 0.8
+    },
+    {
+      "word": "NORTE-AMERICANOS",
+      "start": 11.0,
+      "end": 11.565,
+      "confidence": 0.667
+    },
+    {
+      "word": "DESCOBRIRAM",
+      "start": 11.565,
+      "end": 12.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 12.3,
+      "end": 12.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 12.39,
+      "end": 13.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRADICIONAL",
+      "start": 13.2,
+      "end": 13.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "“MIAU”",
+      "start": 13.21,
+      "end": 13.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 13.525,
+      "end": 13.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 13.705,
+      "end": 13.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "AGLUTINAÇÃO",
+      "start": 13.885,
+      "end": 14.425,
+      "confidence": 0.818
+    },
+    {
+      "word": "DE",
+      "start": 14.425,
+      "end": 14.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "“MIU”",
+      "start": 15.0,
+      "end": 15.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 15.01,
+      "end": 15.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "“AAU”.",
+      "start": 15.205,
+      "end": 15.405,
+      "confidence": 0.667
+    },
+    {
+      "word": "O",
+      "start": 16.26,
+      "end": 16.57,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOM",
+      "start": 16.58,
+      "end": 16.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "“MIU”",
+      "start": 16.71,
+      "end": 16.915,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 16.915,
+      "end": 17.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 17.085,
+      "end": 17.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPÉCIE",
+      "start": 17.385,
+      "end": 17.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 17.665,
+      "end": 18.37,
+      "confidence": 1.0
+    },
+    {
+      "word": "OBSERVAÇÃO",
+      "start": 18.38,
+      "end": 18.528,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEM",
+      "start": 18.53,
+      "end": 18.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "AGRESSIVIDADE,",
+      "start": 18.845,
+      "end": 19.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 20.14,
+      "end": 20.43,
+      "confidence": 1.0
+    },
+    {
+      "word": "AAU",
+      "start": 20.44,
+      "end": 20.528,
+      "confidence": 0.667
+    },
+    {
+      "word": "É",
+      "start": 20.53,
+      "end": 20.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOM",
+      "start": 20.84,
+      "end": 20.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 20.95,
+      "end": 21.79,
+      "confidence": 1.0
+    },
+    {
+      "word": "FRUSTRAÇÃO,",
+      "start": 21.8,
+      "end": 22.0,
+      "confidence": 1.0
+    },
+    {
+      "word": "LIGEIRAMENTE",
+      "start": 22.28,
+      "end": 22.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "AGRESSIVO.",
+      "start": 22.825,
+      "end": 23.5,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 24.42,
+      "end": 24.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMBINAÇÃO",
+      "start": 24.625,
+      "end": 25.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 25.045,
+      "end": 25.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "AMBOS",
+      "start": 25.6,
+      "end": 25.688,
+      "confidence": 1.0
+    },
+    {
+      "word": "SIGNIFICA",
+      "start": 25.69,
+      "end": 26.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGO",
+      "start": 26.345,
+      "end": 26.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMO",
+      "start": 26.705,
+      "end": 27.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "“OI,",
+      "start": 27.025,
+      "end": 27.32,
+      "confidence": 1.0
+    },
+    {
+      "word": "TUDO",
+      "start": 27.6,
+      "end": 27.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEM?",
+      "start": 27.825,
+      "end": 28.1,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTOU",
+      "start": 28.8,
+      "end": 29.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 29.365,
+      "end": 29.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "FIM",
+      "start": 29.64,
+      "end": 29.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 29.71,
+      "end": 30.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMER,",
+      "start": 30.32,
+      "end": 30.512,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 30.56,
+      "end": 30.668,
+      "confidence": 1.0
+    },
+    {
+      "word": "PREFERÊNCIA",
+      "start": 30.67,
+      "end": 31.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "‘JÁ’.”",
+      "start": 31.265,
+      "end": 31.58,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.957,
+    "gaps_preserved": 7,
+    "gaps_filled": 49,
+    "gaps_review": 8,
+    "low_confidence_words": 6,
+    "prosody_preserved_score": 0.109,
+    "timing_precision_ms": 35.6,
+    "word_accuracy": 0.957,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "PURR,",
+    "HISS,",
+    "UAW!",
+    "NORTE-AMERICANOS",
+    "“AAU”.",
+    "AAU"
+  ],
+  "timestamp_issues": {
+    "words_checked": 65,
+    "total_issues": 15,
+    "errors": 6,
+    "warnings": 9,
+    "issues_by_type": {
+      "large_gap": 6,
+      "too_short": 4,
+      "syllable_mismatch": 4,
+      "round_timestamps": 1
+    },
+    "issues": [
+      {
+        "word_index": 3,
+        "type": "large_gap",
+        "message": "Large gap (600ms) before 'MIAU,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 7,
+        "type": "large_gap",
+        "message": "Very large gap (1060ms) before 'EIS'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "too_short",
+        "message": "Word 'USANDO' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "large_gap",
+        "message": "Very large gap (1260ms) before 'USANDO'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "syllable_mismatch",
+        "message": "Word 'USANDO' (3 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "large_gap",
+        "message": "Large gap (620ms) before 'ZOÓLOGOS' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "too_short",
+        "message": "Word 'TRADICIONAL' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "syllable_mismatch",
+        "message": "Word 'TRADICIONAL' (4 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 26,
+        "type": "too_short",
+        "message": "Word '“MIU”' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 26,
+        "type": "round_timestamps",
+        "message": "Word '“MIU”' has suspiciously round timestamps (15.0-15.0)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "large_gap",
+        "message": "Very large gap (855ms) before 'O'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 36,
+        "type": "syllable_mismatch",
+        "message": "Word 'OBSERVAÇÃO' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "large_gap",
+        "message": "Very large gap (920ms) before 'A'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 50,
+        "type": "syllable_mismatch",
+        "message": "Word 'AMBOS' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 59,
+        "type": "too_short",
+        "message": "Word 'FIM' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

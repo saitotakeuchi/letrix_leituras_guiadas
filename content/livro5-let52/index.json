@@ -1,0 +1,2665 @@
+{
+  "audio_file": "livro5_let52.mp3",
+  "language": "pt",
+  "duration": 124.39,
+  "title": "Livro5 Let52",
+  "full_text": "O menino que pode salvar o mar\nO MENINO QUE PODE SALVAR O MAR\nAos 16 anos, ele foi à praia e se assustou com a quantidade de lixo. Bolou um plano mirabolante para limpar os oceanos. Virou celebridade. Ganhou um prêmio da ONU – e o dinheiro para tentar salvar o mar.\nEM 2011, O HOLANDÊS BOYAN SLAT foi passar as férias na Grécia, conhecida pelas praias e pelo mar, de um azul safira incrível. Mas o encantamento durou pouco. Quando entrou na água, Boyan logo se assustou com o que viu: um amontoado de saquinhos plásticos boiando. Eram tantos, mas tantos, que ele pensou que fossem águas-vivas. O garoto, então com 16 anos, encasquetou com aquilo. Assim que voltou para casa começou a estudar o assunto. [...] Criou um plano, que apresentou na feirinha de ciências do colégio.\nO projeto acabou ganhando um prêmio da Universidade de Delft, uma das mais importantes da Holanda, e fez o garoto ser convidado para uma apresentação no evento TED (Tecnologia, Entretenimento e Design) – que foi vista 1,7 milhão de vezes pela internet. A ideia chegou às Nações Unidas, que em novembro de 2014 deram a Boyan o “Champion of de Earth” (Campeão da Terra), seu maior prêmio ambiental. O menino criou um site para levantar doações. Conseguiu, contratou cientistas e engenheiros, e começou a tocar o projeto.\nEssa história cheia de reviravoltas, com um quê de conto de fadas, começou com uma ideia simples. Boyan decidiu estudar os chamados giros oceânicos. Há cinco giros principais.\nVEJA NO INFOGRÁFICO\nREDEMOINHOS DE LIXO\nA MAIOR PARTE DO LIXO BOIANDO NO MAR VAI PARAR NOS CHAMADOS GIROS OCEÂNICOS. OS PRINCIPAIS SÃO ESTES:\n1) ÍNDICO\n2) PACÍFICO NORTE\n3) PACÍFICO SUL\n4) ATLÂNTICO NORTE\n5) ATLÂNTICO SUL\nEles são grandes correntes marítimas que puxam o lixo do resto do oceano e funcionam como enormes redemoinhos de sujeira. [...] Por que não atacar o problema justo ali? Ao invés de ir atrás do lixo, por que não deixar ele vir até você – e aí capturá-lo com uma armadilha? Foi isso o que Boyan pensou. [...]",
+  "word_count": 351,
+  "words": [
+    {
+      "word": "O",
+      "start": 0.0,
+      "end": 0.148,
+      "confidence": 0.3,
+      "is_title": true
+    },
+    {
+      "word": "menino",
+      "start": 0.15,
+      "end": 0.298,
+      "confidence": 0.3,
+      "is_title": true
+    },
+    {
+      "word": "que",
+      "start": 0.3,
+      "end": 0.448,
+      "confidence": 0.3
+    },
+    {
+      "word": "pode",
+      "start": 0.45,
+      "end": 0.598,
+      "confidence": 0.3
+    },
+    {
+      "word": "salvar",
+      "start": 0.6,
+      "end": 0.748,
+      "confidence": 0.3
+    },
+    {
+      "word": "o",
+      "start": 0.75,
+      "end": 0.898,
+      "confidence": 0.3
+    },
+    {
+      "word": "mar",
+      "start": 0.9,
+      "end": -0.002,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 0.0,
+      "end": 0.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "MENINO",
+      "start": 0.225,
+      "end": 0.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 0.605,
+      "end": 0.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "PODE",
+      "start": 0.805,
+      "end": 1.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "SALVAR",
+      "start": 1.125,
+      "end": 1.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 1.425,
+      "end": 1.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAR",
+      "start": 1.84,
+      "end": 2.04,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Aos",
+      "start": 2.24,
+      "end": 2.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "16",
+      "start": 2.29,
+      "end": 2.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "anos,",
+      "start": 2.825,
+      "end": 3.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "ele",
+      "start": 3.44,
+      "end": 3.518,
+      "confidence": 1.0
+    },
+    {
+      "word": "foi",
+      "start": 3.52,
+      "end": 3.668,
+      "confidence": 1.0
+    },
+    {
+      "word": "à",
+      "start": 3.67,
+      "end": 3.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "praia",
+      "start": 4.0,
+      "end": 4.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 4.13,
+      "end": 4.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "se",
+      "start": 4.325,
+      "end": 4.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "assustou",
+      "start": 4.545,
+      "end": 4.755,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 4.755,
+      "end": 4.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 4.925,
+      "end": 5.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "quantidade",
+      "start": 5.5,
+      "end": 5.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 5.51,
+      "end": 6.05,
+      "confidence": 1.0
+    },
+    {
+      "word": "lixo.",
+      "start": 6.06,
+      "end": 6.26,
+      "confidence": 1.0
+    },
+    {
+      "word": "Bolou",
+      "start": 6.6,
+      "end": 6.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 6.71,
+      "end": 7.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "plano",
+      "start": 7.12,
+      "end": 7.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "mirabolante",
+      "start": 7.13,
+      "end": 7.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 7.765,
+      "end": 8.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "limpar",
+      "start": 8.005,
+      "end": 8.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 8.285,
+      "end": 8.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "oceanos.",
+      "start": 8.625,
+      "end": 9.14,
+      "confidence": 1.0
+    },
+    {
+      "word": "Virou",
+      "start": 9.7,
+      "end": 9.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "celebridade.",
+      "start": 9.85,
+      "end": 10.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "Ganhou",
+      "start": 11.2,
+      "end": 11.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 11.23,
+      "end": 11.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "prêmio",
+      "start": 11.64,
+      "end": 11.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "da",
+      "start": 11.65,
+      "end": 11.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "ONU",
+      "start": 11.885,
+      "end": 12.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "–",
+      "start": 12.145,
+      "end": 12.35,
+      "confidence": 0.3
+    },
+    {
+      "word": "e",
+      "start": 12.36,
+      "end": 12.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 12.49,
+      "end": 12.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "dinheiro",
+      "start": 12.96,
+      "end": 12.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 12.97,
+      "end": 13.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "tentar",
+      "start": 13.185,
+      "end": 13.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "salvar",
+      "start": 13.565,
+      "end": 13.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 13.865,
+      "end": 14.27,
+      "confidence": 1.0
+    },
+    {
+      "word": "mar.",
+      "start": 14.28,
+      "end": 14.48,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "EM",
+      "start": 14.66,
+      "end": 14.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "2011,",
+      "start": 14.73,
+      "end": 15.65,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 15.65,
+      "end": 15.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "HOLANDÊS",
+      "start": 15.885,
+      "end": 16.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "BOYAN",
+      "start": 16.185,
+      "end": 16.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "SLAT",
+      "start": 16.525,
+      "end": 16.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "foi",
+      "start": 16.925,
+      "end": 17.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "passar",
+      "start": 17.165,
+      "end": 17.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "as",
+      "start": 17.445,
+      "end": 17.87,
+      "confidence": 1.0
+    },
+    {
+      "word": "férias",
+      "start": 17.88,
+      "end": 17.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "na",
+      "start": 17.99,
+      "end": 18.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "Grécia,",
+      "start": 18.205,
+      "end": 18.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "conhecida",
+      "start": 18.96,
+      "end": 19.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "pelas",
+      "start": 19.345,
+      "end": 19.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "praias",
+      "start": 19.745,
+      "end": 20.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 20.065,
+      "end": 20.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "pelo",
+      "start": 20.285,
+      "end": 20.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "mar,",
+      "start": 20.525,
+      "end": 20.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 20.98,
+      "end": 21.118,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 21.12,
+      "end": 21.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "azul",
+      "start": 21.27,
+      "end": 21.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "safira",
+      "start": 21.605,
+      "end": 21.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "incrível.",
+      "start": 21.965,
+      "end": 22.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "Mas",
+      "start": 22.84,
+      "end": 23.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 23.005,
+      "end": 23.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "encantamento",
+      "start": 23.205,
+      "end": 23.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "durou",
+      "start": 23.725,
+      "end": 24.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "pouco.",
+      "start": 24.065,
+      "end": 24.48,
+      "confidence": 1.0
+    },
+    {
+      "word": "Quando",
+      "start": 25.04,
+      "end": 25.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "entrou",
+      "start": 25.07,
+      "end": 25.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "na",
+      "start": 25.365,
+      "end": 25.75,
+      "confidence": 1.0
+    },
+    {
+      "word": "água,",
+      "start": 25.76,
+      "end": 25.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "Boyan",
+      "start": 25.87,
+      "end": 26.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "logo",
+      "start": 26.265,
+      "end": 26.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "se",
+      "start": 26.585,
+      "end": 26.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "assustou",
+      "start": 26.865,
+      "end": 27.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 27.065,
+      "end": 27.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 27.3,
+      "end": 27.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 27.39,
+      "end": 27.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "viu:",
+      "start": 27.68,
+      "end": 27.88,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 27.94,
+      "end": 28.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "amontoado",
+      "start": 28.09,
+      "end": 28.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 28.665,
+      "end": 29.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "saquinhos",
+      "start": 29.005,
+      "end": 29.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "plásticos",
+      "start": 29.245,
+      "end": 29.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "boiando.",
+      "start": 29.785,
+      "end": 30.54,
+      "confidence": 1.0
+    },
+    {
+      "word": "Eram",
+      "start": 30.8,
+      "end": 30.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "tantos,",
+      "start": 30.89,
+      "end": 31.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "mas",
+      "start": 31.45,
+      "end": 31.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "tantos,",
+      "start": 31.705,
+      "end": 32.06,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 32.14,
+      "end": 32.188,
+      "confidence": 1.0
+    },
+    {
+      "word": "ele",
+      "start": 32.19,
+      "end": 32.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "pensou",
+      "start": 32.365,
+      "end": 32.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 32.705,
+      "end": 33.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "fossem",
+      "start": 33.105,
+      "end": 33.44,
+      "confidence": 1.0
+    },
+    {
+      "word": "águas-vivas.",
+      "start": 33.6,
+      "end": 33.98,
+      "confidence": 0.5
+    },
+    {
+      "word": "O",
+      "start": 34.34,
+      "end": 34.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "garoto,",
+      "start": 34.505,
+      "end": 34.86,
+      "confidence": 1.0
+    },
+    {
+      "word": "então",
+      "start": 35.1,
+      "end": 35.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 35.305,
+      "end": 35.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "16",
+      "start": 35.505,
+      "end": 36.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "anos,",
+      "start": 36.045,
+      "end": 36.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "encasquetou",
+      "start": 36.56,
+      "end": 37.035,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 37.035,
+      "end": 37.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "aquilo.",
+      "start": 37.205,
+      "end": 37.6,
+      "confidence": 1.0
+    },
+    {
+      "word": "Assim",
+      "start": 38.08,
+      "end": 38.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 38.265,
+      "end": 38.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "voltou",
+      "start": 38.465,
+      "end": 38.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 38.745,
+      "end": 38.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "casa",
+      "start": 38.985,
+      "end": 39.3,
+      "confidence": 1.0
+    },
+    {
+      "word": "começou",
+      "start": 39.7,
+      "end": 39.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 39.71,
+      "end": 40.13,
+      "confidence": 1.0
+    },
+    {
+      "word": "estudar",
+      "start": 40.14,
+      "end": 40.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 40.27,
+      "end": 40.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "assunto.",
+      "start": 40.525,
+      "end": 40.78,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 41.08,
+      "end": 41.37,
+      "confidence": 0.0
+    },
+    {
+      "word": "Criou",
+      "start": 41.38,
+      "end": 41.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 41.47,
+      "end": 41.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "plano,",
+      "start": 41.96,
+      "end": 42.056,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 42.08,
+      "end": 42.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "apresentou",
+      "start": 42.17,
+      "end": 42.695,
+      "confidence": 1.0
+    },
+    {
+      "word": "na",
+      "start": 42.695,
+      "end": 42.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "feirinha",
+      "start": 42.865,
+      "end": 43.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 43.225,
+      "end": 43.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "ciências",
+      "start": 43.625,
+      "end": 43.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 43.845,
+      "end": 44.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "colégio.",
+      "start": 44.165,
+      "end": 44.6,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 44.9,
+      "end": 45.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "projeto",
+      "start": 45.01,
+      "end": 45.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "acabou",
+      "start": 45.445,
+      "end": 45.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "ganhando",
+      "start": 45.845,
+      "end": 46.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 46.205,
+      "end": 46.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "prêmio",
+      "start": 46.68,
+      "end": 46.678,
+      "confidence": 1.0
+    },
+    {
+      "word": "da",
+      "start": 46.68,
+      "end": 46.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "Universidade",
+      "start": 46.845,
+      "end": 47.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 47.545,
+      "end": 47.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "Delft,",
+      "start": 47.985,
+      "end": 48.39,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 48.39,
+      "end": 48.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "das",
+      "start": 48.565,
+      "end": 48.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "mais",
+      "start": 48.785,
+      "end": 49.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "importantes",
+      "start": 49.065,
+      "end": 49.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "da",
+      "start": 49.625,
+      "end": 49.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "Holanda,",
+      "start": 49.905,
+      "end": 50.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 50.46,
+      "end": 50.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "fez",
+      "start": 50.74,
+      "end": 50.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 50.85,
+      "end": 51.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "garoto",
+      "start": 51.125,
+      "end": 51.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "ser",
+      "start": 51.305,
+      "end": 51.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "convidado",
+      "start": 51.585,
+      "end": 52.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 52.125,
+      "end": 52.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 52.365,
+      "end": 52.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "apresentação",
+      "start": 52.565,
+      "end": 53.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "no",
+      "start": 53.165,
+      "end": 53.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "evento",
+      "start": 53.405,
+      "end": 53.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "TED",
+      "start": 53.685,
+      "end": 54.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "(Tecnologia,",
+      "start": 54.48,
+      "end": 55.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "Entretenimento",
+      "start": 55.94,
+      "end": 55.938,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 55.94,
+      "end": 56.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "Design)",
+      "start": 56.09,
+      "end": 56.595,
+      "confidence": 1.0
+    },
+    {
+      "word": "–",
+      "start": 56.595,
+      "end": 56.758,
+      "confidence": 0.3
+    },
+    {
+      "word": "que",
+      "start": 56.76,
+      "end": 56.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "foi",
+      "start": 56.91,
+      "end": 57.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "vista",
+      "start": 57.085,
+      "end": 57.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "1,7",
+      "start": 57.7,
+      "end": 58.485,
+      "confidence": 0.5
+    },
+    {
+      "word": "milhão",
+      "start": 58.485,
+      "end": 58.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 58.745,
+      "end": 59.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "vezes",
+      "start": 59.32,
+      "end": 59.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "pela",
+      "start": 59.33,
+      "end": 59.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "internet.",
+      "start": 59.585,
+      "end": 60.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 60.62,
+      "end": 61.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "ideia",
+      "start": 61.04,
+      "end": 61.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "chegou",
+      "start": 61.05,
+      "end": 61.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "às",
+      "start": 61.345,
+      "end": 61.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "Nações",
+      "start": 61.545,
+      "end": 61.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "Unidas,",
+      "start": 61.845,
+      "end": 62.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 62.5,
+      "end": 62.538,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 62.54,
+      "end": 62.668,
+      "confidence": 1.0
+    },
+    {
+      "word": "novembro",
+      "start": 62.67,
+      "end": 63.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 63.105,
+      "end": 63.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "2014",
+      "start": 63.305,
+      "end": 64.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "deram",
+      "start": 64.225,
+      "end": 64.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 64.605,
+      "end": 64.97,
+      "confidence": 1.0
+    },
+    {
+      "word": "Boyan",
+      "start": 64.98,
+      "end": 65.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 65.09,
+      "end": 65.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "“Champion",
+      "start": 65.365,
+      "end": 65.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "of",
+      "start": 65.765,
+      "end": 66.105,
+      "confidence": 0.667
+    },
+    {
+      "word": "de",
+      "start": 66.105,
+      "end": 66.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "Earth”",
+      "start": 66.46,
+      "end": 66.66,
+      "confidence": 0.4
+    },
+    {
+      "word": "(Campeão",
+      "start": 67.04,
+      "end": 67.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "da",
+      "start": 67.11,
+      "end": 67.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "Terra),",
+      "start": 67.385,
+      "end": 67.62,
+      "confidence": 1.0
+    },
+    {
+      "word": "seu",
+      "start": 67.98,
+      "end": 68.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "maior",
+      "start": 68.13,
+      "end": 68.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "prêmio",
+      "start": 68.525,
+      "end": 68.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "ambiental.",
+      "start": 68.825,
+      "end": 69.5,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 69.8,
+      "end": 69.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "menino",
+      "start": 69.91,
+      "end": 70.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "criou",
+      "start": 70.225,
+      "end": 70.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 70.485,
+      "end": 71.01,
+      "confidence": 1.0
+    },
+    {
+      "word": "site",
+      "start": 71.02,
+      "end": 71.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 71.03,
+      "end": 71.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "levantar",
+      "start": 71.285,
+      "end": 71.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "doações.",
+      "start": 71.845,
+      "end": 72.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "Conseguiu,",
+      "start": 73.0,
+      "end": 73.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "contratou",
+      "start": 73.98,
+      "end": 73.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "cientistas",
+      "start": 73.99,
+      "end": 74.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 74.625,
+      "end": 75.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "engenheiros,",
+      "start": 75.32,
+      "end": 75.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 75.35,
+      "end": 75.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "começou",
+      "start": 75.645,
+      "end": 75.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 75.945,
+      "end": 76.35,
+      "confidence": 1.0
+    },
+    {
+      "word": "tocar",
+      "start": 76.36,
+      "end": 76.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 76.37,
+      "end": 77.05,
+      "confidence": 1.0
+    },
+    {
+      "word": "projeto.",
+      "start": 77.06,
+      "end": 77.26,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Essa",
+      "start": 77.52,
+      "end": 77.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "história",
+      "start": 77.61,
+      "end": 78.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "cheia",
+      "start": 78.005,
+      "end": 78.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 78.345,
+      "end": 78.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "reviravoltas,",
+      "start": 78.625,
+      "end": 79.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 79.345,
+      "end": 79.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 79.605,
+      "end": 79.778,
+      "confidence": 1.0
+    },
+    {
+      "word": "quê",
+      "start": 79.78,
+      "end": 79.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 79.89,
+      "end": 80.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "conto",
+      "start": 80.065,
+      "end": 80.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 80.305,
+      "end": 80.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "fadas,",
+      "start": 80.84,
+      "end": 80.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "começou",
+      "start": 80.85,
+      "end": 81.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 81.305,
+      "end": 81.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 81.545,
+      "end": 81.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "ideia",
+      "start": 81.725,
+      "end": 81.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "simples.",
+      "start": 81.965,
+      "end": 82.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "Boyan",
+      "start": 82.525,
+      "end": 83.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "decidiu",
+      "start": 83.205,
+      "end": 83.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "estudar",
+      "start": 83.685,
+      "end": 84.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 84.12,
+      "end": 84.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "chamados",
+      "start": 84.27,
+      "end": 84.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "giros",
+      "start": 84.805,
+      "end": 85.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "oceânicos.",
+      "start": 85.085,
+      "end": 85.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "Há",
+      "start": 86.38,
+      "end": 86.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "cinco",
+      "start": 86.39,
+      "end": 86.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "giros",
+      "start": 86.685,
+      "end": 87.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "principais.",
+      "start": 87.025,
+      "end": 87.76,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "VEJA",
+      "start": 88.4,
+      "end": 88.438,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 88.44,
+      "end": 88.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "INFOGRÁFICO",
+      "start": 88.605,
+      "end": 89.73,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "REDEMOINHOS",
+      "start": 89.73,
+      "end": 90.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 90.245,
+      "end": 90.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "LIXO",
+      "start": 90.845,
+      "end": 91.045,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 91.24,
+      "end": 91.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIOR",
+      "start": 91.27,
+      "end": 91.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARTE",
+      "start": 91.685,
+      "end": 91.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 91.925,
+      "end": 92.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "LIXO",
+      "start": 92.46,
+      "end": 92.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "BOIANDO",
+      "start": 92.47,
+      "end": 92.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 92.885,
+      "end": 93.25,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAR",
+      "start": 93.26,
+      "end": 93.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAI",
+      "start": 93.27,
+      "end": 93.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARAR",
+      "start": 93.465,
+      "end": 93.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOS",
+      "start": 93.745,
+      "end": 93.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHAMADOS",
+      "start": 93.965,
+      "end": 94.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "GIROS",
+      "start": 94.485,
+      "end": 94.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "OCEÂNICOS.",
+      "start": 94.765,
+      "end": 95.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 95.9,
+      "end": 96.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRINCIPAIS",
+      "start": 96.01,
+      "end": 96.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÃO",
+      "start": 96.525,
+      "end": 96.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTES:",
+      "start": 96.745,
+      "end": 97.22,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "1)",
+      "start": 97.56,
+      "end": 97.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÍNDICO",
+      "start": 97.82,
+      "end": 98.3,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "2)",
+      "start": 98.7,
+      "end": 99.06,
+      "confidence": 1.0
+    },
+    {
+      "word": "PACÍFICO",
+      "start": 99.34,
+      "end": 99.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "NORTE",
+      "start": 99.765,
+      "end": 100.0,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "3)",
+      "start": 100.72,
+      "end": 100.92,
+      "confidence": 1.0
+    },
+    {
+      "word": "PACÍFICO",
+      "start": 101.02,
+      "end": 101.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUL",
+      "start": 101.605,
+      "end": 101.805,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "4)",
+      "start": 102.34,
+      "end": 102.54,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATLÂNTICO",
+      "start": 102.78,
+      "end": 103.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "NORTE",
+      "start": 103.265,
+      "end": 103.66,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "5)",
+      "start": 104.48,
+      "end": 104.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATLÂNTICO",
+      "start": 104.76,
+      "end": 105.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUL",
+      "start": 105.225,
+      "end": 105.56,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Eles",
+      "start": 106.0,
+      "end": 106.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "são",
+      "start": 106.11,
+      "end": 106.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "grandes",
+      "start": 106.305,
+      "end": 106.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "correntes",
+      "start": 106.745,
+      "end": 107.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "marítimas",
+      "start": 107.225,
+      "end": 107.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 107.805,
+      "end": 108.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "puxam",
+      "start": 108.065,
+      "end": 108.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 108.345,
+      "end": 108.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "lixo",
+      "start": 108.74,
+      "end": 108.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 108.75,
+      "end": 109.15,
+      "confidence": 1.0
+    },
+    {
+      "word": "resto",
+      "start": 109.16,
+      "end": 109.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 109.21,
+      "end": 109.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "oceano",
+      "start": 109.78,
+      "end": 109.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 109.81,
+      "end": 110.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "funcionam",
+      "start": 110.105,
+      "end": 110.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "como",
+      "start": 110.645,
+      "end": 110.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "enormes",
+      "start": 110.885,
+      "end": 111.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "redemoinhos",
+      "start": 111.465,
+      "end": 111.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 111.985,
+      "end": 112.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "sujeira.",
+      "start": 112.365,
+      "end": 112.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 112.665,
+      "end": 113.25,
+      "confidence": 0.3
+    },
+    {
+      "word": "Por",
+      "start": 113.26,
+      "end": 113.258,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 113.26,
+      "end": 113.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "não",
+      "start": 113.27,
+      "end": 113.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "atacar",
+      "start": 113.525,
+      "end": 113.89,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 113.9,
+      "end": 114.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "problema",
+      "start": 114.03,
+      "end": 114.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "justo",
+      "start": 114.405,
+      "end": 114.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "ali?",
+      "start": 114.845,
+      "end": 115.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "Ao",
+      "start": 115.5,
+      "end": 115.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "invés",
+      "start": 115.685,
+      "end": 115.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 115.885,
+      "end": 116.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "ir",
+      "start": 116.12,
+      "end": 116.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "atrás",
+      "start": 116.23,
+      "end": 116.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 116.525,
+      "end": 116.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "lixo,",
+      "start": 116.92,
+      "end": 117.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "por",
+      "start": 117.34,
+      "end": 117.538,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 117.54,
+      "end": 117.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "não",
+      "start": 117.61,
+      "end": 117.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "deixar",
+      "start": 117.805,
+      "end": 118.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "ele",
+      "start": 118.105,
+      "end": 118.33,
+      "confidence": 1.0
+    },
+    {
+      "word": "vir",
+      "start": 118.34,
+      "end": 118.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "até",
+      "start": 118.49,
+      "end": 118.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "você",
+      "start": 118.705,
+      "end": 119.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "–",
+      "start": 119.105,
+      "end": 119.43,
+      "confidence": 0.3
+    },
+    {
+      "word": "e",
+      "start": 119.44,
+      "end": 119.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "aí",
+      "start": 119.57,
+      "end": 119.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "capturá-lo",
+      "start": 119.725,
+      "end": 120.32,
+      "confidence": 0.778
+    },
+    {
+      "word": "com",
+      "start": 120.32,
+      "end": 120.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 120.585,
+      "end": 120.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "armadilha?",
+      "start": 120.805,
+      "end": 121.3,
+      "confidence": 1.0
+    },
+    {
+      "word": "Foi",
+      "start": 121.74,
+      "end": 121.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "isso",
+      "start": 121.87,
+      "end": 122.15,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 122.16,
+      "end": 122.158,
+      "confidence": 0.3
+    },
+    {
+      "word": "que",
+      "start": 122.16,
+      "end": 122.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "Boyan",
+      "start": 122.385,
+      "end": 122.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "pensou.",
+      "start": 122.685,
+      "end": 123.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 123.085,
+      "end": 124.39,
+      "confidence": 0.3
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.965,
+    "gaps_preserved": 26,
+    "gaps_filled": 301,
+    "gaps_review": 23,
+    "low_confidence_words": 19,
+    "prosody_preserved_score": 0.049,
+    "timing_precision_ms": 30.0,
+    "word_accuracy": 0.965,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "O",
+    "menino",
+    "que",
+    "pode",
+    "salvar",
+    "o",
+    "mar",
+    "–",
+    "águas-vivas.",
+    "[...]",
+    "–",
+    "1,7",
+    "of",
+    "Earth”",
+    "[...]",
+    "–",
+    "capturá-lo",
+    "o",
+    "[...]"
+  ],
+  "timestamp_issues": {
+    "words_checked": 351,
+    "total_issues": 69,
+    "errors": 40,
+    "warnings": 29,
+    "issues_by_type": {
+      "syllable_mismatch": 28,
+      "too_short": 35,
+      "round_timestamps": 1,
+      "large_gap": 5
+    },
+    "issues": [
+      {
+        "word_index": 1,
+        "type": "syllable_mismatch",
+        "message": "Word 'menino' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 6,
+        "type": "too_short",
+        "message": "Word 'mar' has very short duration (-902ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 14,
+        "type": "too_short",
+        "message": "Word 'Aos' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 17,
+        "type": "too_short",
+        "message": "Word 'ele' has very short duration (78ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 17,
+        "type": "syllable_mismatch",
+        "message": "Word 'ele' (2 syllables) has only 78ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 26,
+        "type": "too_short",
+        "message": "Word 'quantidade' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 26,
+        "type": "syllable_mismatch",
+        "message": "Word 'quantidade' (4 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 26,
+        "type": "round_timestamps",
+        "message": "Word 'quantidade' has suspiciously round timestamps (5.5-5.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 31,
+        "type": "too_short",
+        "message": "Word 'plano' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 31,
+        "type": "syllable_mismatch",
+        "message": "Word 'plano' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "too_short",
+        "message": "Word 'Ganhou' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "syllable_mismatch",
+        "message": "Word 'Ganhou' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "too_short",
+        "message": "Word 'prêmio' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "syllable_mismatch",
+        "message": "Word 'prêmio' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "too_short",
+        "message": "Word 'dinheiro' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "syllable_mismatch",
+        "message": "Word 'dinheiro' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "too_short",
+        "message": "Word 'EM' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 81,
+        "type": "too_short",
+        "message": "Word 'Quando' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 81,
+        "type": "syllable_mismatch",
+        "message": "Word 'Quando' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 99,
+        "type": "syllable_mismatch",
+        "message": "Word 'Eram' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 103,
+        "type": "too_short",
+        "message": "Word 'que' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 123,
+        "type": "too_short",
+        "message": "Word 'começou' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 123,
+        "type": "syllable_mismatch",
+        "message": "Word 'começou' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 125,
+        "type": "syllable_mismatch",
+        "message": "Word 'estudar' (3 syllables) has only 128ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 131,
+        "type": "syllable_mismatch",
+        "message": "Word 'plano,' (2 syllables) has only 96ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 145,
+        "type": "too_short",
+        "message": "Word 'prêmio' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 145,
+        "type": "syllable_mismatch",
+        "message": "Word 'prêmio' (2 syllables) has only -2ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 169,
+        "type": "too_short",
+        "message": "Word 'Entretenimento' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 169,
+        "type": "large_gap",
+        "message": "Large gap (820ms) before 'Entretenimento' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 169,
+        "type": "syllable_mismatch",
+        "message": "Word 'Entretenimento' (6 syllables) has only -2ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 179,
+        "type": "too_short",
+        "message": "Word 'vezes' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 179,
+        "type": "syllable_mismatch",
+        "message": "Word 'vezes' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 183,
+        "type": "too_short",
+        "message": "Word 'ideia' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 183,
+        "type": "syllable_mismatch",
+        "message": "Word 'ideia' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 188,
+        "type": "too_short",
+        "message": "Word 'que' has very short duration (38ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 201,
+        "type": "too_short",
+        "message": "Word '(Campeão' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 201,
+        "type": "syllable_mismatch",
+        "message": "Word '(Campeão' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 212,
+        "type": "too_short",
+        "message": "Word 'site' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 212,
+        "type": "syllable_mismatch",
+        "message": "Word 'site' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 217,
+        "type": "too_short",
+        "message": "Word 'contratou' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 217,
+        "type": "large_gap",
+        "message": "Large gap (620ms) before 'contratou' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 217,
+        "type": "syllable_mismatch",
+        "message": "Word 'contratou' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 220,
+        "type": "too_short",
+        "message": "Word 'engenheiros,' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 220,
+        "type": "syllable_mismatch",
+        "message": "Word 'engenheiros,' (4 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 224,
+        "type": "too_short",
+        "message": "Word 'tocar' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 224,
+        "type": "syllable_mismatch",
+        "message": "Word 'tocar' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 227,
+        "type": "syllable_mismatch",
+        "message": "Word 'Essa' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 238,
+        "type": "too_short",
+        "message": "Word 'fadas,' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 238,
+        "type": "syllable_mismatch",
+        "message": "Word 'fadas,' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 251,
+        "type": "too_short",
+        "message": "Word 'Há' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 255,
+        "type": "too_short",
+        "message": "Word 'VEJA' has very short duration (38ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 255,
+        "type": "syllable_mismatch",
+        "message": "Word 'VEJA' (2 syllables) has only 38ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 261,
+        "type": "too_short",
+        "message": "Word 'A' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 265,
+        "type": "too_short",
+        "message": "Word 'LIXO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 265,
+        "type": "syllable_mismatch",
+        "message": "Word 'LIXO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 268,
+        "type": "too_short",
+        "message": "Word 'MAR' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 284,
+        "type": "large_gap",
+        "message": "Large gap (720ms) before '3)' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 287,
+        "type": "large_gap",
+        "message": "Large gap (535ms) before '4)' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 290,
+        "type": "large_gap",
+        "message": "Large gap (820ms) before '5)' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 301,
+        "type": "too_short",
+        "message": "Word 'lixo' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 301,
+        "type": "syllable_mismatch",
+        "message": "Word 'lixo' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 303,
+        "type": "too_short",
+        "message": "Word 'resto' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 303,
+        "type": "syllable_mismatch",
+        "message": "Word 'resto' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 305,
+        "type": "too_short",
+        "message": "Word 'oceano' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 305,
+        "type": "syllable_mismatch",
+        "message": "Word 'oceano' (3 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 314,
+        "type": "too_short",
+        "message": "Word 'Por' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 315,
+        "type": "too_short",
+        "message": "Word 'que' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 330,
+        "type": "too_short",
+        "message": "Word 'que' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 346,
+        "type": "too_short",
+        "message": "Word 'o' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

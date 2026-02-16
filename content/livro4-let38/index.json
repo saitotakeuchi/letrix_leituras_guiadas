@@ -1,0 +1,3370 @@
+{
+  "audio_file": "livro4_let38.mp3",
+  "language": "pt",
+  "duration": 165.86,
+  "title": "Livro4 Let38",
+  "full_text": "Cachinhos Dourados e os três ursos\nERA UMA VEZ UMA FAMÍLIA DE URSOS: O PAPAI, UM URSO BEM GRANDE; A MAMÃE, UMA URSA UM POUCO MENOR; E O BEBÊ, UM URSINHO PEQUENININHO.\nOS TRÊS URSOS COSTUMAVAM COMER MINGAU TODAS AS MANHÃS. A TIGELA DO PAPAI URSO ERA GRANDONA; A DA MAMÃE URSA, UM POUCO MENOR; E O BEBÊ URSINHO TINHA UMA TIGELINHA.\nCOMO O MINGAU PREPARADO PELA MAMÃE URSA ESTAVA QUENTE, OS TRÊS URSOS FORAM DAR UM PASSEIO. FOI ENTÃO QUE UMA MENINA COM CACHINHOS DOURADOS, QUE ESTAVA EXPLORANDO A FLORESTA, VIU A CASA DOS URSOS E, SENTINDO AQUELE CHEIRO DE MINGAU, RESOLVEU ENTRAR.\nO MINGAU PARECIA DELICIOSO! CACHINHOS DOURADOS EXPERIMENTOU O MINGAU DA TIGELA GRANDONA:\n— AI! MUITO, MUITO QUENTE!\nENTÃO, PROVOU O MINGAU DA TIGELA UM POUCO MENOR:\n— ECA! FRIO DEMAIS!\nPOR FIM, DEU UMA COLHERADINHA NO MINGAU DA TIGELA PEQUENA:\n — NHAMMMMM! DELICIOSO.\nRASPOU O PRATO!\nSATISFEITA E DE BARRIGUINHA CHEIA, CACHINHOS DOURADOS PROCUROU UMA CADEIRA PARA SENTAR. NA SALETA HAVIA TRÊS CADEIRAS. CACHINHOS DOURADOS EXPERIMENTOU A MAIOR:\n— MUITO DURA!\nDEPOIS, SENTOU-SE NA CADEIRA MÉDIA:\n— MUITO MOLE!\nENTÃO, VIU A TERCEIRA CADEIRA, E ELA PARECIA PERFEITA, DO TAMANHO DELA. MAS... SUPRESA: A CADEIRINHA SE ESPATIFOU!\nASSUSTADA COM O TOMBO E SONOLENTA DEPOIS DE TANTO MINGAU, CACHINHOS DOURADOS PROCUROU UM LUGAR PARA DORMIR E ENCONTROU UM QUARTO COM TRÊS CAMAS. PRIMEIRO, DEITOU-SE NA CAMA MAIOR:\n— UI! QUE CAMA DURA!\nDEPOIS, JOGOU-SE NA MÉDIA:\n— AI! AFUNDEI! MACIA DEMAIS...\nPOR ÚLTIMO, DEITOU-SE NA CAMA PEQUENA:\n— QUE CAMINHA GOSTOSA!\nE PEGOU NO SONO.\nFOI ENTÃO QUE OS TRÊS URSOS VOLTARAM E PERCEBERAM QUE TUDO ESTAVA FORA DE ORDEM, MAS, COMO ESTAVAM FAMINTOS, FORAM LOGO PARA A COZINHA.\nOLHANDO A TIGELA DE MINGAU REMEXIDA, PAPAI URSO ROSNOU:\n— ALGUÉM MEXEU NO MEU MINGAU!\nMAMÃE URSA DISSE INTRIGADA:\n— ALGUÉM TAMBÉM MEXEU NO MEU MINGAU!\nO BEBÊ URSO DISSE CHORAMINGANDO:\n— E ALGUÉM COMEU O MEU MINGAU INTEIRINHO!\nENTÃO, OS TRÊS URSOS FORAM PARA A SALETA E PAPAI URSO FALOU COM SEU VOZEIRÃO:\n— ALGUÉM SENTOU NA MINHA CADEIRA!\nMAMÃE URSA FALOU COM VOZ SUAVE:\n— ALGUÉM TAMBÉM SENTOU NA MINHA CADEIRA!\nO BEBÊ URSO FALOU COM VOZ FININHA:\n— E ALGUÉM QUEBROU A MINHA CADEIRINHA!\nSEM SABER O QUE IAM ENCONTRAR, OS TRÊS URSOS FORAM PARA O QUARTO E PAPAI URSO DISSE ZANGADO:\n— ALGUÉM DEITOU NA MINHA CAMA!\nMAMÃE URSA DISSE ABORRECIADA:\n— ALGUÉM TAMBÉM DEITOU NA MINHA CAMA!\nO BEBÊ URSO GRITOU APAVORADO:\n— ALGUÉM AINDA ESTÁ DEITADO NA MINHA CAMINHA!\nNESSE MOMENTO, CACHINHOS DOURADOS, ACORDOU E VIU OS TRÊS URSOS OLHANDO FEROSES PARA ELA. QUE SUSTO! PULOU DA CAMA E CORREU PARA CASA. APRENDEU QUE SER CURIOSA, MAS IMPULSIVA, PODE SER ARRISCADO.",
+  "word_count": 449,
+  "words": [
+    {
+      "word": "Cachinhos",
+      "start": 0.0,
+      "end": 0.645,
+      "confidence": 0.889,
+      "is_title": true
+    },
+    {
+      "word": "Dourados",
+      "start": 0.645,
+      "end": 1.125,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "e",
+      "start": 1.125,
+      "end": 1.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 1.305,
+      "end": 1.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "três",
+      "start": 1.505,
+      "end": 1.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "ursos",
+      "start": 1.845,
+      "end": 2.16,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ERA",
+      "start": 2.72,
+      "end": 2.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 2.73,
+      "end": 2.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "VEZ",
+      "start": 2.965,
+      "end": 3.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 3.145,
+      "end": 3.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "FAMÍLIA",
+      "start": 3.345,
+      "end": 3.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 3.625,
+      "end": 4.25,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS:",
+      "start": 4.26,
+      "end": 4.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 4.74,
+      "end": 4.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAPAI,",
+      "start": 4.75,
+      "end": 5.02,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 5.3,
+      "end": 5.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 5.62,
+      "end": 5.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEM",
+      "start": 5.63,
+      "end": 6.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRANDE;",
+      "start": 6.045,
+      "end": 6.34,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 6.56,
+      "end": 6.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAMÃE,",
+      "start": 6.785,
+      "end": 7.17,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 7.17,
+      "end": 7.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSA",
+      "start": 7.6,
+      "end": 7.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 7.61,
+      "end": 8.05,
+      "confidence": 1.0
+    },
+    {
+      "word": "POUCO",
+      "start": 8.06,
+      "end": 8.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "MENOR;",
+      "start": 8.07,
+      "end": 8.44,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 8.62,
+      "end": 8.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 8.785,
+      "end": 9.13,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEBÊ,",
+      "start": 9.14,
+      "end": 9.34,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 9.4,
+      "end": 9.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSINHO",
+      "start": 9.78,
+      "end": 9.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEQUENININHO.",
+      "start": 9.81,
+      "end": 10.52,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "OS",
+      "start": 10.9,
+      "end": 11.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRÊS",
+      "start": 11.03,
+      "end": 11.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS",
+      "start": 11.405,
+      "end": 11.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "COSTUMAVAM",
+      "start": 11.665,
+      "end": 12.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMER",
+      "start": 12.305,
+      "end": 12.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU",
+      "start": 12.665,
+      "end": 13.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODAS",
+      "start": 13.005,
+      "end": 13.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 13.525,
+      "end": 13.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "MANHÃS.",
+      "start": 13.845,
+      "end": 14.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 14.52,
+      "end": 14.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "TIGELA",
+      "start": 14.685,
+      "end": 14.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 14.985,
+      "end": 15.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAPAI",
+      "start": 15.205,
+      "end": 15.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 15.545,
+      "end": 15.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERA",
+      "start": 15.845,
+      "end": 16.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRANDONA;",
+      "start": 16.025,
+      "end": 16.56,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 16.86,
+      "end": 16.978,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 16.98,
+      "end": 17.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAMÃE",
+      "start": 17.11,
+      "end": 17.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSA,",
+      "start": 17.525,
+      "end": 17.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 18.06,
+      "end": 18.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "POUCO",
+      "start": 18.46,
+      "end": 18.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "MENOR;",
+      "start": 18.47,
+      "end": 18.86,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 19.06,
+      "end": 19.188,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 19.19,
+      "end": 19.43,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEBÊ",
+      "start": 19.44,
+      "end": 19.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSINHO",
+      "start": 19.51,
+      "end": 19.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "TINHA",
+      "start": 19.945,
+      "end": 20.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 20.225,
+      "end": 20.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "TIGELINHA.",
+      "start": 20.505,
+      "end": 20.98,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "COMO",
+      "start": 21.46,
+      "end": 21.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 21.51,
+      "end": 21.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU",
+      "start": 21.84,
+      "end": 21.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "PREPARADO",
+      "start": 21.87,
+      "end": 22.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "PELA",
+      "start": 22.545,
+      "end": 22.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAMÃE",
+      "start": 22.785,
+      "end": 23.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSA",
+      "start": 23.185,
+      "end": 23.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTAVA",
+      "start": 23.425,
+      "end": 23.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUENTE,",
+      "start": 23.785,
+      "end": 24.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 24.5,
+      "end": 24.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRÊS",
+      "start": 24.705,
+      "end": 24.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS",
+      "start": 24.985,
+      "end": 25.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORAM",
+      "start": 25.305,
+      "end": 25.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "DAR",
+      "start": 25.565,
+      "end": 25.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 25.805,
+      "end": 26.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "PASSEIO.",
+      "start": 26.065,
+      "end": 26.4,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOI",
+      "start": 26.9,
+      "end": 26.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTÃO",
+      "start": 26.95,
+      "end": 27.275,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 27.275,
+      "end": 27.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 27.445,
+      "end": 27.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "MENINA",
+      "start": 27.625,
+      "end": 27.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 27.925,
+      "end": 28.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHINHOS",
+      "start": 28.185,
+      "end": 28.565,
+      "confidence": 0.889
+    },
+    {
+      "word": "DOURADOS,",
+      "start": 28.565,
+      "end": 29.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 29.1,
+      "end": 29.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTAVA",
+      "start": 29.11,
+      "end": 29.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXPLORANDO",
+      "start": 29.665,
+      "end": 30.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 30.185,
+      "end": 30.75,
+      "confidence": 1.0
+    },
+    {
+      "word": "FLORESTA,",
+      "start": 30.76,
+      "end": 30.96,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIU",
+      "start": 31.16,
+      "end": 31.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 31.17,
+      "end": 31.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "CASA",
+      "start": 31.6,
+      "end": 31.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "DOS",
+      "start": 31.61,
+      "end": 31.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS",
+      "start": 31.865,
+      "end": 32.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "E,",
+      "start": 32.245,
+      "end": 32.705,
+      "confidence": 0.3
+    },
+    {
+      "word": "SENTINDO",
+      "start": 32.705,
+      "end": 32.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "AQUELE",
+      "start": 32.905,
+      "end": 33.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHEIRO",
+      "start": 33.285,
+      "end": 33.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 33.525,
+      "end": 33.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU,",
+      "start": 33.96,
+      "end": 34.16,
+      "confidence": 1.0
+    },
+    {
+      "word": "RESOLVEU",
+      "start": 34.46,
+      "end": 34.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTRAR.",
+      "start": 34.845,
+      "end": 35.18,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 35.54,
+      "end": 35.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU",
+      "start": 35.59,
+      "end": 35.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARECIA",
+      "start": 35.905,
+      "end": 36.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "DELICIOSO!",
+      "start": 36.405,
+      "end": 37.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHINHOS",
+      "start": 37.66,
+      "end": 37.925,
+      "confidence": 0.889
+    },
+    {
+      "word": "DOURADOS",
+      "start": 37.925,
+      "end": 38.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXPERIMENTOU",
+      "start": 38.425,
+      "end": 39.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 39.145,
+      "end": 39.53,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU",
+      "start": 39.54,
+      "end": 39.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 39.55,
+      "end": 39.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "TIGELA",
+      "start": 39.845,
+      "end": 40.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRANDONA:",
+      "start": 40.085,
+      "end": 40.725,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 40.725,
+      "end": 41.23,
+      "confidence": 0.3
+    },
+    {
+      "word": "AI!",
+      "start": 41.24,
+      "end": 41.44,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO,",
+      "start": 41.8,
+      "end": 42.1,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 42.82,
+      "end": 42.818,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUENTE!",
+      "start": 42.82,
+      "end": 43.02,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ENTÃO,",
+      "start": 43.26,
+      "end": 43.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROVOU",
+      "start": 43.625,
+      "end": 43.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 43.985,
+      "end": 44.25,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU",
+      "start": 44.26,
+      "end": 44.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 44.41,
+      "end": 44.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "TIGELA",
+      "start": 44.96,
+      "end": 44.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 44.97,
+      "end": 45.41,
+      "confidence": 1.0
+    },
+    {
+      "word": "POUCO",
+      "start": 45.42,
+      "end": 45.428,
+      "confidence": 1.0
+    },
+    {
+      "word": "MENOR:",
+      "start": 45.43,
+      "end": 45.785,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 45.785,
+      "end": 46.31,
+      "confidence": 0.3
+    },
+    {
+      "word": "ECA!",
+      "start": 46.32,
+      "end": 46.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "FRIO",
+      "start": 46.98,
+      "end": 47.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEMAIS!",
+      "start": 47.03,
+      "end": 47.6,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "POR",
+      "start": 48.02,
+      "end": 48.25,
+      "confidence": 1.0
+    },
+    {
+      "word": "FIM,",
+      "start": 48.26,
+      "end": 48.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEU",
+      "start": 48.76,
+      "end": 48.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 48.85,
+      "end": 49.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "COLHERADINHA",
+      "start": 49.085,
+      "end": 49.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 49.625,
+      "end": 49.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU",
+      "start": 49.805,
+      "end": 50.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 50.085,
+      "end": 50.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "TIGELA",
+      "start": 50.6,
+      "end": 50.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEQUENA:",
+      "start": 50.61,
+      "end": 51.16,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 51.68,
+      "end": 51.89,
+      "confidence": 0.0
+    },
+    {
+      "word": "NHAMMMMM!",
+      "start": 51.9,
+      "end": 52.1,
+      "confidence": 0.25
+    },
+    {
+      "word": "DELICIOSO.",
+      "start": 52.48,
+      "end": 53.1,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "RASPOU",
+      "start": 53.76,
+      "end": 53.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 53.87,
+      "end": 54.33,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRATO!",
+      "start": 54.34,
+      "end": 54.54,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SATISFEITA",
+      "start": 54.98,
+      "end": 55.41,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 55.42,
+      "end": 55.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 55.57,
+      "end": 55.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "BARRIGUINHA",
+      "start": 55.765,
+      "end": 56.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHEIA,",
+      "start": 56.165,
+      "end": 56.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHINHOS",
+      "start": 56.605,
+      "end": 57.145,
+      "confidence": 0.889
+    },
+    {
+      "word": "DOURADOS",
+      "start": 57.145,
+      "end": 57.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROCUROU",
+      "start": 57.625,
+      "end": 58.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 58.125,
+      "end": 58.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "CADEIRA",
+      "start": 58.485,
+      "end": 58.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 58.685,
+      "end": 58.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "SENTAR.",
+      "start": 58.965,
+      "end": 59.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 59.9,
+      "end": 59.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "SALETA",
+      "start": 59.91,
+      "end": 60.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "HAVIA",
+      "start": 60.265,
+      "end": 60.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRÊS",
+      "start": 60.565,
+      "end": 60.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "CADEIRAS.",
+      "start": 60.985,
+      "end": 61.48,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHINHOS",
+      "start": 62.26,
+      "end": 62.328,
+      "confidence": 0.889
+    },
+    {
+      "word": "DOURADOS",
+      "start": 62.33,
+      "end": 62.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXPERIMENTOU",
+      "start": 62.805,
+      "end": 63.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 63.505,
+      "end": 64.01,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIOR:",
+      "start": 64.02,
+      "end": 64.028,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 64.03,
+      "end": 64.63,
+      "confidence": 0.3
+    },
+    {
+      "word": "MUITO",
+      "start": 64.64,
+      "end": 64.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "DURA!",
+      "start": 64.65,
+      "end": 64.96,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DEPOIS,",
+      "start": 65.48,
+      "end": 65.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "SENTOU-SE",
+      "start": 66.12,
+      "end": 66.32,
+      "confidence": 0.75
+    },
+    {
+      "word": "NA",
+      "start": 66.48,
+      "end": 66.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "CADEIRA",
+      "start": 66.61,
+      "end": 66.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "MÉDIA:",
+      "start": 66.925,
+      "end": 67.365,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 67.365,
+      "end": 67.93,
+      "confidence": 0.3
+    },
+    {
+      "word": "MUITO",
+      "start": 67.94,
+      "end": 68.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "MOLE!",
+      "start": 68.07,
+      "end": 68.4,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ENTÃO,",
+      "start": 68.78,
+      "end": 69.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIU",
+      "start": 69.44,
+      "end": 69.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 69.45,
+      "end": 69.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "TERCEIRA",
+      "start": 69.805,
+      "end": 70.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "CADEIRA,",
+      "start": 70.025,
+      "end": 70.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 70.72,
+      "end": 70.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELA",
+      "start": 70.85,
+      "end": 71.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARECIA",
+      "start": 71.065,
+      "end": 71.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERFEITA,",
+      "start": 71.385,
+      "end": 72.06,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 72.06,
+      "end": 72.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMANHO",
+      "start": 72.305,
+      "end": 72.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "DELA.",
+      "start": 72.565,
+      "end": 72.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS...",
+      "start": 73.34,
+      "end": 73.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUPRESA:",
+      "start": 74.6,
+      "end": 74.8,
+      "confidence": 0.875
+    },
+    {
+      "word": "A",
+      "start": 74.9,
+      "end": 75.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "CADEIRINHA",
+      "start": 75.065,
+      "end": 75.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 75.445,
+      "end": 75.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPATIFOU!",
+      "start": 75.725,
+      "end": 76.26,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ASSUSTADA",
+      "start": 76.82,
+      "end": 77.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 77.105,
+      "end": 77.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 77.325,
+      "end": 77.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "TOMBO",
+      "start": 77.6,
+      "end": 77.668,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 77.67,
+      "end": 77.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "SONOLENTA",
+      "start": 77.845,
+      "end": 78.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEPOIS",
+      "start": 78.265,
+      "end": 78.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 78.605,
+      "end": 79.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "TANTO",
+      "start": 79.04,
+      "end": 79.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU,",
+      "start": 79.07,
+      "end": 79.5,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHINHOS",
+      "start": 80.02,
+      "end": 80.225,
+      "confidence": 0.889
+    },
+    {
+      "word": "DOURADOS",
+      "start": 80.225,
+      "end": 80.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROCUROU",
+      "start": 80.725,
+      "end": 81.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 81.185,
+      "end": 81.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "LUGAR",
+      "start": 81.64,
+      "end": 81.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 81.65,
+      "end": 81.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "DORMIR",
+      "start": 81.925,
+      "end": 82.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 82.205,
+      "end": 82.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENCONTROU",
+      "start": 82.565,
+      "end": 82.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 82.825,
+      "end": 83.33,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUARTO",
+      "start": 83.34,
+      "end": 83.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 83.35,
+      "end": 83.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRÊS",
+      "start": 83.605,
+      "end": 83.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMAS.",
+      "start": 83.905,
+      "end": 84.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRIMEIRO,",
+      "start": 84.305,
+      "end": 85.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEITOU-SE",
+      "start": 85.36,
+      "end": 85.56,
+      "confidence": 0.75
+    },
+    {
+      "word": "NA",
+      "start": 85.7,
+      "end": 85.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMA",
+      "start": 85.885,
+      "end": 86.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIOR:",
+      "start": 86.065,
+      "end": 86.565,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 86.565,
+      "end": 87.045,
+      "confidence": 0.3
+    },
+    {
+      "word": "UI!",
+      "start": 87.045,
+      "end": 87.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 87.6,
+      "end": 87.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMA",
+      "start": 87.765,
+      "end": 87.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "DURA!",
+      "start": 87.965,
+      "end": 88.34,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DEPOIS,",
+      "start": 88.84,
+      "end": 89.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOGOU-SE",
+      "start": 89.38,
+      "end": 89.6,
+      "confidence": 0.714
+    },
+    {
+      "word": "NA",
+      "start": 89.8,
+      "end": 89.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "MÉDIA:",
+      "start": 89.95,
+      "end": 90.245,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 90.245,
+      "end": 90.81,
+      "confidence": 0.3
+    },
+    {
+      "word": "AI!",
+      "start": 90.82,
+      "end": 91.02,
+      "confidence": 1.0
+    },
+    {
+      "word": "AFUNDEI!",
+      "start": 91.36,
+      "end": 91.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "MACIA",
+      "start": 92.4,
+      "end": 92.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEMAIS...",
+      "start": 92.585,
+      "end": 93.1,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "POR",
+      "start": 93.52,
+      "end": 93.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÚLTIMO,",
+      "start": 93.705,
+      "end": 94.04,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEITOU-SE",
+      "start": 94.3,
+      "end": 94.5,
+      "confidence": 0.75
+    },
+    {
+      "word": "NA",
+      "start": 94.7,
+      "end": 94.898,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMA",
+      "start": 94.9,
+      "end": 95.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEQUENA:",
+      "start": 95.05,
+      "end": 95.585,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 95.585,
+      "end": 95.97,
+      "confidence": 0.3
+    },
+    {
+      "word": "QUE",
+      "start": 95.98,
+      "end": 96.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMINHA",
+      "start": 96.09,
+      "end": 96.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "GOSTOSA!",
+      "start": 96.405,
+      "end": 97.04,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 97.36,
+      "end": 97.655,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEGOU",
+      "start": 97.655,
+      "end": 97.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 97.825,
+      "end": 98.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "SONO.",
+      "start": 98.125,
+      "end": 98.34,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "FOI",
+      "start": 98.9,
+      "end": 98.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTÃO",
+      "start": 98.95,
+      "end": 99.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 99.285,
+      "end": 99.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 99.465,
+      "end": 99.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRÊS",
+      "start": 99.685,
+      "end": 100.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS",
+      "start": 100.025,
+      "end": 100.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOLTARAM",
+      "start": 100.245,
+      "end": 100.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 100.785,
+      "end": 101.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERCEBERAM",
+      "start": 101.025,
+      "end": 101.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 101.545,
+      "end": 101.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "TUDO",
+      "start": 101.785,
+      "end": 102.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTAVA",
+      "start": 102.025,
+      "end": 102.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORA",
+      "start": 102.325,
+      "end": 102.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 102.605,
+      "end": 103.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "ORDEM,",
+      "start": 103.125,
+      "end": 103.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS,",
+      "start": 103.42,
+      "end": 103.74,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMO",
+      "start": 103.74,
+      "end": 103.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTAVAM",
+      "start": 103.945,
+      "end": 104.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "FAMINTOS,",
+      "start": 104.265,
+      "end": 104.88,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORAM",
+      "start": 105.22,
+      "end": 105.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "LOGO",
+      "start": 105.25,
+      "end": 105.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 105.645,
+      "end": 105.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 105.845,
+      "end": 106.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "COZINHA.",
+      "start": 106.32,
+      "end": 106.52,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "OLHANDO",
+      "start": 107.02,
+      "end": 107.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 107.03,
+      "end": 107.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "TIGELA",
+      "start": 107.345,
+      "end": 107.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 107.545,
+      "end": 107.87,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU",
+      "start": 107.88,
+      "end": 108.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "REMEXIDA,",
+      "start": 108.03,
+      "end": 108.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAPAI",
+      "start": 108.94,
+      "end": 109.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 109.145,
+      "end": 109.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "ROSNOU:",
+      "start": 109.445,
+      "end": 109.925,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 109.925,
+      "end": 110.385,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 110.385,
+      "end": 110.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEXEU",
+      "start": 110.565,
+      "end": 110.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 110.985,
+      "end": 111.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEU",
+      "start": 111.165,
+      "end": 111.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU!",
+      "start": 111.385,
+      "end": 111.98,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MAMÃE",
+      "start": 112.24,
+      "end": 112.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSA",
+      "start": 112.585,
+      "end": 112.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISSE",
+      "start": 112.785,
+      "end": 113.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "INTRIGADA:",
+      "start": 113.145,
+      "end": 113.745,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 113.745,
+      "end": 114.045,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 114.045,
+      "end": 114.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMBÉM",
+      "start": 114.385,
+      "end": 114.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEXEU",
+      "start": 114.745,
+      "end": 115.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 115.185,
+      "end": 115.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEU",
+      "start": 115.385,
+      "end": 115.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU!",
+      "start": 115.665,
+      "end": 115.9,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 116.36,
+      "end": 116.428,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEBÊ",
+      "start": 116.43,
+      "end": 116.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 116.765,
+      "end": 117.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISSE",
+      "start": 117.005,
+      "end": 117.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHORAMINGANDO:",
+      "start": 117.385,
+      "end": 118.225,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 118.225,
+      "end": 118.585,
+      "confidence": 0.3
+    },
+    {
+      "word": "E",
+      "start": 118.585,
+      "end": 118.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 118.765,
+      "end": 118.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMEU",
+      "start": 118.945,
+      "end": 119.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 119.32,
+      "end": 119.318,
+      "confidence": 0.3
+    },
+    {
+      "word": "MEU",
+      "start": 119.32,
+      "end": 119.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINGAU",
+      "start": 119.505,
+      "end": 119.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "INTEIRINHO!",
+      "start": 119.805,
+      "end": 120.42,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ENTÃO,",
+      "start": 120.94,
+      "end": 121.21,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 121.21,
+      "end": 121.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRÊS",
+      "start": 121.465,
+      "end": 121.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS",
+      "start": 121.825,
+      "end": 122.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORAM",
+      "start": 122.105,
+      "end": 122.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 122.365,
+      "end": 122.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 122.645,
+      "end": 123.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "SALETA",
+      "start": 123.08,
+      "end": 123.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 123.13,
+      "end": 123.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAPAI",
+      "start": 123.345,
+      "end": 123.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 123.685,
+      "end": 124.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "FALOU",
+      "start": 124.005,
+      "end": 124.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 124.325,
+      "end": 124.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEU",
+      "start": 124.585,
+      "end": 124.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOZEIRÃO:",
+      "start": 124.765,
+      "end": 125.225,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 125.225,
+      "end": 125.79,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 125.8,
+      "end": 125.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "SENTOU",
+      "start": 125.89,
+      "end": 126.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 126.265,
+      "end": 126.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINHA",
+      "start": 126.485,
+      "end": 126.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "CADEIRA!",
+      "start": 126.685,
+      "end": 127.1,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MAMÃE",
+      "start": 127.68,
+      "end": 128.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSA",
+      "start": 128.005,
+      "end": 128.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "FALOU",
+      "start": 128.205,
+      "end": 128.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 128.505,
+      "end": 129.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOZ",
+      "start": 129.04,
+      "end": 129.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUAVE:",
+      "start": 129.05,
+      "end": 129.425,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 129.425,
+      "end": 130.05,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 130.06,
+      "end": 130.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMBÉM",
+      "start": 130.07,
+      "end": 130.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "SENTOU",
+      "start": 130.545,
+      "end": 130.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 130.865,
+      "end": 131.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINHA",
+      "start": 131.025,
+      "end": 131.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "CADEIRA!",
+      "start": 131.265,
+      "end": 131.9,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 132.02,
+      "end": 132.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEBÊ",
+      "start": 132.265,
+      "end": 132.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 132.445,
+      "end": 132.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "FALOU",
+      "start": 132.745,
+      "end": 133.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 133.065,
+      "end": 133.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOZ",
+      "start": 133.46,
+      "end": 133.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "FININHA:",
+      "start": 133.55,
+      "end": 134.005,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 134.005,
+      "end": 134.365,
+      "confidence": 0.3
+    },
+    {
+      "word": "E",
+      "start": 134.365,
+      "end": 134.65,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 134.66,
+      "end": 134.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUEBROU",
+      "start": 134.77,
+      "end": 135.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 135.145,
+      "end": 135.41,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINHA",
+      "start": 135.42,
+      "end": 135.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "CADEIRINHA!",
+      "start": 135.55,
+      "end": 136.34,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SEM",
+      "start": 136.78,
+      "end": 136.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "SABER",
+      "start": 136.79,
+      "end": 137.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 137.065,
+      "end": 137.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 137.3,
+      "end": 137.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "IAM",
+      "start": 137.37,
+      "end": 137.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENCONTRAR,",
+      "start": 137.565,
+      "end": 138.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 138.44,
+      "end": 138.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRÊS",
+      "start": 138.625,
+      "end": 138.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS",
+      "start": 138.945,
+      "end": 139.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORAM",
+      "start": 139.245,
+      "end": 139.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 139.485,
+      "end": 139.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 139.705,
+      "end": 140.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUARTO",
+      "start": 140.2,
+      "end": 140.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 140.21,
+      "end": 140.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAPAI",
+      "start": 140.485,
+      "end": 140.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 140.765,
+      "end": 141.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISSE",
+      "start": 141.085,
+      "end": 141.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "ZANGADO:",
+      "start": 141.405,
+      "end": 141.965,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 141.965,
+      "end": 142.265,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 142.265,
+      "end": 142.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEITOU",
+      "start": 142.605,
+      "end": 143.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 143.005,
+      "end": 143.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINHA",
+      "start": 143.205,
+      "end": 143.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMA!",
+      "start": 143.68,
+      "end": 143.88,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MAMÃE",
+      "start": 144.32,
+      "end": 144.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSA",
+      "start": 144.625,
+      "end": 144.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISSE",
+      "start": 144.865,
+      "end": 145.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "ABORRECIADA:",
+      "start": 145.185,
+      "end": 145.985,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 145.985,
+      "end": 146.59,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 146.6,
+      "end": 146.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMBÉM",
+      "start": 146.63,
+      "end": 147.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEITOU",
+      "start": 147.065,
+      "end": 147.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 147.405,
+      "end": 147.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINHA",
+      "start": 147.565,
+      "end": 147.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMA!",
+      "start": 147.885,
+      "end": 148.12,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 148.48,
+      "end": 148.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEBÊ",
+      "start": 148.685,
+      "end": 148.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 148.925,
+      "end": 149.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRITOU",
+      "start": 149.205,
+      "end": 149.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "APAVORADO:",
+      "start": 149.585,
+      "end": 150.245,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 150.245,
+      "end": 150.87,
+      "confidence": 0.3
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 150.88,
+      "end": 150.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "AINDA",
+      "start": 150.89,
+      "end": 151.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTÁ",
+      "start": 151.225,
+      "end": 151.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEITADO",
+      "start": 151.425,
+      "end": 151.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 151.865,
+      "end": 152.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINHA",
+      "start": 152.085,
+      "end": 152.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMINHA!",
+      "start": 152.305,
+      "end": 152.74,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NESSE",
+      "start": 153.34,
+      "end": 153.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "MOMENTO,",
+      "start": 153.39,
+      "end": 153.84,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHINHOS",
+      "start": 154.06,
+      "end": 154.385,
+      "confidence": 0.889
+    },
+    {
+      "word": "DOURADOS,",
+      "start": 154.385,
+      "end": 154.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACORDOU",
+      "start": 154.945,
+      "end": 155.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 155.565,
+      "end": 155.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIU",
+      "start": 155.86,
+      "end": 155.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 155.89,
+      "end": 156.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRÊS",
+      "start": 156.165,
+      "end": 156.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS",
+      "start": 156.465,
+      "end": 156.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "OLHANDO",
+      "start": 156.745,
+      "end": 157.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "FEROSES",
+      "start": 157.085,
+      "end": 157.605,
+      "confidence": 0.857
+    },
+    {
+      "word": "PARA",
+      "start": 157.605,
+      "end": 157.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELA.",
+      "start": 157.885,
+      "end": 158.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 158.54,
+      "end": 158.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUSTO!",
+      "start": 158.705,
+      "end": 159.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "PULOU",
+      "start": 159.6,
+      "end": 159.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 159.75,
+      "end": 159.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMA",
+      "start": 159.985,
+      "end": 160.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 160.225,
+      "end": 160.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "CORREU",
+      "start": 160.505,
+      "end": 160.678,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 160.68,
+      "end": 160.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "CASA.",
+      "start": 160.83,
+      "end": 161.48,
+      "confidence": 1.0
+    },
+    {
+      "word": "APRENDEU",
+      "start": 161.9,
+      "end": 162.078,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 162.08,
+      "end": 162.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "SER",
+      "start": 162.23,
+      "end": 162.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "CURIOSA,",
+      "start": 162.425,
+      "end": 163.06,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 163.18,
+      "end": 163.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "IMPULSIVA,",
+      "start": 163.25,
+      "end": 163.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "PODE",
+      "start": 163.885,
+      "end": 164.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "SER",
+      "start": 164.185,
+      "end": 164.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "ARRISCADO.",
+      "start": 164.405,
+      "end": 164.98,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.963,
+    "gaps_preserved": 48,
+    "gaps_filled": 377,
+    "gaps_review": 23,
+    "low_confidence_words": 24,
+    "prosody_preserved_score": 0.067,
+    "timing_precision_ms": 30.7,
+    "word_accuracy": 0.963,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "E,",
+    "—",
+    "—",
+    "—",
+    "NHAMMMMM!",
+    "—",
+    "SENTOU-SE",
+    "—",
+    "DEITOU-SE",
+    "—",
+    "JOGOU-SE",
+    "—",
+    "DEITOU-SE",
+    "—",
+    "—",
+    "—",
+    "—",
+    "O",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—"
+  ],
+  "timestamp_issues": {
+    "words_checked": 449,
+    "total_issues": 81,
+    "errors": 46,
+    "warnings": 35,
+    "issues_by_type": {
+      "too_short": 46,
+      "large_gap": 4,
+      "syllable_mismatch": 30,
+      "round_timestamps": 1
+    },
+    "issues": [
+      {
+        "word_index": 6,
+        "type": "too_short",
+        "message": "Word 'ERA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 6,
+        "type": "large_gap",
+        "message": "Large gap (560ms) before 'ERA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 6,
+        "type": "syllable_mismatch",
+        "message": "Word 'ERA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "too_short",
+        "message": "Word 'O' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 16,
+        "type": "too_short",
+        "message": "Word 'URSO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 16,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 22,
+        "type": "too_short",
+        "message": "Word 'URSA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 22,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "too_short",
+        "message": "Word 'POUCO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "syllable_mismatch",
+        "message": "Word 'POUCO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 30,
+        "type": "too_short",
+        "message": "Word 'URSINHO' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 30,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSINHO' (3 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "too_short",
+        "message": "Word 'POUCO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "syllable_mismatch",
+        "message": "Word 'POUCO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 57,
+        "type": "too_short",
+        "message": "Word 'BEBÊ' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 57,
+        "type": "syllable_mismatch",
+        "message": "Word 'BEBÊ' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 62,
+        "type": "too_short",
+        "message": "Word 'COMO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 62,
+        "type": "syllable_mismatch",
+        "message": "Word 'COMO' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 64,
+        "type": "too_short",
+        "message": "Word 'MINGAU' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 64,
+        "type": "syllable_mismatch",
+        "message": "Word 'MINGAU' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 78,
+        "type": "too_short",
+        "message": "Word 'FOI' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 86,
+        "type": "too_short",
+        "message": "Word 'QUE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 91,
+        "type": "too_short",
+        "message": "Word 'VIU' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 93,
+        "type": "too_short",
+        "message": "Word 'CASA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 93,
+        "type": "syllable_mismatch",
+        "message": "Word 'CASA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 104,
+        "type": "too_short",
+        "message": "Word 'O' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 112,
+        "type": "too_short",
+        "message": "Word 'MINGAU' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 112,
+        "type": "syllable_mismatch",
+        "message": "Word 'MINGAU' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 119,
+        "type": "too_short",
+        "message": "Word 'MUITO' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 119,
+        "type": "large_gap",
+        "message": "Large gap (720ms) before 'MUITO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 119,
+        "type": "syllable_mismatch",
+        "message": "Word 'MUITO' (2 syllables) has only -2ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 126,
+        "type": "too_short",
+        "message": "Word 'TIGELA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 126,
+        "type": "syllable_mismatch",
+        "message": "Word 'TIGELA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 128,
+        "type": "too_short",
+        "message": "Word 'POUCO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 128,
+        "type": "syllable_mismatch",
+        "message": "Word 'POUCO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 132,
+        "type": "too_short",
+        "message": "Word 'FRIO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 142,
+        "type": "too_short",
+        "message": "Word 'TIGELA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 142,
+        "type": "syllable_mismatch",
+        "message": "Word 'TIGELA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 162,
+        "type": "too_short",
+        "message": "Word 'NA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 167,
+        "type": "too_short",
+        "message": "Word 'CACHINHOS' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 167,
+        "type": "syllable_mismatch",
+        "message": "Word 'CACHINHOS' (3 syllables) has only 68ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 170,
+        "type": "round_timestamps",
+        "message": "Word 'A' has suspiciously round timestamps (63.5-64.0)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 171,
+        "type": "too_short",
+        "message": "Word 'MAIOR:' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 173,
+        "type": "too_short",
+        "message": "Word 'MUITO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 173,
+        "type": "syllable_mismatch",
+        "message": "Word 'MUITO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 184,
+        "type": "too_short",
+        "message": "Word 'VIU' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 196,
+        "type": "large_gap",
+        "message": "Very large gap (900ms) before 'SUPRESA:'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 204,
+        "type": "too_short",
+        "message": "Word 'TOMBO' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 204,
+        "type": "syllable_mismatch",
+        "message": "Word 'TOMBO' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 209,
+        "type": "too_short",
+        "message": "Word 'TANTO' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 209,
+        "type": "syllable_mismatch",
+        "message": "Word 'TANTO' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 211,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'CACHINHOS' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 215,
+        "type": "too_short",
+        "message": "Word 'LUGAR' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 215,
+        "type": "syllable_mismatch",
+        "message": "Word 'LUGAR' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 221,
+        "type": "too_short",
+        "message": "Word 'QUARTO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 221,
+        "type": "syllable_mismatch",
+        "message": "Word 'QUARTO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 258,
+        "type": "too_short",
+        "message": "Word 'FOI' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 277,
+        "type": "too_short",
+        "message": "Word 'FORAM' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 277,
+        "type": "syllable_mismatch",
+        "message": "Word 'FORAM' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 282,
+        "type": "too_short",
+        "message": "Word 'OLHANDO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 282,
+        "type": "syllable_mismatch",
+        "message": "Word 'OLHANDO' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 308,
+        "type": "too_short",
+        "message": "Word 'O' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 317,
+        "type": "too_short",
+        "message": "Word 'O' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 328,
+        "type": "too_short",
+        "message": "Word 'SALETA' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 328,
+        "type": "syllable_mismatch",
+        "message": "Word 'SALETA' (3 syllables) has only 48ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 337,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALGUÉM' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 346,
+        "type": "too_short",
+        "message": "Word 'VOZ' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 349,
+        "type": "too_short",
+        "message": "Word 'ALGUÉM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 349,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALGUÉM' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 369,
+        "type": "too_short",
+        "message": "Word 'SEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 372,
+        "type": "too_short",
+        "message": "Word 'QUE' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 381,
+        "type": "too_short",
+        "message": "Word 'QUARTO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 381,
+        "type": "syllable_mismatch",
+        "message": "Word 'QUARTO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 398,
+        "type": "too_short",
+        "message": "Word 'ALGUÉM' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 398,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALGUÉM' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 410,
+        "type": "too_short",
+        "message": "Word 'ALGUÉM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 410,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALGUÉM' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 417,
+        "type": "too_short",
+        "message": "Word 'NESSE' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 417,
+        "type": "syllable_mismatch",
+        "message": "Word 'NESSE' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 423,
+        "type": "too_short",
+        "message": "Word 'VIU' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 444,
+        "type": "too_short",
+        "message": "Word 'MAS' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

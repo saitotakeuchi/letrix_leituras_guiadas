@@ -1,0 +1,510 @@
+{
+  "audio_file": "livro5_let22.mp3",
+  "language": "pt",
+  "duration": 27.54,
+  "title": "Livro5 Let22",
+  "full_text": "Os 10 dinossauros em que você não gostaria de tropeçar\nOs dinossauros eram monstros de todos os tamanhos, e o estômago de cada um deles também era específico para a sua alimentação. Claro, existiam os vegetarianos, mas os carnívoros possuíam as armas mais violentas para conseguir a sua presa.\nCouraças duríssimas, garras gigantescas, dentes superafiados: essas características tornavam alguns dinossauros temidos até por outros grandalhões. [...]",
+  "word_count": 66,
+  "words": [
+    {
+      "word": "Os",
+      "start": 0.0,
+      "end": 0.305,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "10",
+      "start": 0.305,
+      "end": 0.565,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "dinossauros",
+      "start": 0.565,
+      "end": 1.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 1.225,
+      "end": 1.398,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 1.4,
+      "end": 1.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "você",
+      "start": 1.49,
+      "end": 1.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "não",
+      "start": 1.785,
+      "end": 1.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "gostaria",
+      "start": 1.945,
+      "end": 2.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 2.405,
+      "end": 2.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "tropeçar",
+      "start": 2.945,
+      "end": 3.18,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Os",
+      "start": 3.6,
+      "end": 3.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "dinossauros",
+      "start": 3.65,
+      "end": 4.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "eram",
+      "start": 4.285,
+      "end": 4.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "monstros",
+      "start": 4.505,
+      "end": 4.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 4.925,
+      "end": 5.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "todos",
+      "start": 5.245,
+      "end": 5.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 5.525,
+      "end": 5.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "tamanhos,",
+      "start": 5.845,
+      "end": 6.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 6.48,
+      "end": 6.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 6.57,
+      "end": 6.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "estômago",
+      "start": 7.0,
+      "end": 7.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 7.13,
+      "end": 7.43,
+      "confidence": 1.0
+    },
+    {
+      "word": "cada",
+      "start": 7.44,
+      "end": 7.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 7.57,
+      "end": 7.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "deles",
+      "start": 7.745,
+      "end": 8.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "também",
+      "start": 8.085,
+      "end": 8.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "era",
+      "start": 8.465,
+      "end": 8.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "específico",
+      "start": 8.645,
+      "end": 9.35,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 9.36,
+      "end": 9.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 9.51,
+      "end": 9.678,
+      "confidence": 1.0
+    },
+    {
+      "word": "sua",
+      "start": 9.68,
+      "end": 9.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "alimentação.",
+      "start": 9.83,
+      "end": 10.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "Claro,",
+      "start": 10.84,
+      "end": 11.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "existiam",
+      "start": 11.58,
+      "end": 11.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 11.945,
+      "end": 12.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "vegetarianos,",
+      "start": 12.205,
+      "end": 13.04,
+      "confidence": 1.0
+    },
+    {
+      "word": "mas",
+      "start": 13.38,
+      "end": 13.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 13.49,
+      "end": 13.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "carnívoros",
+      "start": 13.705,
+      "end": 14.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "possuíam",
+      "start": 14.265,
+      "end": 14.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "as",
+      "start": 14.845,
+      "end": 15.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "armas",
+      "start": 15.3,
+      "end": 15.308,
+      "confidence": 1.0
+    },
+    {
+      "word": "mais",
+      "start": 15.31,
+      "end": 15.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "violentas",
+      "start": 15.725,
+      "end": 16.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 16.285,
+      "end": 16.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "conseguir",
+      "start": 16.505,
+      "end": 16.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 16.945,
+      "end": 17.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "sua",
+      "start": 17.2,
+      "end": 17.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "presa.",
+      "start": 17.35,
+      "end": 17.84,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Couraças",
+      "start": 18.3,
+      "end": 18.485,
+      "confidence": 0.875
+    },
+    {
+      "word": "duríssimas,",
+      "start": 18.485,
+      "end": 19.1,
+      "confidence": 1.0
+    },
+    {
+      "word": "garras",
+      "start": 19.54,
+      "end": 19.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "gigantescas,",
+      "start": 19.59,
+      "end": 20.32,
+      "confidence": 1.0
+    },
+    {
+      "word": "dentes",
+      "start": 20.76,
+      "end": 20.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "superafiados:",
+      "start": 20.79,
+      "end": 21.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "essas",
+      "start": 22.2,
+      "end": 22.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "características",
+      "start": 22.27,
+      "end": 23.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "tornavam",
+      "start": 23.005,
+      "end": 23.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "alguns",
+      "start": 23.565,
+      "end": 23.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "dinossauros",
+      "start": 23.965,
+      "end": 24.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "temidos",
+      "start": 24.585,
+      "end": 25.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "até",
+      "start": 25.045,
+      "end": 25.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "por",
+      "start": 25.345,
+      "end": 25.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "outros",
+      "start": 25.585,
+      "end": 25.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "grandalhões.",
+      "start": 25.865,
+      "end": 26.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 26.565,
+      "end": 27.54,
+      "confidence": 0.3
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.987,
+    "gaps_preserved": 3,
+    "gaps_filled": 56,
+    "gaps_review": 6,
+    "low_confidence_words": 1,
+    "prosody_preserved_score": 0.046,
+    "timing_precision_ms": 35.7,
+    "word_accuracy": 0.987,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "[...]"
+  ],
+  "timestamp_issues": {
+    "words_checked": 66,
+    "total_issues": 10,
+    "errors": 5,
+    "warnings": 5,
+    "issues_by_type": {
+      "too_short": 5,
+      "syllable_mismatch": 5
+    },
+    "issues": [
+      {
+        "word_index": 10,
+        "type": "too_short",
+        "message": "Word 'Os' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "syllable_mismatch",
+        "message": "Word 'estômago' (4 syllables) has only 128ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "too_short",
+        "message": "Word 'armas' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "syllable_mismatch",
+        "message": "Word 'armas' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 51,
+        "type": "too_short",
+        "message": "Word 'garras' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 51,
+        "type": "syllable_mismatch",
+        "message": "Word 'garras' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "too_short",
+        "message": "Word 'dentes' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "syllable_mismatch",
+        "message": "Word 'dentes' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 55,
+        "type": "too_short",
+        "message": "Word 'essas' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 55,
+        "type": "syllable_mismatch",
+        "message": "Word 'essas' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

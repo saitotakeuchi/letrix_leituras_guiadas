@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livro3 Let45 - Letrix Leituras Guiadas</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+/* ============================================
+   WORDSYNC - LETRIX LEITURAS GUIADAS STYLES
+   Karaoke Word-Sync Player Styles
+   ============================================ */
+
+/* ============================================
+   FONTS
+   ============================================ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+/* ============================================
+   CSS VARIABLES
+   ============================================ */
+:root {
+    --color-accent: #fdbe3f; /* Themed color: header, title, play btn, text area */
+    --color-player: #fdbe3f; /* Yellow main player color (timeline - stays yellow) */
+    --color-progress: #d69a21; /* Dark yellow progress bar */
+    --color-progress-handle: #af7e1b; /* Progress handle color */
+    --color-border-dark: #221e03; /* Dark border for timeline */
+    --color-bg-page: #f9eacd; /* Beige page background */
+    --color-bg-text: #dba63a; /* Gold/brown text area */
+    --color-text-gray: #838383; /* Gray text */
+    --color-text-dark: #2a2a2a; /* Dark text */
+    --color-text-white: #ffffff; /* White text */
+    --color-highlight: #ffcb18; /* Karaoke highlight */
+    --color-read: #ffcb18; /* Read word color */
+
+    /* Fonts */
+    --font-primary: "Montserrat", sans-serif;
+    --font-player: arial;
+}
+
+/* ============================================
+   RESET & BASE
+   ============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: var(--font-primary);
+    color: var(--color-text-gray);
+    background-color: var(--color-bg-page);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+header {
+    height: 85px;
+    position: relative;
+    z-index: 99;
+    max-width: 1250px;
+    margin: 16px auto;
+    font-weight: 700;
+}
+
+.bg-header {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-header-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+.bg-header-middle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 100%;
+    z-index: 0;
+    background: url("./images/header-middle.svg") no-repeat;
+    background-size: auto 100%;
+}
+
+.bg-header-right {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+.bg-header-right-bottom {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    height: 5px;
+    width: 5px;
+    z-index: 0;
+    border-bottom: 10px solid;
+    border-left: 10px transparent solid !important;
+}
+
+.bg-header-left-bottom {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 5px;
+    width: 10px;
+    z-index: 0;
+    border-bottom: 10px solid;
+    border-right: 10px transparent solid !important;
+}
+
+.container-header {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.header-user a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.header-user img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 500px) {
+    header {
+        height: 65px;
+        margin: 10px auto;
+    }
+
+    .container-header {
+        padding: 0 15px;
+    }
+
+    .logo img {
+        max-height: 35px;
+    }
+
+    .header-user a {
+        font-size: 11px;
+    }
+
+    .header-user img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* ============================================
+   PAGE TITLE
+   ============================================ */
+.page-title-wrap {
+    text-align: center;
+    padding: 30px 15px 10px;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--color-accent);
+    filter: brightness(0.65);
+}
+
+@media (max-width: 500px) {
+    .page-title-wrap {
+        padding: 20px 15px 5px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+}
+
+/* ============================================
+   CONTENT CONTAINER
+   ============================================ */
+#content {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: var(--color-bg-page);
+    min-height: 100vh;
+}
+
+@media (max-width: 500px) {
+    #content {
+        padding-top: 30px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 80px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ============================================
+   CARD-LINK - Player Container
+   ============================================ */
+.card-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    z-index: 9;
+    height: 160px;
+    padding: 20px;
+}
+
+@media (max-width: 1025px) {
+    .card-link {
+        height: 165px;
+    }
+}
+
+@media (max-width: 990px) {
+    .card-link {
+        height: auto;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+}
+
+/* Background (3 parts: left, middle, right) */
+.bg-card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(-2deg);
+}
+
+.bg-card-link-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+}
+
+.bg-card-link-middle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    height: 100%;
+    z-index: -2;
+    transform: translateX(-50%);
+    background: url("./images/bg-card-middle.svg") no-repeat center / auto 100%;
+}
+
+@media (max-width: 500px) {
+    .bg-card-link-middle {
+        width: 95%;
+    }
+}
+
+.bg-card-link-right {
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+}
+
+/* ============================================
+   AUDIO PLAYER
+   ============================================ */
+.grid-audio {
+    flex: 0 0 100%;
+}
+
+.audio-player {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    z-index: 9;
+    position: relative;
+    font-family: var(--font-player);
+    color: white;
+    font-size: 1.75em;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(-2deg);
+}
+
+/* ============================================
+   CONTROLS
+   ============================================ */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex: 0 0 100%;
+    gap: 25px;
+}
+
+@media (max-width: 500px) {
+    .controls {
+        padding: 0;
+        gap: 0;
+    }
+}
+
+.controls > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============================================
+   PLAY BUTTON
+   ============================================ */
+.play-container {
+    width: 60px;
+    height: 60px;
+    border: 5px solid var(--color-accent);
+    filter: brightness(0.65);
+    flex: 0 0 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .play-container {
+        width: 40px;
+        height: 40px;
+        flex: 0 0 40px;
+        border: 3px solid var(--color-accent);
+    }
+}
+
+.toggle-play {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-play i {
+    cursor: pointer;
+    color: var(--color-accent);
+    font-size: 24px;
+}
+
+@media (max-width: 500px) {
+    .toggle-play i {
+        font-size: 16px;
+    }
+}
+
+.toggle-play .fa-pause {
+    display: none;
+}
+
+.toggle-play.playing .fa-play {
+    display: none;
+}
+
+.toggle-play.playing .fa-pause {
+    display: inline-block;
+}
+
+/* ============================================
+   TIMELINE / PROGRESS BAR
+   ============================================ */
+.timeline {
+    background: var(--color-player);
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    height: 17px;
+    border: 2px var(--color-border-dark) solid;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+@media (max-width: 500px) {
+    .timeline {
+        height: 10px;
+        border: 1px var(--color-border-dark) solid;
+    }
+}
+
+.progress {
+    position: relative;
+    background: var(--color-progress);
+    width: 0%;
+    height: 100%;
+    transition: 0.25s;
+    border-radius: 0px;
+    overflow: initial;
+}
+
+.progress::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: -25px;
+    width: 30px;
+    height: 30px;
+    background: var(--color-progress-handle);
+    border-radius: 50px;
+}
+
+@media (max-width: 500px) {
+    .progress::after {
+        top: -3px;
+        right: -12px;
+        width: 14.19px;
+        height: 14.19px;
+    }
+}
+
+/* ============================================
+   TIME DISPLAY
+   ============================================ */
+.time {
+    display: flex;
+    flex: 0 0 0%;
+    width: 0;
+    left: -75px;
+    bottom: -23px;
+    position: relative;
+    font-size: 21px;
+    font-family: var(--font-player);
+    color: var(--color-text-white);
+}
+
+@media (max-width: 500px) {
+    .time {
+        left: -35px;
+        bottom: -14px;
+        font-size: 13px;
+    }
+}
+
+.time > * {
+    padding: 2px;
+}
+
+.current,
+.divider,
+.length {
+    color: var(--color-text-white);
+}
+
+/* ============================================
+   FACE AVATAR
+   ============================================ */
+.face-avatar {
+    max-width: 150px;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .face-avatar {
+        max-width: 85px;
+        width: 100%;
+        padding-left: 15px;
+    }
+}
+
+.face-avatar img,
+.face-avatar svg {
+    width: 100%;
+}
+
+/* ============================================
+   KARAOKE TEXT AREA
+   ============================================ */
+.lk-karaoke-wrap {
+    padding: 0 0 3rem;
+    margin-top: 24px;
+}
+
+/* ============================================
+   TEXT PANEL
+   ============================================ */
+#lk-text-panel,
+.lk-text-panel {
+    position: relative;
+    padding: 0 2rem 2rem;
+    text-align: left;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+@media (min-width: 992px) {
+    #lk-text-panel,
+    .lk-text-panel {
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .lk-text-panel {
+        margin: 0 14px;
+        padding: 1.4rem 1.2rem;
+    }
+
+    .lk-text-panel .word {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-right: 0;
+    }
+}
+
+/* Background pseudo-element */
+#lk-text-panel::after,
+.lk-text-panel::after {
+    content: "";
+    filter: brightness(0.65);
+    z-index: 0;
+    position: absolute;
+    inset: -50px 0 0;
+    background-color: var(--color-accent) !important;
+    color: white !important;
+}
+
+#lk-text-panel > *,
+.lk-text-panel > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* ============================================
+   TITLE
+   ============================================ */
+#audio-container {
+    position: relative;
+    z-index: 1;
+}
+
+#audio-container h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    z-index: 9;
+    position: relative;
+}
+
+#audio-container h1 .word {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* ============================================
+   TRANSCRIPT - KARAOKE TEXT
+   ============================================ */
+.transcript-container {
+    position: relative;
+    z-index: 1;
+}
+
+.transcript-container span,
+.transcript-container .word,
+.word {
+    display: inline;
+    margin-right: 0px;
+    padding: 0;
+    border-radius: 4px;
+    /* Reduced from 120ms to 50ms for faster visual feedback during karaoke */
+    transition: background-color 50ms ease-out;
+    cursor: default;
+    line-height: 1.9;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .transcript-container span {
+        font-size: 16px !important;
+    }
+}
+
+/* Active/highlighted word */
+.transcript-container span.active,
+.transcript-container span.highlight,
+.word.active,
+.word.highlight {
+    background-color: var(--color-highlight);
+    color: var(--color-text-white);
+}
+
+/* Already read word */
+.transcript-container span.read,
+.word.read {
+    color: var(--color-read);
+}
+
+/* Low confidence indicator */
+.word[data-low-confidence="true"] {
+    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
+}
+
+/* ============================================
+   METRICS (Hidden by default)
+   ============================================ */
+.lk-metrics {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 18px auto 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.lk-metrics strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2a2a2a;
+}
+
+.lk-metrics p {
+    margin: 0.25rem 0;
+    font-size: 14px;
+    color: #2a2a2a;
+}
+
+/* ============================================
+   REFERENCE
+   ============================================ */
+.lk-ref {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 18px auto 0;
+    opacity: 0.85;
+    color: #2a2a2a;
+}
+
+.lk-ref strong {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.lk-ref p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.lk-ref em,
+.lk-ref i {
+    font-style: italic;
+}
+
+/* ============================================
+   UTILITIES
+   ============================================ */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-lg-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-lg-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.offset-lg-1 {
+    margin-left: 8.333333%;
+}
+
+.offset-lg-2 {
+    margin-left: 16.666667%;
+}
+
+@media (max-width: 992px) {
+    .col-lg-8,
+    .col-lg-10 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .offset-lg-1,
+    .offset-lg-2 {
+        margin-left: 0;
+    }
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.pt-lg-5 {
+    padding-top: 3rem;
+}
+
+@media (max-width: 992px) {
+    .pt-lg-5 {
+        padding-top: 1rem;
+    }
+}
+
+/* Hidden audio element */
+audio {
+    display: none;
+}
+
+  </style>
+
+
+  <!-- Word Timestamps Data -->
+  <script>
+    window.WORDSYNC_DATA = {
+      words: [{"word": "Como", "start": 0.0, "end": 0.385, "confidence": 1.0, "is_title": true}, {"word": "as", "start": 0.385, "end": 0.89, "confidence": 1.0, "is_title": true}, {"word": "aves", "start": 0.9, "end": 0.908, "confidence": 1.0}, {"word": "escutam", "start": 0.91, "end": 1.465, "confidence": 1.0}, {"word": "se", "start": 1.465, "end": 1.745, "confidence": 1.0}, {"word": "elas", "start": 1.745, "end": 2.105, "confidence": 1.0}, {"word": "não", "start": 2.105, "end": 2.265, "confidence": 1.0}, {"word": "têm", "start": 2.265, "end": 2.485, "confidence": 1.0}, {"word": "orelhas?", "start": 2.485, "end": 2.96, "confidence": 1.0, "line_break_after": true}, {"word": "NENHUMA", "start": 4.24, "end": 4.328, "confidence": 1.0}, {"word": "ESPÉCIE", "start": 4.33, "end": 4.865, "confidence": 1.0}, {"word": "DE", "start": 4.865, "end": 5.29, "confidence": 1.0}, {"word": "AVE", "start": 5.3, "end": 5.308, "confidence": 1.0}, {"word": "POSSUI", "start": 5.31, "end": 5.665, "confidence": 1.0}, {"word": "ORELHAS,", "start": 5.665, "end": 6.1, "confidence": 1.0}, {"word": "MAS", "start": 6.52, "end": 6.685, "confidence": 1.0}, {"word": "TODAS", "start": 6.685, "end": 7.065, "confidence": 1.0}, {"word": "TÊM", "start": 7.065, "end": 7.285, "confidence": 1.0}, {"word": "OUVIDOS", "start": 7.285, "end": 7.745, "confidence": 1.0}, {"word": "QUE", "start": 7.745, "end": 7.965, "confidence": 1.0}, {"word": "FUNCIONAM", "start": 7.965, "end": 8.485, "confidence": 1.0}, {"word": "MUITO", "start": 8.485, "end": 9.005, "confidence": 1.0}, {"word": "BEM.", "start": 9.005, "end": 9.205, "confidence": 1.0}, {"word": "AS", "start": 10.14, "end": 10.365, "confidence": 1.0}, {"word": "AVES", "start": 10.365, "end": 10.625, "confidence": 1.0}, {"word": "QUE", "start": 10.625, "end": 10.885, "confidence": 1.0}, {"word": "MELHOR", "start": 10.885, "end": 11.265, "confidence": 1.0}, {"word": "ESCUTAM", "start": 11.265, "end": 11.785, "confidence": 1.0}, {"word": "SÃO", "start": 11.785, "end": 12.025, "confidence": 1.0}, {"word": "AS", "start": 12.025, "end": 12.425, "confidence": 1.0}, {"word": "CORUJAS.", "start": 12.425, "end": 12.8, "confidence": 1.0}, {"word": "EXISTE", "start": 13.94, "end": 14.185, "confidence": 1.0}, {"word": "ATÉ", "start": 14.185, "end": 14.525, "confidence": 1.0}, {"word": "MESMO", "start": 14.525, "end": 14.825, "confidence": 1.0}, {"word": "UMA", "start": 14.825, "end": 15.205, "confidence": 1.0}, {"word": "ESPÉCIE", "start": 15.205, "end": 15.485, "confidence": 1.0}, {"word": "CHAMADA", "start": 15.485, "end": 15.98, "confidence": 1.0}, {"word": "CORUJA-ORELHUDA,", "start": 16.34, "end": 16.96, "confidence": 0.571}, {"word": "QUE", "start": 17.28, "end": 17.388, "confidence": 1.0}, {"word": "RECEBE", "start": 17.39, "end": 17.825, "confidence": 1.0}, {"word": "ESSE", "start": 17.825, "end": 18.145, "confidence": 1.0}, {"word": "NOME", "start": 18.145, "end": 18.325, "confidence": 1.0}, {"word": "POR", "start": 18.325, "end": 18.59, "confidence": 1.0}, {"word": "TER", "start": 18.6, "end": 18.748, "confidence": 1.0}, {"word": "DOIS", "start": 18.75, "end": 19.045, "confidence": 1.0}, {"word": "TUFOS", "start": 19.045, "end": 19.305, "confidence": 1.0}, {"word": "DE", "start": 19.305, "end": 19.85, "confidence": 1.0}, {"word": "PENAS", "start": 19.86, "end": 19.868, "confidence": 1.0}, {"word": "NA", "start": 19.87, "end": 20.125, "confidence": 1.0}, {"word": "CABEÇA.", "start": 20.125, "end": 20.54, "confidence": 1.0}, {"word": "MAS", "start": 21.48, "end": 21.715, "confidence": 1.0}, {"word": "O", "start": 21.715, "end": 21.878, "confidence": 1.0}, {"word": "QUE", "start": 21.88, "end": 21.928, "confidence": 1.0}, {"word": "REALIZA", "start": 21.93, "end": 22.385, "confidence": 1.0}, {"word": "MUITO", "start": 22.385, "end": 22.87, "confidence": 1.0}, {"word": "BEM", "start": 22.88, "end": 23.008, "confidence": 1.0}, {"word": "A", "start": 23.01, "end": 23.45, "confidence": 1.0}, {"word": "FUNÇÃO", "start": 23.46, "end": 23.468, "confidence": 1.0}, {"word": "DAS", "start": 23.47, "end": 23.765, "confidence": 1.0}, {"word": "ORELHAS", "start": 23.765, "end": 24.105, "confidence": 1.0}, {"word": "É", "start": 24.105, "end": 24.305, "confidence": 1.0}, {"word": "O", "start": 24.305, "end": 24.79, "confidence": 1.0}, {"word": "CÍRCULO", "start": 24.8, "end": 24.808, "confidence": 1.0}, {"word": "DE", "start": 24.81, "end": 25.29, "confidence": 1.0}, {"word": "PENAS", "start": 25.3, "end": 25.348, "confidence": 1.0}, {"word": "QUE", "start": 25.35, "end": 25.605, "confidence": 1.0}, {"word": "ELAS", "start": 25.605, "end": 25.87, "confidence": 1.0}, {"word": "TÊM", "start": 25.88, "end": 26.008, "confidence": 1.0}, {"word": "NA", "start": 26.01, "end": 26.305, "confidence": 1.0}, {"word": "FACE,", "start": 26.305, "end": 26.625, "confidence": 1.0}, {"word": "CHAMADO", "start": 26.625, "end": 27.365, "confidence": 1.0}, {"word": "DISCO", "start": 27.365, "end": 27.765, "confidence": 1.0}, {"word": "FACIAL:", "start": 27.765, "end": 28.28, "confidence": 1.0}, {"word": "ELE", "start": 28.88, "end": 28.888, "confidence": 1.0}, {"word": "CAPTA", "start": 28.89, "end": 29.185, "confidence": 1.0}, {"word": "O", "start": 29.185, "end": 29.61, "confidence": 1.0}, {"word": "SOM", "start": 29.62, "end": 29.628, "confidence": 1.0}, {"word": "E", "start": 29.63, "end": 29.99, "confidence": 1.0}, {"word": "LEVA", "start": 30.0, "end": 30.088, "confidence": 1.0}, {"word": "ATÉ", "start": 30.09, "end": 30.285, "confidence": 1.0}, {"word": "OS", "start": 30.285, "end": 30.625, "confidence": 1.0}, {"word": "OUVIDOS.", "start": 30.625, "end": 30.98, "confidence": 1.0}, {"word": "ALIÁS,", "start": 32.1, "end": 32.48, "confidence": 1.0}, {"word": "OS", "start": 32.76, "end": 33.005, "confidence": 1.0}, {"word": "OUVIDOS", "start": 33.005, "end": 33.325, "confidence": 1.0}, {"word": "NUNCA", "start": 33.325, "end": 33.665, "confidence": 1.0}, {"word": "ESTÃO", "start": 33.665, "end": 33.925, "confidence": 1.0}, {"word": "NA", "start": 33.925, "end": 34.165, "confidence": 1.0}, {"word": "MESMA", "start": 34.165, "end": 34.445, "confidence": 1.0}, {"word": "DIREÇÃO:", "start": 34.445, "end": 35.0, "confidence": 1.0}, {"word": "O", "start": 35.44, "end": 35.618, "confidence": 1.0}, {"word": "LADO", "start": 35.62, "end": 35.728, "confidence": 1.0}, {"word": "ESQUERDO", "start": 35.73, "end": 36.165, "confidence": 1.0}, {"word": "É", "start": 36.165, "end": 36.485, "confidence": 1.0}, {"word": "VOLTADO", "start": 36.485, "end": 36.705, "confidence": 1.0}, {"word": "PARA", "start": 36.705, "end": 37.105, "confidence": 1.0}, {"word": "BAIXO,", "start": 37.105, "end": 37.465, "confidence": 1.0}, {"word": "E", "start": 37.465, "end": 37.825, "confidence": 1.0}, {"word": "O", "start": 37.825, "end": 38.31, "confidence": 1.0}, {"word": "DIREITO,", "start": 38.32, "end": 38.328, "confidence": 1.0}, {"word": "PARA", "start": 38.33, "end": 38.845, "confidence": 1.0}, {"word": "CIMA,", "start": 38.845, "end": 39.16, "confidence": 1.0}, {"word": "DE", "start": 39.48, "end": 39.645, "confidence": 1.0}, {"word": "MODO", "start": 39.645, "end": 39.825, "confidence": 1.0}, {"word": "A", "start": 39.825, "end": 40.005, "confidence": 1.0}, {"word": "CAPTAR", "start": 40.005, "end": 40.365, "confidence": 1.0}, {"word": "TODOS", "start": 40.365, "end": 40.685, "confidence": 1.0}, {"word": "OS", "start": 40.685, "end": 41.045, "confidence": 1.0}, {"word": "RUÍDOS", "start": 41.045, "end": 41.285, "confidence": 1.0}, {"word": "DO", "start": 41.285, "end": 42.09, "confidence": 1.0}, {"word": "AMBIENTE.", "start": 42.1, "end": 42.3, "confidence": 1.0}],
+      duration: 42.97999954223633,
+      title: "Livro3 Let45",
+      audioFile: "livro3_let45.mp3"
+    };
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header style="background-color: var(--color-accent);">
+    <div class="bg-header">
+      <div class="bg-header-right-bottom" style="border-color: var(--color-bg-page);"></div>
+      <div class="bg-header-left-bottom" style="border-color: var(--color-bg-page);"></div>
+      <img class="bg-header-left" src="./images/header-left.svg" alt="Background Form">
+      <div class="bg-header-middle"></div>
+      <img class="bg-header-right" src="./images/header-right.svg" alt="Background Form">
+    </div>
+    <div class="container-header">
+      <div class="logo">
+        <a href="https://homolog.meuletrix.com.br">
+          <img src="./images/letrix-3.png" alt="Logotipo Letrix">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <section id="content">
+    <div class="container">
+      <!-- Page Title -->
+      <div class="page-title-wrap">
+        <h1 class="page-title">
+          Leitura Guiada
+        </h1>
+      </div>
+
+      <!-- Player Row -->
+      <div class="row mt-2 pt-lg-5 pt-1">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="card-link">
+            <!-- Background do Card (3 partes) -->
+            <div class="bg-card-link">
+              <img src="./images/bg-card-left.svg" alt="" class="bg-card-link-left">
+              <div class="bg-card-link-middle"></div>
+              <img src="./images/bg-card-right.svg" alt="" class="bg-card-link-right">
+            </div>
+
+            <!-- Grid Audio -->
+            <div class="grid-audio">
+              <div class="item-grid-audio">
+                <div class="audio-player">
+                  <div class="controls">
+                    <!-- Play/Pause Button -->
+                    <div class="play-container">
+                      <div class="toggle-play play" id="playBtn">
+                        <i class="fas fa-play"></i>
+                        <i class="fas fa-pause"></i>
+                      </div>
+                    </div>
+
+                    <!-- Timeline -->
+                    <div class="timeline" id="timeline">
+                      <div class="progress" id="progress"></div>
+                    </div>
+
+                    <!-- Time Display -->
+                    <div class="time">
+                      <div class="current" id="currentTime">0:00</div>
+                      <div class="divider">/</div>
+                      <div class="length" id="duration">0:42</div>
+                    </div>
+
+                    <!-- Face Avatar -->
+                    <div class="face-avatar">
+                      <img src="./images/face-avatar.svg" alt="Avatar">
+                    </div>
+                  </div>
+
+                  <!-- Audio Element -->
+                  <audio id="audioElement" preload="metadata">
+                    <source src="./audio.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Karaoke Text Area -->
+      <div class="lk-karaoke-wrap mt-4">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="lk-text-panel" id="lk-text-panel">
+            <!-- Título -->
+            <div id="audio-container">
+              <h1>
+<span class="word" data-start="0.0" data-end="0.385">Como </span><span class="word" data-start="0.385" data-end="0.89">as </span>              </h1>
+            </div>
+
+            <!-- Transcript Container (body text only) -->
+            <div class="transcript-container" id="transcript">
+<span class="word" data-start="0.9" data-end="0.908">aves </span><span class="word" data-start="0.91" data-end="1.465">escutam </span><span class="word" data-start="1.465" data-end="1.745">se </span><span class="word" data-start="1.745" data-end="2.105">elas </span><span class="word" data-start="2.105" data-end="2.265">não </span><span class="word" data-start="2.265" data-end="2.485">têm </span><span class="word" data-start="2.485" data-end="2.96">orelhas? </span><br><span class="word" data-start="4.24" data-end="4.328">NENHUMA </span><span class="word" data-start="4.33" data-end="4.865">ESPÉCIE </span><span class="word" data-start="4.865" data-end="5.29">DE </span><span class="word" data-start="5.3" data-end="5.308">AVE </span><span class="word" data-start="5.31" data-end="5.665">POSSUI </span><span class="word" data-start="5.665" data-end="6.1">ORELHAS, </span><span class="word" data-start="6.52" data-end="6.685">MAS </span><span class="word" data-start="6.685" data-end="7.065">TODAS </span><span class="word" data-start="7.065" data-end="7.285">TÊM </span><span class="word" data-start="7.285" data-end="7.745">OUVIDOS </span><span class="word" data-start="7.745" data-end="7.965">QUE </span><span class="word" data-start="7.965" data-end="8.485">FUNCIONAM </span><span class="word" data-start="8.485" data-end="9.005">MUITO </span><span class="word" data-start="9.005" data-end="9.205">BEM. </span><span class="word" data-start="10.14" data-end="10.365">AS </span><span class="word" data-start="10.365" data-end="10.625">AVES </span><span class="word" data-start="10.625" data-end="10.885">QUE </span><span class="word" data-start="10.885" data-end="11.265">MELHOR </span><span class="word" data-start="11.265" data-end="11.785">ESCUTAM </span><span class="word" data-start="11.785" data-end="12.025">SÃO </span><span class="word" data-start="12.025" data-end="12.425">AS </span><span class="word" data-start="12.425" data-end="12.8">CORUJAS. </span><span class="word" data-start="13.94" data-end="14.185">EXISTE </span><span class="word" data-start="14.185" data-end="14.525">ATÉ </span><span class="word" data-start="14.525" data-end="14.825">MESMO </span><span class="word" data-start="14.825" data-end="15.205">UMA </span><span class="word" data-start="15.205" data-end="15.485">ESPÉCIE </span><span class="word" data-start="15.485" data-end="15.98">CHAMADA </span><span class="word" data-start="16.34" data-end="16.96" data-low-confidence="true">CORUJA-ORELHUDA, </span><span class="word" data-start="17.28" data-end="17.388">QUE </span><span class="word" data-start="17.39" data-end="17.825">RECEBE </span><span class="word" data-start="17.825" data-end="18.145">ESSE </span><span class="word" data-start="18.145" data-end="18.325">NOME </span><span class="word" data-start="18.325" data-end="18.59">POR </span><span class="word" data-start="18.6" data-end="18.748">TER </span><span class="word" data-start="18.75" data-end="19.045">DOIS </span><span class="word" data-start="19.045" data-end="19.305">TUFOS </span><span class="word" data-start="19.305" data-end="19.85">DE </span><span class="word" data-start="19.86" data-end="19.868">PENAS </span><span class="word" data-start="19.87" data-end="20.125">NA </span><span class="word" data-start="20.125" data-end="20.54">CABEÇA. </span><span class="word" data-start="21.48" data-end="21.715">MAS </span><span class="word" data-start="21.715" data-end="21.878">O </span><span class="word" data-start="21.88" data-end="21.928">QUE </span><span class="word" data-start="21.93" data-end="22.385">REALIZA </span><span class="word" data-start="22.385" data-end="22.87">MUITO </span><span class="word" data-start="22.88" data-end="23.008">BEM </span><span class="word" data-start="23.01" data-end="23.45">A </span><span class="word" data-start="23.46" data-end="23.468">FUNÇÃO </span><span class="word" data-start="23.47" data-end="23.765">DAS </span><span class="word" data-start="23.765" data-end="24.105">ORELHAS </span><span class="word" data-start="24.105" data-end="24.305">É </span><span class="word" data-start="24.305" data-end="24.79">O </span><span class="word" data-start="24.8" data-end="24.808">CÍRCULO </span><span class="word" data-start="24.81" data-end="25.29">DE </span><span class="word" data-start="25.3" data-end="25.348">PENAS </span><span class="word" data-start="25.35" data-end="25.605">QUE </span><span class="word" data-start="25.605" data-end="25.87">ELAS </span><span class="word" data-start="25.88" data-end="26.008">TÊM </span><span class="word" data-start="26.01" data-end="26.305">NA </span><span class="word" data-start="26.305" data-end="26.625">FACE, </span><span class="word" data-start="26.625" data-end="27.365">CHAMADO </span><span class="word" data-start="27.365" data-end="27.765">DISCO </span><span class="word" data-start="27.765" data-end="28.28">FACIAL: </span><span class="word" data-start="28.88" data-end="28.888">ELE </span><span class="word" data-start="28.89" data-end="29.185">CAPTA </span><span class="word" data-start="29.185" data-end="29.61">O </span><span class="word" data-start="29.62" data-end="29.628">SOM </span><span class="word" data-start="29.63" data-end="29.99">E </span><span class="word" data-start="30.0" data-end="30.088">LEVA </span><span class="word" data-start="30.09" data-end="30.285">ATÉ </span><span class="word" data-start="30.285" data-end="30.625">OS </span><span class="word" data-start="30.625" data-end="30.98">OUVIDOS. </span><span class="word" data-start="32.1" data-end="32.48">ALIÁS, </span><span class="word" data-start="32.76" data-end="33.005">OS </span><span class="word" data-start="33.005" data-end="33.325">OUVIDOS </span><span class="word" data-start="33.325" data-end="33.665">NUNCA </span><span class="word" data-start="33.665" data-end="33.925">ESTÃO </span><span class="word" data-start="33.925" data-end="34.165">NA </span><span class="word" data-start="34.165" data-end="34.445">MESMA </span><span class="word" data-start="34.445" data-end="35.0">DIREÇÃO: </span><span class="word" data-start="35.44" data-end="35.618">O </span><span class="word" data-start="35.62" data-end="35.728">LADO </span><span class="word" data-start="35.73" data-end="36.165">ESQUERDO </span><span class="word" data-start="36.165" data-end="36.485">É </span><span class="word" data-start="36.485" data-end="36.705">VOLTADO </span><span class="word" data-start="36.705" data-end="37.105">PARA </span><span class="word" data-start="37.105" data-end="37.465">BAIXO, </span><span class="word" data-start="37.465" data-end="37.825">E </span><span class="word" data-start="37.825" data-end="38.31">O </span><span class="word" data-start="38.32" data-end="38.328">DIREITO, </span><span class="word" data-start="38.33" data-end="38.845">PARA </span><span class="word" data-start="38.845" data-end="39.16">CIMA, </span><span class="word" data-start="39.48" data-end="39.645">DE </span><span class="word" data-start="39.645" data-end="39.825">MODO </span><span class="word" data-start="39.825" data-end="40.005">A </span><span class="word" data-start="40.005" data-end="40.365">CAPTAR </span><span class="word" data-start="40.365" data-end="40.685">TODOS </span><span class="word" data-start="40.685" data-end="41.045">OS </span><span class="word" data-start="41.045" data-end="41.285">RUÍDOS </span><span class="word" data-start="41.285" data-end="42.09">DO </span><span class="word" data-start="42.1" data-end="42.3">AMBIENTE. </span>            </div>
+          </div>
+        </div>
+
+        <!-- Referência -->
+        <div class="lk-ref">
+          <strong>Referência:</strong>
+          <p>DOMENICHELLI, Guilherme. Girafa tem torcicolo? E outras perguntas divertidas do mundo animal. São Paulo: Panda Books, 2008. p. 13.</p>
+        </div>
+
+        <!-- Quality Metrics (hidden by default) -->
+        <div class="lk-metrics" id="metrics" style="display: none;">
+          <div class="metrics-content">
+            <strong>Quality Metrics</strong>
+            <p>Confidence: 99.6%</p>
+            <p>Timing: ±31.0ms</p>
+            <p>Gaps: 7 kept, 98 filled</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+/**
+ * WORDSYNC - Letrix Leituras Guiadas Player
+ * Karaoke-style audio player with word synchronization
+ *
+ * Features:
+ * - Word-level highlighting synced to audio
+ * - Smooth transitions between words
+ * - Keyboard controls (space, arrows)
+ * - Mobile-friendly touch support
+ * - Click-to-seek on transcript
+ */
+
+class WordSyncPlayer {
+  constructor(options = {}) {
+    // Configuration
+    this.options = {
+      audioSelector: '#audioElement',
+      playBtnSelector: '#playBtn',
+      timelineSelector: '#timeline',
+      progressSelector: '#progress',
+      currentTimeSelector: '#currentTime',
+      durationSelector: '#duration',
+      transcriptSelector: '#transcript',
+      wordSelector: '.word',
+      ...options
+    };
+
+    // DOM Elements
+    this.audio = document.querySelector(this.options.audioSelector);
+    this.playBtn = document.querySelector(this.options.playBtnSelector);
+    this.timeline = document.querySelector(this.options.timelineSelector);
+    this.progress = document.querySelector(this.options.progressSelector);
+    this.currentTimeEl = document.querySelector(this.options.currentTimeSelector);
+    this.durationEl = document.querySelector(this.options.durationSelector);
+    this.transcript = document.querySelector(this.options.transcriptSelector);
+
+    // State
+    this.isPlaying = false;
+    this.words = [];
+    this.currentWordIndex = -1;
+    this.previousWordIndex = -1;  // Track previous word for detecting skipped words
+    this.animationFrameId = null;  // For requestAnimationFrame loop
+
+    // Title-to-body word mirrors (for syncing highlight to title)
+    this.titleMirrors = [];
+
+    // Initialize
+    this.init();
+  }
+
+  init() {
+    if (!this.audio) {
+      console.warn('WordSyncPlayer: Audio element not found');
+      return;
+    }
+
+    // Collect words with timestamps
+    this.collectWords();
+
+    // Build title-to-body word mirror map
+    this.buildTitleMirror();
+
+    // Bind event listeners
+    this.bindEvents();
+
+    // Update duration when loaded
+    if (this.audio.readyState >= 2) {
+      this.updateDuration();
+    }
+  }
+
+  collectWords() {
+    const wordElements = document.querySelectorAll(this.options.wordSelector);
+
+    this.words = Array.from(wordElements)
+      .filter(el => {
+        // Skip words without timestamps (unspoken title with no-sync class)
+        if (el.classList.contains('no-sync')) return false;
+        if (el.dataset.start === undefined || el.dataset.end === undefined) return false;
+        const start = parseFloat(el.dataset.start);
+        const end = parseFloat(el.dataset.end);
+        // Skip words with zero timestamps (unspoken)
+        return !isNaN(start) && !isNaN(end) && (start > 0 || end > 0);
+      })
+      .map(el => ({
+        element: el,
+        start: parseFloat(el.dataset.start),
+        end: parseFloat(el.dataset.end),
+        text: el.textContent.trim()
+      }))
+      .sort((a, b) => a.start - b.start);
+  }
+
+  /**
+   * Build a positional map from title words to body words.
+   * Title word 0 mirrors body word 0, title word 1 mirrors body word 1, etc.
+   */
+  buildTitleMirror() {
+    const titleContainer = document.querySelector('#audio-container');
+    if (!titleContainer) {
+      this.titleMirrors = [];
+      return;
+    }
+
+    this.titleMirrors = Array.from(
+      titleContainer.querySelectorAll('.word.no-sync')
+    ).map((el, i) => ({
+      element: el,
+      bodyIndex: i
+    }));
+  }
+
+  /**
+   * Mirror highlight/read state from body words to their title counterparts.
+   */
+  mirrorToTitle() {
+    for (const mirror of this.titleMirrors) {
+      if (mirror.bodyIndex >= this.words.length) continue;
+      const bodyEl = this.words[mirror.bodyIndex].element;
+      const titleEl = mirror.element;
+      titleEl.classList.toggle('active', bodyEl.classList.contains('active'));
+      titleEl.classList.toggle('highlight', bodyEl.classList.contains('highlight'));
+      titleEl.classList.toggle('read', bodyEl.classList.contains('read'));
+    }
+  }
+
+  bindEvents() {
+    // Play/Pause button
+    if (this.playBtn) {
+      this.playBtn.addEventListener('click', () => this.togglePlay());
+    }
+
+    // Timeline click for seek
+    if (this.timeline) {
+      this.timeline.addEventListener('click', (e) => this.seekToPosition(e));
+    }
+
+    // Audio events
+    this.audio.addEventListener('loadedmetadata', () => this.updateDuration());
+    // Note: We still use timeupdate for progress bar updates (less critical)
+    // but word highlighting uses requestAnimationFrame for precision
+    this.audio.addEventListener('timeupdate', () => this.onTimeUpdateProgress());
+    this.audio.addEventListener('ended', () => this.onEnded());
+    this.audio.addEventListener('play', () => this.onPlay());
+    this.audio.addEventListener('pause', () => this.onPause());
+    this.audio.addEventListener('seeked', () => this.onSeeked());
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => this.handleKeyboard(e));
+
+    // Touch support for timeline
+    if (this.timeline) {
+      this.timeline.addEventListener('touchstart', (e) => this.handleTouch(e));
+    }
+  }
+
+  togglePlay() {
+    if (this.isPlaying) {
+      this.audio.pause();
+    } else {
+      this.audio.play().catch(err => {
+        console.log('Playback error:', err);
+      });
+    }
+  }
+
+  onPlay() {
+    this.isPlaying = true;
+    if (this.playBtn) {
+      this.playBtn.classList.remove('play');
+      this.playBtn.classList.add('playing');
+    }
+    // Reset words if restarting from the beginning
+    if (this.audio.currentTime < 0.1) {
+      this.resetWords();
+    }
+    // Start the high-precision highlight loop
+    this.startHighlightLoop();
+  }
+
+  onPause() {
+    this.isPlaying = false;
+    if (this.playBtn) {
+      this.playBtn.classList.add('play');
+      this.playBtn.classList.remove('playing');
+    }
+    // Stop the highlight loop
+    this.stopHighlightLoop();
+  }
+
+  onEnded() {
+    this.isPlaying = false;
+    if (this.playBtn) {
+      this.playBtn.classList.add('play');
+      this.playBtn.classList.remove('playing');
+    }
+    this.stopHighlightLoop();
+    // Mark the last active word as read, but don't reset all words.
+    // Words stay yellow (read) until the user presses play again.
+    if (this.currentWordIndex >= 0 && this.currentWordIndex < this.words.length) {
+      const el = this.words[this.currentWordIndex].element;
+      el.classList.remove('active', 'highlight');
+      el.classList.add('read');
+    }
+    this.mirrorToTitle();
+  }
+
+  onSeeked() {
+    // When user seeks, immediately update highlighting
+    // This handles the case where audio is paused but user seeks
+    const currentTime = this.audio.currentTime;
+    this.updateWordHighlight(currentTime);
+  }
+
+  /**
+   * Start the requestAnimationFrame loop for precise word highlighting.
+   * This runs at 60fps (16ms intervals) vs timeupdate's 100-250ms.
+   */
+  startHighlightLoop() {
+    if (this.animationFrameId) return; // Already running
+
+    const update = () => {
+      if (!this.isPlaying) return;
+
+      const currentTime = this.audio.currentTime;
+      this.updateWordHighlight(currentTime);
+
+      this.animationFrameId = requestAnimationFrame(update);
+    };
+
+    this.animationFrameId = requestAnimationFrame(update);
+  }
+
+  /**
+   * Stop the requestAnimationFrame loop.
+   */
+  stopHighlightLoop() {
+    if (this.animationFrameId) {
+      cancelAnimationFrame(this.animationFrameId);
+      this.animationFrameId = null;
+    }
+  }
+
+  /**
+   * Handle timeupdate for progress bar only (less timing-critical).
+   */
+  onTimeUpdateProgress() {
+    const currentTime = this.audio.currentTime;
+    const duration = this.audio.duration || 1;
+
+    // Update progress bar
+    if (this.progress) {
+      const percent = (currentTime / duration) * 100;
+      this.progress.style.width = `${percent}%`;
+    }
+
+    // Update time display
+    if (this.currentTimeEl) {
+      this.currentTimeEl.textContent = this.formatTime(currentTime);
+    }
+  }
+
+  updateWordHighlight(currentTime) {
+    // Find current word using binary search - O(log n)
+    const newWordIndex = this.findWordIndex(currentTime);
+
+    // No change needed
+    if (newWordIndex === this.currentWordIndex) return;
+
+    // When we're in a gap between words (newWordIndex === -1),
+    // just mark the current word as read and keep everything else.
+    // Don't touch previousWordIndex so jumped-over detection still works.
+    if (newWordIndex === -1) {
+      if (this.currentWordIndex >= 0 && this.currentWordIndex < this.words.length) {
+        const el = this.words[this.currentWordIndex].element;
+        el.classList.remove('active', 'highlight');
+        el.classList.add('read');
+      }
+      this.previousWordIndex = this.currentWordIndex;
+      this.currentWordIndex = -1;
+      this.mirrorToTitle();
+      return;
+    }
+
+    // Handle jumped-over words (key fix for visual skipping)
+    // Mark all words between last known word and current as "read"
+    const lastKnown = Math.max(this.currentWordIndex, this.previousWordIndex);
+    if (lastKnown >= 0 && newWordIndex > lastKnown + 1) {
+      for (let i = lastKnown + 1; i < newWordIndex; i++) {
+        if (i < this.words.length) {
+          const el = this.words[i].element;
+          el.classList.remove('active', 'highlight');
+          el.classList.add('read');
+        }
+      }
+    }
+
+    // Remove highlight from previous current word
+    if (this.currentWordIndex >= 0 && this.currentWordIndex < this.words.length) {
+      const prevEl = this.words[this.currentWordIndex].element;
+      prevEl.classList.remove('active', 'highlight');
+      prevEl.classList.add('read');
+    }
+
+    // Highlight new current word
+    const newEl = this.words[newWordIndex].element;
+    newEl.classList.add('active', 'highlight');
+    newEl.classList.remove('read');
+    this.scrollToWord(newEl);
+
+    // Handle actual seek backward (user clicked/dragged backward)
+    // Only when both indices are valid words (not gaps)
+    if (this.currentWordIndex >= 0 && newWordIndex < this.currentWordIndex) {
+      for (let i = newWordIndex + 1; i <= this.currentWordIndex && i < this.words.length; i++) {
+        this.words[i].element.classList.remove('read', 'active', 'highlight');
+      }
+    }
+
+    // Update state
+    this.previousWordIndex = this.currentWordIndex;
+    this.currentWordIndex = newWordIndex;
+
+    // Mirror highlight state to title words
+    this.mirrorToTitle();
+  }
+
+  /**
+   * Binary search to find current word index - O(log n)
+   */
+  findWordIndex(time) {
+    let low = 0;
+    let high = this.words.length - 1;
+
+    while (low <= high) {
+      const mid = Math.floor((low + high) / 2);
+      const word = this.words[mid];
+
+      if (time >= word.start && time < word.end) {
+        return mid;
+      } else if (time < word.start) {
+        high = mid - 1;
+      } else {
+        low = mid + 1;
+      }
+    }
+
+    // Return -1 if not in any word's range
+    // But check if we're past all words
+    if (low > 0 && low <= this.words.length) {
+      const prevWord = this.words[low - 1];
+      if (time >= prevWord.end) {
+        // We're in a gap after this word
+        return -1;
+      }
+    }
+
+    return -1;
+  }
+
+  scrollToWord(element) {
+    // Only auto-scroll if word is out of viewport
+    const rect = element.getBoundingClientRect();
+    const viewportHeight = window.innerHeight;
+
+    if (rect.top < 100 || rect.bottom > viewportHeight - 100) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
+  }
+
+  resetWords() {
+    this.currentWordIndex = -1;
+    this.previousWordIndex = -1;
+    this.words.forEach(word => {
+      word.element.classList.remove('active', 'highlight', 'read');
+    });
+    for (const mirror of this.titleMirrors) {
+      mirror.element.classList.remove('active', 'highlight', 'read');
+    }
+  }
+
+  seekToPosition(e) {
+    if (!this.timeline || !this.audio.duration) return;
+
+    const rect = this.timeline.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const percent = clickX / rect.width;
+    const seekTime = percent * this.audio.duration;
+
+    this.audio.currentTime = seekTime;
+  }
+
+  seekToWord(index) {
+    if (index < 0 || index >= this.words.length) return;
+
+    const word = this.words[index];
+    this.audio.currentTime = word.start;
+
+    // Start playing if not already
+    if (!this.isPlaying) {
+      this.audio.play().catch(() => {});
+    }
+  }
+
+  handleTouch(e) {
+    e.preventDefault();
+    const touch = e.touches[0];
+    const rect = this.timeline.getBoundingClientRect();
+    const touchX = touch.clientX - rect.left;
+    const percent = Math.max(0, Math.min(1, touchX / rect.width));
+    const seekTime = percent * this.audio.duration;
+
+    this.audio.currentTime = seekTime;
+  }
+
+  handleKeyboard(e) {
+    // Ignore if typing in input
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+      return;
+    }
+
+    switch (e.code) {
+      case 'Space':
+        e.preventDefault();
+        this.togglePlay();
+        break;
+
+      case 'ArrowLeft':
+        e.preventDefault();
+        this.audio.currentTime = Math.max(0, this.audio.currentTime - 5);
+        break;
+
+      case 'ArrowRight':
+        e.preventDefault();
+        this.audio.currentTime = Math.min(
+          this.audio.duration,
+          this.audio.currentTime + 5
+        );
+        break;
+
+      case 'ArrowUp':
+        e.preventDefault();
+        if (this.currentWordIndex > 0) {
+          this.seekToWord(this.currentWordIndex - 1);
+        }
+        break;
+
+      case 'ArrowDown':
+        e.preventDefault();
+        if (this.currentWordIndex < this.words.length - 1) {
+          this.seekToWord(this.currentWordIndex + 1);
+        }
+        break;
+
+      case 'Home':
+        e.preventDefault();
+        this.audio.currentTime = 0;
+        break;
+
+      case 'End':
+        e.preventDefault();
+        this.audio.currentTime = this.audio.duration;
+        break;
+    }
+  }
+
+  updateDuration() {
+    if (!this.durationEl || !this.audio.duration) return;
+    this.durationEl.textContent = this.formatTime(this.audio.duration);
+  }
+
+  formatTime(seconds) {
+    if (isNaN(seconds) || !isFinite(seconds)) return '0:00';
+
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  }
+
+  // Public API
+
+  /**
+   * Set audio source dynamically
+   * @param {string} src - Audio file URL
+   */
+  setSource(src) {
+    this.audio.src = src;
+    this.audio.load();
+    this.resetWords();
+  }
+
+  /**
+   * Get current playback state
+   * @returns {Object} - { isPlaying, currentTime, duration, currentWord }
+   */
+  getState() {
+    return {
+      isPlaying: this.isPlaying,
+      currentTime: this.audio.currentTime,
+      duration: this.audio.duration,
+      currentWord: this.currentWordIndex >= 0 ? this.words[this.currentWordIndex] : null
+    };
+  }
+
+  /**
+   * Load word data dynamically (for SPA usage)
+   * @param {Array} wordsData - Array of { word, start, end } objects
+   */
+  loadWords(wordsData) {
+    // Clear existing words
+    if (this.transcript) {
+      this.transcript.innerHTML = '';
+
+      wordsData.forEach(data => {
+        const span = document.createElement('span');
+        span.className = 'word';
+        span.textContent = data.word + ' ';
+        span.dataset.start = data.start;
+        span.dataset.end = data.end;
+        this.transcript.appendChild(span);
+      });
+
+      this.collectWords();
+    }
+  }
+}
+
+// Auto-initialize on DOM ready
+document.addEventListener('DOMContentLoaded', () => {
+  window.wordSyncPlayer = new WordSyncPlayer();
+});
+
+// Also support the legacy class name for backwards compatibility
+window.LeituraGuiadaPlayer = WordSyncPlayer;
+
+// Export for module usage
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = WordSyncPlayer;
+}
+
+  </script>
+
+  <!-- Initialize with preloaded data -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Player is initialized automatically by player.js
+      // Additional initialization can go here if needed
+
+      // Toggle metrics visibility (dev mode)
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'm' && e.ctrlKey) {
+          const metrics = document.getElementById('metrics');
+          if (metrics) {
+            metrics.style.display = metrics.style.display === 'none' ? 'block' : 'none';
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

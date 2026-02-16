@@ -1,0 +1,617 @@
+{
+  "audio_file": "livro5_let6.mp3",
+  "language": "pt",
+  "duration": 31.76,
+  "title": "Livro5 Let6",
+  "full_text": "Ana\n3.089.858 pessoas\nA origem do nome vem do hebraico Hannah, que significa “graciosa”. A etimologia explica a predileção brasileira: segundo o censo de 2010, esse é o 3º nome mais comum no Brasil, considerando os dois sexos, e o 2º entre as mulheres (só perde para Maria). Por aqui, geralmente é um nome composto (Ana Luíza, Ana Maria...), mas a pesquisa do IBGE considerou apenas o primeiro nome para levantar o número de registros. [...]",
+  "word_count": 76,
+  "words": [
+    {
+      "word": "Ana",
+      "start": 0.0,
+      "end": 0.42,
+      "confidence": 1.0,
+      "line_break_after": true,
+      "is_title": true
+    },
+    {
+      "word": "3.089.858",
+      "start": 2.36,
+      "end": 4.025,
+      "confidence": 0.429,
+      "is_title": true
+    },
+    {
+      "word": "pessoas",
+      "start": 4.025,
+      "end": 4.95,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 4.95,
+      "end": 5.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "origem",
+      "start": 5.125,
+      "end": 5.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 5.465,
+      "end": 5.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "nome",
+      "start": 5.96,
+      "end": 5.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "vem",
+      "start": 5.97,
+      "end": 6.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 6.145,
+      "end": 6.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "hebraico",
+      "start": 6.385,
+      "end": 6.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "Hannah,",
+      "start": 6.685,
+      "end": 7.06,
+      "confidence": 0.8
+    },
+    {
+      "word": "que",
+      "start": 7.32,
+      "end": 7.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "significa",
+      "start": 7.47,
+      "end": 8.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "“graciosa”.",
+      "start": 8.085,
+      "end": 8.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 9.26,
+      "end": 9.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "etimologia",
+      "start": 9.425,
+      "end": 9.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "explica",
+      "start": 9.925,
+      "end": 10.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 10.465,
+      "end": 10.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "predileção",
+      "start": 10.745,
+      "end": 11.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "brasileira:",
+      "start": 11.045,
+      "end": 11.76,
+      "confidence": 1.0
+    },
+    {
+      "word": "segundo",
+      "start": 12.36,
+      "end": 12.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 12.37,
+      "end": 12.79,
+      "confidence": 1.0
+    },
+    {
+      "word": "censo",
+      "start": 12.8,
+      "end": 12.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 12.81,
+      "end": 13.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "2010,",
+      "start": 13.085,
+      "end": 13.76,
+      "confidence": 1.0
+    },
+    {
+      "word": "esse",
+      "start": 14.22,
+      "end": 14.258,
+      "confidence": 1.0
+    },
+    {
+      "word": "é",
+      "start": 14.26,
+      "end": 14.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 14.39,
+      "end": 14.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "3º",
+      "start": 14.605,
+      "end": 14.925,
+      "confidence": 0.0
+    },
+    {
+      "word": "nome",
+      "start": 14.925,
+      "end": 15.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "mais",
+      "start": 15.185,
+      "end": 15.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "comum",
+      "start": 15.645,
+      "end": 15.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "no",
+      "start": 15.825,
+      "end": 16.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "Brasil,",
+      "start": 16.065,
+      "end": 16.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "considerando",
+      "start": 16.9,
+      "end": 17.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 17.245,
+      "end": 17.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "dois",
+      "start": 17.485,
+      "end": 17.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "sexos,",
+      "start": 17.705,
+      "end": 18.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 18.45,
+      "end": 18.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 18.645,
+      "end": 19.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "2º",
+      "start": 19.12,
+      "end": 19.128,
+      "confidence": 0.0
+    },
+    {
+      "word": "entre",
+      "start": 19.13,
+      "end": 19.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "as",
+      "start": 19.325,
+      "end": 19.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "mulheres",
+      "start": 20.0,
+      "end": 20.176,
+      "confidence": 1.0
+    },
+    {
+      "word": "(só",
+      "start": 20.22,
+      "end": 20.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "perde",
+      "start": 20.385,
+      "end": 20.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 20.645,
+      "end": 20.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "Maria).",
+      "start": 20.905,
+      "end": 21.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "Por",
+      "start": 21.62,
+      "end": 21.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "aqui,",
+      "start": 21.805,
+      "end": 22.02,
+      "confidence": 1.0
+    },
+    {
+      "word": "geralmente",
+      "start": 22.26,
+      "end": 22.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "é",
+      "start": 22.665,
+      "end": 22.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 22.865,
+      "end": 23.15,
+      "confidence": 1.0
+    },
+    {
+      "word": "nome",
+      "start": 23.16,
+      "end": 23.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "composto",
+      "start": 23.17,
+      "end": 23.76,
+      "confidence": 1.0
+    },
+    {
+      "word": "(Ana",
+      "start": 23.98,
+      "end": 24.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "Luíza,",
+      "start": 24.185,
+      "end": 24.76,
+      "confidence": 0.8
+    },
+    {
+      "word": "Ana",
+      "start": 24.76,
+      "end": 25.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "Maria...),",
+      "start": 25.045,
+      "end": 25.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "mas",
+      "start": 25.345,
+      "end": 25.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 25.785,
+      "end": 26.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "pesquisa",
+      "start": 26.005,
+      "end": 26.415,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 26.415,
+      "end": 26.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "IBGE",
+      "start": 26.585,
+      "end": 26.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "considerou",
+      "start": 26.985,
+      "end": 27.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "apenas",
+      "start": 27.585,
+      "end": 28.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 28.005,
+      "end": 28.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "primeiro",
+      "start": 28.245,
+      "end": 28.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "nome",
+      "start": 28.545,
+      "end": 28.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 28.865,
+      "end": 29.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "levantar",
+      "start": 29.165,
+      "end": 29.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 29.685,
+      "end": 30.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "número",
+      "start": 30.1,
+      "end": 30.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 30.11,
+      "end": 30.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "registros.",
+      "start": 30.425,
+      "end": 30.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 30.805,
+      "end": 31.76,
+      "confidence": 0.3
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.952,
+    "gaps_preserved": 4,
+    "gaps_filled": 65,
+    "gaps_review": 6,
+    "low_confidence_words": 4,
+    "prosody_preserved_score": 0.04,
+    "timing_precision_ms": 35.0,
+    "word_accuracy": 0.952,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "3.089.858",
+    "3º",
+    "2º",
+    "[...]"
+  ],
+  "timestamp_issues": {
+    "words_checked": 76,
+    "total_issues": 16,
+    "errors": 9,
+    "warnings": 7,
+    "issues_by_type": {
+      "too_long": 1,
+      "large_gap": 2,
+      "too_short": 7,
+      "syllable_mismatch": 6
+    },
+    "issues": [
+      {
+        "word_index": 1,
+        "type": "too_long",
+        "message": "Word '3.089.858' has unusually long duration (1665ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 1,
+        "type": "large_gap",
+        "message": "Large gap (1940ms) before '3.089.858' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 6,
+        "type": "too_short",
+        "message": "Word 'nome' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 6,
+        "type": "syllable_mismatch",
+        "message": "Word 'nome' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "too_short",
+        "message": "Word 'segundo' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "syllable_mismatch",
+        "message": "Word 'segundo' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 22,
+        "type": "too_short",
+        "message": "Word 'censo' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 22,
+        "type": "syllable_mismatch",
+        "message": "Word 'censo' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "too_short",
+        "message": "Word 'esse' has very short duration (38ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "syllable_mismatch",
+        "message": "Word 'esse' (2 syllables) has only 38ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 34,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'considerando' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 40,
+        "type": "too_short",
+        "message": "Word '2º' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "too_short",
+        "message": "Word 'nome' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "syllable_mismatch",
+        "message": "Word 'nome' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 72,
+        "type": "too_short",
+        "message": "Word 'número' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 72,
+        "type": "syllable_mismatch",
+        "message": "Word 'número' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

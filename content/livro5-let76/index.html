@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livro5 Let76 - Letrix Leituras Guiadas</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+/* ============================================
+   WORDSYNC - LETRIX LEITURAS GUIADAS STYLES
+   Karaoke Word-Sync Player Styles
+   ============================================ */
+
+/* ============================================
+   FONTS
+   ============================================ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+/* ============================================
+   CSS VARIABLES
+   ============================================ */
+:root {
+    --color-accent: #fdbe3f; /* Themed color: header, title, play btn, text area */
+    --color-player: #fdbe3f; /* Yellow main player color (timeline - stays yellow) */
+    --color-progress: #d69a21; /* Dark yellow progress bar */
+    --color-progress-handle: #af7e1b; /* Progress handle color */
+    --color-border-dark: #221e03; /* Dark border for timeline */
+    --color-bg-page: #f9eacd; /* Beige page background */
+    --color-bg-text: #dba63a; /* Gold/brown text area */
+    --color-text-gray: #838383; /* Gray text */
+    --color-text-dark: #2a2a2a; /* Dark text */
+    --color-text-white: #ffffff; /* White text */
+    --color-highlight: #ffcb18; /* Karaoke highlight */
+    --color-read: #ffcb18; /* Read word color */
+
+    /* Fonts */
+    --font-primary: "Montserrat", sans-serif;
+    --font-player: arial;
+}
+
+/* ============================================
+   RESET & BASE
+   ============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: var(--font-primary);
+    color: var(--color-text-gray);
+    background-color: var(--color-bg-page);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+header {
+    height: 85px;
+    position: relative;
+    z-index: 99;
+    max-width: 1250px;
+    margin: 16px auto;
+    font-weight: 700;
+}
+
+.bg-header {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-header-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+.bg-header-middle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 100%;
+    z-index: 0;
+    background: url("./images/header-middle.svg") no-repeat;
+    background-size: auto 100%;
+}
+
+.bg-header-right {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+.bg-header-right-bottom {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    height: 5px;
+    width: 5px;
+    z-index: 0;
+    border-bottom: 10px solid;
+    border-left: 10px transparent solid !important;
+}
+
+.bg-header-left-bottom {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 5px;
+    width: 10px;
+    z-index: 0;
+    border-bottom: 10px solid;
+    border-right: 10px transparent solid !important;
+}
+
+.container-header {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.header-user a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.header-user img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 500px) {
+    header {
+        height: 65px;
+        margin: 10px auto;
+    }
+
+    .container-header {
+        padding: 0 15px;
+    }
+
+    .logo img {
+        max-height: 35px;
+    }
+
+    .header-user a {
+        font-size: 11px;
+    }
+
+    .header-user img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* ============================================
+   PAGE TITLE
+   ============================================ */
+.page-title-wrap {
+    text-align: center;
+    padding: 30px 15px 10px;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--color-accent);
+    filter: brightness(0.65);
+}
+
+@media (max-width: 500px) {
+    .page-title-wrap {
+        padding: 20px 15px 5px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+}
+
+/* ============================================
+   CONTENT CONTAINER
+   ============================================ */
+#content {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: var(--color-bg-page);
+    min-height: 100vh;
+}
+
+@media (max-width: 500px) {
+    #content {
+        padding-top: 30px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 80px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ============================================
+   CARD-LINK - Player Container
+   ============================================ */
+.card-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    z-index: 9;
+    height: 160px;
+    padding: 20px;
+}
+
+@media (max-width: 1025px) {
+    .card-link {
+        height: 165px;
+    }
+}
+
+@media (max-width: 990px) {
+    .card-link {
+        height: auto;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+}
+
+/* Background (3 parts: left, middle, right) */
+.bg-card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(-2deg);
+}
+
+.bg-card-link-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+}
+
+.bg-card-link-middle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    height: 100%;
+    z-index: -2;
+    transform: translateX(-50%);
+    background: url("./images/bg-card-middle.svg") no-repeat center / auto 100%;
+}
+
+@media (max-width: 500px) {
+    .bg-card-link-middle {
+        width: 95%;
+    }
+}
+
+.bg-card-link-right {
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+}
+
+/* ============================================
+   AUDIO PLAYER
+   ============================================ */
+.grid-audio {
+    flex: 0 0 100%;
+}
+
+.audio-player {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    z-index: 9;
+    position: relative;
+    font-family: var(--font-player);
+    color: white;
+    font-size: 1.75em;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(-2deg);
+}
+
+/* ============================================
+   CONTROLS
+   ============================================ */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex: 0 0 100%;
+    gap: 25px;
+}
+
+@media (max-width: 500px) {
+    .controls {
+        padding: 0;
+        gap: 0;
+    }
+}
+
+.controls > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============================================
+   PLAY BUTTON
+   ============================================ */
+.play-container {
+    width: 60px;
+    height: 60px;
+    border: 5px solid var(--color-accent);
+    filter: brightness(0.65);
+    flex: 0 0 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .play-container {
+        width: 40px;
+        height: 40px;
+        flex: 0 0 40px;
+        border: 3px solid var(--color-accent);
+    }
+}
+
+.toggle-play {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-play i {
+    cursor: pointer;
+    color: var(--color-accent);
+    font-size: 24px;
+}
+
+@media (max-width: 500px) {
+    .toggle-play i {
+        font-size: 16px;
+    }
+}
+
+.toggle-play .fa-pause {
+    display: none;
+}
+
+.toggle-play.playing .fa-play {
+    display: none;
+}
+
+.toggle-play.playing .fa-pause {
+    display: inline-block;
+}
+
+/* ============================================
+   TIMELINE / PROGRESS BAR
+   ============================================ */
+.timeline {
+    background: var(--color-player);
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    height: 17px;
+    border: 2px var(--color-border-dark) solid;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+@media (max-width: 500px) {
+    .timeline {
+        height: 10px;
+        border: 1px var(--color-border-dark) solid;
+    }
+}
+
+.progress {
+    position: relative;
+    background: var(--color-progress);
+    width: 0%;
+    height: 100%;
+    transition: 0.25s;
+    border-radius: 0px;
+    overflow: initial;
+}
+
+.progress::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: -25px;
+    width: 30px;
+    height: 30px;
+    background: var(--color-progress-handle);
+    border-radius: 50px;
+}
+
+@media (max-width: 500px) {
+    .progress::after {
+        top: -3px;
+        right: -12px;
+        width: 14.19px;
+        height: 14.19px;
+    }
+}
+
+/* ============================================
+   TIME DISPLAY
+   ============================================ */
+.time {
+    display: flex;
+    flex: 0 0 0%;
+    width: 0;
+    left: -75px;
+    bottom: -23px;
+    position: relative;
+    font-size: 21px;
+    font-family: var(--font-player);
+    color: var(--color-text-white);
+}
+
+@media (max-width: 500px) {
+    .time {
+        left: -35px;
+        bottom: -14px;
+        font-size: 13px;
+    }
+}
+
+.time > * {
+    padding: 2px;
+}
+
+.current,
+.divider,
+.length {
+    color: var(--color-text-white);
+}
+
+/* ============================================
+   FACE AVATAR
+   ============================================ */
+.face-avatar {
+    max-width: 150px;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .face-avatar {
+        max-width: 85px;
+        width: 100%;
+        padding-left: 15px;
+    }
+}
+
+.face-avatar img,
+.face-avatar svg {
+    width: 100%;
+}
+
+/* ============================================
+   KARAOKE TEXT AREA
+   ============================================ */
+.lk-karaoke-wrap {
+    padding: 0 0 3rem;
+    margin-top: 24px;
+}
+
+/* ============================================
+   TEXT PANEL
+   ============================================ */
+#lk-text-panel,
+.lk-text-panel {
+    position: relative;
+    padding: 0 2rem 2rem;
+    text-align: left;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+@media (min-width: 992px) {
+    #lk-text-panel,
+    .lk-text-panel {
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .lk-text-panel {
+        margin: 0 14px;
+        padding: 1.4rem 1.2rem;
+    }
+
+    .lk-text-panel .word {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-right: 0;
+    }
+}
+
+/* Background pseudo-element */
+#lk-text-panel::after,
+.lk-text-panel::after {
+    content: "";
+    filter: brightness(0.65);
+    z-index: 0;
+    position: absolute;
+    inset: -50px 0 0;
+    background-color: var(--color-accent) !important;
+    color: white !important;
+}
+
+#lk-text-panel > *,
+.lk-text-panel > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* ============================================
+   TITLE
+   ============================================ */
+#audio-container {
+    position: relative;
+    z-index: 1;
+}
+
+#audio-container h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    z-index: 9;
+    position: relative;
+}
+
+#audio-container h1 .word {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* ============================================
+   TRANSCRIPT - KARAOKE TEXT
+   ============================================ */
+.transcript-container {
+    position: relative;
+    z-index: 1;
+}
+
+.transcript-container span,
+.transcript-container .word,
+.word {
+    display: inline;
+    margin-right: 0px;
+    padding: 0;
+    border-radius: 4px;
+    /* Reduced from 120ms to 50ms for faster visual feedback during karaoke */
+    transition: background-color 50ms ease-out;
+    cursor: default;
+    line-height: 1.9;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .transcript-container span {
+        font-size: 16px !important;
+    }
+}
+
+/* Active/highlighted word */
+.transcript-container span.active,
+.transcript-container span.highlight,
+.word.active,
+.word.highlight {
+    background-color: var(--color-highlight);
+    color: var(--color-text-white);
+}
+
+/* Already read word */
+.transcript-container span.read,
+.word.read {
+    color: var(--color-read);
+}
+
+/* Low confidence indicator */
+.word[data-low-confidence="true"] {
+    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
+}
+
+/* ============================================
+   METRICS (Hidden by default)
+   ============================================ */
+.lk-metrics {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 18px auto 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.lk-metrics strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2a2a2a;
+}
+
+.lk-metrics p {
+    margin: 0.25rem 0;
+    font-size: 14px;
+    color: #2a2a2a;
+}
+
+/* ============================================
+   REFERENCE
+   ============================================ */
+.lk-ref {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 18px auto 0;
+    opacity: 0.85;
+    color: #2a2a2a;
+}
+
+.lk-ref strong {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.lk-ref p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.lk-ref em,
+.lk-ref i {
+    font-style: italic;
+}
+
+/* ============================================
+   UTILITIES
+   ============================================ */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-lg-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-lg-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.offset-lg-1 {
+    margin-left: 8.333333%;
+}
+
+.offset-lg-2 {
+    margin-left: 16.666667%;
+}
+
+@media (max-width: 992px) {
+    .col-lg-8,
+    .col-lg-10 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .offset-lg-1,
+    .offset-lg-2 {
+        margin-left: 0;
+    }
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.pt-lg-5 {
+    padding-top: 3rem;
+}
+
+@media (max-width: 992px) {
+    .pt-lg-5 {
+        padding-top: 1rem;
+    }
+}
+
+/* Hidden audio element */
+audio {
+    display: none;
+}
+
+  </style>
+
+  <style>
+    :root {
+      --color-accent: #514380;
+      --color-bg-page: rgb(225, 190, 245);
+    }
+  </style>
+
+  <!-- Word Timestamps Data -->
+  <script>
+    window.WORDSYNC_DATA = {
+      words: [{"word": "A", "start": 0.0, "end": 0.245, "confidence": 1.0, "is_title": true}, {"word": "arte", "start": 0.245, "end": 0.525, "confidence": 1.0, "is_title": true}, {"word": "carregada", "start": 0.525, "end": 1.065, "confidence": 1.0}, {"word": "de", "start": 1.065, "end": 1.325, "confidence": 1.0}, {"word": "emoções", "start": 1.325, "end": 1.625, "confidence": 1.0}, {"word": "de", "start": 1.625, "end": 1.965, "confidence": 1.0}, {"word": "Alex", "start": 1.965, "end": 2.305, "confidence": 1.0}, {"word": "Senna", "start": 2.305, "end": 2.62, "confidence": 1.0, "line_break_after": true}, {"word": "Logo", "start": 3.14, "end": 3.188, "confidence": 1.0}, {"word": "que", "start": 3.19, "end": 3.435, "confidence": 1.0}, {"word": "vemos", "start": 3.435, "end": 3.605, "confidence": 1.0}, {"word": "um", "start": 3.605, "end": 4.005, "confidence": 1.0}, {"word": "graffiti,", "start": 4.005, "end": 4.28, "confidence": 0.75}, {"word": "ilustração", "start": 4.98, "end": 5.068, "confidence": 1.0}, {"word": "ou", "start": 5.07, "end": 5.405, "confidence": 1.0}, {"word": "qualquer", "start": 5.405, "end": 5.745, "confidence": 1.0}, {"word": "outra", "start": 5.745, "end": 6.125, "confidence": 1.0}, {"word": "obra", "start": 6.125, "end": 6.325, "confidence": 1.0}, {"word": "de", "start": 6.325, "end": 6.585, "confidence": 1.0}, {"word": "Alex", "start": 6.585, "end": 7.005, "confidence": 1.0}, {"word": "Senna,", "start": 7.005, "end": 7.3, "confidence": 1.0}, {"word": "nos", "start": 7.6, "end": 7.728, "confidence": 1.0}, {"word": "deparamos", "start": 7.73, "end": 8.185, "confidence": 1.0}, {"word": "com", "start": 8.185, "end": 8.465, "confidence": 1.0}, {"word": "algumas", "start": 8.465, "end": 8.845, "confidence": 1.0}, {"word": "características", "start": 8.845, "end": 9.505, "confidence": 1.0}, {"word": "típicas", "start": 9.505, "end": 10.085, "confidence": 1.0}, {"word": "do", "start": 10.085, "end": 10.365, "confidence": 1.0}, {"word": "artista,", "start": 10.365, "end": 11.09, "confidence": 1.0}, {"word": "que", "start": 11.09, "end": 11.325, "confidence": 1.0}, {"word": "tornam", "start": 11.325, "end": 11.605, "confidence": 1.0}, {"word": "o", "start": 11.605, "end": 11.85, "confidence": 1.0}, {"word": "seu", "start": 11.86, "end": 11.988, "confidence": 1.0}, {"word": "trabalho", "start": 11.99, "end": 12.305, "confidence": 1.0}, {"word": "inconfundível.", "start": 12.305, "end": 13.18, "confidence": 1.0}, {"word": "Entre", "start": 13.74, "end": 13.788, "confidence": 1.0}, {"word": "elas", "start": 13.79, "end": 14.125, "confidence": 1.0}, {"word": "um", "start": 14.125, "end": 14.49, "confidence": 1.0}, {"word": "lado", "start": 14.5, "end": 14.508, "confidence": 1.0}, {"word": "emocional", "start": 14.51, "end": 15.045, "confidence": 1.0}, {"word": "que", "start": 15.045, "end": 15.405, "confidence": 1.0}, {"word": "sempre", "start": 15.405, "end": 15.645, "confidence": 1.0}, {"word": "se", "start": 15.645, "end": 16.07, "confidence": 1.0}, {"word": "faz", "start": 16.08, "end": 16.088, "confidence": 1.0}, {"word": "presente.", "start": 16.09, "end": 16.68, "confidence": 1.0, "line_break_after": true}, {"word": "Alex", "start": 17.36, "end": 17.525, "confidence": 1.0}, {"word": "nasceu", "start": 17.525, "end": 17.865, "confidence": 1.0}, {"word": "em", "start": 17.865, "end": 18.045, "confidence": 1.0}, {"word": "Orlândia,", "start": 18.045, "end": 18.8, "confidence": 1.0}, {"word": "uma", "start": 18.8, "end": 19.065, "confidence": 1.0}, {"word": "cidade", "start": 19.065, "end": 19.385, "confidence": 1.0}, {"word": "que", "start": 19.385, "end": 19.605, "confidence": 1.0}, {"word": "possui", "start": 19.605, "end": 19.885, "confidence": 1.0}, {"word": "cerca", "start": 19.885, "end": 20.265, "confidence": 1.0}, {"word": "de", "start": 20.265, "end": 20.445, "confidence": 1.0}, {"word": "40", "start": 20.445, "end": 20.885, "confidence": 1.0}, {"word": "000", "start": 20.885, "end": 21.045, "confidence": 0.0}, {"word": "habitantes,", "start": 21.045, "end": 21.64, "confidence": 1.0}, {"word": "próxima", "start": 22.12, "end": 22.285, "confidence": 1.0}, {"word": "a", "start": 22.285, "end": 22.545, "confidence": 1.0}, {"word": "Ribeirão", "start": 22.545, "end": 22.865, "confidence": 1.0}, {"word": "Preto,", "start": 22.865, "end": 23.24, "confidence": 1.0}, {"word": "no", "start": 23.24, "end": 23.525, "confidence": 1.0}, {"word": "interior", "start": 23.525, "end": 23.745, "confidence": 1.0}, {"word": "de", "start": 23.745, "end": 24.15, "confidence": 1.0}, {"word": "São", "start": 24.16, "end": 24.288, "confidence": 1.0}, {"word": "Paulo.", "start": 24.29, "end": 24.52, "confidence": 1.0, "line_break_after": true}, {"word": "A", "start": 24.86, "end": 25.025, "confidence": 1.0}, {"word": "paixão", "start": 25.025, "end": 25.305, "confidence": 1.0}, {"word": "pela", "start": 25.305, "end": 25.605, "confidence": 1.0}, {"word": "arte", "start": 25.605, "end": 25.905, "confidence": 1.0}, {"word": "e", "start": 25.905, "end": 26.185, "confidence": 1.0}, {"word": "pela", "start": 26.185, "end": 26.485, "confidence": 1.0}, {"word": "pintura", "start": 26.485, "end": 26.665, "confidence": 1.0}, {"word": "vem", "start": 26.665, "end": 26.925, "confidence": 1.0}, {"word": "desde", "start": 26.925, "end": 27.205, "confidence": 1.0}, {"word": "criança,", "start": 27.205, "end": 27.745, "confidence": 1.0}, {"word": "quando", "start": 27.745, "end": 28.205, "confidence": 1.0}, {"word": "começou", "start": 28.205, "end": 28.685, "confidence": 1.0}, {"word": "a", "start": 28.685, "end": 28.965, "confidence": 1.0}, {"word": "desenvolver", "start": 28.965, "end": 29.405, "confidence": 1.0}, {"word": "seu", "start": 29.405, "end": 29.685, "confidence": 1.0}, {"word": "lado", "start": 29.685, "end": 29.905, "confidence": 1.0}, {"word": "artístico", "start": 29.905, "end": 30.465, "confidence": 1.0}, {"word": "influenciado", "start": 30.465, "end": 31.245, "confidence": 1.0}, {"word": "pela", "start": 31.245, "end": 31.445, "confidence": 1.0}, {"word": "sua", "start": 31.445, "end": 31.91, "confidence": 1.0}, {"word": "mãe", "start": 31.92, "end": 31.948, "confidence": 1.0}, {"word": "e", "start": 31.95, "end": 32.225, "confidence": 1.0}, {"word": "seu", "start": 32.225, "end": 32.485, "confidence": 1.0}, {"word": "irmão.", "start": 32.485, "end": 32.94, "confidence": 1.0, "line_break_after": true}, {"word": "Hoje", "start": 33.34, "end": 33.348, "confidence": 1.0}, {"word": "consagrado", "start": 33.35, "end": 33.985, "confidence": 1.0}, {"word": "como", "start": 33.985, "end": 34.27, "confidence": 1.0}, {"word": "um", "start": 34.28, "end": 34.408, "confidence": 1.0}, {"word": "dos", "start": 34.41, "end": 34.585, "confidence": 1.0}, {"word": "maiores", "start": 34.585, "end": 35.025, "confidence": 1.0}, {"word": "nomes", "start": 35.025, "end": 35.405, "confidence": 1.0}, {"word": "do", "start": 35.405, "end": 35.685, "confidence": 1.0}, {"word": "graffiti", "start": 35.685, "end": 35.945, "confidence": 0.75}, {"word": "nacional,", "start": 35.945, "end": 36.46, "confidence": 1.0}, {"word": "ele", "start": 36.9, "end": 37.018, "confidence": 1.0}, {"word": "teve", "start": 37.02, "end": 37.168, "confidence": 1.0}, {"word": "seu", "start": 37.17, "end": 37.445, "confidence": 1.0}, {"word": "primeiro", "start": 37.445, "end": 37.785, "confidence": 1.0}, {"word": "contato", "start": 37.785, "end": 38.245, "confidence": 1.0}, {"word": "com", "start": 38.245, "end": 38.465, "confidence": 1.0}, {"word": "a", "start": 38.465, "end": 38.83, "confidence": 1.0}, {"word": "arte", "start": 38.84, "end": 38.848, "confidence": 1.0}, {"word": "de", "start": 38.85, "end": 39.25, "confidence": 1.0}, {"word": "rua", "start": 39.26, "end": 39.268, "confidence": 1.0}, {"word": "em", "start": 39.27, "end": 39.445, "confidence": 1.0}, {"word": "2002.", "start": 39.445, "end": 40.225, "confidence": 1.0, "line_break_after": true}, {"word": "[...]", "start": 40.225, "end": 40.615, "confidence": 0.3, "line_break_after": true}, {"word": "Em", "start": 40.615, "end": 40.785, "confidence": 1.0}, {"word": "termos", "start": 40.785, "end": 41.105, "confidence": 1.0}, {"word": "de", "start": 41.105, "end": 41.425, "confidence": 1.0}, {"word": "referências,", "start": 41.425, "end": 41.86, "confidence": 1.0}, {"word": "é", "start": 42.12, "end": 42.188, "confidence": 1.0}, {"word": "possível", "start": 42.19, "end": 42.605, "confidence": 1.0}, {"word": "notar", "start": 42.605, "end": 43.005, "confidence": 1.0}, {"word": "inspirações", "start": 43.005, "end": 43.625, "confidence": 1.0}, {"word": "vindas", "start": 43.625, "end": 44.005, "confidence": 1.0}, {"word": "de", "start": 44.005, "end": 44.285, "confidence": 1.0}, {"word": "grandes", "start": 44.285, "end": 44.585, "confidence": 1.0}, {"word": "nomes", "start": 44.585, "end": 44.905, "confidence": 1.0}, {"word": "que", "start": 44.905, "end": 45.185, "confidence": 1.0}, {"word": "variam", "start": 45.185, "end": 45.485, "confidence": 1.0}, {"word": "entre", "start": 45.485, "end": 45.685, "confidence": 1.0}, {"word": "os", "start": 45.685, "end": 45.965, "confidence": 1.0}, {"word": "cartuns", "start": 45.965, "end": 46.325, "confidence": 0.75}, {"word": "e", "start": 46.325, "end": 46.525, "confidence": 1.0}, {"word": "a", "start": 46.525, "end": 46.725, "confidence": 1.0}, {"word": "street", "start": 46.725, "end": 46.985, "confidence": 1.0}, {"word": "art.", "start": 46.985, "end": 47.28, "confidence": 1.0, "line_break_after": true}, {"word": "Entre", "start": 47.9, "end": 47.928, "confidence": 1.0}, {"word": "eles", "start": 47.93, "end": 48.245, "confidence": 1.0}, {"word": "podemos", "start": 48.245, "end": 48.705, "confidence": 1.0}, {"word": "citar", "start": 48.705, "end": 48.96, "confidence": 1.0}, {"word": "Walt", "start": 49.18, "end": 49.385, "confidence": 1.0}, {"word": "Disney,", "start": 49.385, "end": 49.72, "confidence": 1.0}, {"word": "Will", "start": 50.1, "end": 50.285, "confidence": 1.0}, {"word": "Eisner,", "start": 50.285, "end": 50.72, "confidence": 1.0}, {"word": "Mauricio", "start": 51.06, "end": 51.325, "confidence": 0.875}, {"word": "de", "start": 51.325, "end": 51.625, "confidence": 1.0}, {"word": "Sousa,", "start": 51.625, "end": 51.9, "confidence": 0.8}, {"word": "Ziraldo", "start": 52.2, "end": 52.505, "confidence": 1.0}, {"word": "e", "start": 52.505, "end": 52.725, "confidence": 1.0}, {"word": "Quino.", "start": 52.725, "end": 52.96, "confidence": 1.0, "line_break_after": true}, {"word": "Sua", "start": 53.56, "end": 53.83, "confidence": 1.0}, {"word": "arte", "start": 53.84, "end": 53.928, "confidence": 1.0}, {"word": "consegue", "start": 53.93, "end": 54.465, "confidence": 1.0}, {"word": "ser", "start": 54.465, "end": 54.745, "confidence": 1.0}, {"word": "sensível", "start": 54.745, "end": 55.285, "confidence": 1.0}, {"word": "e", "start": 55.285, "end": 55.565, "confidence": 1.0}, {"word": "lúdica", "start": 55.565, "end": 55.885, "confidence": 1.0}, {"word": "ao", "start": 55.885, "end": 56.085, "confidence": 1.0}, {"word": "mesmo", "start": 56.085, "end": 56.345, "confidence": 1.0}, {"word": "tempo,", "start": 56.345, "end": 56.785, "confidence": 1.0}, {"word": "unindo", "start": 56.785, "end": 57.385, "confidence": 1.0}, {"word": "signos", "start": 57.385, "end": 57.845, "confidence": 1.0}, {"word": "do", "start": 57.845, "end": 58.59, "confidence": 1.0}, {"word": "universo", "start": 58.6, "end": 58.608, "confidence": 1.0}, {"word": "infantil", "start": 58.61, "end": 59.005, "confidence": 1.0}, {"word": "ao", "start": 59.005, "end": 59.225, "confidence": 1.0}, {"word": "preto", "start": 59.225, "end": 59.485, "confidence": 1.0}, {"word": "e", "start": 59.485, "end": 59.705, "confidence": 1.0}, {"word": "branco.", "start": 59.705, "end": 60.02, "confidence": 1.0, "line_break_after": true}, {"word": "As", "start": 60.52, "end": 60.548, "confidence": 1.0}, {"word": "criações", "start": 60.55, "end": 60.885, "confidence": 1.0}, {"word": "de", "start": 60.885, "end": 61.145, "confidence": 1.0}, {"word": "Alex,", "start": 61.145, "end": 61.5, "confidence": 1.0}, {"word": "além", "start": 61.82, "end": 61.868, "confidence": 1.0}, {"word": "de", "start": 61.87, "end": 62.23, "confidence": 1.0}, {"word": "serem", "start": 62.24, "end": 62.288, "confidence": 1.0}, {"word": "incríveis,", "start": 62.29, "end": 62.82, "confidence": 1.0}, {"word": "transmitem", "start": 63.42, "end": 63.645, "confidence": 1.0}, {"word": "uma", "start": 63.645, "end": 63.965, "confidence": 1.0}, {"word": "dose", "start": 63.965, "end": 64.185, "confidence": 1.0}, {"word": "de", "start": 64.185, "end": 64.81, "confidence": 1.0}, {"word": "emoção", "start": 64.82, "end": 64.828, "confidence": 1.0}, {"word": "sensacional", "start": 64.83, "end": 65.465, "confidence": 1.0}, {"word": "através", "start": 65.465, "end": 66.045, "confidence": 1.0}, {"word": "dos", "start": 66.045, "end": 66.305, "confidence": 1.0}, {"word": "personagens,", "start": 66.305, "end": 66.94, "confidence": 1.0}, {"word": "que", "start": 67.3, "end": 67.408, "confidence": 1.0}, {"word": "conseguem", "start": 67.41, "end": 67.905, "confidence": 1.0}, {"word": "ser", "start": 67.905, "end": 68.145, "confidence": 1.0}, {"word": "melancólicos,", "start": 68.145, "end": 69.02, "confidence": 1.0}, {"word": "carismáticos", "start": 69.64, "end": 70.125, "confidence": 1.0}, {"word": "e", "start": 70.125, "end": 70.445, "confidence": 1.0}, {"word": "inspiradores,", "start": 70.445, "end": 70.94, "confidence": 1.0}, {"word": "contrastando", "start": 71.48, "end": 71.665, "confidence": 1.0}, {"word": "com", "start": 71.665, "end": 71.885, "confidence": 1.0}, {"word": "o", "start": 71.885, "end": 72.35, "confidence": 1.0}, {"word": "cenário", "start": 72.36, "end": 72.368, "confidence": 1.0}, {"word": "agressivo", "start": 72.37, "end": 72.905, "confidence": 1.0}, {"word": "de", "start": 72.905, "end": 73.185, "confidence": 1.0}, {"word": "grandes", "start": 73.185, "end": 73.525, "confidence": 1.0}, {"word": "centros", "start": 73.525, "end": 73.825, "confidence": 1.0}, {"word": "urbanos", "start": 73.825, "end": 74.405, "confidence": 1.0}, {"word": "como", "start": 74.405, "end": 74.625, "confidence": 1.0}, {"word": "a", "start": 74.625, "end": 75.11, "confidence": 1.0}, {"word": "cidade", "start": 75.12, "end": 75.128, "confidence": 1.0}, {"word": "de", "start": 75.13, "end": 75.45, "confidence": 1.0}, {"word": "São", "start": 75.46, "end": 75.588, "confidence": 1.0}, {"word": "Paulo,", "start": 75.59, "end": 75.87, "confidence": 1.0}, {"word": "por", "start": 75.87, "end": 76.51, "confidence": 1.0}, {"word": "exemplo.", "start": 76.52, "end": 76.72, "confidence": 1.0, "line_break_after": true}, {"word": "E", "start": 76.8, "end": 77.01, "confidence": 1.0}, {"word": "já", "start": 77.02, "end": 77.148, "confidence": 1.0}, {"word": "que", "start": 77.15, "end": 77.365, "confidence": 1.0}, {"word": "falamos", "start": 77.365, "end": 77.685, "confidence": 1.0}, {"word": "nos", "start": 77.685, "end": 77.905, "confidence": 1.0}, {"word": "seus", "start": 77.905, "end": 78.165, "confidence": 1.0}, {"word": "personagens,", "start": 78.165, "end": 78.84, "confidence": 1.0}, {"word": "eles", "start": 79.12, "end": 79.285, "confidence": 1.0}, {"word": "são", "start": 79.285, "end": 79.485, "confidence": 1.0}, {"word": "bem", "start": 79.485, "end": 79.745, "confidence": 1.0}, {"word": "variados.", "start": 79.745, "end": 80.32, "confidence": 1.0}, {"word": "Por", "start": 80.76, "end": 80.965, "confidence": 1.0}, {"word": "vezes", "start": 80.965, "end": 81.205, "confidence": 1.0}, {"word": "encontramos", "start": 81.205, "end": 81.845, "confidence": 1.0}, {"word": "casais", "start": 81.845, "end": 82.285, "confidence": 1.0}, {"word": "jovens", "start": 82.285, "end": 82.705, "confidence": 1.0}, {"word": "namorando,", "start": 82.705, "end": 83.28, "confidence": 1.0}, {"word": "pessoas", "start": 83.84, "end": 83.848, "confidence": 1.0}, {"word": "idosas,", "start": 83.85, "end": 84.385, "confidence": 1.0}, {"word": "santas", "start": 84.385, "end": 85.125, "confidence": 1.0}, {"word": "plácidas", "start": 85.125, "end": 85.565, "confidence": 1.0}, {"word": "ou", "start": 85.565, "end": 85.825, "confidence": 1.0}, {"word": "homens", "start": 85.825, "end": 86.065, "confidence": 1.0}, {"word": "solitários.", "start": 86.065, "end": 86.72, "confidence": 1.0}, {"word": "Isto", "start": 87.32, "end": 87.485, "confidence": 1.0}, {"word": "sem", "start": 87.485, "end": 87.665, "confidence": 1.0}, {"word": "falar", "start": 87.665, "end": 87.945, "confidence": 1.0}, {"word": "em", "start": 87.945, "end": 88.405, "confidence": 1.0}, {"word": "pássaros,", "start": 88.405, "end": 88.585, "confidence": 1.0}, {"word": "corações", "start": 88.585, "end": 89.225, "confidence": 1.0}, {"word": "[...]", "start": 89.225, "end": 90.28, "confidence": 0.3}],
+      duration: 90.27999877929688,
+      title: "Livro5 Let76",
+      audioFile: "livro5_let76.mp3"
+    };
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header style="background-color: var(--color-accent);">
+    <div class="bg-header">
+      <div class="bg-header-right-bottom" style="border-color: var(--color-bg-page);"></div>
+      <div class="bg-header-left-bottom" style="border-color: var(--color-bg-page);"></div>
+      <img class="bg-header-left" src="./images/header-left.svg" alt="Background Form">
+      <div class="bg-header-middle"></div>
+      <img class="bg-header-right" src="./images/header-right.svg" alt="Background Form">
+    </div>
+    <div class="container-header">
+      <div class="logo">
+        <a href="https://homolog.meuletrix.com.br">
+          <img src="./images/letrix-5.png" alt="Logotipo Letrix">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <section id="content">
+    <div class="container">
+      <!-- Page Title -->
+      <div class="page-title-wrap">
+        <h1 class="page-title">
+          Leitura Guiada
+        </h1>
+      </div>
+
+      <!-- Player Row -->
+      <div class="row mt-2 pt-lg-5 pt-1">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="card-link">
+            <!-- Background do Card (3 partes) -->
+            <div class="bg-card-link">
+              <img src="./images/bg-card-left.svg" alt="" class="bg-card-link-left">
+              <div class="bg-card-link-middle"></div>
+              <img src="./images/bg-card-right.svg" alt="" class="bg-card-link-right">
+            </div>
+
+            <!-- Grid Audio -->
+            <div class="grid-audio">
+              <div class="item-grid-audio">
+                <div class="audio-player">
+                  <div class="controls">
+                    <!-- Play/Pause Button -->
+                    <div class="play-container">
+                      <div class="toggle-play play" id="playBtn">
+                        <i class="fas fa-play"></i>
+                        <i class="fas fa-pause"></i>
+                      </div>
+                    </div>
+
+                    <!-- Timeline -->
+                    <div class="timeline" id="timeline">
+                      <div class="progress" id="progress"></div>
+                    </div>
+
+                    <!-- Time Display -->
+                    <div class="time">
+                      <div class="current" id="currentTime">0:00</div>
+                      <div class="divider">/</div>
+                      <div class="length" id="duration">1:30</div>
+                    </div>
+
+                    <!-- Face Avatar -->
+                    <div class="face-avatar">
+                      <img src="./images/face-avatar.svg" alt="Avatar">
+                    </div>
+                  </div>
+
+                  <!-- Audio Element -->
+                  <audio id="audioElement" preload="metadata">
+                    <source src="./audio.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Karaoke Text Area -->
+      <div class="lk-karaoke-wrap mt-4">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="lk-text-panel" id="lk-text-panel">
+            <!-- Título -->
+            <div id="audio-container">
+              <h1>
+<span class="word" data-start="0.0" data-end="0.245">A </span><span class="word" data-start="0.245" data-end="0.525">arte </span>              </h1>
+            </div>
+
+            <!-- Transcript Container (body text only) -->
+            <div class="transcript-container" id="transcript">
+<span class="word" data-start="0.525" data-end="1.065">carregada </span><span class="word" data-start="1.065" data-end="1.325">de </span><span class="word" data-start="1.325" data-end="1.625">emoções </span><span class="word" data-start="1.625" data-end="1.965">de </span><span class="word" data-start="1.965" data-end="2.305">Alex </span><span class="word" data-start="2.305" data-end="2.62">Senna </span><br><span class="word" data-start="3.14" data-end="3.188">Logo </span><span class="word" data-start="3.19" data-end="3.435">que </span><span class="word" data-start="3.435" data-end="3.605">vemos </span><span class="word" data-start="3.605" data-end="4.005">um </span><span class="word" data-start="4.005" data-end="4.28" data-low-confidence="true">graffiti, </span><span class="word" data-start="4.98" data-end="5.068">ilustração </span><span class="word" data-start="5.07" data-end="5.405">ou </span><span class="word" data-start="5.405" data-end="5.745">qualquer </span><span class="word" data-start="5.745" data-end="6.125">outra </span><span class="word" data-start="6.125" data-end="6.325">obra </span><span class="word" data-start="6.325" data-end="6.585">de </span><span class="word" data-start="6.585" data-end="7.005">Alex </span><span class="word" data-start="7.005" data-end="7.3">Senna, </span><span class="word" data-start="7.6" data-end="7.728">nos </span><span class="word" data-start="7.73" data-end="8.185">deparamos </span><span class="word" data-start="8.185" data-end="8.465">com </span><span class="word" data-start="8.465" data-end="8.845">algumas </span><span class="word" data-start="8.845" data-end="9.505">características </span><span class="word" data-start="9.505" data-end="10.085">típicas </span><span class="word" data-start="10.085" data-end="10.365">do </span><span class="word" data-start="10.365" data-end="11.09">artista, </span><span class="word" data-start="11.09" data-end="11.325">que </span><span class="word" data-start="11.325" data-end="11.605">tornam </span><span class="word" data-start="11.605" data-end="11.85">o </span><span class="word" data-start="11.86" data-end="11.988">seu </span><span class="word" data-start="11.99" data-end="12.305">trabalho </span><span class="word" data-start="12.305" data-end="13.18">inconfundível. </span><span class="word" data-start="13.74" data-end="13.788">Entre </span><span class="word" data-start="13.79" data-end="14.125">elas </span><span class="word" data-start="14.125" data-end="14.49">um </span><span class="word" data-start="14.5" data-end="14.508">lado </span><span class="word" data-start="14.51" data-end="15.045">emocional </span><span class="word" data-start="15.045" data-end="15.405">que </span><span class="word" data-start="15.405" data-end="15.645">sempre </span><span class="word" data-start="15.645" data-end="16.07">se </span><span class="word" data-start="16.08" data-end="16.088">faz </span><span class="word" data-start="16.09" data-end="16.68">presente. </span><br><span class="word" data-start="17.36" data-end="17.525">Alex </span><span class="word" data-start="17.525" data-end="17.865">nasceu </span><span class="word" data-start="17.865" data-end="18.045">em </span><span class="word" data-start="18.045" data-end="18.8">Orlândia, </span><span class="word" data-start="18.8" data-end="19.065">uma </span><span class="word" data-start="19.065" data-end="19.385">cidade </span><span class="word" data-start="19.385" data-end="19.605">que </span><span class="word" data-start="19.605" data-end="19.885">possui </span><span class="word" data-start="19.885" data-end="20.265">cerca </span><span class="word" data-start="20.265" data-end="20.445">de </span><span class="word" data-start="20.445" data-end="20.885">40 </span><span class="word" data-start="20.885" data-end="21.045" data-low-confidence="true">000 </span><span class="word" data-start="21.045" data-end="21.64">habitantes, </span><span class="word" data-start="22.12" data-end="22.285">próxima </span><span class="word" data-start="22.285" data-end="22.545">a </span><span class="word" data-start="22.545" data-end="22.865">Ribeirão </span><span class="word" data-start="22.865" data-end="23.24">Preto, </span><span class="word" data-start="23.24" data-end="23.525">no </span><span class="word" data-start="23.525" data-end="23.745">interior </span><span class="word" data-start="23.745" data-end="24.15">de </span><span class="word" data-start="24.16" data-end="24.288">São </span><span class="word" data-start="24.29" data-end="24.52">Paulo. </span><br><span class="word" data-start="24.86" data-end="25.025">A </span><span class="word" data-start="25.025" data-end="25.305">paixão </span><span class="word" data-start="25.305" data-end="25.605">pela </span><span class="word" data-start="25.605" data-end="25.905">arte </span><span class="word" data-start="25.905" data-end="26.185">e </span><span class="word" data-start="26.185" data-end="26.485">pela </span><span class="word" data-start="26.485" data-end="26.665">pintura </span><span class="word" data-start="26.665" data-end="26.925">vem </span><span class="word" data-start="26.925" data-end="27.205">desde </span><span class="word" data-start="27.205" data-end="27.745">criança, </span><span class="word" data-start="27.745" data-end="28.205">quando </span><span class="word" data-start="28.205" data-end="28.685">começou </span><span class="word" data-start="28.685" data-end="28.965">a </span><span class="word" data-start="28.965" data-end="29.405">desenvolver </span><span class="word" data-start="29.405" data-end="29.685">seu </span><span class="word" data-start="29.685" data-end="29.905">lado </span><span class="word" data-start="29.905" data-end="30.465">artístico </span><span class="word" data-start="30.465" data-end="31.245">influenciado </span><span class="word" data-start="31.245" data-end="31.445">pela </span><span class="word" data-start="31.445" data-end="31.91">sua </span><span class="word" data-start="31.92" data-end="31.948">mãe </span><span class="word" data-start="31.95" data-end="32.225">e </span><span class="word" data-start="32.225" data-end="32.485">seu </span><span class="word" data-start="32.485" data-end="32.94">irmão. </span><br><span class="word" data-start="33.34" data-end="33.348">Hoje </span><span class="word" data-start="33.35" data-end="33.985">consagrado </span><span class="word" data-start="33.985" data-end="34.27">como </span><span class="word" data-start="34.28" data-end="34.408">um </span><span class="word" data-start="34.41" data-end="34.585">dos </span><span class="word" data-start="34.585" data-end="35.025">maiores </span><span class="word" data-start="35.025" data-end="35.405">nomes </span><span class="word" data-start="35.405" data-end="35.685">do </span><span class="word" data-start="35.685" data-end="35.945" data-low-confidence="true">graffiti </span><span class="word" data-start="35.945" data-end="36.46">nacional, </span><span class="word" data-start="36.9" data-end="37.018">ele </span><span class="word" data-start="37.02" data-end="37.168">teve </span><span class="word" data-start="37.17" data-end="37.445">seu </span><span class="word" data-start="37.445" data-end="37.785">primeiro </span><span class="word" data-start="37.785" data-end="38.245">contato </span><span class="word" data-start="38.245" data-end="38.465">com </span><span class="word" data-start="38.465" data-end="38.83">a </span><span class="word" data-start="38.84" data-end="38.848">arte </span><span class="word" data-start="38.85" data-end="39.25">de </span><span class="word" data-start="39.26" data-end="39.268">rua </span><span class="word" data-start="39.27" data-end="39.445">em </span><span class="word" data-start="39.445" data-end="40.225">2002. </span><br><span class="word" data-start="40.225" data-end="40.615" data-low-confidence="true">[...] </span><br><span class="word" data-start="40.615" data-end="40.785">Em </span><span class="word" data-start="40.785" data-end="41.105">termos </span><span class="word" data-start="41.105" data-end="41.425">de </span><span class="word" data-start="41.425" data-end="41.86">referências, </span><span class="word" data-start="42.12" data-end="42.188">é </span><span class="word" data-start="42.19" data-end="42.605">possível </span><span class="word" data-start="42.605" data-end="43.005">notar </span><span class="word" data-start="43.005" data-end="43.625">inspirações </span><span class="word" data-start="43.625" data-end="44.005">vindas </span><span class="word" data-start="44.005" data-end="44.285">de </span><span class="word" data-start="44.285" data-end="44.585">grandes </span><span class="word" data-start="44.585" data-end="44.905">nomes </span><span class="word" data-start="44.905" data-end="45.185">que </span><span class="word" data-start="45.185" data-end="45.485">variam </span><span class="word" data-start="45.485" data-end="45.685">entre </span><span class="word" data-start="45.685" data-end="45.965">os </span><span class="word" data-start="45.965" data-end="46.325" data-low-confidence="true">cartuns </span><span class="word" data-start="46.325" data-end="46.525">e </span><span class="word" data-start="46.525" data-end="46.725">a </span><span class="word" data-start="46.725" data-end="46.985">street </span><span class="word" data-start="46.985" data-end="47.28">art. </span><br><span class="word" data-start="47.9" data-end="47.928">Entre </span><span class="word" data-start="47.93" data-end="48.245">eles </span><span class="word" data-start="48.245" data-end="48.705">podemos </span><span class="word" data-start="48.705" data-end="48.96">citar </span><span class="word" data-start="49.18" data-end="49.385">Walt </span><span class="word" data-start="49.385" data-end="49.72">Disney, </span><span class="word" data-start="50.1" data-end="50.285">Will </span><span class="word" data-start="50.285" data-end="50.72">Eisner, </span><span class="word" data-start="51.06" data-end="51.325">Mauricio </span><span class="word" data-start="51.325" data-end="51.625">de </span><span class="word" data-start="51.625" data-end="51.9">Sousa, </span><span class="word" data-start="52.2" data-end="52.505">Ziraldo </span><span class="word" data-start="52.505" data-end="52.725">e </span><span class="word" data-start="52.725" data-end="52.96">Quino. </span><br><span class="word" data-start="53.56" data-end="53.83">Sua </span><span class="word" data-start="53.84" data-end="53.928">arte </span><span class="word" data-start="53.93" data-end="54.465">consegue </span><span class="word" data-start="54.465" data-end="54.745">ser </span><span class="word" data-start="54.745" data-end="55.285">sensível </span><span class="word" data-start="55.285" data-end="55.565">e </span><span class="word" data-start="55.565" data-end="55.885">lúdica </span><span class="word" data-start="55.885" data-end="56.085">ao </span><span class="word" data-start="56.085" data-end="56.345">mesmo </span><span class="word" data-start="56.345" data-end="56.785">tempo, </span><span class="word" data-start="56.785" data-end="57.385">unindo </span><span class="word" data-start="57.385" data-end="57.845">signos </span><span class="word" data-start="57.845" data-end="58.59">do </span><span class="word" data-start="58.6" data-end="58.608">universo </span><span class="word" data-start="58.61" data-end="59.005">infantil </span><span class="word" data-start="59.005" data-end="59.225">ao </span><span class="word" data-start="59.225" data-end="59.485">preto </span><span class="word" data-start="59.485" data-end="59.705">e </span><span class="word" data-start="59.705" data-end="60.02">branco. </span><br><span class="word" data-start="60.52" data-end="60.548">As </span><span class="word" data-start="60.55" data-end="60.885">criações </span><span class="word" data-start="60.885" data-end="61.145">de </span><span class="word" data-start="61.145" data-end="61.5">Alex, </span><span class="word" data-start="61.82" data-end="61.868">além </span><span class="word" data-start="61.87" data-end="62.23">de </span><span class="word" data-start="62.24" data-end="62.288">serem </span><span class="word" data-start="62.29" data-end="62.82">incríveis, </span><span class="word" data-start="63.42" data-end="63.645">transmitem </span><span class="word" data-start="63.645" data-end="63.965">uma </span><span class="word" data-start="63.965" data-end="64.185">dose </span><span class="word" data-start="64.185" data-end="64.81">de </span><span class="word" data-start="64.82" data-end="64.828">emoção </span><span class="word" data-start="64.83" data-end="65.465">sensacional </span><span class="word" data-start="65.465" data-end="66.045">através </span><span class="word" data-start="66.045" data-end="66.305">dos </span><span class="word" data-start="66.305" data-end="66.94">personagens, </span><span class="word" data-start="67.3" data-end="67.408">que </span><span class="word" data-start="67.41" data-end="67.905">conseguem </span><span class="word" data-start="67.905" data-end="68.145">ser </span><span class="word" data-start="68.145" data-end="69.02">melancólicos, </span><span class="word" data-start="69.64" data-end="70.125">carismáticos </span><span class="word" data-start="70.125" data-end="70.445">e </span><span class="word" data-start="70.445" data-end="70.94">inspiradores, </span><span class="word" data-start="71.48" data-end="71.665">contrastando </span><span class="word" data-start="71.665" data-end="71.885">com </span><span class="word" data-start="71.885" data-end="72.35">o </span><span class="word" data-start="72.36" data-end="72.368">cenário </span><span class="word" data-start="72.37" data-end="72.905">agressivo </span><span class="word" data-start="72.905" data-end="73.185">de </span><span class="word" data-start="73.185" data-end="73.525">grandes </span><span class="word" data-start="73.525" data-end="73.825">centros </span><span class="word" data-start="73.825" data-end="74.405">urbanos </span><span class="word" data-start="74.405" data-end="74.625">como </span><span class="word" data-start="74.625" data-end="75.11">a </span><span class="word" data-start="75.12" data-end="75.128">cidade </span><span class="word" data-start="75.13" data-end="75.45">de </span><span class="word" data-start="75.46" data-end="75.588">São </span><span class="word" data-start="75.59" data-end="75.87">Paulo, </span><span class="word" data-start="75.87" data-end="76.51">por </span><span class="word" data-start="76.52" data-end="76.72">exemplo. </span><br><span class="word" data-start="76.8" data-end="77.01">E </span><span class="word" data-start="77.02" data-end="77.148">já </span><span class="word" data-start="77.15" data-end="77.365">que </span><span class="word" data-start="77.365" data-end="77.685">falamos </span><span class="word" data-start="77.685" data-end="77.905">nos </span><span class="word" data-start="77.905" data-end="78.165">seus </span><span class="word" data-start="78.165" data-end="78.84">personagens, </span><span class="word" data-start="79.12" data-end="79.285">eles </span><span class="word" data-start="79.285" data-end="79.485">são </span><span class="word" data-start="79.485" data-end="79.745">bem </span><span class="word" data-start="79.745" data-end="80.32">variados. </span><span class="word" data-start="80.76" data-end="80.965">Por </span><span class="word" data-start="80.965" data-end="81.205">vezes </span><span class="word" data-start="81.205" data-end="81.845">encontramos </span><span class="word" data-start="81.845" data-end="82.285">casais </span><span class="word" data-start="82.285" data-end="82.705">jovens </span><span class="word" data-start="82.705" data-end="83.28">namorando, </span><span class="word" data-start="83.84" data-end="83.848">pessoas </span><span class="word" data-start="83.85" data-end="84.385">idosas, </span><span class="word" data-start="84.385" data-end="85.125">santas </span><span class="word" data-start="85.125" data-end="85.565">plácidas </span><span class="word" data-start="85.565" data-end="85.825">ou </span><span class="word" data-start="85.825" data-end="86.065">homens </span><span class="word" data-start="86.065" data-end="86.72">solitários. </span><span class="word" data-start="87.32" data-end="87.485">Isto </span><span class="word" data-start="87.485" data-end="87.665">sem </span><span class="word" data-start="87.665" data-end="87.945">falar </span><span class="word" data-start="87.945" data-end="88.405">em </span><span class="word" data-start="88.405" data-end="88.585">pássaros, </span><span class="word" data-start="88.585" data-end="89.225">corações </span><span class="word" data-start="89.225" data-end="90.28" data-low-confidence="true">[...] </span>            </div>
+          </div>
+        </div>
+
+        <!-- Referência -->
+        <div class="lk-ref">
+          <strong>Referência:</strong>
+          <p>DIONISIO. A arte carregada de emoções de Alex Senna. Disponível em: https://dionisioarte.com.br/a-arte-carregada-de-emocoes-de-alex-senna/. Acesso em: 16 fev. 2024.</p>
+        </div>
+
+        <!-- Quality Metrics (hidden by default) -->
+        <div class="lk-metrics" id="metrics" style="display: none;">
+          <div class="metrics-content">
+            <strong>Quality Metrics</strong>
+            <p>Confidence: 98.6%</p>
+            <p>Timing: ±32.0ms</p>
+            <p>Gaps: 12 kept, 212 filled</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+/**
+ * WORDSYNC - Letrix Leituras Guiadas Player
+ * Karaoke-style audio player with word synchronization
+ *
+ * Features:
+ * - Word-level highlighting synced to audio
+ * - Smooth transitions between words
+ * - Keyboard controls (space, arrows)
+ * - Mobile-friendly touch support
+ * - Click-to-seek on transcript
+ */
+
+class WordSyncPlayer {
+  constructor(options = {}) {
+    // Configuration
+    this.options = {
+      audioSelector: '#audioElement',
+      playBtnSelector: '#playBtn',
+      timelineSelector: '#timeline',
+      progressSelector: '#progress',
+      currentTimeSelector: '#currentTime',
+      durationSelector: '#duration',
+      transcriptSelector: '#transcript',
+      wordSelector: '.word',
+      ...options
+    };
+
+    // DOM Elements
+    this.audio = document.querySelector(this.options.audioSelector);
+    this.playBtn = document.querySelector(this.options.playBtnSelector);
+    this.timeline = document.querySelector(this.options.timelineSelector);
+    this.progress = document.querySelector(this.options.progressSelector);
+    this.currentTimeEl = document.querySelector(this.options.currentTimeSelector);
+    this.durationEl = document.querySelector(this.options.durationSelector);
+    this.transcript = document.querySelector(this.options.transcriptSelector);
+
+    // State
+    this.isPlaying = false;
+    this.words = [];
+    this.currentWordIndex = -1;
+    this.previousWordIndex = -1;  // Track previous word for detecting skipped words
+    this.animationFrameId = null;  // For requestAnimationFrame loop
+
+    // Title-to-body word mirrors (for syncing highlight to title)
+    this.titleMirrors = [];
+
+    // Initialize
+    this.init();
+  }
+
+  init() {
+    if (!this.audio) {
+      console.warn('WordSyncPlayer: Audio element not found');
+      return;
+    }
+
+    // Collect words with timestamps
+    this.collectWords();
+
+    // Build title-to-body word mirror map
+    this.buildTitleMirror();
+
+    // Bind event listeners
+    this.bindEvents();
+
+    // Update duration when loaded
+    if (this.audio.readyState >= 2) {
+      this.updateDuration();
+    }
+  }
+
+  collectWords() {
+    const wordElements = document.querySelectorAll(this.options.wordSelector);
+
+    this.words = Array.from(wordElements)
+      .filter(el => {
+        // Skip words without timestamps (unspoken title with no-sync class)
+        if (el.classList.contains('no-sync')) return false;
+        if (el.dataset.start === undefined || el.dataset.end === undefined) return false;
+        const start = parseFloat(el.dataset.start);
+        const end = parseFloat(el.dataset.end);
+        // Skip words with zero timestamps (unspoken)
+        return !isNaN(start) && !isNaN(end) && (start > 0 || end > 0);
+      })
+      .map(el => ({
+        element: el,
+        start: parseFloat(el.dataset.start),
+        end: parseFloat(el.dataset.end),
+        text: el.textContent.trim()
+      }))
+      .sort((a, b) => a.start - b.start);
+  }
+
+  /**
+   * Build a positional map from title words to body words.
+   * Title word 0 mirrors body word 0, title word 1 mirrors body word 1, etc.
+   */
+  buildTitleMirror() {
+    const titleContainer = document.querySelector('#audio-container');
+    if (!titleContainer) {
+      this.titleMirrors = [];
+      return;
+    }
+
+    this.titleMirrors = Array.from(
+      titleContainer.querySelectorAll('.word.no-sync')
+    ).map((el, i) => ({
+      element: el,
+      bodyIndex: i
+    }));
+  }
+
+  /**
+   * Mirror highlight/read state from body words to their title counterparts.
+   */
+  mirrorToTitle() {
+    for (const mirror of this.titleMirrors) {
+      if (mirror.bodyIndex >= this.words.length) continue;
+      const bodyEl = this.words[mirror.bodyIndex].element;
+      const titleEl = mirror.element;
+      titleEl.classList.toggle('active', bodyEl.classList.contains('active'));
+      titleEl.classList.toggle('highlight', bodyEl.classList.contains('highlight'));
+      titleEl.classList.toggle('read', bodyEl.classList.contains('read'));
+    }
+  }
+
+  bindEvents() {
+    // Play/Pause button
+    if (this.playBtn) {
+      this.playBtn.addEventListener('click', () => this.togglePlay());
+    }
+
+    // Timeline click for seek
+    if (this.timeline) {
+      this.timeline.addEventListener('click', (e) => this.seekToPosition(e));
+    }
+
+    // Audio events
+    this.audio.addEventListener('loadedmetadata', () => this.updateDuration());
+    // Note: We still use timeupdate for progress bar updates (less critical)
+    // but word highlighting uses requestAnimationFrame for precision
+    this.audio.addEventListener('timeupdate', () => this.onTimeUpdateProgress());
+    this.audio.addEventListener('ended', () => this.onEnded());
+    this.audio.addEventListener('play', () => this.onPlay());
+    this.audio.addEventListener('pause', () => this.onPause());
+    this.audio.addEventListener('seeked', () => this.onSeeked());
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => this.handleKeyboard(e));
+
+    // Touch support for timeline
+    if (this.timeline) {
+      this.timeline.addEventListener('touchstart', (e) => this.handleTouch(e));
+    }
+  }
+
+  togglePlay() {
+    if (this.isPlaying) {
+      this.audio.pause();
+    } else {
+      this.audio.play().catch(err => {
+        console.log('Playback error:', err);
+      });
+    }
+  }
+
+  onPlay() {
+    this.isPlaying = true;
+    if (this.playBtn) {
+      this.playBtn.classList.remove('play');
+      this.playBtn.classList.add('playing');
+    }
+    // Reset words if restarting from the beginning
+    if (this.audio.currentTime < 0.1) {
+      this.resetWords();
+    }
+    // Start the high-precision highlight loop
+    this.startHighlightLoop();
+  }
+
+  onPause() {
+    this.isPlaying = false;
+    if (this.playBtn) {
+      this.playBtn.classList.add('play');
+      this.playBtn.classList.remove('playing');
+    }
+    // Stop the highlight loop
+    this.stopHighlightLoop();
+  }
+
+  onEnded() {
+    this.isPlaying = false;
+    if (this.playBtn) {
+      this.playBtn.classList.add('play');
+      this.playBtn.classList.remove('playing');
+    }
+    this.stopHighlightLoop();
+    // Mark the last active word as read, but don't reset all words.
+    // Words stay yellow (read) until the user presses play again.
+    if (this.currentWordIndex >= 0 && this.currentWordIndex < this.words.length) {
+      const el = this.words[this.currentWordIndex].element;
+      el.classList.remove('active', 'highlight');
+      el.classList.add('read');
+    }
+    this.mirrorToTitle();
+  }
+
+  onSeeked() {
+    // When user seeks, immediately update highlighting
+    // This handles the case where audio is paused but user seeks
+    const currentTime = this.audio.currentTime;
+    this.updateWordHighlight(currentTime);
+  }
+
+  /**
+   * Start the requestAnimationFrame loop for precise word highlighting.
+   * This runs at 60fps (16ms intervals) vs timeupdate's 100-250ms.
+   */
+  startHighlightLoop() {
+    if (this.animationFrameId) return; // Already running
+
+    const update = () => {
+      if (!this.isPlaying) return;
+
+      const currentTime = this.audio.currentTime;
+      this.updateWordHighlight(currentTime);
+
+      this.animationFrameId = requestAnimationFrame(update);
+    };
+
+    this.animationFrameId = requestAnimationFrame(update);
+  }
+
+  /**
+   * Stop the requestAnimationFrame loop.
+   */
+  stopHighlightLoop() {
+    if (this.animationFrameId) {
+      cancelAnimationFrame(this.animationFrameId);
+      this.animationFrameId = null;
+    }
+  }
+
+  /**
+   * Handle timeupdate for progress bar only (less timing-critical).
+   */
+  onTimeUpdateProgress() {
+    const currentTime = this.audio.currentTime;
+    const duration = this.audio.duration || 1;
+
+    // Update progress bar
+    if (this.progress) {
+      const percent = (currentTime / duration) * 100;
+      this.progress.style.width = `${percent}%`;
+    }
+
+    // Update time display
+    if (this.currentTimeEl) {
+      this.currentTimeEl.textContent = this.formatTime(currentTime);
+    }
+  }
+
+  updateWordHighlight(currentTime) {
+    // Find current word using binary search - O(log n)
+    const newWordIndex = this.findWordIndex(currentTime);
+
+    // No change needed
+    if (newWordIndex === this.currentWordIndex) return;
+
+    // When we're in a gap between words (newWordIndex === -1),
+    // just mark the current word as read and keep everything else.
+    // Don't touch previousWordIndex so jumped-over detection still works.
+    if (newWordIndex === -1) {
+      if (this.currentWordIndex >= 0 && this.currentWordIndex < this.words.length) {
+        const el = this.words[this.currentWordIndex].element;
+        el.classList.remove('active', 'highlight');
+        el.classList.add('read');
+      }
+      this.previousWordIndex = this.currentWordIndex;
+      this.currentWordIndex = -1;
+      this.mirrorToTitle();
+      return;
+    }
+
+    // Handle jumped-over words (key fix for visual skipping)
+    // Mark all words between last known word and current as "read"
+    const lastKnown = Math.max(this.currentWordIndex, this.previousWordIndex);
+    if (lastKnown >= 0 && newWordIndex > lastKnown + 1) {
+      for (let i = lastKnown + 1; i < newWordIndex; i++) {
+        if (i < this.words.length) {
+          const el = this.words[i].element;
+          el.classList.remove('active', 'highlight');
+          el.classList.add('read');
+        }
+      }
+    }
+
+    // Remove highlight from previous current word
+    if (this.currentWordIndex >= 0 && this.currentWordIndex < this.words.length) {
+      const prevEl = this.words[this.currentWordIndex].element;
+      prevEl.classList.remove('active', 'highlight');
+      prevEl.classList.add('read');
+    }
+
+    // Highlight new current word
+    const newEl = this.words[newWordIndex].element;
+    newEl.classList.add('active', 'highlight');
+    newEl.classList.remove('read');
+    this.scrollToWord(newEl);
+
+    // Handle actual seek backward (user clicked/dragged backward)
+    // Only when both indices are valid words (not gaps)
+    if (this.currentWordIndex >= 0 && newWordIndex < this.currentWordIndex) {
+      for (let i = newWordIndex + 1; i <= this.currentWordIndex && i < this.words.length; i++) {
+        this.words[i].element.classList.remove('read', 'active', 'highlight');
+      }
+    }
+
+    // Update state
+    this.previousWordIndex = this.currentWordIndex;
+    this.currentWordIndex = newWordIndex;
+
+    // Mirror highlight state to title words
+    this.mirrorToTitle();
+  }
+
+  /**
+   * Binary search to find current word index - O(log n)
+   */
+  findWordIndex(time) {
+    let low = 0;
+    let high = this.words.length - 1;
+
+    while (low <= high) {
+      const mid = Math.floor((low + high) / 2);
+      const word = this.words[mid];
+
+      if (time >= word.start && time < word.end) {
+        return mid;
+      } else if (time < word.start) {
+        high = mid - 1;
+      } else {
+        low = mid + 1;
+      }
+    }
+
+    // Return -1 if not in any word's range
+    // But check if we're past all words
+    if (low > 0 && low <= this.words.length) {
+      const prevWord = this.words[low - 1];
+      if (time >= prevWord.end) {
+        // We're in a gap after this word
+        return -1;
+      }
+    }
+
+    return -1;
+  }
+
+  scrollToWord(element) {
+    // Only auto-scroll if word is out of viewport
+    const rect = element.getBoundingClientRect();
+    const viewportHeight = window.innerHeight;
+
+    if (rect.top < 100 || rect.bottom > viewportHeight - 100) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
+  }
+
+  resetWords() {
+    this.currentWordIndex = -1;
+    this.previousWordIndex = -1;
+    this.words.forEach(word => {
+      word.element.classList.remove('active', 'highlight', 'read');
+    });
+    for (const mirror of this.titleMirrors) {
+      mirror.element.classList.remove('active', 'highlight', 'read');
+    }
+  }
+
+  seekToPosition(e) {
+    if (!this.timeline || !this.audio.duration) return;
+
+    const rect = this.timeline.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const percent = clickX / rect.width;
+    const seekTime = percent * this.audio.duration;
+
+    this.audio.currentTime = seekTime;
+  }
+
+  seekToWord(index) {
+    if (index < 0 || index >= this.words.length) return;
+
+    const word = this.words[index];
+    this.audio.currentTime = word.start;
+
+    // Start playing if not already
+    if (!this.isPlaying) {
+      this.audio.play().catch(() => {});
+    }
+  }
+
+  handleTouch(e) {
+    e.preventDefault();
+    const touch = e.touches[0];
+    const rect = this.timeline.getBoundingClientRect();
+    const touchX = touch.clientX - rect.left;
+    const percent = Math.max(0, Math.min(1, touchX / rect.width));
+    const seekTime = percent * this.audio.duration;
+
+    this.audio.currentTime = seekTime;
+  }
+
+  handleKeyboard(e) {
+    // Ignore if typing in input
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+      return;
+    }
+
+    switch (e.code) {
+      case 'Space':
+        e.preventDefault();
+        this.togglePlay();
+        break;
+
+      case 'ArrowLeft':
+        e.preventDefault();
+        this.audio.currentTime = Math.max(0, this.audio.currentTime - 5);
+        break;
+
+      case 'ArrowRight':
+        e.preventDefault();
+        this.audio.currentTime = Math.min(
+          this.audio.duration,
+          this.audio.currentTime + 5
+        );
+        break;
+
+      case 'ArrowUp':
+        e.preventDefault();
+        if (this.currentWordIndex > 0) {
+          this.seekToWord(this.currentWordIndex - 1);
+        }
+        break;
+
+      case 'ArrowDown':
+        e.preventDefault();
+        if (this.currentWordIndex < this.words.length - 1) {
+          this.seekToWord(this.currentWordIndex + 1);
+        }
+        break;
+
+      case 'Home':
+        e.preventDefault();
+        this.audio.currentTime = 0;
+        break;
+
+      case 'End':
+        e.preventDefault();
+        this.audio.currentTime = this.audio.duration;
+        break;
+    }
+  }
+
+  updateDuration() {
+    if (!this.durationEl || !this.audio.duration) return;
+    this.durationEl.textContent = this.formatTime(this.audio.duration);
+  }
+
+  formatTime(seconds) {
+    if (isNaN(seconds) || !isFinite(seconds)) return '0:00';
+
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  }
+
+  // Public API
+
+  /**
+   * Set audio source dynamically
+   * @param {string} src - Audio file URL
+   */
+  setSource(src) {
+    this.audio.src = src;
+    this.audio.load();
+    this.resetWords();
+  }
+
+  /**
+   * Get current playback state
+   * @returns {Object} - { isPlaying, currentTime, duration, currentWord }
+   */
+  getState() {
+    return {
+      isPlaying: this.isPlaying,
+      currentTime: this.audio.currentTime,
+      duration: this.audio.duration,
+      currentWord: this.currentWordIndex >= 0 ? this.words[this.currentWordIndex] : null
+    };
+  }
+
+  /**
+   * Load word data dynamically (for SPA usage)
+   * @param {Array} wordsData - Array of { word, start, end } objects
+   */
+  loadWords(wordsData) {
+    // Clear existing words
+    if (this.transcript) {
+      this.transcript.innerHTML = '';
+
+      wordsData.forEach(data => {
+        const span = document.createElement('span');
+        span.className = 'word';
+        span.textContent = data.word + ' ';
+        span.dataset.start = data.start;
+        span.dataset.end = data.end;
+        this.transcript.appendChild(span);
+      });
+
+      this.collectWords();
+    }
+  }
+}
+
+// Auto-initialize on DOM ready
+document.addEventListener('DOMContentLoaded', () => {
+  window.wordSyncPlayer = new WordSyncPlayer();
+});
+
+// Also support the legacy class name for backwards compatibility
+window.LeituraGuiadaPlayer = WordSyncPlayer;
+
+// Export for module usage
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = WordSyncPlayer;
+}
+
+  </script>
+
+  <!-- Initialize with preloaded data -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Player is initialized automatically by player.js
+      // Additional initialization can go here if needed
+
+      // Toggle metrics visibility (dev mode)
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'm' && e.ctrlKey) {
+          const metrics = document.getElementById('metrics');
+          if (metrics) {
+            metrics.style.display = metrics.style.display === 'none' ? 'block' : 'none';
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

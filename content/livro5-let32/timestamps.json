@@ -1,0 +1,783 @@
+{
+  "audio_file": "livro5_let32.mp3",
+  "language": "pt",
+  "duration": 37.2,
+  "title": "Livro5 Let32",
+  "full_text": "O papagaio que faz CRÁ-CRÁ-CRÁ\nO PAPAGAIO QUE FAZ “CRÁ, CRÁ, CRÁ” ANTIGAMENTE FOI UM MENINO MUITO GULOSO. TINHA O COSTUME DE ENGOLIR A COMIDA SEM MASTIGÁ-LA.\nUMA VEZ SUA MÃE ACHOU FRUTOS DO BATO-I, “MANGABEIRA”, E ASSOU-OS NA CINZA. O FILHO COMEU TIRANDO-OS DIRETAMENTE DO FOGO. SÃO FRUTOS CUJA POLPA VISCOSA SE MANTÉM CALIDÍSSIMA POR MUITO TEMPO. COMENDO-OS TÃO QUENTES, SAPECARAM-LHE A GARGANTA, E O MENINO COMEÇOU A FAZER “CRÁ, CRÁ, CRÁ”, ESFORÇANDO-SE POR VOMITAR OS FRUTOS COMIDOS. CRESCERAM-LHE AS ASAS E AS PENAS; E TORNOU-SE UM PAPAGAIO QUE ATÉ HOJE CONTINUA FAZENDO “CRÁ, CRÁ, CRÁ”.",
+  "word_count": 97,
+  "words": [
+    {
+      "word": "O",
+      "start": 0.0,
+      "end": 0.285,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "papagaio",
+      "start": 0.285,
+      "end": 0.805,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "que",
+      "start": 0.805,
+      "end": 1.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "faz",
+      "start": 1.025,
+      "end": 1.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRÁ-CRÁ-CRÁ",
+      "start": 2.2,
+      "end": 2.4,
+      "confidence": 0.333,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 2.62,
+      "end": 2.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAPAGAIO",
+      "start": 2.71,
+      "end": 3.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 3.225,
+      "end": 3.71,
+      "confidence": 1.0
+    },
+    {
+      "word": "FAZ",
+      "start": 3.72,
+      "end": 3.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "“CRÁ,",
+      "start": 3.73,
+      "end": 3.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRÁ,",
+      "start": 4.16,
+      "end": 4.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRÁ”",
+      "start": 4.7,
+      "end": 4.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANTIGAMENTE",
+      "start": 4.71,
+      "end": 5.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOI",
+      "start": 5.445,
+      "end": 5.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 5.685,
+      "end": 6.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "MENINO",
+      "start": 6.1,
+      "end": 6.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 6.13,
+      "end": 6.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "GULOSO.",
+      "start": 6.525,
+      "end": 6.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "TINHA",
+      "start": 7.5,
+      "end": 7.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 7.51,
+      "end": 7.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "COSTUME",
+      "start": 7.845,
+      "end": 8.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 8.025,
+      "end": 8.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENGOLIR",
+      "start": 8.325,
+      "end": 8.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 8.625,
+      "end": 9.13,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMIDA",
+      "start": 9.14,
+      "end": 9.148,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEM",
+      "start": 9.15,
+      "end": 9.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "MASTIGÁ-LA.",
+      "start": 9.425,
+      "end": 9.98,
+      "confidence": 0.778,
+      "line_break_after": true
+    },
+    {
+      "word": "UMA",
+      "start": 10.6,
+      "end": 10.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "VEZ",
+      "start": 10.63,
+      "end": 10.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUA",
+      "start": 10.845,
+      "end": 11.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "MÃE",
+      "start": 11.08,
+      "end": 11.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACHOU",
+      "start": 11.21,
+      "end": 11.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "FRUTOS",
+      "start": 11.545,
+      "end": 11.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 11.865,
+      "end": 12.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "BATO-I,",
+      "start": 12.105,
+      "end": 12.48,
+      "confidence": 0.6
+    },
+    {
+      "word": "“MANGABEIRA”,",
+      "start": 12.7,
+      "end": 13.125,
+      "confidence": 0.9
+    },
+    {
+      "word": "E",
+      "start": 13.125,
+      "end": 13.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "ASSOU-OS",
+      "start": 13.5,
+      "end": 13.7,
+      "confidence": 0.714
+    },
+    {
+      "word": "NA",
+      "start": 13.84,
+      "end": 14.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "CINZA.",
+      "start": 14.065,
+      "end": 14.34,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 14.7,
+      "end": 15.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "FILHO",
+      "start": 15.1,
+      "end": 15.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMEU",
+      "start": 15.11,
+      "end": 15.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "TIRANDO-OS",
+      "start": 15.525,
+      "end": 15.82,
+      "confidence": 0.778
+    },
+    {
+      "word": "DIRETAMENTE",
+      "start": 16.08,
+      "end": 16.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 16.605,
+      "end": 16.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOGO.",
+      "start": 16.925,
+      "end": 17.44,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÃO",
+      "start": 17.82,
+      "end": 17.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "FRUTOS",
+      "start": 17.83,
+      "end": 18.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "CUJA",
+      "start": 18.125,
+      "end": 18.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "POLPA",
+      "start": 18.465,
+      "end": 18.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "VISCOSA",
+      "start": 18.825,
+      "end": 19.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 19.325,
+      "end": 19.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "MANTÉM",
+      "start": 19.78,
+      "end": 19.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "CALIDÍSSIMA",
+      "start": 19.81,
+      "end": 20.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 20.485,
+      "end": 20.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 20.785,
+      "end": 21.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEMPO.",
+      "start": 21.025,
+      "end": 21.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMENDO-OS",
+      "start": 21.98,
+      "end": 22.18,
+      "confidence": 0.778
+    },
+    {
+      "word": "TÃO",
+      "start": 22.28,
+      "end": 22.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUENTES,",
+      "start": 22.505,
+      "end": 22.86,
+      "confidence": 1.0
+    },
+    {
+      "word": "SAPECARAM-LHE",
+      "start": 23.14,
+      "end": 23.61,
+      "confidence": 0.75
+    },
+    {
+      "word": "A",
+      "start": 23.61,
+      "end": 23.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "GARGANTA,",
+      "start": 23.885,
+      "end": 24.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 24.225,
+      "end": 24.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 24.505,
+      "end": 24.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "MENINO",
+      "start": 24.725,
+      "end": 24.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMEÇOU",
+      "start": 24.925,
+      "end": 25.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 25.325,
+      "end": 25.81,
+      "confidence": 1.0
+    },
+    {
+      "word": "FAZER",
+      "start": 25.82,
+      "end": 25.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "“CRÁ,",
+      "start": 25.83,
+      "end": 26.08,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRÁ,",
+      "start": 26.44,
+      "end": 26.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRÁ”,",
+      "start": 26.92,
+      "end": 27.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESFORÇANDO-SE",
+      "start": 27.105,
+      "end": 27.9,
+      "confidence": 0.833
+    },
+    {
+      "word": "POR",
+      "start": 28.16,
+      "end": 28.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOMITAR",
+      "start": 28.325,
+      "end": 28.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 28.705,
+      "end": 29.13,
+      "confidence": 1.0
+    },
+    {
+      "word": "FRUTOS",
+      "start": 29.14,
+      "end": 29.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMIDOS.",
+      "start": 29.21,
+      "end": 29.84,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRESCERAM-LHE",
+      "start": 30.46,
+      "end": 30.7,
+      "confidence": 0.75
+    },
+    {
+      "word": "AS",
+      "start": 30.7,
+      "end": 30.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "ASAS",
+      "start": 30.965,
+      "end": 31.235,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 31.235,
+      "end": 31.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 31.405,
+      "end": 31.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "PENAS;",
+      "start": 31.845,
+      "end": 32.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 32.165,
+      "end": 32.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "TORNOU-SE",
+      "start": 32.345,
+      "end": 32.74,
+      "confidence": 0.75
+    },
+    {
+      "word": "UM",
+      "start": 32.74,
+      "end": 32.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAPAGAIO",
+      "start": 32.985,
+      "end": 33.455,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 33.455,
+      "end": 33.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 33.625,
+      "end": 33.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "HOJE",
+      "start": 33.865,
+      "end": 34.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTINUA",
+      "start": 34.185,
+      "end": 34.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "FAZENDO",
+      "start": 34.725,
+      "end": 35.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "“CRÁ,",
+      "start": 35.185,
+      "end": 35.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRÁ,",
+      "start": 35.76,
+      "end": 35.96,
+      "confidence": 1.0
+    },
+    {
+      "word": "CRÁ”.",
+      "start": 36.28,
+      "end": 36.48,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.969,
+    "gaps_preserved": 7,
+    "gaps_filled": 76,
+    "gaps_review": 13,
+    "low_confidence_words": 9,
+    "prosody_preserved_score": 0.052,
+    "timing_precision_ms": 30.0,
+    "word_accuracy": 0.969,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "CRÁ-CRÁ-CRÁ",
+    "MASTIGÁ-LA.",
+    "BATO-I,",
+    "ASSOU-OS",
+    "TIRANDO-OS",
+    "COMENDO-OS",
+    "SAPECARAM-LHE",
+    "CRESCERAM-LHE",
+    "TORNOU-SE"
+  ],
+  "timestamp_issues": {
+    "words_checked": 97,
+    "total_issues": 21,
+    "errors": 12,
+    "warnings": 9,
+    "issues_by_type": {
+      "large_gap": 1,
+      "too_short": 11,
+      "syllable_mismatch": 8,
+      "round_timestamps": 1
+    },
+    "issues": [
+      {
+        "word_index": 4,
+        "type": "large_gap",
+        "message": "Large gap (820ms) before 'CRÁ-CRÁ-CRÁ' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 8,
+        "type": "too_short",
+        "message": "Word 'FAZ' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 11,
+        "type": "too_short",
+        "message": "Word 'CRÁ”' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "too_short",
+        "message": "Word 'MENINO' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "syllable_mismatch",
+        "message": "Word 'MENINO' (3 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "too_short",
+        "message": "Word 'TINHA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "syllable_mismatch",
+        "message": "Word 'TINHA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "round_timestamps",
+        "message": "Word 'TINHA' has suspiciously round timestamps (7.5-7.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "too_short",
+        "message": "Word 'COMIDA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "syllable_mismatch",
+        "message": "Word 'COMIDA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 27,
+        "type": "too_short",
+        "message": "Word 'UMA' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 27,
+        "type": "syllable_mismatch",
+        "message": "Word 'UMA' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "too_short",
+        "message": "Word 'FILHO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "syllable_mismatch",
+        "message": "Word 'FILHO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "too_short",
+        "message": "Word 'SÃO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "too_short",
+        "message": "Word 'MANTÉM' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "syllable_mismatch",
+        "message": "Word 'MANTÉM' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 69,
+        "type": "too_short",
+        "message": "Word 'FAZER' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 69,
+        "type": "syllable_mismatch",
+        "message": "Word 'FAZER' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 77,
+        "type": "too_short",
+        "message": "Word 'FRUTOS' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 77,
+        "type": "syllable_mismatch",
+        "message": "Word 'FRUTOS' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

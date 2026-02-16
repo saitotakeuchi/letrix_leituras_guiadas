@@ -1,0 +1,324 @@
+{
+  "audio_file": "livro5_let7.mp3",
+  "language": "pt",
+  "duration": 20.65,
+  "title": "Livro5 Let7",
+  "full_text": "Oliveira\n3.738.469 pessoas\nHá várias origens prováveis desse sobrenome português, mas todas remetem, de fato, ao que você está imaginando. Oliveira tem uma raiz geográfica, que faz referência à árvore da azeitona, registrada no português arcaico como “olveira”.\n[...]",
+  "word_count": 39,
+  "words": [
+    {
+      "word": "Oliveira",
+      "start": 0.0,
+      "end": 0.66,
+      "confidence": 1.0,
+      "line_break_after": true,
+      "is_title": true
+    },
+    {
+      "word": "3.738.469",
+      "start": 3.14,
+      "end": 5.105,
+      "confidence": 0.429,
+      "is_title": true
+    },
+    {
+      "word": "pessoas",
+      "start": 5.105,
+      "end": 5.7,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Há",
+      "start": 6.22,
+      "end": 6.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "várias",
+      "start": 6.25,
+      "end": 6.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "origens",
+      "start": 6.545,
+      "end": 6.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "prováveis",
+      "start": 6.925,
+      "end": 7.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "desse",
+      "start": 7.545,
+      "end": 7.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "sobrenome",
+      "start": 7.925,
+      "end": 8.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "português,",
+      "start": 8.405,
+      "end": 9.1,
+      "confidence": 1.0
+    },
+    {
+      "word": "mas",
+      "start": 9.48,
+      "end": 9.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "todas",
+      "start": 9.59,
+      "end": 9.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "remetem,",
+      "start": 9.885,
+      "end": 10.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 10.45,
+      "end": 10.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "fato,",
+      "start": 11.0,
+      "end": 11.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "ao",
+      "start": 11.28,
+      "end": 11.378,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 11.38,
+      "end": 11.528,
+      "confidence": 1.0
+    },
+    {
+      "word": "você",
+      "start": 11.53,
+      "end": 11.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "está",
+      "start": 11.84,
+      "end": 11.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "imaginando.",
+      "start": 11.99,
+      "end": 12.66,
+      "confidence": 1.0
+    },
+    {
+      "word": "Oliveira",
+      "start": 13.16,
+      "end": 13.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "tem",
+      "start": 13.485,
+      "end": 13.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 13.665,
+      "end": 13.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "raiz",
+      "start": 13.925,
+      "end": 14.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "geográfica,",
+      "start": 14.125,
+      "end": 14.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 14.925,
+      "end": 15.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "faz",
+      "start": 15.105,
+      "end": 15.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "referência",
+      "start": 15.305,
+      "end": 15.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "à",
+      "start": 15.825,
+      "end": 16.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "árvore",
+      "start": 16.3,
+      "end": 16.308,
+      "confidence": 1.0
+    },
+    {
+      "word": "da",
+      "start": 16.31,
+      "end": 16.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "azeitona,",
+      "start": 16.685,
+      "end": 17.04,
+      "confidence": 1.0
+    },
+    {
+      "word": "registrada",
+      "start": 17.44,
+      "end": 17.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "no",
+      "start": 17.925,
+      "end": 18.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "português",
+      "start": 18.125,
+      "end": 18.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "arcaico",
+      "start": 18.605,
+      "end": 19.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "como",
+      "start": 19.125,
+      "end": 19.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "“olveira”.",
+      "start": 19.445,
+      "end": 19.745,
+      "confidence": 0.857,
+      "line_break_after": true
+    },
+    {
+      "word": "[...]",
+      "start": 19.745,
+      "end": 20.65,
+      "confidence": 0.3
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.964,
+    "gaps_preserved": 2,
+    "gaps_filled": 32,
+    "gaps_review": 4,
+    "low_confidence_words": 2,
+    "prosody_preserved_score": 0.053,
+    "timing_precision_ms": 41.7,
+    "word_accuracy": 0.964,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "3.738.469",
+    "[...]"
+  ],
+  "timestamp_issues": {
+    "words_checked": 39,
+    "total_issues": 6,
+    "errors": 3,
+    "warnings": 3,
+    "issues_by_type": {
+      "too_long": 1,
+      "large_gap": 2,
+      "too_short": 2,
+      "syllable_mismatch": 1
+    },
+    "issues": [
+      {
+        "word_index": 1,
+        "type": "too_long",
+        "message": "Word '3.738.469' has unusually long duration (1965ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 1,
+        "type": "large_gap",
+        "message": "Large gap (2480ms) before '3.738.469' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 3,
+        "type": "too_short",
+        "message": "Word 'Há' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 3,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'Há' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "too_short",
+        "message": "Word 'árvore' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "syllable_mismatch",
+        "message": "Word 'árvore' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

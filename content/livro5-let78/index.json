@@ -1,0 +1,1315 @@
+{
+  "audio_file": "livro5_let78.mp3",
+  "language": "pt",
+  "duration": 63.01,
+  "title": "Livro5 Let78",
+  "full_text": "O traço inconfundível de Alex Senna nas ruas de Pompeia\nPor Leonor Macedo · Em 24 de outubro de 2018\n[...]\nComo você começou a grafitar? A vida na Pompeia te propiciou esse contato com a arte?\nComecei em 2004. Nessa época eu ainda não morava aqui, apenas a minha mãe. Mas eu me recordo de sempre ver os grafites nos escadões que são famosos daqui do bairro. Grandes artistas sempre passaram por aqui.\nPor que você só faz grafites em preto e branco? Quando você foi diagnosticado com daltonismo e como isso foi determinante na sua carreira?\nEu sempre soube que era daltônico, meu irmão também é. Na verdade, eu nunca tive muito apego por cor, nunca gostei de colorir, minha pegada era mais canetão, tinta nanquim, de acalcar a caneta mesmo. O que rola com o daltonismo é que eu não assimilo todos os tons, às vezes de longe eu nem diferencio, mas é só isso. Quando eu comecei a pintar na rua, eu pintava colorido, e claro, as minhas combinações eram completamente sem sentido. Nunca tive essa sensibilidade pra cor.",
+  "word_count": 183,
+  "words": [
+    {
+      "word": "O",
+      "start": 0.0,
+      "end": 0.265,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "traço",
+      "start": 0.265,
+      "end": 0.585,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "inconfundível",
+      "start": 0.585,
+      "end": 1.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 1.385,
+      "end": 1.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "Alex",
+      "start": 1.605,
+      "end": 2.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "Senna",
+      "start": 2.065,
+      "end": 2.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "nas",
+      "start": 2.365,
+      "end": 2.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "ruas",
+      "start": 2.645,
+      "end": 2.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 2.885,
+      "end": 3.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "Pompeia",
+      "start": 3.245,
+      "end": 3.54,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Por",
+      "start": 3.92,
+      "end": 4.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "Leonor",
+      "start": 4.05,
+      "end": 4.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "Macedo",
+      "start": 4.485,
+      "end": 5.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "·",
+      "start": 5.045,
+      "end": 5.238,
+      "confidence": 0.3
+    },
+    {
+      "word": "Em",
+      "start": 5.24,
+      "end": 5.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "24",
+      "start": 5.37,
+      "end": 6.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 6.005,
+      "end": 6.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "outubro",
+      "start": 6.265,
+      "end": 6.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 6.585,
+      "end": 6.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "2018",
+      "start": 6.785,
+      "end": 7.705,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "[...]",
+      "start": 7.705,
+      "end": 8.11,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "Como",
+      "start": 8.12,
+      "end": 8.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "você",
+      "start": 8.27,
+      "end": 8.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "começou",
+      "start": 8.625,
+      "end": 9.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 9.005,
+      "end": 9.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "grafitar?",
+      "start": 9.305,
+      "end": 9.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 10.1,
+      "end": 10.218,
+      "confidence": 1.0
+    },
+    {
+      "word": "vida",
+      "start": 10.22,
+      "end": 10.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "na",
+      "start": 10.37,
+      "end": 10.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "Pompeia",
+      "start": 10.625,
+      "end": 10.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "te",
+      "start": 10.965,
+      "end": 11.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "propiciou",
+      "start": 11.165,
+      "end": 11.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "esse",
+      "start": 11.605,
+      "end": 11.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "contato",
+      "start": 11.865,
+      "end": 12.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 12.245,
+      "end": 12.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 12.465,
+      "end": 12.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "arte?",
+      "start": 12.86,
+      "end": 13.06,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Comecei",
+      "start": 13.3,
+      "end": 13.81,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 13.82,
+      "end": 13.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "2004.",
+      "start": 13.91,
+      "end": 14.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "Nessa",
+      "start": 15.34,
+      "end": 15.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "época",
+      "start": 15.35,
+      "end": 15.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "eu",
+      "start": 15.705,
+      "end": 15.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "ainda",
+      "start": 15.965,
+      "end": 16.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "não",
+      "start": 16.185,
+      "end": 16.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "morava",
+      "start": 16.465,
+      "end": 16.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "aqui,",
+      "start": 16.725,
+      "end": 17.04,
+      "confidence": 1.0
+    },
+    {
+      "word": "apenas",
+      "start": 17.32,
+      "end": 17.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 17.585,
+      "end": 17.97,
+      "confidence": 1.0
+    },
+    {
+      "word": "minha",
+      "start": 17.98,
+      "end": 17.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "mãe.",
+      "start": 17.99,
+      "end": 18.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "Mas",
+      "start": 18.54,
+      "end": 18.718,
+      "confidence": 1.0
+    },
+    {
+      "word": "eu",
+      "start": 18.72,
+      "end": 18.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "me",
+      "start": 18.87,
+      "end": 19.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "recordo",
+      "start": 19.145,
+      "end": 19.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 19.465,
+      "end": 19.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "sempre",
+      "start": 19.745,
+      "end": 20.035,
+      "confidence": 1.0
+    },
+    {
+      "word": "ver",
+      "start": 20.035,
+      "end": 20.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 20.205,
+      "end": 20.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "grafites",
+      "start": 20.605,
+      "end": 20.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "nos",
+      "start": 20.925,
+      "end": 21.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "escadões",
+      "start": 21.185,
+      "end": 21.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 21.705,
+      "end": 21.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "são",
+      "start": 21.965,
+      "end": 22.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "famosos",
+      "start": 22.145,
+      "end": 22.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "daqui",
+      "start": 22.565,
+      "end": 22.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 22.945,
+      "end": 23.39,
+      "confidence": 1.0
+    },
+    {
+      "word": "bairro.",
+      "start": 23.4,
+      "end": 23.6,
+      "confidence": 1.0
+    },
+    {
+      "word": "Grandes",
+      "start": 24.04,
+      "end": 24.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "artistas",
+      "start": 24.205,
+      "end": 24.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "sempre",
+      "start": 24.745,
+      "end": 25.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "passaram",
+      "start": 25.125,
+      "end": 25.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "por",
+      "start": 25.505,
+      "end": 25.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "aqui.",
+      "start": 25.865,
+      "end": 26.065,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Por",
+      "start": 26.48,
+      "end": 26.638,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 26.64,
+      "end": 26.668,
+      "confidence": 1.0
+    },
+    {
+      "word": "você",
+      "start": 26.67,
+      "end": 27.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "só",
+      "start": 27.005,
+      "end": 27.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "faz",
+      "start": 27.245,
+      "end": 27.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "grafites",
+      "start": 27.425,
+      "end": 27.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 27.925,
+      "end": 28.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "preto",
+      "start": 28.185,
+      "end": 28.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 28.405,
+      "end": 28.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "branco?",
+      "start": 28.605,
+      "end": 29.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "Quando",
+      "start": 29.105,
+      "end": 29.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "você",
+      "start": 29.425,
+      "end": 29.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "foi",
+      "start": 29.705,
+      "end": 29.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "diagnosticado",
+      "start": 29.945,
+      "end": 30.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 30.745,
+      "end": 30.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "daltonismo",
+      "start": 30.985,
+      "end": 31.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 31.565,
+      "end": 31.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "como",
+      "start": 31.925,
+      "end": 32.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "isso",
+      "start": 32.165,
+      "end": 32.435,
+      "confidence": 1.0
+    },
+    {
+      "word": "foi",
+      "start": 32.435,
+      "end": 32.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "determinante",
+      "start": 32.605,
+      "end": 33.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "na",
+      "start": 33.265,
+      "end": 33.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "sua",
+      "start": 33.485,
+      "end": 33.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "carreira?",
+      "start": 33.785,
+      "end": 34.3,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Eu",
+      "start": 34.48,
+      "end": 34.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "sempre",
+      "start": 34.61,
+      "end": 34.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "soube",
+      "start": 34.885,
+      "end": 35.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 35.3,
+      "end": 35.438,
+      "confidence": 1.0
+    },
+    {
+      "word": "era",
+      "start": 35.44,
+      "end": 35.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "daltônico,",
+      "start": 35.605,
+      "end": 36.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "meu",
+      "start": 36.36,
+      "end": 36.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "irmão",
+      "start": 36.45,
+      "end": 36.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "também",
+      "start": 36.725,
+      "end": 37.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "é.",
+      "start": 37.105,
+      "end": 37.4,
+      "confidence": 1.0
+    },
+    {
+      "word": "Na",
+      "start": 37.84,
+      "end": 37.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "verdade,",
+      "start": 37.85,
+      "end": 38.32,
+      "confidence": 1.0
+    },
+    {
+      "word": "eu",
+      "start": 38.52,
+      "end": 38.698,
+      "confidence": 1.0
+    },
+    {
+      "word": "nunca",
+      "start": 38.7,
+      "end": 38.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "tive",
+      "start": 38.83,
+      "end": 39.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "muito",
+      "start": 39.085,
+      "end": 39.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "apego",
+      "start": 39.485,
+      "end": 39.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "por",
+      "start": 39.725,
+      "end": 40.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "cor,",
+      "start": 40.045,
+      "end": 40.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "nunca",
+      "start": 40.64,
+      "end": 40.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "gostei",
+      "start": 40.71,
+      "end": 41.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 41.045,
+      "end": 41.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "colorir,",
+      "start": 41.325,
+      "end": 41.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "minha",
+      "start": 42.06,
+      "end": 42.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "pegada",
+      "start": 42.07,
+      "end": 42.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "era",
+      "start": 42.465,
+      "end": 42.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "mais",
+      "start": 42.645,
+      "end": 42.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "canetão,",
+      "start": 42.965,
+      "end": 43.4,
+      "confidence": 1.0
+    },
+    {
+      "word": "tinta",
+      "start": 43.78,
+      "end": 43.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "nanquim,",
+      "start": 43.79,
+      "end": 44.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 44.48,
+      "end": 44.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "acalcar",
+      "start": 44.685,
+      "end": 44.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 44.925,
+      "end": 45.35,
+      "confidence": 1.0
+    },
+    {
+      "word": "caneta",
+      "start": 45.36,
+      "end": 45.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "mesmo.",
+      "start": 45.37,
+      "end": 45.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 46.16,
+      "end": 46.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 46.27,
+      "end": 46.57,
+      "confidence": 1.0
+    },
+    {
+      "word": "rola",
+      "start": 46.58,
+      "end": 46.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 46.63,
+      "end": 46.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 46.825,
+      "end": 47.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "daltonismo",
+      "start": 47.145,
+      "end": 47.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "é",
+      "start": 47.485,
+      "end": 47.69,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 47.7,
+      "end": 47.778,
+      "confidence": 1.0
+    },
+    {
+      "word": "eu",
+      "start": 47.78,
+      "end": 47.938,
+      "confidence": 1.0
+    },
+    {
+      "word": "não",
+      "start": 47.94,
+      "end": 48.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "assimilo",
+      "start": 48.05,
+      "end": 48.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "todos",
+      "start": 48.525,
+      "end": 48.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 48.905,
+      "end": 49.255,
+      "confidence": 1.0
+    },
+    {
+      "word": "tons,",
+      "start": 49.255,
+      "end": 49.455,
+      "confidence": 1.0
+    },
+    {
+      "word": "às",
+      "start": 49.9,
+      "end": 50.17,
+      "confidence": 1.0
+    },
+    {
+      "word": "vezes",
+      "start": 50.18,
+      "end": 50.188,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 50.19,
+      "end": 50.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "longe",
+      "start": 50.74,
+      "end": 50.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "eu",
+      "start": 50.75,
+      "end": 50.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "nem",
+      "start": 51.0,
+      "end": 51.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "diferencio,",
+      "start": 51.13,
+      "end": 51.76,
+      "confidence": 1.0
+    },
+    {
+      "word": "mas",
+      "start": 52.0,
+      "end": 52.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "é",
+      "start": 52.11,
+      "end": 52.295,
+      "confidence": 1.0
+    },
+    {
+      "word": "só",
+      "start": 52.295,
+      "end": 52.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "isso.",
+      "start": 52.465,
+      "end": 52.76,
+      "confidence": 1.0
+    },
+    {
+      "word": "Quando",
+      "start": 53.1,
+      "end": 53.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "eu",
+      "start": 53.25,
+      "end": 53.75,
+      "confidence": 1.0
+    },
+    {
+      "word": "comecei",
+      "start": 53.76,
+      "end": 53.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 53.83,
+      "end": 54.15,
+      "confidence": 1.0
+    },
+    {
+      "word": "pintar",
+      "start": 54.16,
+      "end": 54.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "na",
+      "start": 54.25,
+      "end": 54.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "rua,",
+      "start": 54.68,
+      "end": 54.792,
+      "confidence": 1.0
+    },
+    {
+      "word": "eu",
+      "start": 54.82,
+      "end": 55.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "pintava",
+      "start": 55.085,
+      "end": 55.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "colorido,",
+      "start": 55.265,
+      "end": 55.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 55.96,
+      "end": 56.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "claro,",
+      "start": 56.165,
+      "end": 56.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "as",
+      "start": 56.425,
+      "end": 56.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "minhas",
+      "start": 56.845,
+      "end": 57.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "combinações",
+      "start": 57.145,
+      "end": 57.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "eram",
+      "start": 57.765,
+      "end": 58.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "completamente",
+      "start": 58.065,
+      "end": 58.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "sem",
+      "start": 58.805,
+      "end": 59.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "sentido.",
+      "start": 59.185,
+      "end": 59.6,
+      "confidence": 1.0
+    },
+    {
+      "word": "Nunca",
+      "start": 60.22,
+      "end": 60.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "tive",
+      "start": 60.33,
+      "end": 60.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "essa",
+      "start": 60.605,
+      "end": 60.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "sensibilidade",
+      "start": 60.905,
+      "end": 61.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "pra",
+      "start": 61.665,
+      "end": 61.94,
+      "confidence": 0.8
+    },
+    {
+      "word": "cor.",
+      "start": 62.16,
+      "end": 62.36,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.991,
+    "gaps_preserved": 11,
+    "gaps_filled": 160,
+    "gaps_review": 11,
+    "low_confidence_words": 2,
+    "prosody_preserved_score": 0.038,
+    "timing_precision_ms": 29.6,
+    "word_accuracy": 0.991,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "·",
+    "[...]"
+  ],
+  "timestamp_issues": {
+    "words_checked": 183,
+    "total_issues": 24,
+    "errors": 12,
+    "warnings": 12,
+    "issues_by_type": {
+      "too_short": 13,
+      "syllable_mismatch": 11
+    },
+    "issues": [
+      {
+        "word_index": 40,
+        "type": "too_short",
+        "message": "Word 'Nessa' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 40,
+        "type": "syllable_mismatch",
+        "message": "Word 'Nessa' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 49,
+        "type": "too_short",
+        "message": "Word 'minha' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 49,
+        "type": "syllable_mismatch",
+        "message": "Word 'minha' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 75,
+        "type": "too_short",
+        "message": "Word 'que' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 108,
+        "type": "too_short",
+        "message": "Word 'Na' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 117,
+        "type": "too_short",
+        "message": "Word 'nunca' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 117,
+        "type": "syllable_mismatch",
+        "message": "Word 'nunca' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 121,
+        "type": "too_short",
+        "message": "Word 'minha' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 121,
+        "type": "syllable_mismatch",
+        "message": "Word 'minha' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 126,
+        "type": "too_short",
+        "message": "Word 'tinta' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 126,
+        "type": "syllable_mismatch",
+        "message": "Word 'tinta' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 131,
+        "type": "too_short",
+        "message": "Word 'caneta' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 131,
+        "type": "syllable_mismatch",
+        "message": "Word 'caneta' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 135,
+        "type": "too_short",
+        "message": "Word 'rola' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 135,
+        "type": "syllable_mismatch",
+        "message": "Word 'rola' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 140,
+        "type": "too_short",
+        "message": "Word 'que' has very short duration (78ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 148,
+        "type": "too_short",
+        "message": "Word 'vezes' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 148,
+        "type": "syllable_mismatch",
+        "message": "Word 'vezes' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 150,
+        "type": "too_short",
+        "message": "Word 'longe' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 150,
+        "type": "syllable_mismatch",
+        "message": "Word 'longe' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 160,
+        "type": "too_short",
+        "message": "Word 'comecei' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 160,
+        "type": "syllable_mismatch",
+        "message": "Word 'comecei' (3 syllables) has only 68ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 162,
+        "type": "syllable_mismatch",
+        "message": "Word 'pintar' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

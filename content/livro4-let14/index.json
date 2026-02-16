@@ -1,0 +1,1134 @@
+{
+  "audio_file": "livro4_let14.mp3",
+  "language": "pt",
+  "duration": 53.71,
+  "title": "Livro4 Let14",
+  "full_text": "Conheça Polly, a cabra que só se acalma fantasiada de pato\nAinda filhote, Polly vive em um santuário para cabras deficientes por ser cega e sofrer de ansiedade\nCom seis meses de idade, a cabra Polly, de Nova Jersey, nos Estados Unidos, é cega e sofre com crises de ansiedade. Como seus donos não tinham tempo para o cuidado constante [...], a filhote foi enviada ao santuário Goats of Anarchy, onde os novos cuidadores encontraram uma forma de acalmá-la: uma fantasia de pato.\n“Quando ela nasceu, era pequena, cega e não conseguia mamar”, contou a gerente do santuário, Leanne Lauricella [...].\nLeanne costumava se divertir publicando fotos em seu perfil no Instagram, nas quais vestia algumas cabras do santuário com fantasias. Quando [...] viu uma roupa de pato para bebês, resolveu comprá-la para Polly, que pareceu gostar da experiência. “Ela dormiu imediatamente, como se tivesse com um cobertor”, disse. [...]",
+  "word_count": 150,
+  "words": [
+    {
+      "word": "Conheça",
+      "start": 0.0,
+      "end": 0.56,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "Polly,",
+      "start": 0.84,
+      "end": 0.984,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "a",
+      "start": 1.02,
+      "end": 1.37,
+      "confidence": 1.0
+    },
+    {
+      "word": "cabra",
+      "start": 1.38,
+      "end": 1.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 1.41,
+      "end": 1.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "só",
+      "start": 1.625,
+      "end": 1.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "se",
+      "start": 1.845,
+      "end": 2.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "acalma",
+      "start": 2.105,
+      "end": 2.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "fantasiada",
+      "start": 2.265,
+      "end": 2.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 2.965,
+      "end": 3.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "pato",
+      "start": 3.225,
+      "end": 3.52,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Ainda",
+      "start": 4.02,
+      "end": 4.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "filhote,",
+      "start": 4.185,
+      "end": 4.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "Polly",
+      "start": 4.88,
+      "end": 5.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "vive",
+      "start": 5.01,
+      "end": 5.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 5.305,
+      "end": 5.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 5.505,
+      "end": 5.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "santuário",
+      "start": 5.825,
+      "end": 6.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 6.045,
+      "end": 6.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "cabras",
+      "start": 6.385,
+      "end": 6.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "deficientes",
+      "start": 6.705,
+      "end": 7.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "por",
+      "start": 7.345,
+      "end": 7.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "ser",
+      "start": 7.645,
+      "end": 7.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "cega",
+      "start": 7.905,
+      "end": 8.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 8.205,
+      "end": 8.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "sofrer",
+      "start": 8.485,
+      "end": 8.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 8.805,
+      "end": 9.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "ansiedade",
+      "start": 9.105,
+      "end": 9.58,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Com",
+      "start": 10.08,
+      "end": 10.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "seis",
+      "start": 10.11,
+      "end": 10.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "meses",
+      "start": 10.485,
+      "end": 10.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 10.685,
+      "end": 11.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "idade,",
+      "start": 11.3,
+      "end": 11.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 11.5,
+      "end": 11.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "cabra",
+      "start": 11.705,
+      "end": 11.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "Polly,",
+      "start": 11.905,
+      "end": 12.24,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 12.42,
+      "end": 12.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "Nova",
+      "start": 12.51,
+      "end": 12.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "Jersey,",
+      "start": 12.845,
+      "end": 13.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "nos",
+      "start": 13.31,
+      "end": 13.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "Estados",
+      "start": 13.545,
+      "end": 13.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "Unidos,",
+      "start": 13.965,
+      "end": 14.34,
+      "confidence": 1.0
+    },
+    {
+      "word": "é",
+      "start": 14.56,
+      "end": 14.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "cega",
+      "start": 14.71,
+      "end": 14.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 14.985,
+      "end": 15.43,
+      "confidence": 1.0
+    },
+    {
+      "word": "sofre",
+      "start": 15.44,
+      "end": 15.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 15.45,
+      "end": 16.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "crises",
+      "start": 16.04,
+      "end": 16.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 16.05,
+      "end": 16.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "ansiedade.",
+      "start": 16.505,
+      "end": 16.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "Como",
+      "start": 17.28,
+      "end": 17.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "seus",
+      "start": 17.37,
+      "end": 17.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "donos",
+      "start": 17.645,
+      "end": 17.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "não",
+      "start": 17.985,
+      "end": 18.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "tinham",
+      "start": 18.245,
+      "end": 18.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "tempo",
+      "start": 18.445,
+      "end": 18.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 18.825,
+      "end": 19.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 19.005,
+      "end": 19.47,
+      "confidence": 1.0
+    },
+    {
+      "word": "cuidado",
+      "start": 19.48,
+      "end": 19.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "constante",
+      "start": 19.49,
+      "end": 20.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...],",
+      "start": 20.085,
+      "end": 20.355,
+      "confidence": 0.3
+    },
+    {
+      "word": "a",
+      "start": 20.355,
+      "end": 20.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "filhote",
+      "start": 20.525,
+      "end": 20.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "foi",
+      "start": 20.825,
+      "end": 21.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "enviada",
+      "start": 21.065,
+      "end": 21.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "ao",
+      "start": 21.465,
+      "end": 21.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "santuário",
+      "start": 21.705,
+      "end": 22.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "Goats",
+      "start": 22.105,
+      "end": 22.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "of",
+      "start": 22.605,
+      "end": 22.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "Anarchy,",
+      "start": 22.905,
+      "end": 23.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "onde",
+      "start": 23.84,
+      "end": 23.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 23.93,
+      "end": 24.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "novos",
+      "start": 24.165,
+      "end": 24.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "cuidadores",
+      "start": 24.405,
+      "end": 25.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "encontraram",
+      "start": 25.085,
+      "end": 25.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 25.745,
+      "end": 26.035,
+      "confidence": 1.0
+    },
+    {
+      "word": "forma",
+      "start": 26.035,
+      "end": 26.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 26.205,
+      "end": 26.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "acalmá-la:",
+      "start": 26.485,
+      "end": 26.88,
+      "confidence": 0.75
+    },
+    {
+      "word": "uma",
+      "start": 27.16,
+      "end": 27.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "fantasia",
+      "start": 27.325,
+      "end": 27.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 27.745,
+      "end": 28.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "pato.",
+      "start": 28.045,
+      "end": 28.525,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "“Quando",
+      "start": 28.525,
+      "end": 28.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "ela",
+      "start": 28.905,
+      "end": 29.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "nasceu,",
+      "start": 29.285,
+      "end": 29.54,
+      "confidence": 1.0
+    },
+    {
+      "word": "era",
+      "start": 29.78,
+      "end": 29.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "pequena,",
+      "start": 29.85,
+      "end": 30.34,
+      "confidence": 1.0
+    },
+    {
+      "word": "cega",
+      "start": 30.86,
+      "end": 30.858,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 30.86,
+      "end": 30.998,
+      "confidence": 1.0
+    },
+    {
+      "word": "não",
+      "start": 31.0,
+      "end": 31.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "conseguia",
+      "start": 31.165,
+      "end": 31.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "mamar”,",
+      "start": 31.645,
+      "end": 31.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "contou",
+      "start": 32.36,
+      "end": 32.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 32.41,
+      "end": 32.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "gerente",
+      "start": 32.645,
+      "end": 32.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 32.865,
+      "end": 33.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "santuário,",
+      "start": 33.125,
+      "end": 33.6,
+      "confidence": 1.0
+    },
+    {
+      "word": "Leanne",
+      "start": 33.92,
+      "end": 34.008,
+      "confidence": 0.833
+    },
+    {
+      "word": "Lauricella",
+      "start": 34.01,
+      "end": 34.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...].",
+      "start": 34.765,
+      "end": 35.205,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "Leanne",
+      "start": 35.205,
+      "end": 35.465,
+      "confidence": 0.833
+    },
+    {
+      "word": "costumava",
+      "start": 35.465,
+      "end": 36.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "se",
+      "start": 36.045,
+      "end": 36.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "divertir",
+      "start": 36.365,
+      "end": 36.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "publicando",
+      "start": 36.745,
+      "end": 37.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "fotos",
+      "start": 37.245,
+      "end": 37.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 37.705,
+      "end": 37.93,
+      "confidence": 1.0
+    },
+    {
+      "word": "seu",
+      "start": 37.94,
+      "end": 38.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "perfil",
+      "start": 38.09,
+      "end": 38.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "no",
+      "start": 38.405,
+      "end": 38.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "Instagram,",
+      "start": 38.625,
+      "end": 39.02,
+      "confidence": 1.0
+    },
+    {
+      "word": "nas",
+      "start": 39.32,
+      "end": 39.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "quais",
+      "start": 39.545,
+      "end": 39.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "vestia",
+      "start": 39.725,
+      "end": 40.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "algumas",
+      "start": 40.105,
+      "end": 40.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "cabras",
+      "start": 40.545,
+      "end": 40.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 40.865,
+      "end": 41.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "santuário",
+      "start": 41.125,
+      "end": 41.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 41.565,
+      "end": 41.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "fantasias.",
+      "start": 41.845,
+      "end": 42.54,
+      "confidence": 1.0
+    },
+    {
+      "word": "Quando",
+      "start": 42.98,
+      "end": 43.098,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 43.1,
+      "end": 43.098,
+      "confidence": 0.3
+    },
+    {
+      "word": "viu",
+      "start": 43.1,
+      "end": 43.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 43.325,
+      "end": 43.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "roupa",
+      "start": 43.585,
+      "end": 43.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 43.825,
+      "end": 44.25,
+      "confidence": 1.0
+    },
+    {
+      "word": "pato",
+      "start": 44.26,
+      "end": 44.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 44.29,
+      "end": 44.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "bebês,",
+      "start": 44.525,
+      "end": 44.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "resolveu",
+      "start": 45.34,
+      "end": 45.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "comprá-la",
+      "start": 45.685,
+      "end": 46.02,
+      "confidence": 0.75
+    },
+    {
+      "word": "para",
+      "start": 46.02,
+      "end": 46.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "Polly,",
+      "start": 46.285,
+      "end": 46.66,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 46.9,
+      "end": 47.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "pareceu",
+      "start": 47.05,
+      "end": 47.675,
+      "confidence": 1.0
+    },
+    {
+      "word": "gostar",
+      "start": 47.675,
+      "end": 47.835,
+      "confidence": 1.0
+    },
+    {
+      "word": "da",
+      "start": 47.835,
+      "end": 48.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "experiência.",
+      "start": 48.005,
+      "end": 48.58,
+      "confidence": 1.0
+    },
+    {
+      "word": "“Ela",
+      "start": 49.06,
+      "end": 49.188,
+      "confidence": 1.0
+    },
+    {
+      "word": "dormiu",
+      "start": 49.19,
+      "end": 49.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "imediatamente,",
+      "start": 49.585,
+      "end": 50.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "como",
+      "start": 50.6,
+      "end": 50.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "se",
+      "start": 50.75,
+      "end": 51.21,
+      "confidence": 1.0
+    },
+    {
+      "word": "tivesse",
+      "start": 51.22,
+      "end": 51.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 51.23,
+      "end": 51.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 51.465,
+      "end": 51.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "cobertor”,",
+      "start": 51.885,
+      "end": 52.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "disse.",
+      "start": 52.52,
+      "end": 52.528,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 52.53,
+      "end": 53.71,
+      "confidence": 0.3
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.976,
+    "gaps_preserved": 4,
+    "gaps_filled": 128,
+    "gaps_review": 17,
+    "low_confidence_words": 6,
+    "prosody_preserved_score": 0.02,
+    "timing_precision_ms": 31.1,
+    "word_accuracy": 0.976,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "[...],",
+    "acalmá-la:",
+    "[...].",
+    "[...]",
+    "comprá-la",
+    "[...]"
+  ],
+  "timestamp_issues": {
+    "words_checked": 150,
+    "total_issues": 26,
+    "errors": 13,
+    "warnings": 13,
+    "issues_by_type": {
+      "too_short": 12,
+      "syllable_mismatch": 13,
+      "large_gap": 1
+    },
+    "issues": [
+      {
+        "word_index": 3,
+        "type": "too_short",
+        "message": "Word 'cabra' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 3,
+        "type": "syllable_mismatch",
+        "message": "Word 'cabra' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 28,
+        "type": "too_short",
+        "message": "Word 'Com' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 45,
+        "type": "too_short",
+        "message": "Word 'sofre' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 45,
+        "type": "syllable_mismatch",
+        "message": "Word 'sofre' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "too_short",
+        "message": "Word 'crises' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "syllable_mismatch",
+        "message": "Word 'crises' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 50,
+        "type": "syllable_mismatch",
+        "message": "Word 'Como' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 58,
+        "type": "too_short",
+        "message": "Word 'cuidado' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 58,
+        "type": "syllable_mismatch",
+        "message": "Word 'cuidado' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 70,
+        "type": "syllable_mismatch",
+        "message": "Word 'onde' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 86,
+        "type": "too_short",
+        "message": "Word 'era' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 86,
+        "type": "syllable_mismatch",
+        "message": "Word 'era' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 88,
+        "type": "too_short",
+        "message": "Word 'cega' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 88,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'cega' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 88,
+        "type": "syllable_mismatch",
+        "message": "Word 'cega' (2 syllables) has only -2ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 93,
+        "type": "too_short",
+        "message": "Word 'contou' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 93,
+        "type": "syllable_mismatch",
+        "message": "Word 'contou' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 98,
+        "type": "syllable_mismatch",
+        "message": "Word 'Leanne' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 122,
+        "type": "too_short",
+        "message": "Word '[...]' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 127,
+        "type": "too_short",
+        "message": "Word 'pato' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 127,
+        "type": "syllable_mismatch",
+        "message": "Word 'pato' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 144,
+        "type": "too_short",
+        "message": "Word 'tivesse' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 144,
+        "type": "syllable_mismatch",
+        "message": "Word 'tivesse' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 148,
+        "type": "too_short",
+        "message": "Word 'disse.' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 148,
+        "type": "syllable_mismatch",
+        "message": "Word 'disse.' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

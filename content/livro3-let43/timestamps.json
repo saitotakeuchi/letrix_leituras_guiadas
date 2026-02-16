@@ -1,0 +1,906 @@
+{
+  "audio_file": "livro3_let43.mp3",
+  "language": "pt",
+  "duration": 43.92,
+  "title": "Livro3 Let43",
+  "full_text": "Os vilões do oceano\nSOL, AREIA, DIVERSÃO! OLHANDO PARA A ÁGUA TUDO PARECE PERFEITO, MAS LÁ NO FUNDO (OU TAMBÉM NO RASO!) HÁ ALGO QUE VOCÊ PRECISA SABER: ALGUNS VILÕES ESTÃO AMEAÇANDO O OCEANO! [...]\nA POLUIÇÃO DO OCEANO É UM PROBLEMA, POR VEZES, INVISÍVEL. TEM GENTE QUE NEM ACREDITA QUE SEJA TÃO GRAVE PORQUE SE PERGUNTA: SE O OCEANO ESTÁ TÃO POLUÍDO, COMO EXISTEM TANTAS PRAIAS PARADISÍACAS, SEM QUALQUER SOMBRA DE LIXO?\n[...] COM A ÁGUA SE MOVIMENTANDO O TEMPO TODO, O QUE OCORRE EM UMA REGIÃO MUITO PROVAVELMENTE SE ESPALHARÁ PARA OUTRAS, PORQUE AS CORRENTES PODEM LEVAR PARA GRANDES DISTÂNCIAS TANTO ANIMAIS MARINHOS QUANTO LIXO HUMANO [...]",
+  "word_count": 109,
+  "words": [
+    {
+      "word": "Os",
+      "start": 0.0,
+      "end": 0.385,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "vilões",
+      "start": 0.385,
+      "end": 0.825,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "do",
+      "start": 0.825,
+      "end": 1.75,
+      "confidence": 1.0
+    },
+    {
+      "word": "oceano",
+      "start": 1.76,
+      "end": 1.96,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SOL,",
+      "start": 2.94,
+      "end": 3.14,
+      "confidence": 1.0
+    },
+    {
+      "word": "AREIA,",
+      "start": 3.48,
+      "end": 3.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIVERSÃO!",
+      "start": 4.0,
+      "end": 4.5,
+      "confidence": 1.0
+    },
+    {
+      "word": "OLHANDO",
+      "start": 5.76,
+      "end": 5.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 5.77,
+      "end": 6.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 6.085,
+      "end": 6.35,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÁGUA",
+      "start": 6.36,
+      "end": 6.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "TUDO",
+      "start": 6.37,
+      "end": 6.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARECE",
+      "start": 6.785,
+      "end": 7.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERFEITO,",
+      "start": 7.165,
+      "end": 7.78,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 8.24,
+      "end": 8.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÁ",
+      "start": 8.39,
+      "end": 8.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 8.665,
+      "end": 9.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "FUNDO",
+      "start": 9.08,
+      "end": 9.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "(OU",
+      "start": 9.09,
+      "end": 9.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMBÉM",
+      "start": 9.325,
+      "end": 9.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 9.665,
+      "end": 10.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "RASO!)",
+      "start": 10.08,
+      "end": 10.188,
+      "confidence": 1.0
+    },
+    {
+      "word": "HÁ",
+      "start": 10.19,
+      "end": 10.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGO",
+      "start": 10.46,
+      "end": 10.538,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 10.54,
+      "end": 10.688,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOCÊ",
+      "start": 10.69,
+      "end": 11.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRECISA",
+      "start": 11.025,
+      "end": 11.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "SABER:",
+      "start": 11.385,
+      "end": 11.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGUNS",
+      "start": 12.48,
+      "end": 12.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "VILÕES",
+      "start": 12.57,
+      "end": 13.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTÃO",
+      "start": 13.005,
+      "end": 13.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "AMEAÇANDO",
+      "start": 13.385,
+      "end": 13.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 13.905,
+      "end": 14.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "OCEANO!",
+      "start": 14.5,
+      "end": 14.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 14.51,
+      "end": 15.47,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 15.48,
+      "end": 15.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "POLUIÇÃO",
+      "start": 15.63,
+      "end": 15.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 15.985,
+      "end": 16.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "OCEANO",
+      "start": 16.505,
+      "end": 16.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 16.805,
+      "end": 16.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 16.985,
+      "end": 17.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROBLEMA,",
+      "start": 17.64,
+      "end": 17.84,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 17.94,
+      "end": 18.33,
+      "confidence": 1.0
+    },
+    {
+      "word": "VEZES,",
+      "start": 18.34,
+      "end": 18.54,
+      "confidence": 1.0
+    },
+    {
+      "word": "INVISÍVEL.",
+      "start": 18.84,
+      "end": 19.34,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM",
+      "start": 20.36,
+      "end": 20.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "GENTE",
+      "start": 20.49,
+      "end": 20.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 20.745,
+      "end": 20.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "NEM",
+      "start": 21.0,
+      "end": 21.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACREDITA",
+      "start": 21.13,
+      "end": 21.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 21.665,
+      "end": 21.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEJA",
+      "start": 21.905,
+      "end": 22.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÃO",
+      "start": 22.105,
+      "end": 22.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRAVE",
+      "start": 22.64,
+      "end": 22.668,
+      "confidence": 1.0
+    },
+    {
+      "word": "PORQUE",
+      "start": 22.67,
+      "end": 22.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 22.985,
+      "end": 23.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERGUNTA:",
+      "start": 23.345,
+      "end": 23.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 23.705,
+      "end": 24.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 24.165,
+      "end": 24.69,
+      "confidence": 1.0
+    },
+    {
+      "word": "OCEANO",
+      "start": 24.7,
+      "end": 24.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTÁ",
+      "start": 24.71,
+      "end": 24.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÃO",
+      "start": 24.965,
+      "end": 25.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "POLUÍDO,",
+      "start": 25.325,
+      "end": 25.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMO",
+      "start": 25.705,
+      "end": 26.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXISTEM",
+      "start": 26.245,
+      "end": 26.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "TANTAS",
+      "start": 26.685,
+      "end": 27.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRAIAS",
+      "start": 27.145,
+      "end": 27.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARADISÍACAS,",
+      "start": 27.465,
+      "end": 28.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEM",
+      "start": 28.385,
+      "end": 28.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUALQUER",
+      "start": 28.925,
+      "end": 29.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOMBRA",
+      "start": 29.345,
+      "end": 29.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 29.665,
+      "end": 30.15,
+      "confidence": 1.0
+    },
+    {
+      "word": "LIXO?",
+      "start": 30.16,
+      "end": 30.168,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "[...]",
+      "start": 30.17,
+      "end": 31.15,
+      "confidence": 0.3
+    },
+    {
+      "word": "COM",
+      "start": 31.16,
+      "end": 31.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 31.25,
+      "end": 31.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÁGUA",
+      "start": 31.68,
+      "end": 31.688,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 31.69,
+      "end": 32.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "MOVIMENTANDO",
+      "start": 32.025,
+      "end": 32.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 32.465,
+      "end": 32.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEMPO",
+      "start": 32.96,
+      "end": 32.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODO,",
+      "start": 32.97,
+      "end": 33.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 33.68,
+      "end": 33.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 33.73,
+      "end": 34.17,
+      "confidence": 1.0
+    },
+    {
+      "word": "OCORRE",
+      "start": 34.18,
+      "end": 34.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 34.25,
+      "end": 34.435,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 34.435,
+      "end": 34.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "REGIÃO",
+      "start": 34.605,
+      "end": 34.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 34.885,
+      "end": 35.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROVAVELMENTE",
+      "start": 35.365,
+      "end": 35.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 35.865,
+      "end": 36.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPALHARÁ",
+      "start": 36.625,
+      "end": 36.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 36.825,
+      "end": 37.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTRAS,",
+      "start": 37.045,
+      "end": 37.5,
+      "confidence": 1.0
+    },
+    {
+      "word": "PORQUE",
+      "start": 37.82,
+      "end": 38.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 38.045,
+      "end": 38.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "CORRENTES",
+      "start": 38.345,
+      "end": 38.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "PODEM",
+      "start": 38.725,
+      "end": 39.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "LEVAR",
+      "start": 39.085,
+      "end": 39.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 39.425,
+      "end": 39.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "GRANDES",
+      "start": 39.785,
+      "end": 40.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISTÂNCIAS",
+      "start": 40.145,
+      "end": 40.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "TANTO",
+      "start": 40.705,
+      "end": 41.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANIMAIS",
+      "start": 41.085,
+      "end": 41.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "MARINHOS",
+      "start": 41.505,
+      "end": 41.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUANTO",
+      "start": 41.985,
+      "end": 42.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "LIXO",
+      "start": 42.365,
+      "end": 42.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "HUMANO",
+      "start": 42.645,
+      "end": 43.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 43.045,
+      "end": 43.92,
+      "confidence": 0.3
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.981,
+    "gaps_preserved": 4,
+    "gaps_filled": 97,
+    "gaps_review": 7,
+    "low_confidence_words": 3,
+    "prosody_preserved_score": 0.037,
+    "timing_precision_ms": 34.4,
+    "word_accuracy": 0.981,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "[...]",
+    "[...]",
+    "[...]"
+  ],
+  "timestamp_issues": {
+    "words_checked": 109,
+    "total_issues": 29,
+    "errors": 14,
+    "warnings": 15,
+    "issues_by_type": {
+      "large_gap": 3,
+      "round_timestamps": 2,
+      "too_short": 12,
+      "syllable_mismatch": 12
+    },
+    "issues": [
+      {
+        "word_index": 4,
+        "type": "large_gap",
+        "message": "Large gap (980ms) before 'SOL,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 6,
+        "type": "round_timestamps",
+        "message": "Word 'DIVERSÃO!' has suspiciously round timestamps (4.0-4.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 7,
+        "type": "too_short",
+        "message": "Word 'OLHANDO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 7,
+        "type": "large_gap",
+        "message": "Very large gap (1260ms) before 'OLHANDO'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 7,
+        "type": "syllable_mismatch",
+        "message": "Word 'OLHANDO' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "too_short",
+        "message": "Word 'ÁGUA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "syllable_mismatch",
+        "message": "Word 'ÁGUA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 17,
+        "type": "too_short",
+        "message": "Word 'FUNDO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 17,
+        "type": "syllable_mismatch",
+        "message": "Word 'FUNDO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "too_short",
+        "message": "Word 'ALGO' has very short duration (78ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALGO' (2 syllables) has only 78ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 28,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALGUNS' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "too_short",
+        "message": "Word 'OCEANO!' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "syllable_mismatch",
+        "message": "Word 'OCEANO!' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "round_timestamps",
+        "message": "Word 'OCEANO!' has suspiciously round timestamps (14.5-14.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 45,
+        "type": "large_gap",
+        "message": "Very large gap (1020ms) before 'TEM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "too_short",
+        "message": "Word 'GRAVE' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "syllable_mismatch",
+        "message": "Word 'GRAVE' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 59,
+        "type": "too_short",
+        "message": "Word 'OCEANO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 59,
+        "type": "syllable_mismatch",
+        "message": "Word 'OCEANO' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 72,
+        "type": "too_short",
+        "message": "Word 'LIXO?' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 72,
+        "type": "syllable_mismatch",
+        "message": "Word 'LIXO?' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 76,
+        "type": "too_short",
+        "message": "Word 'ÁGUA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 76,
+        "type": "syllable_mismatch",
+        "message": "Word 'ÁGUA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 80,
+        "type": "too_short",
+        "message": "Word 'TEMPO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 80,
+        "type": "syllable_mismatch",
+        "message": "Word 'TEMPO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 82,
+        "type": "too_short",
+        "message": "Word 'O' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "too_short",
+        "message": "Word 'OCORRE' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "syllable_mismatch",
+        "message": "Word 'OCORRE' (3 syllables) has only 68ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1094 @@
+{
+  "audio_file": "livro3_let72.mp3",
+  "language": "pt",
+  "duration": 49.39,
+  "title": "Livro3 Let72",
+  "full_text": "Os viajantes e o urso\nDOIS AMIGOS VIAJAVAM JUNTOS POR UM TRECHO DO CAMINHO QUANDO UM URSO APARECEU-LHES DE REPENTE. UM DELES SUBIU BEM ALTO EM UMA ÁRVORE E LÁ SE ESCONDEU, E O OUTRO, A PONTO DE SER APANHADO, DEIXOU-SE CAIR NO CHÃO E FINGIU-SE DE MORTO. O URSO APROXIMOU DELE O FOCINHO E O CHEIROU DE TODOS OS LADOS, ENQUANTO ELE RETEVE A RESPIRAÇÃO, POIS DIZEM QUE O URSO NÃO TOCA EM ANIMAL MORTO. DEPOIS QUE O URSO SE AFASTOU, O HOMEM QUE ESTAVA NA ÁRVORE DESCEU E QUIS SABER O QUE O URSO LHE HAVIA DITO AO OUVIDO. E O OUTRO RESPONDEU: “ELE ME ACONSELHOU A NÃO MAIS VIAJAR, DAQUI PARA A FRENTE, COM OS AMIGOS QUE FOGEM NA HORA DO PERIGO”.\nMORAL: A FÁBULA MOSTRA QUE AS DESGRAÇAS PÕEM À PROVA OS VERDADEIROS AMIGOS.",
+  "word_count": 138,
+  "words": [
+    {
+      "word": "Os",
+      "start": 0.0,
+      "end": 0.345,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "viajantes",
+      "start": 0.345,
+      "end": 1.005,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "e",
+      "start": 1.005,
+      "end": 1.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 1.325,
+      "end": 1.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "urso",
+      "start": 1.64,
+      "end": 1.84,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DOIS",
+      "start": 2.74,
+      "end": 2.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "AMIGOS",
+      "start": 2.81,
+      "end": 3.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIAJAVAM",
+      "start": 3.265,
+      "end": 3.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "JUNTOS",
+      "start": 3.745,
+      "end": 4.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 4.265,
+      "end": 4.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 4.485,
+      "end": 4.87,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRECHO",
+      "start": 4.88,
+      "end": 4.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 4.89,
+      "end": 5.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMINHO",
+      "start": 5.265,
+      "end": 5.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUANDO",
+      "start": 5.465,
+      "end": 5.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 5.805,
+      "end": 6.23,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 6.24,
+      "end": 6.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "APARECEU-LHES",
+      "start": 6.25,
+      "end": 6.8,
+      "confidence": 0.667
+    },
+    {
+      "word": "DE",
+      "start": 7.06,
+      "end": 7.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "REPENTE.",
+      "start": 7.345,
+      "end": 7.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 8.84,
+      "end": 8.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "DELES",
+      "start": 8.89,
+      "end": 9.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUBIU",
+      "start": 9.225,
+      "end": 9.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEM",
+      "start": 9.485,
+      "end": 10.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALTO",
+      "start": 10.08,
+      "end": 10.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 10.09,
+      "end": 10.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 10.285,
+      "end": 10.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÁRVORE",
+      "start": 10.625,
+      "end": 10.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 10.845,
+      "end": 11.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÁ",
+      "start": 11.085,
+      "end": 11.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 11.265,
+      "end": 11.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCONDEU,",
+      "start": 11.505,
+      "end": 12.04,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 12.26,
+      "end": 12.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 12.37,
+      "end": 12.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTRO,",
+      "start": 12.74,
+      "end": 12.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 13.14,
+      "end": 13.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "PONTO",
+      "start": 13.46,
+      "end": 13.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 13.47,
+      "end": 13.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "SER",
+      "start": 13.74,
+      "end": 13.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "APANHADO,",
+      "start": 13.85,
+      "end": 14.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEIXOU-SE",
+      "start": 14.94,
+      "end": 15.18,
+      "confidence": 0.75
+    },
+    {
+      "word": "CAIR",
+      "start": 15.56,
+      "end": 15.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 15.57,
+      "end": 16.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHÃO",
+      "start": 16.08,
+      "end": 16.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 16.09,
+      "end": 16.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "FINGIU-SE",
+      "start": 16.345,
+      "end": 16.62,
+      "confidence": 0.75
+    },
+    {
+      "word": "DE",
+      "start": 16.84,
+      "end": 17.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "MORTO.",
+      "start": 17.265,
+      "end": 17.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 18.36,
+      "end": 18.558,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 18.56,
+      "end": 18.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "APROXIMOU",
+      "start": 18.57,
+      "end": 19.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "DELE",
+      "start": 19.185,
+      "end": 19.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 19.385,
+      "end": 19.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOCINHO",
+      "start": 19.705,
+      "end": 19.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 19.985,
+      "end": 20.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 20.205,
+      "end": 20.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHEIROU",
+      "start": 20.5,
+      "end": 20.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 20.61,
+      "end": 20.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODOS",
+      "start": 20.905,
+      "end": 21.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 21.165,
+      "end": 21.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "LADOS,",
+      "start": 21.78,
+      "end": 21.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENQUANTO",
+      "start": 22.2,
+      "end": 22.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELE",
+      "start": 22.465,
+      "end": 22.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "RETEVE",
+      "start": 22.745,
+      "end": 22.985,
+      "confidence": 0.667
+    },
+    {
+      "word": "A",
+      "start": 22.985,
+      "end": 23.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "RESPIRAÇÃO,",
+      "start": 23.285,
+      "end": 23.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "POIS",
+      "start": 24.22,
+      "end": 24.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIZEM",
+      "start": 24.385,
+      "end": 24.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 24.84,
+      "end": 24.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 24.95,
+      "end": 25.27,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 25.28,
+      "end": 25.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 25.29,
+      "end": 25.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "TOCA",
+      "start": 25.605,
+      "end": 25.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 25.885,
+      "end": 26.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANIMAL",
+      "start": 26.085,
+      "end": 26.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "MORTO.",
+      "start": 26.425,
+      "end": 26.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEPOIS",
+      "start": 26.985,
+      "end": 28.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 28.105,
+      "end": 28.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 28.305,
+      "end": 28.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 28.62,
+      "end": 28.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 28.63,
+      "end": 28.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "AFASTOU,",
+      "start": 28.885,
+      "end": 29.32,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 29.64,
+      "end": 29.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "HOMEM",
+      "start": 29.92,
+      "end": 29.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 29.93,
+      "end": 30.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTAVA",
+      "start": 30.265,
+      "end": 30.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 30.445,
+      "end": 30.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÁRVORE",
+      "start": 30.92,
+      "end": 31.028,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESCEU",
+      "start": 31.03,
+      "end": 31.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 31.465,
+      "end": 31.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUIS",
+      "start": 31.78,
+      "end": 31.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "SABER",
+      "start": 31.89,
+      "end": 32.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 32.165,
+      "end": 32.358,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 32.36,
+      "end": 32.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 32.45,
+      "end": 32.79,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 32.8,
+      "end": 32.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "LHE",
+      "start": 32.81,
+      "end": 33.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "HAVIA",
+      "start": 33.085,
+      "end": 33.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "DITO",
+      "start": 33.325,
+      "end": 33.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "AO",
+      "start": 33.545,
+      "end": 33.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUVIDO.",
+      "start": 33.845,
+      "end": 34.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 35.08,
+      "end": 35.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 35.23,
+      "end": 35.51,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTRO",
+      "start": 35.52,
+      "end": 35.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "RESPONDEU:",
+      "start": 35.55,
+      "end": 36.26,
+      "confidence": 1.0
+    },
+    {
+      "word": "“ELE",
+      "start": 36.58,
+      "end": 36.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "ME",
+      "start": 36.765,
+      "end": 37.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACONSELHOU",
+      "start": 37.105,
+      "end": 37.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 37.425,
+      "end": 37.69,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 37.7,
+      "end": 37.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIS",
+      "start": 37.85,
+      "end": 38.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIAJAR,",
+      "start": 38.205,
+      "end": 38.56,
+      "confidence": 1.0
+    },
+    {
+      "word": "DAQUI",
+      "start": 38.86,
+      "end": 39.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 39.265,
+      "end": 39.55,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 39.56,
+      "end": 39.558,
+      "confidence": 0.3
+    },
+    {
+      "word": "FRENTE,",
+      "start": 39.56,
+      "end": 39.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 40.26,
+      "end": 40.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 40.39,
+      "end": 40.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "AMIGOS",
+      "start": 40.705,
+      "end": 40.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 40.965,
+      "end": 41.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOGEM",
+      "start": 41.305,
+      "end": 41.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 41.585,
+      "end": 41.835,
+      "confidence": 1.0
+    },
+    {
+      "word": "HORA",
+      "start": 41.835,
+      "end": 42.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 42.005,
+      "end": 42.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERIGO”.",
+      "start": 42.62,
+      "end": 42.82,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MORAL:",
+      "start": 43.76,
+      "end": 44.0,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 44.26,
+      "end": 44.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "FÁBULA",
+      "start": 44.585,
+      "end": 44.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "MOSTRA",
+      "start": 44.765,
+      "end": 45.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 45.225,
+      "end": 45.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 45.445,
+      "end": 45.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESGRAÇAS",
+      "start": 45.805,
+      "end": 46.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "PÕEM",
+      "start": 46.225,
+      "end": 46.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "À",
+      "start": 46.585,
+      "end": 47.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROVA",
+      "start": 47.04,
+      "end": 47.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 47.05,
+      "end": 47.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "VERDADEIROS",
+      "start": 47.305,
+      "end": 47.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "AMIGOS.",
+      "start": 47.905,
+      "end": 48.42,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.986,
+    "gaps_preserved": 7,
+    "gaps_filled": 119,
+    "gaps_review": 11,
+    "low_confidence_words": 5,
+    "prosody_preserved_score": 0.036,
+    "timing_precision_ms": 28.9,
+    "word_accuracy": 0.986,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "APARECEU-LHES",
+    "DEIXOU-SE",
+    "FINGIU-SE",
+    "RETEVE",
+    "A"
+  ],
+  "timestamp_issues": {
+    "words_checked": 138,
+    "total_issues": 31,
+    "errors": 16,
+    "warnings": 15,
+    "issues_by_type": {
+      "too_short": 16,
+      "large_gap": 3,
+      "syllable_mismatch": 12
+    },
+    "issues": [
+      {
+        "word_index": 5,
+        "type": "too_short",
+        "message": "Word 'DOIS' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 5,
+        "type": "large_gap",
+        "message": "Large gap (900ms) before 'DOIS' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 11,
+        "type": "too_short",
+        "message": "Word 'TRECHO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 11,
+        "type": "syllable_mismatch",
+        "message": "Word 'TRECHO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 16,
+        "type": "too_short",
+        "message": "Word 'URSO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 16,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "too_short",
+        "message": "Word 'UM' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "large_gap",
+        "message": "Very large gap (1160ms) before 'UM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "too_short",
+        "message": "Word 'ALTO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "syllable_mismatch",
+        "message": "Word 'ALTO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 36,
+        "type": "too_short",
+        "message": "Word 'PONTO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 36,
+        "type": "syllable_mismatch",
+        "message": "Word 'PONTO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "too_short",
+        "message": "Word 'CAIR' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 43,
+        "type": "too_short",
+        "message": "Word 'CHÃO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 49,
+        "type": "too_short",
+        "message": "Word 'URSO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 49,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 70,
+        "type": "too_short",
+        "message": "Word 'URSO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 70,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 79,
+        "type": "too_short",
+        "message": "Word 'URSO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 79,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 83,
+        "type": "too_short",
+        "message": "Word 'HOMEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 83,
+        "type": "syllable_mismatch",
+        "message": "Word 'HOMEM' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 87,
+        "type": "syllable_mismatch",
+        "message": "Word 'ÁRVORE' (3 syllables) has only 108ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 95,
+        "type": "too_short",
+        "message": "Word 'URSO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 95,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 103,
+        "type": "too_short",
+        "message": "Word 'OUTRO' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 103,
+        "type": "syllable_mismatch",
+        "message": "Word 'OUTRO' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 114,
+        "type": "too_short",
+        "message": "Word 'A' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 125,
+        "type": "large_gap",
+        "message": "Very large gap (940ms) before 'MORAL:'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 134,
+        "type": "too_short",
+        "message": "Word 'PROVA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 134,
+        "type": "syllable_mismatch",
+        "message": "Word 'PROVA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

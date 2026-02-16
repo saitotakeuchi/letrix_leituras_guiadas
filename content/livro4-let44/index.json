@@ -1,0 +1,437 @@
+{
+  "audio_file": "livro4_let44.mp3",
+  "language": "pt",
+  "duration": 24.76,
+  "title": "Livro4 Let44",
+  "full_text": "Era uma vez um barquinho\nERA UMA VEZ\nUM BARQUINHO\nQUE ANDAVA\nSEMPRE A NAVEGAR\nPASSARAM-SE\nUMA\nDUAS\nTRÊS\nQUATRO\nCINCO\nSEIS\nSETE\nOITO\nNOVE\nDEZ SEMANAS\nE O BARQUINHO\nSEMPRE A NAVEGAR\nSE ESTA HISTÓRIA\nPARECE MUITO CURTA,\nPODEMOS RECOMEÇAR\nERA UMA VEZ\nUM BARQUINHO...",
+  "word_count": 46,
+  "words": [
+    {
+      "word": "Era",
+      "start": 0.0,
+      "end": 0.325,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "uma",
+      "start": 0.325,
+      "end": 0.57,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "vez",
+      "start": 0.58,
+      "end": 0.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 0.73,
+      "end": 1.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "barquinho",
+      "start": 1.025,
+      "end": 1.36,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ERA",
+      "start": 1.74,
+      "end": 1.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 1.905,
+      "end": 2.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "VEZ",
+      "start": 2.145,
+      "end": 2.425,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "UM",
+      "start": 2.425,
+      "end": 2.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "BARQUINHO",
+      "start": 2.985,
+      "end": 3.465,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUE",
+      "start": 3.465,
+      "end": 3.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANDAVA",
+      "start": 3.985,
+      "end": 4.425,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SEMPRE",
+      "start": 4.425,
+      "end": 5.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 5.205,
+      "end": 5.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "NAVEGAR",
+      "start": 5.78,
+      "end": 5.98,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "PASSARAM-SE",
+      "start": 6.52,
+      "end": 6.72,
+      "confidence": 0.8,
+      "line_break_after": true
+    },
+    {
+      "word": "UMA",
+      "start": 7.26,
+      "end": 7.5,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DUAS",
+      "start": 8.18,
+      "end": 8.38,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "TRÊS",
+      "start": 9.04,
+      "end": 9.24,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUATRO",
+      "start": 9.7,
+      "end": 9.9,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "CINCO",
+      "start": 10.54,
+      "end": 10.74,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SEIS",
+      "start": 11.4,
+      "end": 11.6,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SETE",
+      "start": 12.36,
+      "end": 12.56,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "OITO",
+      "start": 13.06,
+      "end": 13.26,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NOVE",
+      "start": 13.86,
+      "end": 14.06,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DEZ",
+      "start": 14.58,
+      "end": 14.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEMANAS",
+      "start": 14.59,
+      "end": 15.1,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 15.42,
+      "end": 15.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 15.645,
+      "end": 15.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "BARQUINHO",
+      "start": 15.925,
+      "end": 16.185,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SEMPRE",
+      "start": 16.185,
+      "end": 16.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 16.985,
+      "end": 17.53,
+      "confidence": 1.0
+    },
+    {
+      "word": "NAVEGAR",
+      "start": 17.54,
+      "end": 17.74,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SE",
+      "start": 18.16,
+      "end": 18.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTA",
+      "start": 18.17,
+      "end": 18.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "HISTÓRIA",
+      "start": 18.425,
+      "end": 18.885,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "PARECE",
+      "start": 18.885,
+      "end": 19.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 19.545,
+      "end": 20.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "CURTA,",
+      "start": 20.045,
+      "end": 20.68,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "PODEMOS",
+      "start": 20.88,
+      "end": 21.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "RECOMEÇAR",
+      "start": 21.125,
+      "end": 21.8,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ERA",
+      "start": 22.3,
+      "end": 22.308,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 22.31,
+      "end": 22.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "VEZ",
+      "start": 22.565,
+      "end": 22.825,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "UM",
+      "start": 22.825,
+      "end": 23.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "BARQUINHO...",
+      "start": 23.385,
+      "end": 23.82,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.996,
+    "gaps_preserved": 11,
+    "gaps_filled": 29,
+    "gaps_review": 5,
+    "low_confidence_words": 0,
+    "prosody_preserved_score": 0.244,
+    "timing_precision_ms": 33.5,
+    "word_accuracy": 0.996,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [],
+  "timestamp_issues": {
+    "words_checked": 46,
+    "total_issues": 14,
+    "errors": 3,
+    "warnings": 11,
+    "issues_by_type": {
+      "large_gap": 10,
+      "too_short": 3,
+      "syllable_mismatch": 1
+    },
+    "issues": [
+      {
+        "word_index": 15,
+        "type": "large_gap",
+        "message": "Large gap (540ms) before 'PASSARAM-SE' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 16,
+        "type": "large_gap",
+        "message": "Large gap (540ms) before 'UMA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 17,
+        "type": "large_gap",
+        "message": "Large gap (680ms) before 'DUAS' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "large_gap",
+        "message": "Large gap (660ms) before 'TRÊS' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "large_gap",
+        "message": "Large gap (640ms) before 'CINCO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 21,
+        "type": "large_gap",
+        "message": "Large gap (660ms) before 'SEIS' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 22,
+        "type": "large_gap",
+        "message": "Large gap (760ms) before 'SETE' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "large_gap",
+        "message": "Large gap (500ms) before 'OITO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "large_gap",
+        "message": "Large gap (600ms) before 'NOVE' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "too_short",
+        "message": "Word 'DEZ' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'DEZ' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "too_short",
+        "message": "Word 'SE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "too_short",
+        "message": "Word 'ERA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "syllable_mismatch",
+        "message": "Word 'ERA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

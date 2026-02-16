@@ -1,0 +1,241 @@
+{
+  "audio_file": "livro4_let6.mp3",
+  "language": "pt",
+  "duration": 9.64,
+  "title": "Livro4 Let6",
+  "full_text": "Passe a bola\nPASSE, PASSE\nPASSE A BOLA\nPASSE A BOLA\nSEM PARAR\nSE VOCÊ FICAR\nCOM A BOLA\nO SEU NOME VAI CANTAR!",
+  "word_count": 24,
+  "words": [
+    {
+      "word": "Passe",
+      "start": 0.0,
+      "end": 0.385,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "a",
+      "start": 0.385,
+      "end": 0.81,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "bola",
+      "start": 0.82,
+      "end": 1.02,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "PASSE,",
+      "start": 1.24,
+      "end": 1.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "PASSE",
+      "start": 2.12,
+      "end": 2.32,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "PASSE",
+      "start": 2.7,
+      "end": 2.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 2.71,
+      "end": 3.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "BOLA",
+      "start": 3.3,
+      "end": 3.5,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "PASSE",
+      "start": 3.7,
+      "end": 3.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 3.75,
+      "end": 4.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "BOLA",
+      "start": 4.2,
+      "end": 4.4,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SEM",
+      "start": 4.88,
+      "end": 4.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARAR",
+      "start": 4.89,
+      "end": 5.24,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SE",
+      "start": 5.7,
+      "end": 5.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOCÊ",
+      "start": 5.77,
+      "end": 6.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "FICAR",
+      "start": 6.065,
+      "end": 6.445,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "COM",
+      "start": 6.445,
+      "end": 6.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 6.865,
+      "end": 7.33,
+      "confidence": 1.0
+    },
+    {
+      "word": "BOLA",
+      "start": 7.34,
+      "end": 7.54,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 7.7,
+      "end": 7.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEU",
+      "start": 7.905,
+      "end": 8.078,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 8.08,
+      "end": 8.188,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAI",
+      "start": 8.19,
+      "end": 8.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "CANTAR!",
+      "start": 8.425,
+      "end": 8.82,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 1.0,
+    "gaps_preserved": 1,
+    "gaps_filled": 16,
+    "gaps_review": 6,
+    "low_confidence_words": 0,
+    "prosody_preserved_score": 0.043,
+    "timing_precision_ms": 26.1,
+    "word_accuracy": 1.0,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [],
+  "timestamp_issues": {
+    "words_checked": 24,
+    "total_issues": 7,
+    "errors": 3,
+    "warnings": 4,
+    "issues_by_type": {
+      "large_gap": 1,
+      "too_short": 4,
+      "syllable_mismatch": 2
+    },
+    "issues": [
+      {
+        "word_index": 4,
+        "type": "large_gap",
+        "message": "Large gap (600ms) before 'PASSE' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 5,
+        "type": "too_short",
+        "message": "Word 'PASSE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 5,
+        "type": "syllable_mismatch",
+        "message": "Word 'PASSE' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 8,
+        "type": "too_short",
+        "message": "Word 'PASSE' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 8,
+        "type": "syllable_mismatch",
+        "message": "Word 'PASSE' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 11,
+        "type": "too_short",
+        "message": "Word 'SEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "too_short",
+        "message": "Word 'SE' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

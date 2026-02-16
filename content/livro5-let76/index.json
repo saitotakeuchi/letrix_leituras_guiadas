@@ -1,0 +1,1779 @@
+{
+  "audio_file": "livro5_let76.mp3",
+  "language": "pt",
+  "duration": 90.28,
+  "title": "Livro5 Let76",
+  "full_text": "A arte carregada de emoções de Alex Senna\nLogo que vemos um graffiti, ilustração ou qualquer outra obra de Alex Senna, nos deparamos com algumas características típicas do artista, que tornam o seu trabalho inconfundível. Entre elas um lado emocional que sempre se faz presente.\nAlex nasceu em Orlândia, uma cidade que possui cerca de 40 000 habitantes, próxima a Ribeirão Preto, no interior de São Paulo.\nA paixão pela arte e pela pintura vem desde criança, quando começou a desenvolver seu lado artístico influenciado pela sua mãe e seu irmão.\nHoje consagrado como um dos maiores nomes do graffiti nacional, ele teve seu primeiro contato com a arte de rua em 2002.\n[...]\nEm termos de referências, é possível notar inspirações vindas de grandes nomes que variam entre os cartuns e a street art.\nEntre eles podemos citar Walt Disney, Will Eisner, Mauricio de Sousa, Ziraldo e Quino.\nSua arte consegue ser sensível e lúdica ao mesmo tempo, unindo signos do universo infantil ao preto e branco.\nAs criações de Alex, além de serem incríveis, transmitem uma dose de emoção sensacional através dos personagens, que conseguem ser melancólicos, carismáticos e inspiradores, contrastando com o cenário agressivo de grandes centros urbanos como a cidade de São Paulo, por exemplo.\nE já que falamos nos seus personagens, eles são bem variados. Por vezes encontramos casais jovens namorando, pessoas idosas, santas plácidas ou homens solitários. Isto sem falar em pássaros, corações [...]",
+  "word_count": 240,
+  "words": [
+    {
+      "word": "A",
+      "start": 0.0,
+      "end": 0.245,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "arte",
+      "start": 0.245,
+      "end": 0.525,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "carregada",
+      "start": 0.525,
+      "end": 1.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 1.065,
+      "end": 1.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "emoções",
+      "start": 1.325,
+      "end": 1.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 1.625,
+      "end": 1.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "Alex",
+      "start": 1.965,
+      "end": 2.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "Senna",
+      "start": 2.305,
+      "end": 2.62,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Logo",
+      "start": 3.14,
+      "end": 3.188,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 3.19,
+      "end": 3.435,
+      "confidence": 1.0
+    },
+    {
+      "word": "vemos",
+      "start": 3.435,
+      "end": 3.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 3.605,
+      "end": 4.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "graffiti,",
+      "start": 4.005,
+      "end": 4.28,
+      "confidence": 0.75
+    },
+    {
+      "word": "ilustração",
+      "start": 4.98,
+      "end": 5.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "ou",
+      "start": 5.07,
+      "end": 5.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "qualquer",
+      "start": 5.405,
+      "end": 5.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "outra",
+      "start": 5.745,
+      "end": 6.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "obra",
+      "start": 6.125,
+      "end": 6.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 6.325,
+      "end": 6.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "Alex",
+      "start": 6.585,
+      "end": 7.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "Senna,",
+      "start": 7.005,
+      "end": 7.3,
+      "confidence": 1.0
+    },
+    {
+      "word": "nos",
+      "start": 7.6,
+      "end": 7.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "deparamos",
+      "start": 7.73,
+      "end": 8.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 8.185,
+      "end": 8.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "algumas",
+      "start": 8.465,
+      "end": 8.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "características",
+      "start": 8.845,
+      "end": 9.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "típicas",
+      "start": 9.505,
+      "end": 10.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 10.085,
+      "end": 10.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "artista,",
+      "start": 10.365,
+      "end": 11.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 11.09,
+      "end": 11.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "tornam",
+      "start": 11.325,
+      "end": 11.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 11.605,
+      "end": 11.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "seu",
+      "start": 11.86,
+      "end": 11.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "trabalho",
+      "start": 11.99,
+      "end": 12.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "inconfundível.",
+      "start": 12.305,
+      "end": 13.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "Entre",
+      "start": 13.74,
+      "end": 13.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "elas",
+      "start": 13.79,
+      "end": 14.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 14.125,
+      "end": 14.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "lado",
+      "start": 14.5,
+      "end": 14.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "emocional",
+      "start": 14.51,
+      "end": 15.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 15.045,
+      "end": 15.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "sempre",
+      "start": 15.405,
+      "end": 15.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "se",
+      "start": 15.645,
+      "end": 16.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "faz",
+      "start": 16.08,
+      "end": 16.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "presente.",
+      "start": 16.09,
+      "end": 16.68,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Alex",
+      "start": 17.36,
+      "end": 17.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "nasceu",
+      "start": 17.525,
+      "end": 17.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 17.865,
+      "end": 18.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "Orlândia,",
+      "start": 18.045,
+      "end": 18.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 18.8,
+      "end": 19.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "cidade",
+      "start": 19.065,
+      "end": 19.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 19.385,
+      "end": 19.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "possui",
+      "start": 19.605,
+      "end": 19.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "cerca",
+      "start": 19.885,
+      "end": 20.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 20.265,
+      "end": 20.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "40",
+      "start": 20.445,
+      "end": 20.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "000",
+      "start": 20.885,
+      "end": 21.045,
+      "confidence": 0.0
+    },
+    {
+      "word": "habitantes,",
+      "start": 21.045,
+      "end": 21.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "próxima",
+      "start": 22.12,
+      "end": 22.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 22.285,
+      "end": 22.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "Ribeirão",
+      "start": 22.545,
+      "end": 22.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "Preto,",
+      "start": 22.865,
+      "end": 23.24,
+      "confidence": 1.0
+    },
+    {
+      "word": "no",
+      "start": 23.24,
+      "end": 23.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "interior",
+      "start": 23.525,
+      "end": 23.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 23.745,
+      "end": 24.15,
+      "confidence": 1.0
+    },
+    {
+      "word": "São",
+      "start": 24.16,
+      "end": 24.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "Paulo.",
+      "start": 24.29,
+      "end": 24.52,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 24.86,
+      "end": 25.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "paixão",
+      "start": 25.025,
+      "end": 25.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "pela",
+      "start": 25.305,
+      "end": 25.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "arte",
+      "start": 25.605,
+      "end": 25.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 25.905,
+      "end": 26.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "pela",
+      "start": 26.185,
+      "end": 26.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "pintura",
+      "start": 26.485,
+      "end": 26.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "vem",
+      "start": 26.665,
+      "end": 26.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "desde",
+      "start": 26.925,
+      "end": 27.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "criança,",
+      "start": 27.205,
+      "end": 27.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "quando",
+      "start": 27.745,
+      "end": 28.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "começou",
+      "start": 28.205,
+      "end": 28.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 28.685,
+      "end": 28.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "desenvolver",
+      "start": 28.965,
+      "end": 29.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "seu",
+      "start": 29.405,
+      "end": 29.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "lado",
+      "start": 29.685,
+      "end": 29.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "artístico",
+      "start": 29.905,
+      "end": 30.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "influenciado",
+      "start": 30.465,
+      "end": 31.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "pela",
+      "start": 31.245,
+      "end": 31.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "sua",
+      "start": 31.445,
+      "end": 31.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "mãe",
+      "start": 31.92,
+      "end": 31.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 31.95,
+      "end": 32.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "seu",
+      "start": 32.225,
+      "end": 32.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "irmão.",
+      "start": 32.485,
+      "end": 32.94,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Hoje",
+      "start": 33.34,
+      "end": 33.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "consagrado",
+      "start": 33.35,
+      "end": 33.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "como",
+      "start": 33.985,
+      "end": 34.27,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 34.28,
+      "end": 34.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "dos",
+      "start": 34.41,
+      "end": 34.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "maiores",
+      "start": 34.585,
+      "end": 35.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "nomes",
+      "start": 35.025,
+      "end": 35.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 35.405,
+      "end": 35.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "graffiti",
+      "start": 35.685,
+      "end": 35.945,
+      "confidence": 0.75
+    },
+    {
+      "word": "nacional,",
+      "start": 35.945,
+      "end": 36.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "ele",
+      "start": 36.9,
+      "end": 37.018,
+      "confidence": 1.0
+    },
+    {
+      "word": "teve",
+      "start": 37.02,
+      "end": 37.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "seu",
+      "start": 37.17,
+      "end": 37.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "primeiro",
+      "start": 37.445,
+      "end": 37.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "contato",
+      "start": 37.785,
+      "end": 38.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 38.245,
+      "end": 38.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 38.465,
+      "end": 38.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "arte",
+      "start": 38.84,
+      "end": 38.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 38.85,
+      "end": 39.25,
+      "confidence": 1.0
+    },
+    {
+      "word": "rua",
+      "start": 39.26,
+      "end": 39.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 39.27,
+      "end": 39.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "2002.",
+      "start": 39.445,
+      "end": 40.225,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "[...]",
+      "start": 40.225,
+      "end": 40.615,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "Em",
+      "start": 40.615,
+      "end": 40.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "termos",
+      "start": 40.785,
+      "end": 41.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 41.105,
+      "end": 41.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "referências,",
+      "start": 41.425,
+      "end": 41.86,
+      "confidence": 1.0
+    },
+    {
+      "word": "é",
+      "start": 42.12,
+      "end": 42.188,
+      "confidence": 1.0
+    },
+    {
+      "word": "possível",
+      "start": 42.19,
+      "end": 42.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "notar",
+      "start": 42.605,
+      "end": 43.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "inspirações",
+      "start": 43.005,
+      "end": 43.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "vindas",
+      "start": 43.625,
+      "end": 44.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 44.005,
+      "end": 44.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "grandes",
+      "start": 44.285,
+      "end": 44.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "nomes",
+      "start": 44.585,
+      "end": 44.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 44.905,
+      "end": 45.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "variam",
+      "start": 45.185,
+      "end": 45.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "entre",
+      "start": 45.485,
+      "end": 45.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 45.685,
+      "end": 45.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "cartuns",
+      "start": 45.965,
+      "end": 46.325,
+      "confidence": 0.75
+    },
+    {
+      "word": "e",
+      "start": 46.325,
+      "end": 46.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 46.525,
+      "end": 46.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "street",
+      "start": 46.725,
+      "end": 46.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "art.",
+      "start": 46.985,
+      "end": 47.28,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Entre",
+      "start": 47.9,
+      "end": 47.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "eles",
+      "start": 47.93,
+      "end": 48.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "podemos",
+      "start": 48.245,
+      "end": 48.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "citar",
+      "start": 48.705,
+      "end": 48.96,
+      "confidence": 1.0
+    },
+    {
+      "word": "Walt",
+      "start": 49.18,
+      "end": 49.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "Disney,",
+      "start": 49.385,
+      "end": 49.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "Will",
+      "start": 50.1,
+      "end": 50.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "Eisner,",
+      "start": 50.285,
+      "end": 50.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "Mauricio",
+      "start": 51.06,
+      "end": 51.325,
+      "confidence": 0.875
+    },
+    {
+      "word": "de",
+      "start": 51.325,
+      "end": 51.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "Sousa,",
+      "start": 51.625,
+      "end": 51.9,
+      "confidence": 0.8
+    },
+    {
+      "word": "Ziraldo",
+      "start": 52.2,
+      "end": 52.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 52.505,
+      "end": 52.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "Quino.",
+      "start": 52.725,
+      "end": 52.96,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Sua",
+      "start": 53.56,
+      "end": 53.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "arte",
+      "start": 53.84,
+      "end": 53.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "consegue",
+      "start": 53.93,
+      "end": 54.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "ser",
+      "start": 54.465,
+      "end": 54.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "sensível",
+      "start": 54.745,
+      "end": 55.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 55.285,
+      "end": 55.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "lúdica",
+      "start": 55.565,
+      "end": 55.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "ao",
+      "start": 55.885,
+      "end": 56.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "mesmo",
+      "start": 56.085,
+      "end": 56.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "tempo,",
+      "start": 56.345,
+      "end": 56.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "unindo",
+      "start": 56.785,
+      "end": 57.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "signos",
+      "start": 57.385,
+      "end": 57.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 57.845,
+      "end": 58.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "universo",
+      "start": 58.6,
+      "end": 58.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "infantil",
+      "start": 58.61,
+      "end": 59.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "ao",
+      "start": 59.005,
+      "end": 59.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "preto",
+      "start": 59.225,
+      "end": 59.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 59.485,
+      "end": 59.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "branco.",
+      "start": 59.705,
+      "end": 60.02,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "As",
+      "start": 60.52,
+      "end": 60.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "criações",
+      "start": 60.55,
+      "end": 60.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 60.885,
+      "end": 61.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "Alex,",
+      "start": 61.145,
+      "end": 61.5,
+      "confidence": 1.0
+    },
+    {
+      "word": "além",
+      "start": 61.82,
+      "end": 61.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 61.87,
+      "end": 62.23,
+      "confidence": 1.0
+    },
+    {
+      "word": "serem",
+      "start": 62.24,
+      "end": 62.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "incríveis,",
+      "start": 62.29,
+      "end": 62.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "transmitem",
+      "start": 63.42,
+      "end": 63.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 63.645,
+      "end": 63.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "dose",
+      "start": 63.965,
+      "end": 64.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 64.185,
+      "end": 64.81,
+      "confidence": 1.0
+    },
+    {
+      "word": "emoção",
+      "start": 64.82,
+      "end": 64.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "sensacional",
+      "start": 64.83,
+      "end": 65.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "através",
+      "start": 65.465,
+      "end": 66.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "dos",
+      "start": 66.045,
+      "end": 66.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "personagens,",
+      "start": 66.305,
+      "end": 66.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 67.3,
+      "end": 67.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "conseguem",
+      "start": 67.41,
+      "end": 67.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "ser",
+      "start": 67.905,
+      "end": 68.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "melancólicos,",
+      "start": 68.145,
+      "end": 69.02,
+      "confidence": 1.0
+    },
+    {
+      "word": "carismáticos",
+      "start": 69.64,
+      "end": 70.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 70.125,
+      "end": 70.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "inspiradores,",
+      "start": 70.445,
+      "end": 70.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "contrastando",
+      "start": 71.48,
+      "end": 71.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "com",
+      "start": 71.665,
+      "end": 71.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 71.885,
+      "end": 72.35,
+      "confidence": 1.0
+    },
+    {
+      "word": "cenário",
+      "start": 72.36,
+      "end": 72.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "agressivo",
+      "start": 72.37,
+      "end": 72.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 72.905,
+      "end": 73.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "grandes",
+      "start": 73.185,
+      "end": 73.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "centros",
+      "start": 73.525,
+      "end": 73.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "urbanos",
+      "start": 73.825,
+      "end": 74.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "como",
+      "start": 74.405,
+      "end": 74.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 74.625,
+      "end": 75.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "cidade",
+      "start": 75.12,
+      "end": 75.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 75.13,
+      "end": 75.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "São",
+      "start": 75.46,
+      "end": 75.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "Paulo,",
+      "start": 75.59,
+      "end": 75.87,
+      "confidence": 1.0
+    },
+    {
+      "word": "por",
+      "start": 75.87,
+      "end": 76.51,
+      "confidence": 1.0
+    },
+    {
+      "word": "exemplo.",
+      "start": 76.52,
+      "end": 76.72,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 76.8,
+      "end": 77.01,
+      "confidence": 1.0
+    },
+    {
+      "word": "já",
+      "start": 77.02,
+      "end": 77.148,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 77.15,
+      "end": 77.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "falamos",
+      "start": 77.365,
+      "end": 77.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "nos",
+      "start": 77.685,
+      "end": 77.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "seus",
+      "start": 77.905,
+      "end": 78.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "personagens,",
+      "start": 78.165,
+      "end": 78.84,
+      "confidence": 1.0
+    },
+    {
+      "word": "eles",
+      "start": 79.12,
+      "end": 79.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "são",
+      "start": 79.285,
+      "end": 79.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "bem",
+      "start": 79.485,
+      "end": 79.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "variados.",
+      "start": 79.745,
+      "end": 80.32,
+      "confidence": 1.0
+    },
+    {
+      "word": "Por",
+      "start": 80.76,
+      "end": 80.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "vezes",
+      "start": 80.965,
+      "end": 81.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "encontramos",
+      "start": 81.205,
+      "end": 81.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "casais",
+      "start": 81.845,
+      "end": 82.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "jovens",
+      "start": 82.285,
+      "end": 82.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "namorando,",
+      "start": 82.705,
+      "end": 83.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "pessoas",
+      "start": 83.84,
+      "end": 83.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "idosas,",
+      "start": 83.85,
+      "end": 84.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "santas",
+      "start": 84.385,
+      "end": 85.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "plácidas",
+      "start": 85.125,
+      "end": 85.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "ou",
+      "start": 85.565,
+      "end": 85.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "homens",
+      "start": 85.825,
+      "end": 86.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "solitários.",
+      "start": 86.065,
+      "end": 86.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "Isto",
+      "start": 87.32,
+      "end": 87.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "sem",
+      "start": 87.485,
+      "end": 87.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "falar",
+      "start": 87.665,
+      "end": 87.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 87.945,
+      "end": 88.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "pássaros,",
+      "start": 88.405,
+      "end": 88.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "corações",
+      "start": 88.585,
+      "end": 89.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 89.225,
+      "end": 90.28,
+      "confidence": 0.3
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.986,
+    "gaps_preserved": 12,
+    "gaps_filled": 212,
+    "gaps_review": 15,
+    "low_confidence_words": 6,
+    "prosody_preserved_score": 0.042,
+    "timing_precision_ms": 32.5,
+    "word_accuracy": 0.986,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "graffiti,",
+    "000",
+    "graffiti",
+    "[...]",
+    "cartuns",
+    "[...]"
+  ],
+  "timestamp_issues": {
+    "words_checked": 240,
+    "total_issues": 40,
+    "errors": 22,
+    "warnings": 18,
+    "issues_by_type": {
+      "too_short": 18,
+      "large_gap": 6,
+      "syllable_mismatch": 15,
+      "round_timestamps": 1
+    },
+    "issues": [
+      {
+        "word_index": 8,
+        "type": "too_short",
+        "message": "Word 'Logo' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 8,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'Logo' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 8,
+        "type": "syllable_mismatch",
+        "message": "Word 'Logo' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "large_gap",
+        "message": "Large gap (700ms) before 'ilustração' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "syllable_mismatch",
+        "message": "Word 'ilustração' (4 syllables) has only 88ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 35,
+        "type": "too_short",
+        "message": "Word 'Entre' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 35,
+        "type": "syllable_mismatch",
+        "message": "Word 'Entre' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 38,
+        "type": "too_short",
+        "message": "Word 'lado' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 38,
+        "type": "syllable_mismatch",
+        "message": "Word 'lado' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 38,
+        "type": "round_timestamps",
+        "message": "Word 'lado' has suspiciously round timestamps (14.5-14.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 43,
+        "type": "too_short",
+        "message": "Word 'faz' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 87,
+        "type": "too_short",
+        "message": "Word 'mãe' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 91,
+        "type": "too_short",
+        "message": "Word 'Hoje' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 91,
+        "type": "syllable_mismatch",
+        "message": "Word 'Hoje' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 108,
+        "type": "too_short",
+        "message": "Word 'arte' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 108,
+        "type": "syllable_mismatch",
+        "message": "Word 'arte' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 110,
+        "type": "too_short",
+        "message": "Word 'rua' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 118,
+        "type": "too_short",
+        "message": "Word 'é' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 135,
+        "type": "too_short",
+        "message": "Word 'Entre' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 135,
+        "type": "syllable_mismatch",
+        "message": "Word 'Entre' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 150,
+        "type": "syllable_mismatch",
+        "message": "Word 'arte' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 162,
+        "type": "too_short",
+        "message": "Word 'universo' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 162,
+        "type": "syllable_mismatch",
+        "message": "Word 'universo' (4 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 168,
+        "type": "too_short",
+        "message": "Word 'As' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 172,
+        "type": "too_short",
+        "message": "Word 'além' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 172,
+        "type": "syllable_mismatch",
+        "message": "Word 'além' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 174,
+        "type": "too_short",
+        "message": "Word 'serem' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 174,
+        "type": "syllable_mismatch",
+        "message": "Word 'serem' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 176,
+        "type": "large_gap",
+        "message": "Large gap (600ms) before 'transmitem' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 180,
+        "type": "too_short",
+        "message": "Word 'emoção' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 180,
+        "type": "syllable_mismatch",
+        "message": "Word 'emoção' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 189,
+        "type": "large_gap",
+        "message": "Large gap (620ms) before 'carismáticos' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 192,
+        "type": "large_gap",
+        "message": "Large gap (540ms) before 'contrastando' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 195,
+        "type": "too_short",
+        "message": "Word 'cenário' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 195,
+        "type": "syllable_mismatch",
+        "message": "Word 'cenário' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 203,
+        "type": "too_short",
+        "message": "Word 'cidade' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 203,
+        "type": "syllable_mismatch",
+        "message": "Word 'cidade' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 226,
+        "type": "too_short",
+        "message": "Word 'pessoas' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 226,
+        "type": "large_gap",
+        "message": "Large gap (560ms) before 'pessoas' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 226,
+        "type": "syllable_mismatch",
+        "message": "Word 'pessoas' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

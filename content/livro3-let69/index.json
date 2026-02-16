@@ -1,0 +1,1463 @@
+{
+  "audio_file": "livro3_let69.mp3",
+  "language": "pt",
+  "duration": 76.67,
+  "title": "Livro3 Let69",
+  "full_text": "Fim do mistério: zoológico na Inglaterra confirma que urso chinês é real e não um humano fantasiado\nFIM DO MISTÉRIO: ZOOLÓGICO NA INGLATERRA CONFIRMA QUE URSO CHINÊS É REAL E NÃO UM HUMANO FANTASIADO\nIMAGENS DE UM URSO-MALAIO NA CHINA REPERCUTIRAM NAS REDES SOCIAIS, ONDE DIVERSAS SUPOSIÇÕES SOBRE O ANIMAL FORAM FEITAS\nMarina Toledo da CNN, em São Paulo 02/08/2023 às 09h50 | Atualizado 06/08/2023 às 07:47\nUMA ATRAÇÃO DO ZOOLÓGICO DE HANGZHOU, NA CHINA, GEROU DÚVIDAS E QUESTIONAMENTOS NOS INTERNAUTAS, LEVANDO A SUPOSIÇÕES DE QUE SE TRATAVA DE UM HOMEM FANTASIADO DE URSO. O LOCAL NEGOU A TEORIA, AFIRMANDO QUE É UM ANIMAL DA ESPÉCIE URSO-MALAIO – TAMBÉM CONHECIDO COMO URSO-DO-SOL.\nCOM A REPERCUSSÃO DO CASO, UM ZOOLÓGICO DA INGLATERRA DIVULGOU IMAGENS DE UM DOS SEUS URSOS-MALAIOS. [...]\n“PODEMOS CONFIRMAR QUE KYRA É UM URSO-DO-SOL”, DIZ A PUBLICAÇÃO.\nNAS REDES SOCIAIS, O ZOOLÓGICO DE HANGZHOU COMPARTILHOU IMAGENS DO ANIMAL DIZENDO QUE AS PESSOAS SE PERGUNTAM SE É UM URSO DE VERDADE OU APENAS ALGUÉM DISFARÇADO.\nSEGUNDO O LOCAL, OS URSOS-MALAIOS SÃO A MENOR ESPÉCIE “DE TODOS OS TEMPOS”",
+  "word_count": 179,
+  "words": [
+    {
+      "word": "Fim",
+      "start": 0.0,
+      "end": 0.405,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "do",
+      "start": 0.405,
+      "end": 0.605,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "mistério:",
+      "start": 0.605,
+      "end": 1.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "zoológico",
+      "start": 1.52,
+      "end": 2.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "na",
+      "start": 2.125,
+      "end": 2.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "Inglaterra",
+      "start": 2.385,
+      "end": 2.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "confirma",
+      "start": 2.925,
+      "end": 3.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 3.385,
+      "end": 3.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "urso",
+      "start": 3.665,
+      "end": 3.941,
+      "confidence": 0.3
+    },
+    {
+      "word": "chinês",
+      "start": 3.951,
+      "end": 4.099,
+      "confidence": 0.3
+    },
+    {
+      "word": "é",
+      "start": 4.101,
+      "end": 4.249,
+      "confidence": 0.3
+    },
+    {
+      "word": "real",
+      "start": 4.251,
+      "end": 4.399,
+      "confidence": 0.3
+    },
+    {
+      "word": "e",
+      "start": 4.401,
+      "end": 4.549,
+      "confidence": 0.3
+    },
+    {
+      "word": "não",
+      "start": 4.551,
+      "end": 4.699,
+      "confidence": 0.3
+    },
+    {
+      "word": "um",
+      "start": 4.701,
+      "end": 4.849,
+      "confidence": 0.3
+    },
+    {
+      "word": "humano",
+      "start": 4.851,
+      "end": 4.999,
+      "confidence": 0.3
+    },
+    {
+      "word": "fantasiado",
+      "start": 5.001,
+      "end": 5.149,
+      "confidence": 0.3,
+      "line_break_after": true
+    },
+    {
+      "word": "FIM",
+      "start": 5.151,
+      "end": 5.299,
+      "confidence": 0.3
+    },
+    {
+      "word": "DO",
+      "start": 5.301,
+      "end": 5.449,
+      "confidence": 0.3
+    },
+    {
+      "word": "MISTÉRIO:",
+      "start": 5.451,
+      "end": 5.599,
+      "confidence": 0.3
+    },
+    {
+      "word": "ZOOLÓGICO",
+      "start": 5.601,
+      "end": 5.749,
+      "confidence": 0.3
+    },
+    {
+      "word": "NA",
+      "start": 5.751,
+      "end": 5.899,
+      "confidence": 0.3
+    },
+    {
+      "word": "INGLATERRA",
+      "start": 5.901,
+      "end": 6.049,
+      "confidence": 0.3
+    },
+    {
+      "word": "CONFIRMA",
+      "start": 6.051,
+      "end": 3.658,
+      "confidence": 0.3
+    },
+    {
+      "word": "QUE",
+      "start": 3.66,
+      "end": 3.91,
+      "confidence": 0.0
+    },
+    {
+      "word": "URSO",
+      "start": 3.92,
+      "end": 3.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHINÊS",
+      "start": 3.93,
+      "end": 4.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 4.305,
+      "end": 4.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "REAL",
+      "start": 4.625,
+      "end": 4.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 4.905,
+      "end": 5.15,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 5.16,
+      "end": 5.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 5.27,
+      "end": 5.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "HUMANO",
+      "start": 5.74,
+      "end": 5.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "FANTASIADO",
+      "start": 5.75,
+      "end": 6.68,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "IMAGENS",
+      "start": 7.76,
+      "end": 7.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 7.83,
+      "end": 8.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 8.105,
+      "end": 8.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO-MALAIO",
+      "start": 8.445,
+      "end": 8.865,
+      "confidence": 0.5
+    },
+    {
+      "word": "NA",
+      "start": 8.865,
+      "end": 9.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHINA",
+      "start": 9.2,
+      "end": 9.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "REPERCUTIRAM",
+      "start": 9.35,
+      "end": 10.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "NAS",
+      "start": 10.145,
+      "end": 10.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "REDES",
+      "start": 10.445,
+      "end": 10.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOCIAIS,",
+      "start": 10.665,
+      "end": 11.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "ONDE",
+      "start": 11.68,
+      "end": 11.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIVERSAS",
+      "start": 11.81,
+      "end": 12.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUPOSIÇÕES",
+      "start": 12.345,
+      "end": 13.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOBRE",
+      "start": 13.005,
+      "end": 13.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 13.365,
+      "end": 13.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANIMAL",
+      "start": 13.86,
+      "end": 13.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORAM",
+      "start": 13.87,
+      "end": 14.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "FEITAS",
+      "start": 14.165,
+      "end": 14.64,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Marina",
+      "start": 15.62,
+      "end": 16.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "Toledo",
+      "start": 16.005,
+      "end": 16.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "da",
+      "start": 16.405,
+      "end": 16.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "CNN,",
+      "start": 16.685,
+      "end": 17.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "em",
+      "start": 17.58,
+      "end": 17.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "São",
+      "start": 17.92,
+      "end": 17.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "Paulo",
+      "start": 17.97,
+      "end": 18.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "02/08/2023",
+      "start": 19.42,
+      "end": 20.285,
+      "confidence": 0.5
+    },
+    {
+      "word": "às",
+      "start": 20.285,
+      "end": 20.66,
+      "confidence": 1.0
+    },
+    {
+      "word": "09h50",
+      "start": 21.48,
+      "end": 21.925,
+      "confidence": 0.4
+    },
+    {
+      "word": "|",
+      "start": 21.925,
+      "end": 22.5,
+      "confidence": 0.0
+    },
+    {
+      "word": "Atualizado",
+      "start": 23.66,
+      "end": 24.1,
+      "confidence": 1.0
+    },
+    {
+      "word": "06/08/2023",
+      "start": 25.34,
+      "end": 26.205,
+      "confidence": 0.5
+    },
+    {
+      "word": "às",
+      "start": 26.205,
+      "end": 26.56,
+      "confidence": 1.0
+    },
+    {
+      "word": "07:47",
+      "start": 28.08,
+      "end": 28.6,
+      "confidence": 0.0,
+      "line_break_after": true
+    },
+    {
+      "word": "UMA",
+      "start": 29.4,
+      "end": 29.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATRAÇÃO",
+      "start": 29.805,
+      "end": 30.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 30.225,
+      "end": 30.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "ZOOLÓGICO",
+      "start": 30.685,
+      "end": 31.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 31.165,
+      "end": 31.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "HANGZHOU,",
+      "start": 31.465,
+      "end": 31.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 32.04,
+      "end": 32.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHINA,",
+      "start": 32.265,
+      "end": 32.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "GEROU",
+      "start": 33.02,
+      "end": 33.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "DÚVIDAS",
+      "start": 33.185,
+      "end": 33.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 33.685,
+      "end": 33.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUESTIONAMENTOS",
+      "start": 33.905,
+      "end": 34.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOS",
+      "start": 34.545,
+      "end": 34.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "INTERNAUTAS,",
+      "start": 34.865,
+      "end": 35.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "LEVANDO",
+      "start": 36.3,
+      "end": 36.308,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 36.31,
+      "end": 36.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUPOSIÇÕES",
+      "start": 36.545,
+      "end": 37.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 37.185,
+      "end": 37.39,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 37.4,
+      "end": 37.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 37.49,
+      "end": 37.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRATAVA",
+      "start": 37.805,
+      "end": 38.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 38.085,
+      "end": 38.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 38.325,
+      "end": 38.57,
+      "confidence": 1.0
+    },
+    {
+      "word": "HOMEM",
+      "start": 38.58,
+      "end": 38.668,
+      "confidence": 1.0
+    },
+    {
+      "word": "FANTASIADO",
+      "start": 38.67,
+      "end": 39.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 39.385,
+      "end": 39.87,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO.",
+      "start": 39.88,
+      "end": 40.08,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 40.8,
+      "end": 40.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "LOCAL",
+      "start": 40.93,
+      "end": 41.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "NEGOU",
+      "start": 41.225,
+      "end": 41.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 41.585,
+      "end": 42.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEORIA,",
+      "start": 42.2,
+      "end": 42.4,
+      "confidence": 1.0
+    },
+    {
+      "word": "AFIRMANDO",
+      "start": 42.74,
+      "end": 43.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 43.025,
+      "end": 43.218,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 43.22,
+      "end": 43.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 43.35,
+      "end": 43.79,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANIMAL",
+      "start": 43.8,
+      "end": 43.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 43.81,
+      "end": 44.43,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPÉCIE",
+      "start": 44.44,
+      "end": 44.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO-MALAIO",
+      "start": 44.8,
+      "end": 45.225,
+      "confidence": 0.5
+    },
+    {
+      "word": "–",
+      "start": 45.225,
+      "end": 45.445,
+      "confidence": 0.0
+    },
+    {
+      "word": "TAMBÉM",
+      "start": 45.445,
+      "end": 45.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONHECIDO",
+      "start": 45.845,
+      "end": 46.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMO",
+      "start": 46.365,
+      "end": 46.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO-DO-SOL.",
+      "start": 47.44,
+      "end": 47.64,
+      "confidence": 0.333,
+      "line_break_after": true
+    },
+    {
+      "word": "COM",
+      "start": 48.5,
+      "end": 48.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 48.57,
+      "end": 48.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "REPERCUSSÃO",
+      "start": 48.825,
+      "end": 49.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 49.325,
+      "end": 50.01,
+      "confidence": 1.0
+    },
+    {
+      "word": "CASO,",
+      "start": 50.02,
+      "end": 50.22,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 50.32,
+      "end": 50.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "ZOOLÓGICO",
+      "start": 50.45,
+      "end": 51.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 51.105,
+      "end": 51.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "INGLATERRA",
+      "start": 51.325,
+      "end": 51.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIVULGOU",
+      "start": 51.865,
+      "end": 52.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "IMAGENS",
+      "start": 52.385,
+      "end": 52.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 52.865,
+      "end": 53.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 53.2,
+      "end": 53.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "DOS",
+      "start": 53.29,
+      "end": 53.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEUS",
+      "start": 53.565,
+      "end": 53.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS-MALAIOS.",
+      "start": 53.965,
+      "end": 54.145,
+      "confidence": 0.417
+    },
+    {
+      "word": "[...]",
+      "start": 54.145,
+      "end": 54.68,
+      "confidence": 0.0,
+      "line_break_after": true
+    },
+    {
+      "word": "“PODEMOS",
+      "start": 55.52,
+      "end": 56.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONFIRMAR",
+      "start": 56.125,
+      "end": 56.71,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 56.72,
+      "end": 56.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "KYRA",
+      "start": 56.85,
+      "end": 57.11,
+      "confidence": 0.5
+    },
+    {
+      "word": "É",
+      "start": 57.12,
+      "end": 57.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 57.25,
+      "end": 57.6,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO-DO-SOL”,",
+      "start": 58.24,
+      "end": 58.44,
+      "confidence": 0.333
+    },
+    {
+      "word": "DIZ",
+      "start": 58.72,
+      "end": 58.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 58.75,
+      "end": 58.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "PUBLICAÇÃO.",
+      "start": 58.985,
+      "end": 59.58,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NAS",
+      "start": 60.7,
+      "end": 60.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "REDES",
+      "start": 60.81,
+      "end": 61.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOCIAIS,",
+      "start": 61.065,
+      "end": 61.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 62.04,
+      "end": 62.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "ZOOLÓGICO",
+      "start": 62.225,
+      "end": 62.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 62.725,
+      "end": 62.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "HANGZHOU",
+      "start": 62.945,
+      "end": 63.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMPARTILHOU",
+      "start": 63.185,
+      "end": 63.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "IMAGENS",
+      "start": 63.865,
+      "end": 64.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 64.385,
+      "end": 64.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANIMAL",
+      "start": 64.645,
+      "end": 64.92,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIZENDO",
+      "start": 65.1,
+      "end": 65.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 65.385,
+      "end": 65.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 65.565,
+      "end": 66.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "PESSOAS",
+      "start": 66.2,
+      "end": 66.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 66.21,
+      "end": 66.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERGUNTAM",
+      "start": 66.84,
+      "end": 66.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 66.91,
+      "end": 67.13,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 67.14,
+      "end": 67.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 67.23,
+      "end": 67.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSO",
+      "start": 67.62,
+      "end": 67.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 67.63,
+      "end": 67.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "VERDADE",
+      "start": 67.865,
+      "end": 68.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "OU",
+      "start": 68.285,
+      "end": 68.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "APENAS",
+      "start": 68.585,
+      "end": 69.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGUÉM",
+      "start": 69.005,
+      "end": 69.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISFARÇADO.",
+      "start": 69.365,
+      "end": 70.28,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SEGUNDO",
+      "start": 71.28,
+      "end": 71.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 71.465,
+      "end": 71.97,
+      "confidence": 1.0
+    },
+    {
+      "word": "LOCAL,",
+      "start": 71.98,
+      "end": 72.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 72.32,
+      "end": 72.69,
+      "confidence": 1.0
+    },
+    {
+      "word": "URSOS-MALAIOS",
+      "start": 72.69,
+      "end": 73.295,
+      "confidence": 0.5
+    },
+    {
+      "word": "SÃO",
+      "start": 73.295,
+      "end": 73.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 73.465,
+      "end": 73.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "MENOR",
+      "start": 73.78,
+      "end": 73.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPÉCIE",
+      "start": 73.93,
+      "end": 74.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "“DE",
+      "start": 74.525,
+      "end": 74.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODOS",
+      "start": 74.885,
+      "end": 75.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 75.165,
+      "end": 75.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEMPOS”",
+      "start": 75.68,
+      "end": 75.88,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.879,
+    "gaps_preserved": 17,
+    "gaps_filled": 150,
+    "gaps_review": 11,
+    "low_confidence_words": 31,
+    "prosody_preserved_score": 0.09,
+    "timing_precision_ms": 31.7,
+    "word_accuracy": 0.879,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "urso",
+    "chinês",
+    "é",
+    "real",
+    "e",
+    "não",
+    "um",
+    "humano",
+    "fantasiado",
+    "FIM",
+    "DO",
+    "MISTÉRIO:",
+    "ZOOLÓGICO",
+    "NA",
+    "INGLATERRA",
+    "CONFIRMA",
+    "QUE",
+    "URSO-MALAIO",
+    "02/08/2023",
+    "09h50",
+    "|",
+    "06/08/2023",
+    "07:47",
+    "URSO-MALAIO",
+    "–",
+    "URSO-DO-SOL.",
+    "URSOS-MALAIOS.",
+    "[...]",
+    "KYRA",
+    "URSO-DO-SOL”,",
+    "URSOS-MALAIOS"
+  ],
+  "timestamp_issues": {
+    "words_checked": 179,
+    "total_issues": 44,
+    "errors": 22,
+    "warnings": 22,
+    "issues_by_type": {
+      "syllable_mismatch": 16,
+      "too_short": 13,
+      "large_gap": 15
+    },
+    "issues": [
+      {
+        "word_index": 15,
+        "type": "syllable_mismatch",
+        "message": "Word 'humano' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 16,
+        "type": "syllable_mismatch",
+        "message": "Word 'fantasiado' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 19,
+        "type": "syllable_mismatch",
+        "message": "Word 'MISTÉRIO:' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 20,
+        "type": "syllable_mismatch",
+        "message": "Word 'ZOOLÓGICO' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 22,
+        "type": "syllable_mismatch",
+        "message": "Word 'INGLATERRA' (4 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "too_short",
+        "message": "Word 'CONFIRMA' has very short duration (-2393ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "syllable_mismatch",
+        "message": "Word 'CONFIRMA' (3 syllables) has only -2393ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "too_short",
+        "message": "Word 'URSO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 32,
+        "type": "too_short",
+        "message": "Word 'HUMANO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 32,
+        "type": "syllable_mismatch",
+        "message": "Word 'HUMANO' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 34,
+        "type": "too_short",
+        "message": "Word 'IMAGENS' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 34,
+        "type": "large_gap",
+        "message": "Large gap (1080ms) before 'IMAGENS' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 34,
+        "type": "syllable_mismatch",
+        "message": "Word 'IMAGENS' (3 syllables) has only 68ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 49,
+        "type": "too_short",
+        "message": "Word 'ANIMAL' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 49,
+        "type": "syllable_mismatch",
+        "message": "Word 'ANIMAL' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 52,
+        "type": "large_gap",
+        "message": "Large gap (980ms) before 'Marina' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 57,
+        "type": "too_short",
+        "message": "Word 'São' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 59,
+        "type": "large_gap",
+        "message": "Large gap (1240ms) before '02/08/2023' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 61,
+        "type": "large_gap",
+        "message": "Large gap (820ms) before '09h50' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 63,
+        "type": "large_gap",
+        "message": "Large gap (1160ms) before 'Atualizado' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 64,
+        "type": "large_gap",
+        "message": "Large gap (1240ms) before '06/08/2023' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 66,
+        "type": "large_gap",
+        "message": "Large gap (1520ms) before '07:47' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 67,
+        "type": "large_gap",
+        "message": "Large gap (800ms) before 'UMA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 81,
+        "type": "too_short",
+        "message": "Word 'LEVANDO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 81,
+        "type": "large_gap",
+        "message": "Large gap (660ms) before 'LEVANDO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 81,
+        "type": "syllable_mismatch",
+        "message": "Word 'LEVANDO' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 90,
+        "type": "syllable_mismatch",
+        "message": "Word 'HOMEM' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 103,
+        "type": "too_short",
+        "message": "Word 'ANIMAL' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 103,
+        "type": "syllable_mismatch",
+        "message": "Word 'ANIMAL' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 111,
+        "type": "large_gap",
+        "message": "Large gap (740ms) before 'URSO-DO-SOL.' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 112,
+        "type": "too_short",
+        "message": "Word 'COM' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 112,
+        "type": "large_gap",
+        "message": "Very large gap (860ms) before 'COM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 129,
+        "type": "large_gap",
+        "message": "Large gap (840ms) before '“PODEMOS' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 135,
+        "type": "large_gap",
+        "message": "Large gap (640ms) before 'URSO-DO-SOL”,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 136,
+        "type": "too_short",
+        "message": "Word 'DIZ' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 139,
+        "type": "large_gap",
+        "message": "Very large gap (1120ms) before 'NAS'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 153,
+        "type": "too_short",
+        "message": "Word 'PESSOAS' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 153,
+        "type": "syllable_mismatch",
+        "message": "Word 'PESSOAS' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 155,
+        "type": "too_short",
+        "message": "Word 'PERGUNTAM' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 155,
+        "type": "syllable_mismatch",
+        "message": "Word 'PERGUNTAM' (3 syllables) has only 68ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 159,
+        "type": "too_short",
+        "message": "Word 'URSO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 159,
+        "type": "syllable_mismatch",
+        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 166,
+        "type": "large_gap",
+        "message": "Very large gap (1000ms) before 'SEGUNDO'",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

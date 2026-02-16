@@ -1,0 +1,1080 @@
+{
+  "audio_file": "livro3_let71.mp3",
+  "language": "pt",
+  "duration": 63.62,
+  "title": "Livro3 Let71",
+  "full_text": "A chimpanzé que aprendeu a falar\nA CHIMPANZÉ WASHOE, O ÚNICO ANIMAL DO MUNDO ATÉ O MOMENTO QUE CONSEGUIU APRENDER A LÍNGUA DE SINAIS AMERICANA, MORREU NO DIA 30 DE OUTUBRO DE 2007, AOS 42 ANOS, DE CAUSAS NATURAIS. WASHOE NASCEU NA ÁFRICA EM ALGUM MOMENTO DE 1965. É PROVÁVEL QUE SUA MÃE TENHA SIDO MORTA POR CAÇADORES, DEIXANDO-A ÓRFÃ. WASHOE FOI ENTÃO ADOTADA POR UM CASAL DE PESQUISADORES DA LINGUAGEM E VIVEU EM CATIVEIRO QUASE 40 ANOS, SEM JAMAIS CONHECER A VIDA NA FLORESTA E A LIBERDADE. ELA CONHECIA 250 PALAVRAS, SEGUNDO SEUS CUIDADORES. OS PESQUISADORES DIZEM QUE WASHOE ENSINOU A LINGUAGEM GESTUAL A TRÊS CHIMPANZÉS MAIS JOVENS, MAS ALGUNS ESTUDIOSOS DA LINGUAGEM AFIRMAM QUE ELA APENAS IMITAVA O GESTUAL DOS HUMANOS. DESDE 1980, ELA VIVIA NUMA INSTITUIÇÃO DE PESQUISAS NA UNIVERSIDADE DE WASHINGTON CENTRAL, ESTADOS UNIDOS.",
+  "word_count": 138,
+  "words": [
+    {
+      "word": "A",
+      "start": 0.0,
+      "end": 0.345,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "chimpanzé",
+      "start": 0.345,
+      "end": 0.975,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "que",
+      "start": 0.975,
+      "end": 1.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "aprendeu",
+      "start": 1.145,
+      "end": 1.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 1.725,
+      "end": 2.21,
+      "confidence": 1.0
+    },
+    {
+      "word": "falar",
+      "start": 2.22,
+      "end": 2.42,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 3.36,
+      "end": 3.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHIMPANZÉ",
+      "start": 3.37,
+      "end": 3.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "WASHOE,",
+      "start": 3.765,
+      "end": 4.18,
+      "confidence": 0.667
+    },
+    {
+      "word": "O",
+      "start": 4.56,
+      "end": 4.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÚNICO",
+      "start": 4.78,
+      "end": 4.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANIMAL",
+      "start": 4.89,
+      "end": 5.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 5.245,
+      "end": 5.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUNDO",
+      "start": 5.78,
+      "end": 5.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 5.79,
+      "end": 5.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 5.965,
+      "end": 6.47,
+      "confidence": 1.0
+    },
+    {
+      "word": "MOMENTO",
+      "start": 6.48,
+      "end": 6.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 6.49,
+      "end": 6.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONSEGUIU",
+      "start": 6.705,
+      "end": 7.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "APRENDER",
+      "start": 7.165,
+      "end": 7.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 7.565,
+      "end": 8.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÍNGUA",
+      "start": 8.04,
+      "end": 8.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 8.05,
+      "end": 8.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "SINAIS",
+      "start": 8.405,
+      "end": 8.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "AMERICANA,",
+      "start": 8.625,
+      "end": 9.3,
+      "confidence": 1.0
+    },
+    {
+      "word": "MORREU",
+      "start": 9.82,
+      "end": 9.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 9.91,
+      "end": 10.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIA",
+      "start": 10.2,
+      "end": 10.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "30",
+      "start": 10.27,
+      "end": 10.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 10.745,
+      "end": 10.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTUBRO",
+      "start": 10.985,
+      "end": 11.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 11.245,
+      "end": 11.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "2007,",
+      "start": 11.485,
+      "end": 12.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "AOS",
+      "start": 12.78,
+      "end": 12.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "42",
+      "start": 12.945,
+      "end": 13.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANOS,",
+      "start": 13.665,
+      "end": 14.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 14.085,
+      "end": 14.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAUSAS",
+      "start": 14.545,
+      "end": 14.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "NATURAIS.",
+      "start": 14.905,
+      "end": 15.48,
+      "confidence": 1.0
+    },
+    {
+      "word": "WASHOE",
+      "start": 16.7,
+      "end": 16.848,
+      "confidence": 0.667
+    },
+    {
+      "word": "NASCEU",
+      "start": 16.85,
+      "end": 17.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 17.285,
+      "end": 17.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÁFRICA",
+      "start": 17.705,
+      "end": 17.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 17.925,
+      "end": 18.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGUM",
+      "start": 18.145,
+      "end": 18.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "MOMENTO",
+      "start": 18.465,
+      "end": 18.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 18.825,
+      "end": 19.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "1965.",
+      "start": 19.165,
+      "end": 20.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 21.92,
+      "end": 22.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROVÁVEL",
+      "start": 22.07,
+      "end": 22.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 22.505,
+      "end": 22.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUA",
+      "start": 22.825,
+      "end": 22.995,
+      "confidence": 1.0
+    },
+    {
+      "word": "MÃE",
+      "start": 22.995,
+      "end": 23.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "TENHA",
+      "start": 23.165,
+      "end": 23.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "SIDO",
+      "start": 23.485,
+      "end": 23.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "MORTA",
+      "start": 23.785,
+      "end": 24.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 24.145,
+      "end": 24.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAÇADORES,",
+      "start": 24.405,
+      "end": 25.0,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEIXANDO-A",
+      "start": 25.48,
+      "end": 25.7,
+      "confidence": 0.889
+    },
+    {
+      "word": "ÓRFÃ.",
+      "start": 26.18,
+      "end": 26.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "WASHOE",
+      "start": 27.1,
+      "end": 27.625,
+      "confidence": 0.667
+    },
+    {
+      "word": "FOI",
+      "start": 27.625,
+      "end": 27.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTÃO",
+      "start": 27.845,
+      "end": 28.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "ADOTADA",
+      "start": 28.525,
+      "end": 28.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 28.765,
+      "end": 28.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 28.985,
+      "end": 29.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "CASAL",
+      "start": 29.3,
+      "end": 29.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 29.45,
+      "end": 29.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "PESQUISADORES",
+      "start": 29.825,
+      "end": 30.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 30.325,
+      "end": 31.05,
+      "confidence": 1.0
+    },
+    {
+      "word": "LINGUAGEM",
+      "start": 31.06,
+      "end": 31.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 31.07,
+      "end": 31.535,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIVEU",
+      "start": 31.535,
+      "end": 31.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 31.705,
+      "end": 31.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "CATIVEIRO",
+      "start": 31.905,
+      "end": 32.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUASE",
+      "start": 32.285,
+      "end": 32.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "40",
+      "start": 32.685,
+      "end": 33.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANOS,",
+      "start": 33.245,
+      "end": 33.56,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEM",
+      "start": 34.0,
+      "end": 34.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "JAMAIS",
+      "start": 34.11,
+      "end": 34.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONHECER",
+      "start": 34.545,
+      "end": 34.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 34.985,
+      "end": 35.39,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIDA",
+      "start": 35.4,
+      "end": 35.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 35.41,
+      "end": 35.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "FLORESTA",
+      "start": 35.805,
+      "end": 36.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 36.085,
+      "end": 36.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 36.285,
+      "end": 36.97,
+      "confidence": 1.0
+    },
+    {
+      "word": "LIBERDADE.",
+      "start": 36.98,
+      "end": 37.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELA",
+      "start": 38.08,
+      "end": 38.148,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONHECIA",
+      "start": 38.15,
+      "end": 38.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "250",
+      "start": 38.625,
+      "end": 39.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "PALAVRAS,",
+      "start": 39.785,
+      "end": 40.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEGUNDO",
+      "start": 40.88,
+      "end": 41.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEUS",
+      "start": 41.145,
+      "end": 41.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "CUIDADORES.",
+      "start": 41.545,
+      "end": 42.3,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 43.24,
+      "end": 43.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "PESQUISADORES",
+      "start": 43.485,
+      "end": 44.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIZEM",
+      "start": 44.105,
+      "end": 44.575,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 44.575,
+      "end": 44.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "WASHOE",
+      "start": 44.745,
+      "end": 45.185,
+      "confidence": 0.667
+    },
+    {
+      "word": "ENSINOU",
+      "start": 45.185,
+      "end": 45.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 45.645,
+      "end": 46.23,
+      "confidence": 1.0
+    },
+    {
+      "word": "LINGUAGEM",
+      "start": 46.24,
+      "end": 46.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "GESTUAL",
+      "start": 46.25,
+      "end": 46.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 46.765,
+      "end": 47.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "TRÊS",
+      "start": 47.045,
+      "end": 47.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHIMPANZÉS",
+      "start": 47.245,
+      "end": 47.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIS",
+      "start": 47.805,
+      "end": 48.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOVENS,",
+      "start": 48.46,
+      "end": 48.66,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 49.04,
+      "end": 49.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGUNS",
+      "start": 49.205,
+      "end": 49.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTUDIOSOS",
+      "start": 49.545,
+      "end": 50.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 50.285,
+      "end": 50.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "LINGUAGEM",
+      "start": 51.0,
+      "end": 51.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "AFIRMAM",
+      "start": 51.01,
+      "end": 51.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 51.485,
+      "end": 51.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELA",
+      "start": 51.665,
+      "end": 51.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "APENAS",
+      "start": 51.885,
+      "end": 52.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "IMITAVA",
+      "start": 52.245,
+      "end": 52.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 52.725,
+      "end": 53.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "GESTUAL",
+      "start": 53.065,
+      "end": 53.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "DOS",
+      "start": 53.305,
+      "end": 53.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "HUMANOS.",
+      "start": 53.625,
+      "end": 54.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "DESDE",
+      "start": 54.085,
+      "end": 55.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "1980,",
+      "start": 55.365,
+      "end": 56.84,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELA",
+      "start": 57.26,
+      "end": 57.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIVIA",
+      "start": 57.39,
+      "end": 57.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "NUMA",
+      "start": 57.745,
+      "end": 58.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "INSTITUIÇÃO",
+      "start": 58.005,
+      "end": 58.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 58.465,
+      "end": 59.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "PESQUISAS",
+      "start": 59.005,
+      "end": 59.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 59.345,
+      "end": 59.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "UNIVERSIDADE",
+      "start": 59.545,
+      "end": 60.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 60.305,
+      "end": 60.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "WASHINGTON",
+      "start": 60.705,
+      "end": 60.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "CENTRAL,",
+      "start": 60.965,
+      "end": 61.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTADOS",
+      "start": 61.92,
+      "end": 62.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "UNIDOS.",
+      "start": 62.365,
+      "end": 62.66,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.99,
+    "gaps_preserved": 6,
+    "gaps_filled": 121,
+    "gaps_review": 10,
+    "low_confidence_words": 4,
+    "prosody_preserved_score": 0.044,
+    "timing_precision_ms": 37.9,
+    "word_accuracy": 0.99,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "WASHOE,",
+    "WASHOE",
+    "WASHOE",
+    "WASHOE"
+  ],
+  "timestamp_issues": {
+    "words_checked": 138,
+    "total_issues": 29,
+    "errors": 13,
+    "warnings": 16,
+    "issues_by_type": {
+      "too_short": 10,
+      "large_gap": 7,
+      "syllable_mismatch": 10,
+      "too_long": 1,
+      "round_timestamps": 1
+    },
+    "issues": [
+      {
+        "word_index": 6,
+        "type": "too_short",
+        "message": "Word 'A' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 6,
+        "type": "large_gap",
+        "message": "Large gap (940ms) before 'A' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "syllable_mismatch",
+        "message": "Word 'ÚNICO' (3 syllables) has only 108ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "too_short",
+        "message": "Word 'MUNDO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "syllable_mismatch",
+        "message": "Word 'MUNDO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 16,
+        "type": "too_short",
+        "message": "Word 'MOMENTO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 16,
+        "type": "syllable_mismatch",
+        "message": "Word 'MOMENTO' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 21,
+        "type": "too_short",
+        "message": "Word 'LÍNGUA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 21,
+        "type": "syllable_mismatch",
+        "message": "Word 'LÍNGUA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'MORREU' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "syllable_mismatch",
+        "message": "Word 'MORREU' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 27,
+        "type": "too_short",
+        "message": "Word 'DIA' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "large_gap",
+        "message": "Very large gap (1220ms) before 'WASHOE'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "too_long",
+        "message": "Word '1965.' has unusually long duration (1775ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 48,
+        "type": "large_gap",
+        "message": "Very large gap (980ms) before 'É'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 70,
+        "type": "too_short",
+        "message": "Word 'LINGUAGEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 70,
+        "type": "syllable_mismatch",
+        "message": "Word 'LINGUAGEM' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 82,
+        "type": "too_short",
+        "message": "Word 'VIDA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 82,
+        "type": "syllable_mismatch",
+        "message": "Word 'VIDA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 88,
+        "type": "too_short",
+        "message": "Word 'ELA' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 88,
+        "type": "large_gap",
+        "message": "Very large gap (900ms) before 'ELA'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 88,
+        "type": "syllable_mismatch",
+        "message": "Word 'ELA' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 92,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'SEGUNDO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 95,
+        "type": "large_gap",
+        "message": "Very large gap (940ms) before 'OS'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 102,
+        "type": "too_short",
+        "message": "Word 'LINGUAGEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 102,
+        "type": "syllable_mismatch",
+        "message": "Word 'LINGUAGEM' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 113,
+        "type": "too_short",
+        "message": "Word 'LINGUAGEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 113,
+        "type": "syllable_mismatch",
+        "message": "Word 'LINGUAGEM' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 113,
+        "type": "round_timestamps",
+        "message": "Word 'LINGUAGEM' has suspiciously round timestamps (51.0-51.0)",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "audio_file": "livro4_let63.mp3",
+  "language": "pt",
+  "duration": 44.84,
+  "title": "Livro4 Let63",
+  "full_text": "A casa tem nome\nNA CASA DE TODOS OS NINHOS,\nQUANDO O SOL FOGE PARA LONGE\nE O CÉU FICA VERMELHO,\nQUANDO APARECE\nA PRIMEIRA ESTRELA NO HORIZONTE,\nNA HORA EXATA\nEM QUE NÃO É NOITE NEM DIA,\nA CORUJA-ORELHUDA ANUNCIA:\nUUUUU! ATENÇÃO, BICHARADA!\nQUEM JÁ SE RECOLHE\nE QUEM ACORDA AGORA,\nQUEM VOA\nE QUEM CAMINHA,\nQUEM É DO AR,\nDA LAGOA E DO MAR!\nUUUUU! ATENÇÃO, ÁRVORES,\nCIPÓS, ALGAS, ERVAS E MUDINHAS!\nO NOSSO LAR TEM UM NOME\nBEM FÁCIL DE SOLETRAR,\nBEM GOSTOSO DE MASTIGAR:\nRES-TIN-GA,\nUUUUUUU!\nE ATÉ QUEM AINDA ESTÁ DENTRO\nDO OVO ESCUTA\nE RESPONDE:\nRES-TIN-GA,\nUUUUUUU!",
+  "word_count": 103,
+  "words": [
+    {
+      "word": "A",
+      "start": 0.0,
+      "end": 0.185,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "casa",
+      "start": 0.185,
+      "end": 0.525,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "tem",
+      "start": 0.525,
+      "end": 0.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "nome",
+      "start": 0.765,
+      "end": 1.08,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NA",
+      "start": 1.44,
+      "end": 1.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "CASA",
+      "start": 1.645,
+      "end": 1.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 1.845,
+      "end": 2.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODOS",
+      "start": 2.125,
+      "end": 2.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 2.365,
+      "end": 2.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "NINHOS,",
+      "start": 2.625,
+      "end": 2.94,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUANDO",
+      "start": 3.46,
+      "end": 3.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 3.51,
+      "end": 3.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOL",
+      "start": 3.92,
+      "end": 3.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOGE",
+      "start": 3.93,
+      "end": 4.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 4.165,
+      "end": 4.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "LONGE",
+      "start": 4.505,
+      "end": 4.8,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 5.1,
+      "end": 5.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 5.25,
+      "end": 5.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "CÉU",
+      "start": 5.64,
+      "end": 5.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "FICA",
+      "start": 5.65,
+      "end": 5.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "VERMELHO,",
+      "start": 5.885,
+      "end": 6.42,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUANDO",
+      "start": 6.8,
+      "end": 7.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "APARECE",
+      "start": 7.005,
+      "end": 7.505,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 7.505,
+      "end": 8.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRIMEIRA",
+      "start": 8.085,
+      "end": 8.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTRELA",
+      "start": 8.365,
+      "end": 8.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 8.745,
+      "end": 9.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "HORIZONTE,",
+      "start": 9.5,
+      "end": 9.7,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NA",
+      "start": 9.9,
+      "end": 10.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "HORA",
+      "start": 10.085,
+      "end": 10.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXATA",
+      "start": 10.265,
+      "end": 10.76,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "EM",
+      "start": 11.14,
+      "end": 11.278,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 11.28,
+      "end": 11.398,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 11.4,
+      "end": 11.528,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 11.53,
+      "end": 11.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOITE",
+      "start": 11.725,
+      "end": 11.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "NEM",
+      "start": 11.965,
+      "end": 12.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIA,",
+      "start": 12.225,
+      "end": 12.5,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 12.82,
+      "end": 13.22,
+      "confidence": 1.0
+    },
+    {
+      "word": "CORUJA-ORELHUDA",
+      "start": 13.22,
+      "end": 13.825,
+      "confidence": 0.571
+    },
+    {
+      "word": "ANUNCIA:",
+      "start": 13.825,
+      "end": 14.36,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "UUUUU!",
+      "start": 15.34,
+      "end": 15.54,
+      "confidence": 0.4
+    },
+    {
+      "word": "ATENÇÃO,",
+      "start": 15.88,
+      "end": 16.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "BICHARADA!",
+      "start": 16.305,
+      "end": 17.06,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 17.48,
+      "end": 17.528,
+      "confidence": 1.0
+    },
+    {
+      "word": "JÁ",
+      "start": 17.53,
+      "end": 17.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 17.785,
+      "end": 18.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "RECOLHE",
+      "start": 18.065,
+      "end": 18.42,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 18.7,
+      "end": 18.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUEM",
+      "start": 18.92,
+      "end": 19.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACORDA",
+      "start": 19.01,
+      "end": 19.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "AGORA,",
+      "start": 19.525,
+      "end": 19.9,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 20.34,
+      "end": 20.428,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOA",
+      "start": 20.43,
+      "end": 20.78,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 21.06,
+      "end": 21.35,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUEM",
+      "start": 21.36,
+      "end": 21.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMINHA,",
+      "start": 21.37,
+      "end": 21.82,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 22.32,
+      "end": 22.318,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 22.32,
+      "end": 22.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 22.485,
+      "end": 22.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "AR,",
+      "start": 22.86,
+      "end": 23.06,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DA",
+      "start": 23.18,
+      "end": 23.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "LAGOA",
+      "start": 23.445,
+      "end": 23.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 23.74,
+      "end": 23.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 23.85,
+      "end": 24.23,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAR!",
+      "start": 24.24,
+      "end": 24.44,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "UUUUU!",
+      "start": 24.88,
+      "end": 25.08,
+      "confidence": 0.4
+    },
+    {
+      "word": "ATENÇÃO,",
+      "start": 25.7,
+      "end": 26.16,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÁRVORES,",
+      "start": 26.62,
+      "end": 26.9,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "CIPÓS,",
+      "start": 27.52,
+      "end": 27.84,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGAS,",
+      "start": 28.26,
+      "end": 28.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERVAS",
+      "start": 28.7,
+      "end": 28.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 28.73,
+      "end": 28.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUDINHAS!",
+      "start": 28.965,
+      "end": 29.465,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 29.465,
+      "end": 29.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOSSO",
+      "start": 29.945,
+      "end": 30.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "LAR",
+      "start": 30.265,
+      "end": 30.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM",
+      "start": 30.485,
+      "end": 30.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 30.725,
+      "end": 31.23,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 31.24,
+      "end": 31.44,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "BEM",
+      "start": 31.82,
+      "end": 31.828,
+      "confidence": 1.0
+    },
+    {
+      "word": "FÁCIL",
+      "start": 31.83,
+      "end": 32.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 32.105,
+      "end": 32.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOLETRAR,",
+      "start": 32.405,
+      "end": 32.88,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "BEM",
+      "start": 33.38,
+      "end": 33.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "GOSTOSO",
+      "start": 33.47,
+      "end": 33.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 33.885,
+      "end": 34.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "MASTIGAR:",
+      "start": 34.245,
+      "end": 34.92,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "RES-TIN-GA,",
+      "start": 35.44,
+      "end": 35.64,
+      "confidence": 0.75,
+      "line_break_after": true
+    },
+    {
+      "word": "UUUUUUU!",
+      "start": 36.48,
+      "end": 36.84,
+      "confidence": 0.4,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 37.04,
+      "end": 37.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 37.17,
+      "end": 37.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUEM",
+      "start": 37.345,
+      "end": 37.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "AINDA",
+      "start": 37.565,
+      "end": 37.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTÁ",
+      "start": 37.865,
+      "end": 38.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "DENTRO",
+      "start": 38.165,
+      "end": 38.58,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DO",
+      "start": 38.9,
+      "end": 39.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "OVO",
+      "start": 39.085,
+      "end": 39.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCUTA",
+      "start": 39.305,
+      "end": 39.82,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 40.16,
+      "end": 40.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "RESPONDE:",
+      "start": 40.685,
+      "end": 41.02,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "RES-TIN-GA,",
+      "start": 41.72,
+      "end": 41.92,
+      "confidence": 0.75,
+      "line_break_after": true
+    },
+    {
+      "word": "UUUUUUU!",
+      "start": 43.8,
+      "end": 44.02,
+      "confidence": 0.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.964,
+    "gaps_preserved": 11,
+    "gaps_filled": 72,
+    "gaps_review": 19,
+    "low_confidence_words": 7,
+    "prosody_preserved_score": 0.098,
+    "timing_precision_ms": 28.7,
+    "word_accuracy": 0.964,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "CORUJA-ORELHUDA",
+    "UUUUU!",
+    "UUUUU!",
+    "RES-TIN-GA,",
+    "UUUUUUU!",
+    "RES-TIN-GA,",
+    "UUUUUUU!"
+  ],
+  "timestamp_issues": {
+    "words_checked": 103,
+    "total_issues": 16,
+    "errors": 8,
+    "warnings": 8,
+    "issues_by_type": {
+      "too_short": 8,
+      "large_gap": 5,
+      "syllable_mismatch": 2,
+      "round_timestamps": 1
+    },
+    "issues": [
+      {
+        "word_index": 10,
+        "type": "too_short",
+        "message": "Word 'QUANDO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "large_gap",
+        "message": "Large gap (520ms) before 'QUANDO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "syllable_mismatch",
+        "message": "Word 'QUANDO' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 12,
+        "type": "too_short",
+        "message": "Word 'SOL' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "too_short",
+        "message": "Word 'CÉU' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 22,
+        "type": "round_timestamps",
+        "message": "Word 'APARECE' has suspiciously round timestamps (7.0-7.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "large_gap",
+        "message": "Very large gap (980ms) before 'UUUUU!'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 44,
+        "type": "too_short",
+        "message": "Word 'QUEM' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 55,
+        "type": "too_short",
+        "message": "Word 'QUEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 57,
+        "type": "too_short",
+        "message": "Word 'QUEM' has very short duration (-2ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 69,
+        "type": "large_gap",
+        "message": "Large gap (620ms) before 'CIPÓS,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 71,
+        "type": "too_short",
+        "message": "Word 'ERVAS' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 71,
+        "type": "syllable_mismatch",
+        "message": "Word 'ERVAS' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 80,
+        "type": "too_short",
+        "message": "Word 'BEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 89,
+        "type": "large_gap",
+        "message": "Large gap (840ms) before 'UUUUUUU!' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 102,
+        "type": "large_gap",
+        "message": "Large gap (1880ms) before 'UUUUUUU!' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1067 @@
+{
+  "audio_file": "livro3_let75.mp3",
+  "language": "pt",
+  "duration": 55.33,
+  "title": "Livro3 Let75",
+  "full_text": "Nada\nALGUMA VEZ SUA MÃE JÁ PERGUNTOU “O QUE VOCÊ TEM?”, E VOCÊ, QUE ESTAVA COM ZERO DE SENTIMENTO, NÃO SOUBE RESPONDER? EM SEGUIDA, ELA INSISTIU: “ACONTECEU ALGUMA COISA?”. VOCÊ, ENTÃO, BALANÇA A CABEÇA DE UM LADO PRO OUTRO E DÁ DE OMBROS, NÃO TEM IDEIA DO QUE ELA ESTÁ FALANDO, POIS COISA NENHUMA ACONTECEU. ESSE SENTIMENTO QUE ATÉ PARECE QUE NÃO EXISTE É O NADA. E SOBRE ELE, NÃO HÁ MUITO A FALAR, PORTANTO, MELHOR NEM PERGUNTAR. O NADA TEM DE SER RESPEITADO.\nCOMO EXPLICAR PARA AMIGOS: É QUANDO A GENTE FICA COM A CABEÇA VAZIA E O CORAÇÃO TAMBÉM.\nCOMO USAR: “QUANDO EU FALO QUE NÃO TENHO NADA, MINHA MÃE, ÀS VEZES, NÃO ACREDITA. MAS SENTIMENTO DE NADA É ASSIM MESMO.” – MARIA EDUARDA, 10 ANOS.",
+  "word_count": 128,
+  "words": [
+    {
+      "word": "Nada",
+      "start": 0.46,
+      "end": 0.66,
+      "confidence": 1.0,
+      "line_break_after": true,
+      "is_title": true
+    },
+    {
+      "word": "ALGUMA",
+      "start": 1.72,
+      "end": 1.905,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "VEZ",
+      "start": 1.905,
+      "end": 2.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUA",
+      "start": 2.165,
+      "end": 2.43,
+      "confidence": 1.0
+    },
+    {
+      "word": "MÃE",
+      "start": 2.44,
+      "end": 2.568,
+      "confidence": 1.0
+    },
+    {
+      "word": "JÁ",
+      "start": 2.57,
+      "end": 2.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERGUNTOU",
+      "start": 2.925,
+      "end": 3.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "“O",
+      "start": 3.365,
+      "end": 3.538,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 3.54,
+      "end": 3.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOCÊ",
+      "start": 3.61,
+      "end": 3.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM?”,",
+      "start": 3.925,
+      "end": 4.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 4.44,
+      "end": 4.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOCÊ,",
+      "start": 4.605,
+      "end": 4.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 5.26,
+      "end": 5.51,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTAVA",
+      "start": 5.52,
+      "end": 5.668,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 5.67,
+      "end": 6.075,
+      "confidence": 1.0
+    },
+    {
+      "word": "ZERO",
+      "start": 6.075,
+      "end": 6.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 6.245,
+      "end": 6.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "SENTIMENTO,",
+      "start": 6.645,
+      "end": 7.06,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 7.4,
+      "end": 7.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOUBE",
+      "start": 7.565,
+      "end": 7.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "RESPONDER?",
+      "start": 7.945,
+      "end": 8.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 9.42,
+      "end": 9.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEGUIDA,",
+      "start": 9.745,
+      "end": 10.24,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELA",
+      "start": 10.58,
+      "end": 10.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "INSISTIU:",
+      "start": 10.745,
+      "end": 11.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "“ACONTECEU",
+      "start": 11.68,
+      "end": 12.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALGUMA",
+      "start": 12.245,
+      "end": 12.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "COISA?”.",
+      "start": 12.725,
+      "end": 13.08,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOCÊ,",
+      "start": 14.24,
+      "end": 14.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTÃO,",
+      "start": 15.32,
+      "end": 15.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "BALANÇA",
+      "start": 15.58,
+      "end": 15.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 15.825,
+      "end": 16.37,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABEÇA",
+      "start": 16.38,
+      "end": 16.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 16.39,
+      "end": 16.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 16.625,
+      "end": 16.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "LADO",
+      "start": 16.92,
+      "end": 17.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRO",
+      "start": 17.22,
+      "end": 17.47,
+      "confidence": 0.333
+    },
+    {
+      "word": "OUTRO",
+      "start": 17.48,
+      "end": 17.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 17.55,
+      "end": 17.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "DÁ",
+      "start": 17.765,
+      "end": 17.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 17.945,
+      "end": 18.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "OMBROS,",
+      "start": 18.32,
+      "end": 18.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 18.94,
+      "end": 18.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM",
+      "start": 18.95,
+      "end": 19.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "IDEIA",
+      "start": 19.165,
+      "end": 19.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 19.445,
+      "end": 19.81,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 19.82,
+      "end": 19.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELA",
+      "start": 19.85,
+      "end": 20.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTÁ",
+      "start": 20.2,
+      "end": 20.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "FALANDO,",
+      "start": 20.35,
+      "end": 20.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "POIS",
+      "start": 21.18,
+      "end": 21.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "COISA",
+      "start": 21.405,
+      "end": 21.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "NENHUMA",
+      "start": 21.785,
+      "end": 22.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACONTECEU.",
+      "start": 22.105,
+      "end": 22.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESSE",
+      "start": 23.7,
+      "end": 24.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "SENTIMENTO",
+      "start": 24.005,
+      "end": 24.58,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 24.72,
+      "end": 24.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 24.79,
+      "end": 25.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARECE",
+      "start": 25.185,
+      "end": 25.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 25.465,
+      "end": 25.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 25.74,
+      "end": 25.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXISTE",
+      "start": 25.89,
+      "end": 26.34,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 26.36,
+      "end": 26.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 26.49,
+      "end": 26.89,
+      "confidence": 1.0
+    },
+    {
+      "word": "NADA.",
+      "start": 26.9,
+      "end": 27.1,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 27.62,
+      "end": 27.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOBRE",
+      "start": 27.965,
+      "end": 28.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELE,",
+      "start": 28.305,
+      "end": 28.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 28.705,
+      "end": 29.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "HÁ",
+      "start": 29.085,
+      "end": 29.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 29.365,
+      "end": 29.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 29.585,
+      "end": 30.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "FALAR,",
+      "start": 30.12,
+      "end": 30.32,
+      "confidence": 1.0
+    },
+    {
+      "word": "PORTANTO,",
+      "start": 30.56,
+      "end": 30.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "MELHOR",
+      "start": 31.38,
+      "end": 31.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "NEM",
+      "start": 31.545,
+      "end": 31.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERGUNTAR.",
+      "start": 31.905,
+      "end": 32.66,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 33.5,
+      "end": 33.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "NADA",
+      "start": 33.84,
+      "end": 33.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM",
+      "start": 33.87,
+      "end": 34.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 34.205,
+      "end": 34.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "SER",
+      "start": 34.385,
+      "end": 34.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "RESPEITADO.",
+      "start": 34.565,
+      "end": 35.48,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "COMO",
+      "start": 36.42,
+      "end": 36.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXPLICAR",
+      "start": 36.49,
+      "end": 36.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 36.965,
+      "end": 37.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "AMIGOS:",
+      "start": 37.305,
+      "end": 37.74,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 38.06,
+      "end": 38.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUANDO",
+      "start": 38.32,
+      "end": 38.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 38.45,
+      "end": 38.97,
+      "confidence": 1.0
+    },
+    {
+      "word": "GENTE",
+      "start": 38.98,
+      "end": 38.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "FICA",
+      "start": 38.99,
+      "end": 39.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "COM",
+      "start": 39.205,
+      "end": 39.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 39.425,
+      "end": 39.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABEÇA",
+      "start": 39.86,
+      "end": 39.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAZIA",
+      "start": 39.87,
+      "end": 40.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 40.425,
+      "end": 40.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 40.585,
+      "end": 41.03,
+      "confidence": 1.0
+    },
+    {
+      "word": "CORAÇÃO",
+      "start": 41.04,
+      "end": 41.048,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMBÉM.",
+      "start": 41.05,
+      "end": 41.6,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "COMO",
+      "start": 42.68,
+      "end": 42.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "USAR:",
+      "start": 42.77,
+      "end": 43.14,
+      "confidence": 1.0
+    },
+    {
+      "word": "“QUANDO",
+      "start": 43.46,
+      "end": 43.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "EU",
+      "start": 43.645,
+      "end": 44.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "FALO",
+      "start": 44.12,
+      "end": 44.188,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 44.19,
+      "end": 44.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 44.365,
+      "end": 44.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "TENHO",
+      "start": 44.605,
+      "end": 44.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "NADA,",
+      "start": 44.785,
+      "end": 45.24,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINHA",
+      "start": 45.52,
+      "end": 45.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "MÃE,",
+      "start": 45.825,
+      "end": 46.06,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÀS",
+      "start": 46.56,
+      "end": 46.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "VEZES,",
+      "start": 47.0,
+      "end": 47.2,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 47.32,
+      "end": 47.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACREDITA.",
+      "start": 47.45,
+      "end": 48.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 49.06,
+      "end": 49.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "SENTIMENTO",
+      "start": 49.365,
+      "end": 49.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 49.885,
+      "end": 50.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "NADA",
+      "start": 50.46,
+      "end": 50.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 50.51,
+      "end": 50.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "ASSIM",
+      "start": 50.725,
+      "end": 51.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "MESMO.”",
+      "start": 51.065,
+      "end": 51.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "–",
+      "start": 52.56,
+      "end": 52.718,
+      "confidence": 0.0
+    },
+    {
+      "word": "MARIA",
+      "start": 52.72,
+      "end": 52.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "EDUARDA,",
+      "start": 52.75,
+      "end": 53.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "10",
+      "start": 53.7,
+      "end": 54.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANOS.",
+      "start": 54.005,
+      "end": 54.4,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.987,
+    "gaps_preserved": 14,
+    "gaps_filled": 99,
+    "gaps_review": 14,
+    "low_confidence_words": 2,
+    "prosody_preserved_score": 0.087,
+    "timing_precision_ms": 29.8,
+    "word_accuracy": 0.987,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "PRO",
+    "–"
+  ],
+  "timestamp_issues": {
+    "words_checked": 128,
+    "total_issues": 36,
+    "errors": 13,
+    "warnings": 23,
+    "issues_by_type": {
+      "large_gap": 10,
+      "too_short": 14,
+      "syllable_mismatch": 12
+    },
+    "issues": [
+      {
+        "word_index": 1,
+        "type": "large_gap",
+        "message": "Large gap (1060ms) before 'ALGUMA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 8,
+        "type": "too_short",
+        "message": "Word 'QUE' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 14,
+        "type": "syllable_mismatch",
+        "message": "Word 'ESTAVA' (3 syllables) has only 148ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 22,
+        "type": "large_gap",
+        "message": "Very large gap (900ms) before 'EM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "large_gap",
+        "message": "Very large gap (1160ms) before 'VOCÊ,'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 30,
+        "type": "large_gap",
+        "message": "Large gap (860ms) before 'ENTÃO,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "too_short",
+        "message": "Word 'CABEÇA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "syllable_mismatch",
+        "message": "Word 'CABEÇA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 38,
+        "type": "too_short",
+        "message": "Word 'OUTRO' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 38,
+        "type": "syllable_mismatch",
+        "message": "Word 'OUTRO' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 43,
+        "type": "too_short",
+        "message": "Word 'NÃO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "too_short",
+        "message": "Word 'QUE' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 55,
+        "type": "large_gap",
+        "message": "Very large gap (900ms) before 'ESSE'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 57,
+        "type": "too_short",
+        "message": "Word 'QUE' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 78,
+        "type": "large_gap",
+        "message": "Very large gap (840ms) before 'O'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 79,
+        "type": "too_short",
+        "message": "Word 'NADA' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 79,
+        "type": "syllable_mismatch",
+        "message": "Word 'NADA' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "too_short",
+        "message": "Word 'COMO' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "large_gap",
+        "message": "Very large gap (940ms) before 'COMO'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "syllable_mismatch",
+        "message": "Word 'COMO' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 91,
+        "type": "too_short",
+        "message": "Word 'GENTE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 91,
+        "type": "syllable_mismatch",
+        "message": "Word 'GENTE' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 95,
+        "type": "too_short",
+        "message": "Word 'CABEÇA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 95,
+        "type": "syllable_mismatch",
+        "message": "Word 'CABEÇA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 99,
+        "type": "too_short",
+        "message": "Word 'CORAÇÃO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 99,
+        "type": "syllable_mismatch",
+        "message": "Word 'CORAÇÃO' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 101,
+        "type": "large_gap",
+        "message": "Very large gap (1080ms) before 'COMO'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 101,
+        "type": "syllable_mismatch",
+        "message": "Word 'COMO' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 105,
+        "type": "too_short",
+        "message": "Word 'FALO' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 105,
+        "type": "syllable_mismatch",
+        "message": "Word 'FALO' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 116,
+        "type": "large_gap",
+        "message": "Very large gap (940ms) before 'MAS'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 119,
+        "type": "too_short",
+        "message": "Word 'NADA' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 119,
+        "type": "syllable_mismatch",
+        "message": "Word 'NADA' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 123,
+        "type": "large_gap",
+        "message": "Large gap (1140ms) before '–' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 124,
+        "type": "too_short",
+        "message": "Word 'MARIA' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 124,
+        "type": "syllable_mismatch",
+        "message": "Word 'MARIA' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

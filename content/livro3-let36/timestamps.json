@@ -1,0 +1,519 @@
+{
+  "audio_file": "livro3_let36.mp3",
+  "language": "pt",
+  "duration": 26.78,
+  "title": "Livro3 Let36",
+  "full_text": "Bule de chá\nHAVIA UM NAVIO QUE ZARPOU PRO MAR\nO NOME DELE ERA BULE DE CHÁ\nO VENTO FORTE SUA PROA AFUNDOU\nMARUJOS, VAMOS SOPRAR\nEM BREVE, O WELLERMAN VIRÁ\nCOM NOTÍCIAS, AÇÚCAR E CHÁ\nE QUANDO A CAÇA ACABAR\nPRA CASA VAMOS VOLTAR\nCHA RA RA RA RA RA RA RA RA RA RA",
+  "word_count": 56,
+  "words": [
+    {
+      "word": "Bule",
+      "start": 0.0,
+      "end": 0.505,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "de",
+      "start": 0.505,
+      "end": 0.95,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "chá",
+      "start": 0.96,
+      "end": 1.16,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "HAVIA",
+      "start": 2.24,
+      "end": 2.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 2.25,
+      "end": 2.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "NAVIO",
+      "start": 2.605,
+      "end": 2.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 2.825,
+      "end": 3.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "ZARPOU",
+      "start": 3.085,
+      "end": 3.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "PRO",
+      "start": 3.405,
+      "end": 3.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAR",
+      "start": 3.725,
+      "end": 3.94,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 4.88,
+      "end": 5.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 5.2,
+      "end": 5.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "DELE",
+      "start": 5.27,
+      "end": 5.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERA",
+      "start": 5.605,
+      "end": 5.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "BULE",
+      "start": 5.845,
+      "end": 6.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 6.105,
+      "end": 6.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHÁ",
+      "start": 6.405,
+      "end": 6.74,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 7.48,
+      "end": 7.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "VENTO",
+      "start": 7.905,
+      "end": 8.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "FORTE",
+      "start": 8.105,
+      "end": 8.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUA",
+      "start": 8.405,
+      "end": 8.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROA",
+      "start": 8.785,
+      "end": 9.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "AFUNDOU",
+      "start": 9.085,
+      "end": 9.6,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MARUJOS,",
+      "start": 10.7,
+      "end": 11.16,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAMOS",
+      "start": 11.44,
+      "end": 11.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOPRAR",
+      "start": 11.685,
+      "end": 12.22,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "EM",
+      "start": 13.2,
+      "end": 13.71,
+      "confidence": 1.0
+    },
+    {
+      "word": "BREVE,",
+      "start": 13.72,
+      "end": 13.92,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 14.04,
+      "end": 14.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "WELLERMAN",
+      "start": 14.245,
+      "end": 14.725,
+      "confidence": 0.667
+    },
+    {
+      "word": "VIRÁ",
+      "start": 14.725,
+      "end": 15.08,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "COM",
+      "start": 15.98,
+      "end": 16.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOTÍCIAS,",
+      "start": 16.205,
+      "end": 16.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "AÇÚCAR",
+      "start": 17.26,
+      "end": 17.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 17.545,
+      "end": 17.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHÁ",
+      "start": 17.845,
+      "end": 18.4,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 18.8,
+      "end": 19.095,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUANDO",
+      "start": 19.095,
+      "end": 19.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 19.265,
+      "end": 19.73,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAÇA",
+      "start": 19.74,
+      "end": 19.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "ACABAR",
+      "start": 19.75,
+      "end": 20.3,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "PRA",
+      "start": 21.24,
+      "end": 21.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "CASA",
+      "start": 21.405,
+      "end": 21.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAMOS",
+      "start": 21.745,
+      "end": 22.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOLTAR",
+      "start": 22.185,
+      "end": 22.68,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "CHA",
+      "start": 23.68,
+      "end": 24.04,
+      "confidence": 0.667
+    },
+    {
+      "word": "RA",
+      "start": 24.48,
+      "end": 24.865,
+      "confidence": 0.5
+    },
+    {
+      "word": "RA",
+      "start": 24.865,
+      "end": 25.085,
+      "confidence": 0.5
+    },
+    {
+      "word": "RA",
+      "start": 25.085,
+      "end": 25.285,
+      "confidence": 0.5
+    },
+    {
+      "word": "RA",
+      "start": 25.285,
+      "end": 25.465,
+      "confidence": 0.5
+    },
+    {
+      "word": "RA",
+      "start": 25.465,
+      "end": 25.658,
+      "confidence": 0.5
+    },
+    {
+      "word": "RA",
+      "start": 25.66,
+      "end": 25.738,
+      "confidence": 0.5
+    },
+    {
+      "word": "RA",
+      "start": 25.74,
+      "end": 25.838,
+      "confidence": 0.5
+    },
+    {
+      "word": "RA",
+      "start": 25.84,
+      "end": 25.908,
+      "confidence": 0.5
+    },
+    {
+      "word": "RA",
+      "start": 25.91,
+      "end": 26.098,
+      "confidence": 0.5
+    },
+    {
+      "word": "RA",
+      "start": 26.1,
+      "end": 26.3,
+      "confidence": 0.5
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.899,
+    "gaps_preserved": 8,
+    "gaps_filled": 42,
+    "gaps_review": 5,
+    "low_confidence_words": 12,
+    "prosody_preserved_score": 0.145,
+    "timing_precision_ms": 30.1,
+    "word_accuracy": 0.899,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "WELLERMAN",
+    "CHA",
+    "RA",
+    "RA",
+    "RA",
+    "RA",
+    "RA",
+    "RA",
+    "RA",
+    "RA",
+    "RA",
+    "RA"
+  ],
+  "timestamp_issues": {
+    "words_checked": 56,
+    "total_issues": 17,
+    "errors": 2,
+    "warnings": 15,
+    "issues_by_type": {
+      "round_timestamps": 1,
+      "too_short": 5,
+      "large_gap": 8,
+      "syllable_mismatch": 3
+    },
+    "issues": [
+      {
+        "word_index": 0,
+        "type": "round_timestamps",
+        "message": "Word 'Bule' has suspiciously round timestamps (0.0-0.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 3,
+        "type": "too_short",
+        "message": "Word 'HAVIA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 3,
+        "type": "large_gap",
+        "message": "Large gap (1080ms) before 'HAVIA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 3,
+        "type": "syllable_mismatch",
+        "message": "Word 'HAVIA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 10,
+        "type": "large_gap",
+        "message": "Large gap (940ms) before 'O' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 11,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 11,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 17,
+        "type": "large_gap",
+        "message": "Large gap (740ms) before 'O' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "large_gap",
+        "message": "Large gap (1100ms) before 'MARUJOS,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 26,
+        "type": "large_gap",
+        "message": "Large gap (980ms) before 'EM' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 31,
+        "type": "large_gap",
+        "message": "Large gap (900ms) before 'COM' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "too_short",
+        "message": "Word 'CAÇA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "syllable_mismatch",
+        "message": "Word 'CAÇA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 41,
+        "type": "large_gap",
+        "message": "Large gap (940ms) before 'PRA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 45,
+        "type": "large_gap",
+        "message": "Large gap (1000ms) before 'CHA' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 51,
+        "type": "too_short",
+        "message": "Word 'RA' has very short duration (78ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "too_short",
+        "message": "Word 'RA' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

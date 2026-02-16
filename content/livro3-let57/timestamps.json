@@ -1,0 +1,603 @@
+{
+  "audio_file": "livro3_let57.mp3",
+  "language": "pt",
+  "duration": 40.99,
+  "title": "Livro3 Let57",
+  "full_text": "Peteca\nADIVINHE, SE PUDER!\nVOA, TEM PENA,\nMAS PÁSSARO NÃO É...\nESSE BRINQUEDO\nNÃO TEM SEGREDO.\nALEGRE E SAPECA,\nÉ A COLORIDA PETECA.\nQUEM JOGA?\nQUEM PEGA?\nQUEM VAI CONSEGUIR?\nA MÃO ESPALMADA,\nO TOQUE LIGEIRO,\nRECEBE E DEVOLVE,\nNUM GESTO CERTEIRO.\nQUEM JOGA?\nQUEM PEGA?\nQUEM VAI CONSEGUIR?\nESPERTO E ATENTO,\nESPERE ELA VIR,\nNÃO PODE DEIXAR\nA PETECA CAIR!",
+  "word_count": 61,
+  "words": [
+    {
+      "word": "Peteca",
+      "start": 0.0,
+      "end": 0.78,
+      "confidence": 1.0,
+      "line_break_after": true,
+      "is_title": true
+    },
+    {
+      "word": "ADIVINHE,",
+      "start": 1.24,
+      "end": 2.325,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "SE",
+      "start": 2.325,
+      "end": 2.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "PUDER!",
+      "start": 2.905,
+      "end": 3.38,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "VOA,",
+      "start": 4.38,
+      "end": 4.58,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM",
+      "start": 4.94,
+      "end": 4.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "PENA,",
+      "start": 4.97,
+      "end": 5.34,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MAS",
+      "start": 5.74,
+      "end": 5.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "PÁSSARO",
+      "start": 5.945,
+      "end": 6.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 6.365,
+      "end": 6.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "É...",
+      "start": 6.545,
+      "end": 6.84,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ESSE",
+      "start": 7.86,
+      "end": 7.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "BRINQUEDO",
+      "start": 7.97,
+      "end": 8.465,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NÃO",
+      "start": 8.465,
+      "end": 8.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "TEM",
+      "start": 8.765,
+      "end": 9.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEGREDO.",
+      "start": 9.045,
+      "end": 9.7,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ALEGRE",
+      "start": 10.86,
+      "end": 11.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 11.065,
+      "end": 11.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "SAPECA,",
+      "start": 11.265,
+      "end": 11.685,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "É",
+      "start": 11.685,
+      "end": 12.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 12.025,
+      "end": 12.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "COLORIDA",
+      "start": 12.305,
+      "end": 12.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "PETECA.",
+      "start": 12.665,
+      "end": 13.28,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 14.28,
+      "end": 14.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOGA?",
+      "start": 14.41,
+      "end": 14.98,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 15.88,
+      "end": 16.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEGA?",
+      "start": 16.045,
+      "end": 16.44,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 17.4,
+      "end": 17.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAI",
+      "start": 17.585,
+      "end": 17.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONSEGUIR?",
+      "start": 17.845,
+      "end": 18.36,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 19.36,
+      "end": 19.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "MÃO",
+      "start": 19.68,
+      "end": 19.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPALMADA,",
+      "start": 19.75,
+      "end": 20.56,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 21.5,
+      "end": 21.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "TOQUE",
+      "start": 21.86,
+      "end": 21.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "LIGEIRO,",
+      "start": 21.91,
+      "end": 22.52,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "RECEBE",
+      "start": 23.86,
+      "end": 23.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 23.91,
+      "end": 24.55,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEVOLVE,",
+      "start": 24.56,
+      "end": 24.76,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NUM",
+      "start": 25.52,
+      "end": 25.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "GESTO",
+      "start": 25.825,
+      "end": 26.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "CERTEIRO.",
+      "start": 26.185,
+      "end": 26.78,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 27.78,
+      "end": 27.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOGA?",
+      "start": 27.945,
+      "end": 28.465,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 28.465,
+      "end": 29.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEGA?",
+      "start": 29.565,
+      "end": 29.96,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUEM",
+      "start": 31.12,
+      "end": 31.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAI",
+      "start": 31.13,
+      "end": 31.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONSEGUIR?",
+      "start": 31.345,
+      "end": 31.88,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ESPERTO",
+      "start": 33.32,
+      "end": 33.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 33.45,
+      "end": 33.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATENTO,",
+      "start": 33.745,
+      "end": 34.28,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "ESPERE",
+      "start": 35.44,
+      "end": 35.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELA",
+      "start": 35.47,
+      "end": 35.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIR,",
+      "start": 35.805,
+      "end": 36.06,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NÃO",
+      "start": 37.08,
+      "end": 37.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "PODE",
+      "start": 37.17,
+      "end": 37.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEIXAR",
+      "start": 37.605,
+      "end": 38.14,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 38.44,
+      "end": 39.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "PETECA",
+      "start": 39.325,
+      "end": 39.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAIR!",
+      "start": 39.705,
+      "end": 40.04,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 1.0,
+    "gaps_preserved": 15,
+    "gaps_filled": 41,
+    "gaps_review": 4,
+    "low_confidence_words": 0,
+    "prosody_preserved_score": 0.25,
+    "timing_precision_ms": 37.1,
+    "word_accuracy": 1.0,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [],
+  "timestamp_issues": {
+    "words_checked": 61,
+    "total_issues": 25,
+    "errors": 8,
+    "warnings": 17,
+    "issues_by_type": {
+      "large_gap": 15,
+      "too_short": 6,
+      "syllable_mismatch": 4
+    },
+    "issues": [
+      {
+        "word_index": 4,
+        "type": "large_gap",
+        "message": "Very large gap (1000ms) before 'VOA,'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 5,
+        "type": "too_short",
+        "message": "Word 'TEM' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 11,
+        "type": "large_gap",
+        "message": "Very large gap (1020ms) before 'ESSE'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 16,
+        "type": "large_gap",
+        "message": "Very large gap (1160ms) before 'ALEGRE'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "large_gap",
+        "message": "Very large gap (1000ms) before 'QUEM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 25,
+        "type": "large_gap",
+        "message": "Very large gap (900ms) before 'QUEM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 27,
+        "type": "large_gap",
+        "message": "Very large gap (960ms) before 'QUEM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 30,
+        "type": "large_gap",
+        "message": "Very large gap (1000ms) before 'A'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 31,
+        "type": "too_short",
+        "message": "Word 'MÃO' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "large_gap",
+        "message": "Large gap (940ms) before 'O' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 34,
+        "type": "too_short",
+        "message": "Word 'TOQUE' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 34,
+        "type": "syllable_mismatch",
+        "message": "Word 'TOQUE' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 36,
+        "type": "too_short",
+        "message": "Word 'RECEBE' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 36,
+        "type": "large_gap",
+        "message": "Large gap (1340ms) before 'RECEBE' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 36,
+        "type": "syllable_mismatch",
+        "message": "Word 'RECEBE' (3 syllables) has only 48ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "large_gap",
+        "message": "Large gap (760ms) before 'NUM' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 42,
+        "type": "large_gap",
+        "message": "Very large gap (1000ms) before 'QUEM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 46,
+        "type": "too_short",
+        "message": "Word 'QUEM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 46,
+        "type": "large_gap",
+        "message": "Very large gap (1160ms) before 'QUEM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 49,
+        "type": "large_gap",
+        "message": "Very large gap (1440ms) before 'ESPERTO'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 49,
+        "type": "syllable_mismatch",
+        "message": "Word 'ESPERTO' (3 syllables) has only 128ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 52,
+        "type": "too_short",
+        "message": "Word 'ESPERE' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 52,
+        "type": "large_gap",
+        "message": "Large gap (1160ms) before 'ESPERE' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 52,
+        "type": "syllable_mismatch",
+        "message": "Word 'ESPERE' (3 syllables) has only 28ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 55,
+        "type": "large_gap",
+        "message": "Large gap (1020ms) before 'NÃO' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

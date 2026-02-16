@@ -1,0 +1,885 @@
+{
+  "audio_file": "livro3_let45.mp3",
+  "language": "pt",
+  "duration": 42.98,
+  "title": "Livro3 Let45",
+  "full_text": "Como as aves escutam se elas não têm orelhas?\nNENHUMA ESPÉCIE DE AVE POSSUI ORELHAS, MAS TODAS TÊM OUVIDOS QUE FUNCIONAM MUITO BEM. AS AVES QUE MELHOR ESCUTAM SÃO AS CORUJAS. EXISTE ATÉ MESMO UMA ESPÉCIE CHAMADA CORUJA-ORELHUDA, QUE RECEBE ESSE NOME POR TER DOIS TUFOS DE PENAS NA CABEÇA. MAS O QUE REALIZA MUITO BEM A FUNÇÃO DAS ORELHAS É O CÍRCULO DE PENAS QUE ELAS TÊM NA FACE, CHAMADO DISCO FACIAL: ELE CAPTA O SOM E LEVA ATÉ OS OUVIDOS. ALIÁS, OS OUVIDOS NUNCA ESTÃO NA MESMA DIREÇÃO: O LADO ESQUERDO É VOLTADO PARA BAIXO, E O DIREITO, PARA CIMA, DE MODO A CAPTAR TODOS OS RUÍDOS DO AMBIENTE.",
+  "word_count": 111,
+  "words": [
+    {
+      "word": "Como",
+      "start": 0.0,
+      "end": 0.385,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "as",
+      "start": 0.385,
+      "end": 0.89,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "aves",
+      "start": 0.9,
+      "end": 0.908,
+      "confidence": 1.0
+    },
+    {
+      "word": "escutam",
+      "start": 0.91,
+      "end": 1.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "se",
+      "start": 1.465,
+      "end": 1.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "elas",
+      "start": 1.745,
+      "end": 2.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "não",
+      "start": 2.105,
+      "end": 2.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "têm",
+      "start": 2.265,
+      "end": 2.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "orelhas?",
+      "start": 2.485,
+      "end": 2.96,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NENHUMA",
+      "start": 4.24,
+      "end": 4.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPÉCIE",
+      "start": 4.33,
+      "end": 4.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 4.865,
+      "end": 5.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "AVE",
+      "start": 5.3,
+      "end": 5.308,
+      "confidence": 1.0
+    },
+    {
+      "word": "POSSUI",
+      "start": 5.31,
+      "end": 5.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "ORELHAS,",
+      "start": 5.665,
+      "end": 6.1,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 6.52,
+      "end": 6.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODAS",
+      "start": 6.685,
+      "end": 7.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÊM",
+      "start": 7.065,
+      "end": 7.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUVIDOS",
+      "start": 7.285,
+      "end": 7.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 7.745,
+      "end": 7.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "FUNCIONAM",
+      "start": 7.965,
+      "end": 8.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 8.485,
+      "end": 9.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEM.",
+      "start": 9.005,
+      "end": 9.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 10.14,
+      "end": 10.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "AVES",
+      "start": 10.365,
+      "end": 10.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 10.625,
+      "end": 10.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "MELHOR",
+      "start": 10.885,
+      "end": 11.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCUTAM",
+      "start": 11.265,
+      "end": 11.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÃO",
+      "start": 11.785,
+      "end": 12.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 12.025,
+      "end": 12.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "CORUJAS.",
+      "start": 12.425,
+      "end": 12.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXISTE",
+      "start": 13.94,
+      "end": 14.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 14.185,
+      "end": 14.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "MESMO",
+      "start": 14.525,
+      "end": 14.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 14.825,
+      "end": 15.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPÉCIE",
+      "start": 15.205,
+      "end": 15.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHAMADA",
+      "start": 15.485,
+      "end": 15.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "CORUJA-ORELHUDA,",
+      "start": 16.34,
+      "end": 16.96,
+      "confidence": 0.571
+    },
+    {
+      "word": "QUE",
+      "start": 17.28,
+      "end": 17.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "RECEBE",
+      "start": 17.39,
+      "end": 17.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESSE",
+      "start": 17.825,
+      "end": 18.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 18.145,
+      "end": 18.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 18.325,
+      "end": 18.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "TER",
+      "start": 18.6,
+      "end": 18.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "DOIS",
+      "start": 18.75,
+      "end": 19.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "TUFOS",
+      "start": 19.045,
+      "end": 19.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 19.305,
+      "end": 19.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "PENAS",
+      "start": 19.86,
+      "end": 19.868,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 19.87,
+      "end": 20.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "CABEÇA.",
+      "start": 20.125,
+      "end": 20.54,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 21.48,
+      "end": 21.715,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 21.715,
+      "end": 21.878,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 21.88,
+      "end": 21.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "REALIZA",
+      "start": 21.93,
+      "end": 22.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITO",
+      "start": 22.385,
+      "end": 22.87,
+      "confidence": 1.0
+    },
+    {
+      "word": "BEM",
+      "start": 22.88,
+      "end": 23.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 23.01,
+      "end": 23.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "FUNÇÃO",
+      "start": 23.46,
+      "end": 23.468,
+      "confidence": 1.0
+    },
+    {
+      "word": "DAS",
+      "start": 23.47,
+      "end": 23.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "ORELHAS",
+      "start": 23.765,
+      "end": 24.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 24.105,
+      "end": 24.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 24.305,
+      "end": 24.79,
+      "confidence": 1.0
+    },
+    {
+      "word": "CÍRCULO",
+      "start": 24.8,
+      "end": 24.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 24.81,
+      "end": 25.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "PENAS",
+      "start": 25.3,
+      "end": 25.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 25.35,
+      "end": 25.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELAS",
+      "start": 25.605,
+      "end": 25.87,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÊM",
+      "start": 25.88,
+      "end": 26.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 26.01,
+      "end": 26.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "FACE,",
+      "start": 26.305,
+      "end": 26.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHAMADO",
+      "start": 26.625,
+      "end": 27.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISCO",
+      "start": 27.365,
+      "end": 27.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "FACIAL:",
+      "start": 27.765,
+      "end": 28.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "ELE",
+      "start": 28.88,
+      "end": 28.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAPTA",
+      "start": 28.89,
+      "end": 29.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 29.185,
+      "end": 29.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOM",
+      "start": 29.62,
+      "end": 29.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 29.63,
+      "end": 29.99,
+      "confidence": 1.0
+    },
+    {
+      "word": "LEVA",
+      "start": 30.0,
+      "end": 30.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 30.09,
+      "end": 30.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 30.285,
+      "end": 30.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUVIDOS.",
+      "start": 30.625,
+      "end": 30.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALIÁS,",
+      "start": 32.1,
+      "end": 32.48,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 32.76,
+      "end": 33.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUVIDOS",
+      "start": 33.005,
+      "end": 33.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "NUNCA",
+      "start": 33.325,
+      "end": 33.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTÃO",
+      "start": 33.665,
+      "end": 33.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 33.925,
+      "end": 34.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "MESMA",
+      "start": 34.165,
+      "end": 34.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIREÇÃO:",
+      "start": 34.445,
+      "end": 35.0,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 35.44,
+      "end": 35.618,
+      "confidence": 1.0
+    },
+    {
+      "word": "LADO",
+      "start": 35.62,
+      "end": 35.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESQUERDO",
+      "start": 35.73,
+      "end": 36.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 36.165,
+      "end": 36.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOLTADO",
+      "start": 36.485,
+      "end": 36.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 36.705,
+      "end": 37.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "BAIXO,",
+      "start": 37.105,
+      "end": 37.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 37.465,
+      "end": 37.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 37.825,
+      "end": 38.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIREITO,",
+      "start": 38.32,
+      "end": 38.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 38.33,
+      "end": 38.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "CIMA,",
+      "start": 38.845,
+      "end": 39.16,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 39.48,
+      "end": 39.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "MODO",
+      "start": 39.645,
+      "end": 39.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 39.825,
+      "end": 40.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAPTAR",
+      "start": 40.005,
+      "end": 40.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODOS",
+      "start": 40.365,
+      "end": 40.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 40.685,
+      "end": 41.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "RUÍDOS",
+      "start": 41.045,
+      "end": 41.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 41.285,
+      "end": 42.09,
+      "confidence": 1.0
+    },
+    {
+      "word": "AMBIENTE.",
+      "start": 42.1,
+      "end": 42.3,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.996,
+    "gaps_preserved": 7,
+    "gaps_filled": 98,
+    "gaps_review": 5,
+    "low_confidence_words": 1,
+    "prosody_preserved_score": 0.064,
+    "timing_precision_ms": 30.6,
+    "word_accuracy": 0.996,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "CORUJA-ORELHUDA,"
+  ],
+  "timestamp_issues": {
+    "words_checked": 111,
+    "total_issues": 25,
+    "errors": 13,
+    "warnings": 12,
+    "issues_by_type": {
+      "too_short": 10,
+      "syllable_mismatch": 10,
+      "large_gap": 5
+    },
+    "issues": [
+      {
+        "word_index": 2,
+        "type": "too_short",
+        "message": "Word 'aves' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 2,
+        "type": "syllable_mismatch",
+        "message": "Word 'aves' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 9,
+        "type": "large_gap",
+        "message": "Very large gap (1280ms) before 'NENHUMA'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 9,
+        "type": "syllable_mismatch",
+        "message": "Word 'NENHUMA' (3 syllables) has only 88ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 12,
+        "type": "too_short",
+        "message": "Word 'AVE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 12,
+        "type": "syllable_mismatch",
+        "message": "Word 'AVE' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "large_gap",
+        "message": "Very large gap (935ms) before 'AS'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 31,
+        "type": "large_gap",
+        "message": "Very large gap (1140ms) before 'EXISTE'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "too_short",
+        "message": "Word 'PENAS' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "syllable_mismatch",
+        "message": "Word 'PENAS' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 50,
+        "type": "large_gap",
+        "message": "Very large gap (940ms) before 'MAS'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 52,
+        "type": "too_short",
+        "message": "Word 'QUE' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 57,
+        "type": "too_short",
+        "message": "Word 'FUNÇÃO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 57,
+        "type": "syllable_mismatch",
+        "message": "Word 'FUNÇÃO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 62,
+        "type": "too_short",
+        "message": "Word 'CÍRCULO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 62,
+        "type": "syllable_mismatch",
+        "message": "Word 'CÍRCULO' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 64,
+        "type": "too_short",
+        "message": "Word 'PENAS' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 64,
+        "type": "syllable_mismatch",
+        "message": "Word 'PENAS' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 73,
+        "type": "too_short",
+        "message": "Word 'ELE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 73,
+        "type": "syllable_mismatch",
+        "message": "Word 'ELE' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 76,
+        "type": "too_short",
+        "message": "Word 'SOM' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 78,
+        "type": "syllable_mismatch",
+        "message": "Word 'LEVA' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 82,
+        "type": "large_gap",
+        "message": "Very large gap (1120ms) before 'ALIÁS,'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 99,
+        "type": "too_short",
+        "message": "Word 'DIREITO,' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 99,
+        "type": "syllable_mismatch",
+        "message": "Word 'DIREITO,' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

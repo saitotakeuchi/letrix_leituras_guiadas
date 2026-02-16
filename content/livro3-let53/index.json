@@ -1,0 +1,1074 @@
+{
+  "audio_file": "livro3_let53.mp3",
+  "language": "pt",
+  "duration": 59.76,
+  "title": "Livro3 Let53",
+  "full_text": "O gato e a raposa\nO GATO E A RAPOSA IAM POR UM CAMINHO, CONVERSANDO. CONTARAM MUITA LOROTA, MUITA PROSA E, AFINAL DE CONTAS, FALARAM NO CACHORRO, QUE ERA INIMIGO DE AMBOS. AÍ, DISSE A RAPOSA:\n— QUAL O QUÊ! EU LÁ TENHO MEDO DE CACHORRO NADA! PARA ME LIVRAR DELE, EU TENHO MIL EXPEDIENTES.\n— POIS EU SÓ TENHO UM, DISSE O GATO. NISSO APARECE AO LONGO O CACHORRO, QUE VINHA DANADO, FAREJANDO A RAPOSA. O GATO PULOU NUM PÉ DE ÁRVORE E FICOU LÁ EM CIMA [...] DIZENDO À RAPOSA:\n — O MEU É ESTE.\nA RAPOSA, COITADA, METEU O PÉ NO MUNDO. VIROU, MEXEU, FOI, VEIO, ENTROU EM BURACO, SAIU DE BURACO, ESCONDEU-SE AQUI, ESCONDEU-SE ALI, FEZ MIL REMONDIOLAS, ATÉ QUE, JÁ MORTA DE CANSAÇO, O CACHORRO PULOU-LHE NO CACHAÇO E ESTRAÇALHOU-A.",
+  "word_count": 135,
+  "words": [
+    {
+      "word": "O",
+      "start": 0.0,
+      "end": 0.365,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "gato",
+      "start": 0.365,
+      "end": 0.685,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "e",
+      "start": 0.685,
+      "end": 0.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 0.925,
+      "end": 1.47,
+      "confidence": 1.0
+    },
+    {
+      "word": "raposa",
+      "start": 1.48,
+      "end": 1.68,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "O",
+      "start": 2.52,
+      "end": 2.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "GATO",
+      "start": 2.705,
+      "end": 2.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 2.965,
+      "end": 3.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 3.225,
+      "end": 3.75,
+      "confidence": 1.0
+    },
+    {
+      "word": "RAPOSA",
+      "start": 3.76,
+      "end": 3.768,
+      "confidence": 1.0
+    },
+    {
+      "word": "IAM",
+      "start": 3.77,
+      "end": 4.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "POR",
+      "start": 4.025,
+      "end": 4.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 4.265,
+      "end": 4.77,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAMINHO,",
+      "start": 4.78,
+      "end": 4.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONVERSANDO.",
+      "start": 5.18,
+      "end": 5.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTARAM",
+      "start": 7.04,
+      "end": 7.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITA",
+      "start": 7.09,
+      "end": 7.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "LOROTA,",
+      "start": 7.525,
+      "end": 8.04,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUITA",
+      "start": 8.54,
+      "end": 8.688,
+      "confidence": 1.0
+    },
+    {
+      "word": "PROSA",
+      "start": 8.69,
+      "end": 9.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "E,",
+      "start": 9.145,
+      "end": 9.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "AFINAL",
+      "start": 9.56,
+      "end": 9.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 9.845,
+      "end": 10.55,
+      "confidence": 1.0
+    },
+    {
+      "word": "CONTAS,",
+      "start": 10.56,
+      "end": 10.76,
+      "confidence": 1.0
+    },
+    {
+      "word": "FALARAM",
+      "start": 11.24,
+      "end": 11.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 11.29,
+      "end": 11.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHORRO,",
+      "start": 11.565,
+      "end": 12.0,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 12.3,
+      "end": 12.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "ERA",
+      "start": 12.39,
+      "end": 12.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "INIMIGO",
+      "start": 12.565,
+      "end": 13.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 13.005,
+      "end": 13.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "AMBOS.",
+      "start": 13.62,
+      "end": 13.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "AÍ,",
+      "start": 14.54,
+      "end": 14.92,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISSE",
+      "start": 15.26,
+      "end": 15.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 15.485,
+      "end": 15.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "RAPOSA:",
+      "start": 15.825,
+      "end": 16.165,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 16.165,
+      "end": 17.185,
+      "confidence": 0.3
+    },
+    {
+      "word": "QUAL",
+      "start": 17.185,
+      "end": 17.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 17.365,
+      "end": 17.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUÊ!",
+      "start": 17.64,
+      "end": 17.84,
+      "confidence": 1.0
+    },
+    {
+      "word": "EU",
+      "start": 18.6,
+      "end": 18.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÁ",
+      "start": 18.805,
+      "end": 19.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "TENHO",
+      "start": 19.045,
+      "end": 19.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEDO",
+      "start": 19.265,
+      "end": 19.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 19.565,
+      "end": 19.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHORRO",
+      "start": 19.965,
+      "end": 20.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "NADA!",
+      "start": 20.225,
+      "end": 20.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 21.74,
+      "end": 21.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "ME",
+      "start": 21.81,
+      "end": 22.23,
+      "confidence": 1.0
+    },
+    {
+      "word": "LIVRAR",
+      "start": 22.24,
+      "end": 22.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "DELE,",
+      "start": 22.37,
+      "end": 22.76,
+      "confidence": 1.0
+    },
+    {
+      "word": "EU",
+      "start": 23.04,
+      "end": 23.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "TENHO",
+      "start": 23.32,
+      "end": 23.368,
+      "confidence": 1.0
+    },
+    {
+      "word": "MIL",
+      "start": 23.37,
+      "end": 23.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXPEDIENTES.",
+      "start": 23.685,
+      "end": 24.505,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 24.505,
+      "end": 25.505,
+      "confidence": 0.3
+    },
+    {
+      "word": "POIS",
+      "start": 25.505,
+      "end": 25.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "EU",
+      "start": 25.745,
+      "end": 25.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÓ",
+      "start": 25.965,
+      "end": 26.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "TENHO",
+      "start": 26.205,
+      "end": 26.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM,",
+      "start": 26.445,
+      "end": 26.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISSE",
+      "start": 27.18,
+      "end": 27.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 27.23,
+      "end": 27.75,
+      "confidence": 1.0
+    },
+    {
+      "word": "GATO.",
+      "start": 27.76,
+      "end": 27.96,
+      "confidence": 1.0
+    },
+    {
+      "word": "NISSO",
+      "start": 28.42,
+      "end": 29.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "APARECE",
+      "start": 29.025,
+      "end": 29.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "AO",
+      "start": 29.545,
+      "end": 29.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "LONGO",
+      "start": 29.885,
+      "end": 30.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 30.125,
+      "end": 30.71,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHORRO,",
+      "start": 30.72,
+      "end": 30.92,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 31.04,
+      "end": 31.168,
+      "confidence": 1.0
+    },
+    {
+      "word": "VINHA",
+      "start": 31.17,
+      "end": 31.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "DANADO,",
+      "start": 31.345,
+      "end": 31.92,
+      "confidence": 1.0
+    },
+    {
+      "word": "FAREJANDO",
+      "start": 32.32,
+      "end": 32.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 32.685,
+      "end": 32.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "RAPOSA.",
+      "start": 32.965,
+      "end": 33.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 34.04,
+      "end": 34.63,
+      "confidence": 1.0
+    },
+    {
+      "word": "GATO",
+      "start": 34.64,
+      "end": 34.688,
+      "confidence": 1.0
+    },
+    {
+      "word": "PULOU",
+      "start": 34.69,
+      "end": 35.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "NUM",
+      "start": 35.005,
+      "end": 35.235,
+      "confidence": 1.0
+    },
+    {
+      "word": "PÉ",
+      "start": 35.235,
+      "end": 35.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 35.405,
+      "end": 35.87,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÁRVORE",
+      "start": 35.88,
+      "end": 36.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 36.01,
+      "end": 36.315,
+      "confidence": 1.0
+    },
+    {
+      "word": "FICOU",
+      "start": 36.315,
+      "end": 36.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÁ",
+      "start": 36.485,
+      "end": 36.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 36.785,
+      "end": 37.21,
+      "confidence": 1.0
+    },
+    {
+      "word": "CIMA",
+      "start": 37.22,
+      "end": 37.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "[...]",
+      "start": 37.23,
+      "end": 37.59,
+      "confidence": 0.3
+    },
+    {
+      "word": "DIZENDO",
+      "start": 37.6,
+      "end": 37.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "À",
+      "start": 37.61,
+      "end": 37.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "RAPOSA:",
+      "start": 37.805,
+      "end": 38.265,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 38.265,
+      "end": 39.225,
+      "confidence": 0.3
+    },
+    {
+      "word": "O",
+      "start": 39.225,
+      "end": 39.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEU",
+      "start": 39.405,
+      "end": 39.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 39.585,
+      "end": 39.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTE.",
+      "start": 39.805,
+      "end": 40.28,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 41.24,
+      "end": 41.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "RAPOSA,",
+      "start": 41.405,
+      "end": 41.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "COITADA,",
+      "start": 42.26,
+      "end": 42.74,
+      "confidence": 1.0
+    },
+    {
+      "word": "METEU",
+      "start": 43.1,
+      "end": 43.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 43.405,
+      "end": 43.69,
+      "confidence": 1.0
+    },
+    {
+      "word": "PÉ",
+      "start": 43.7,
+      "end": 43.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 43.71,
+      "end": 43.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUNDO.",
+      "start": 43.985,
+      "end": 44.24,
+      "confidence": 1.0
+    },
+    {
+      "word": "VIROU,",
+      "start": 45.44,
+      "end": 45.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEXEU,",
+      "start": 45.96,
+      "end": 46.24,
+      "confidence": 1.0
+    },
+    {
+      "word": "FOI,",
+      "start": 46.68,
+      "end": 46.88,
+      "confidence": 1.0
+    },
+    {
+      "word": "VEIO,",
+      "start": 47.26,
+      "end": 47.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "ENTROU",
+      "start": 47.74,
+      "end": 47.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 47.925,
+      "end": 48.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "BURACO,",
+      "start": 48.225,
+      "end": 48.52,
+      "confidence": 1.0
+    },
+    {
+      "word": "SAIU",
+      "start": 49.08,
+      "end": 49.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 49.13,
+      "end": 49.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "BURACO,",
+      "start": 49.405,
+      "end": 49.78,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCONDEU-SE",
+      "start": 50.38,
+      "end": 50.6,
+      "confidence": 0.8
+    },
+    {
+      "word": "AQUI,",
+      "start": 50.82,
+      "end": 51.02,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESCONDEU-SE",
+      "start": 51.36,
+      "end": 51.78,
+      "confidence": 0.8
+    },
+    {
+      "word": "ALI,",
+      "start": 52.02,
+      "end": 52.22,
+      "confidence": 1.0
+    },
+    {
+      "word": "FEZ",
+      "start": 52.58,
+      "end": 52.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "MIL",
+      "start": 52.65,
+      "end": 52.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "REMONDIOLAS,",
+      "start": 52.865,
+      "end": 53.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "ATÉ",
+      "start": 53.625,
+      "end": 54.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE,",
+      "start": 54.165,
+      "end": 54.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "JÁ",
+      "start": 54.7,
+      "end": 54.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "MORTA",
+      "start": 54.985,
+      "end": 55.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 55.205,
+      "end": 55.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "CANSAÇO,",
+      "start": 55.565,
+      "end": 55.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 56.3,
+      "end": 56.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHORRO",
+      "start": 56.565,
+      "end": 56.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "PULOU-LHE",
+      "start": 56.805,
+      "end": 57.18,
+      "confidence": 0.625
+    },
+    {
+      "word": "NO",
+      "start": 57.34,
+      "end": 57.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "CACHAÇO",
+      "start": 57.545,
+      "end": 58.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 58.025,
+      "end": 58.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTRAÇALHOU-A.",
+      "start": 58.305,
+      "end": 58.8,
+      "confidence": 0.667
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.971,
+    "gaps_preserved": 11,
+    "gaps_filled": 101,
+    "gaps_review": 22,
+    "low_confidence_words": 6,
+    "prosody_preserved_score": 0.082,
+    "timing_precision_ms": 31.5,
+    "word_accuracy": 0.971,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "—",
+    "—",
+    "[...]",
+    "—",
+    "PULOU-LHE",
+    "ESTRAÇALHOU-A."
+  ],
+  "timestamp_issues": {
+    "words_checked": 135,
+    "total_issues": 30,
+    "errors": 15,
+    "warnings": 15,
+    "issues_by_type": {
+      "large_gap": 7,
+      "too_short": 12,
+      "syllable_mismatch": 10,
+      "round_timestamps": 1
+    },
+    "issues": [
+      {
+        "word_index": 5,
+        "type": "large_gap",
+        "message": "Large gap (840ms) before 'O' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 9,
+        "type": "too_short",
+        "message": "Word 'RAPOSA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 9,
+        "type": "syllable_mismatch",
+        "message": "Word 'RAPOSA' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "too_short",
+        "message": "Word 'CONTARAM' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "large_gap",
+        "message": "Very large gap (1140ms) before 'CONTARAM'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "syllable_mismatch",
+        "message": "Word 'CONTARAM' (3 syllables) has only 48ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "too_short",
+        "message": "Word 'FALARAM' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "syllable_mismatch",
+        "message": "Word 'FALARAM' (3 syllables) has only 48ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "too_short",
+        "message": "Word 'PARA' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "large_gap",
+        "message": "Very large gap (1060ms) before 'PARA'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "syllable_mismatch",
+        "message": "Word 'PARA' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 52,
+        "type": "too_short",
+        "message": "Word 'TENHO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 52,
+        "type": "syllable_mismatch",
+        "message": "Word 'TENHO' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 55,
+        "type": "round_timestamps",
+        "message": "Word '—' has suspiciously round timestamps (24.5-25.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 61,
+        "type": "too_short",
+        "message": "Word 'DISSE' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 61,
+        "type": "syllable_mismatch",
+        "message": "Word 'DISSE' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 77,
+        "type": "too_short",
+        "message": "Word 'GATO' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 77,
+        "type": "syllable_mismatch",
+        "message": "Word 'GATO' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 82,
+        "type": "syllable_mismatch",
+        "message": "Word 'ÁRVORE' (3 syllables) has only 128ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 87,
+        "type": "too_short",
+        "message": "Word 'CIMA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 87,
+        "type": "syllable_mismatch",
+        "message": "Word 'CIMA' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 89,
+        "type": "too_short",
+        "message": "Word 'DIZENDO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 89,
+        "type": "syllable_mismatch",
+        "message": "Word 'DIZENDO' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 97,
+        "type": "large_gap",
+        "message": "Very large gap (960ms) before 'A'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 102,
+        "type": "too_short",
+        "message": "Word 'PÉ' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 105,
+        "type": "large_gap",
+        "message": "Very large gap (1200ms) before 'VIROU,'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 112,
+        "type": "too_short",
+        "message": "Word 'SAIU' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 112,
+        "type": "large_gap",
+        "message": "Large gap (560ms) before 'SAIU' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 115,
+        "type": "large_gap",
+        "message": "Large gap (600ms) before 'ESCONDEU-SE' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 119,
+        "type": "too_short",
+        "message": "Word 'FEZ' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

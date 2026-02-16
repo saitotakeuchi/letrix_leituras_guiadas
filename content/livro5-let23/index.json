@@ -1,0 +1,658 @@
+{
+  "audio_file": "livro5_let23.mp3",
+  "language": "pt",
+  "duration": 37.58,
+  "title": "Livro5 Let23",
+  "full_text": "Curiosidades - Glossauro\nDinossauros comiam frutas?\nAna Maria – 9 anos – por e-mail\nApenas uma parte deles conseguiu se alimentar de frutas. Dinossauros viveram na Era Mesozoica, nos períodos Triássico, Jurássico e Cretáceo, por 160 milhões de anos. Frutos verdadeiros, como os que conhecemos hoje, só apareceram no final da Era Mesozoica. Assim, apenas os dinossauros do final do período Cretáceo puderam provar essas delícias. No entanto, plantas como as ginkgos e até alguns pinheiros já produziam falsos frutos adocicados e nutritivos dos quais os dinossauros podiam se alimentar.",
+  "word_count": 90,
+  "words": [
+    {
+      "word": "Curiosidades",
+      "start": 0.0,
+      "end": 0.865,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "-",
+      "start": 0.865,
+      "end": 1.165,
+      "confidence": 0.3,
+      "is_title": true
+    },
+    {
+      "word": "Glossauro",
+      "start": 1.165,
+      "end": 1.64,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Dinossauros",
+      "start": 1.94,
+      "end": 2.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "comiam",
+      "start": 2.605,
+      "end": 3.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "frutas?",
+      "start": 3.005,
+      "end": 3.58,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "Ana",
+      "start": 3.92,
+      "end": 4.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "Maria",
+      "start": 4.185,
+      "end": 4.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "–",
+      "start": 4.485,
+      "end": 4.705,
+      "confidence": 0.3
+    },
+    {
+      "word": "9",
+      "start": 4.705,
+      "end": 5.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "anos",
+      "start": 5.005,
+      "end": 5.475,
+      "confidence": 1.0
+    },
+    {
+      "word": "–",
+      "start": 5.475,
+      "end": 5.635,
+      "confidence": 0.3
+    },
+    {
+      "word": "por",
+      "start": 5.635,
+      "end": 5.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "e-mail",
+      "start": 5.85,
+      "end": 6.1,
+      "confidence": 0.8,
+      "line_break_after": true
+    },
+    {
+      "word": "Apenas",
+      "start": 6.64,
+      "end": 6.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "uma",
+      "start": 6.905,
+      "end": 7.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "parte",
+      "start": 7.225,
+      "end": 7.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "deles",
+      "start": 7.405,
+      "end": 7.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "conseguiu",
+      "start": 7.885,
+      "end": 8.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "se",
+      "start": 8.365,
+      "end": 8.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "alimentar",
+      "start": 8.665,
+      "end": 9.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 9.025,
+      "end": 9.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "frutas.",
+      "start": 9.305,
+      "end": 9.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "Dinossauros",
+      "start": 10.16,
+      "end": 10.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "viveram",
+      "start": 10.765,
+      "end": 11.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "na",
+      "start": 11.225,
+      "end": 11.398,
+      "confidence": 1.0
+    },
+    {
+      "word": "Era",
+      "start": 11.4,
+      "end": 11.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "Mesozoica,",
+      "start": 11.49,
+      "end": 12.18,
+      "confidence": 1.0
+    },
+    {
+      "word": "nos",
+      "start": 12.44,
+      "end": 12.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "períodos",
+      "start": 12.605,
+      "end": 12.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "Triássico,",
+      "start": 12.985,
+      "end": 13.56,
+      "confidence": 1.0
+    },
+    {
+      "word": "Jurássico",
+      "start": 13.88,
+      "end": 14.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 14.285,
+      "end": 14.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "Cretáceo,",
+      "start": 14.485,
+      "end": 15.02,
+      "confidence": 1.0
+    },
+    {
+      "word": "por",
+      "start": 15.2,
+      "end": 15.348,
+      "confidence": 1.0
+    },
+    {
+      "word": "160",
+      "start": 15.35,
+      "end": 16.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "milhões",
+      "start": 16.085,
+      "end": 16.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "de",
+      "start": 16.465,
+      "end": 17.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "anos.",
+      "start": 17.145,
+      "end": 17.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "Frutos",
+      "start": 17.72,
+      "end": 17.788,
+      "confidence": 1.0
+    },
+    {
+      "word": "verdadeiros,",
+      "start": 17.79,
+      "end": 18.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "como",
+      "start": 18.485,
+      "end": 18.735,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 18.735,
+      "end": 18.895,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 18.895,
+      "end": 19.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "conhecemos",
+      "start": 19.065,
+      "end": 19.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "hoje,",
+      "start": 19.425,
+      "end": 19.92,
+      "confidence": 1.0
+    },
+    {
+      "word": "só",
+      "start": 20.2,
+      "end": 20.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "apareceram",
+      "start": 20.365,
+      "end": 20.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "no",
+      "start": 20.905,
+      "end": 21.135,
+      "confidence": 1.0
+    },
+    {
+      "word": "final",
+      "start": 21.135,
+      "end": 21.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "da",
+      "start": 21.305,
+      "end": 21.61,
+      "confidence": 1.0
+    },
+    {
+      "word": "Era",
+      "start": 21.62,
+      "end": 21.688,
+      "confidence": 1.0
+    },
+    {
+      "word": "Mesozoica.",
+      "start": 21.69,
+      "end": 22.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "Assim,",
+      "start": 22.64,
+      "end": 23.32,
+      "confidence": 1.0
+    },
+    {
+      "word": "apenas",
+      "start": 23.32,
+      "end": 23.685,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 23.685,
+      "end": 23.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "dinossauros",
+      "start": 23.965,
+      "end": 24.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 24.485,
+      "end": 24.815,
+      "confidence": 1.0
+    },
+    {
+      "word": "final",
+      "start": 24.815,
+      "end": 24.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "do",
+      "start": 24.985,
+      "end": 25.53,
+      "confidence": 1.0
+    },
+    {
+      "word": "período",
+      "start": 25.54,
+      "end": 25.548,
+      "confidence": 1.0
+    },
+    {
+      "word": "Cretáceo",
+      "start": 25.55,
+      "end": 26.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "puderam",
+      "start": 26.165,
+      "end": 26.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "provar",
+      "start": 26.645,
+      "end": 26.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "essas",
+      "start": 26.985,
+      "end": 27.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "delícias.",
+      "start": 27.285,
+      "end": 27.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "No",
+      "start": 27.785,
+      "end": 28.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "entanto,",
+      "start": 28.325,
+      "end": 28.78,
+      "confidence": 1.0
+    },
+    {
+      "word": "plantas",
+      "start": 29.26,
+      "end": 29.328,
+      "confidence": 1.0
+    },
+    {
+      "word": "como",
+      "start": 29.33,
+      "end": 29.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "as",
+      "start": 29.525,
+      "end": 29.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "ginkgos",
+      "start": 29.785,
+      "end": 30.065,
+      "confidence": 0.857
+    },
+    {
+      "word": "e",
+      "start": 30.065,
+      "end": 30.258,
+      "confidence": 1.0
+    },
+    {
+      "word": "até",
+      "start": 30.26,
+      "end": 30.408,
+      "confidence": 1.0
+    },
+    {
+      "word": "alguns",
+      "start": 30.41,
+      "end": 30.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "pinheiros",
+      "start": 30.765,
+      "end": 31.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "já",
+      "start": 31.225,
+      "end": 31.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "produziam",
+      "start": 31.445,
+      "end": 31.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "falsos",
+      "start": 31.985,
+      "end": 32.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "frutos",
+      "start": 32.505,
+      "end": 32.85,
+      "confidence": 1.0
+    },
+    {
+      "word": "adocicados",
+      "start": 32.85,
+      "end": 33.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "e",
+      "start": 33.525,
+      "end": 33.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "nutritivos",
+      "start": 33.725,
+      "end": 34.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "dos",
+      "start": 34.265,
+      "end": 34.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "quais",
+      "start": 34.585,
+      "end": 34.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "os",
+      "start": 34.785,
+      "end": 35.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "dinossauros",
+      "start": 35.005,
+      "end": 35.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "podiam",
+      "start": 35.645,
+      "end": 36.025,
+      "confidence": 1.0
+    },
+    {
+      "word": "se",
+      "start": 36.025,
+      "end": 36.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "alimentar.",
+      "start": 36.305,
+      "end": 36.74,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.973,
+    "gaps_preserved": 3,
+    "gaps_filled": 79,
+    "gaps_review": 7,
+    "low_confidence_words": 3,
+    "prosody_preserved_score": 0.011,
+    "timing_precision_ms": 36.9,
+    "word_accuracy": 0.973,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "-",
+    "–",
+    "–"
+  ],
+  "timestamp_issues": {
+    "words_checked": 90,
+    "total_issues": 10,
+    "errors": 2,
+    "warnings": 8,
+    "issues_by_type": {
+      "large_gap": 1,
+      "syllable_mismatch": 5,
+      "too_short": 4
+    },
+    "issues": [
+      {
+        "word_index": 14,
+        "type": "large_gap",
+        "message": "Large gap (540ms) before 'Apenas' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 26,
+        "type": "syllable_mismatch",
+        "message": "Word 'Era' (2 syllables) has only 88ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "too_short",
+        "message": "Word 'Frutos' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "syllable_mismatch",
+        "message": "Word 'Frutos' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 51,
+        "type": "too_short",
+        "message": "Word 'Era' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 51,
+        "type": "syllable_mismatch",
+        "message": "Word 'Era' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 60,
+        "type": "too_short",
+        "message": "Word 'período' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 60,
+        "type": "syllable_mismatch",
+        "message": "Word 'período' (3 syllables) has only 8ms duration",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 68,
+        "type": "too_short",
+        "message": "Word 'plantas' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 68,
+        "type": "syllable_mismatch",
+        "message": "Word 'plantas' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

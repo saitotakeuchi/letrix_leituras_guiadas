@@ -1,0 +1,683 @@
+{
+  "audio_file": "livro5_let63.mp3",
+  "language": "pt",
+  "duration": 28.18,
+  "title": "Livro5 Let63",
+  "full_text": "O pássaro e a nuvem\n— OLÁ, NUVEM, BOM DIA!\n — OLÁ, PÁSSARO, TCHAU!\n— EI, ESPERE, AONDE VAI?\n— AONDE ME LEVAR O VENTO.\n— MAS É SEMPRE ASSIM?\n— SIM, O VENTO MANDA EM MIM.\n— MAS ISSO NÃO É JUSTO!\n— POR MIM, ESTÁ TUDO CERTO.\n— MAS OLHE AQUELE MORRO, LÁ PERTO!\n— SIM, PÁSSARO, NÃO SE ASSUSTE.\n— NELE VOCÊ VAI BATER!\n— ENTÃO COMEÇAREI A CHOVER.\n— E TUDO FLORIRÁ NUM SEGUNDO...\n— SIM, CARREGO NA BARRIGA A MELHOR COISA DO MUNDO.",
+  "word_count": 88,
+  "words": [
+    {
+      "word": "O",
+      "start": 0.0,
+      "end": 0.345,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "pássaro",
+      "start": 0.345,
+      "end": 0.685,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "e",
+      "start": 0.685,
+      "end": 0.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start": 0.905,
+      "end": 1.25,
+      "confidence": 1.0
+    },
+    {
+      "word": "nuvem",
+      "start": 1.26,
+      "end": 1.328,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 1.33,
+      "end": 1.87,
+      "confidence": 0.3
+    },
+    {
+      "word": "OLÁ,",
+      "start": 1.88,
+      "end": 2.08,
+      "confidence": 1.0
+    },
+    {
+      "word": "NUVEM,",
+      "start": 2.22,
+      "end": 2.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "BOM",
+      "start": 2.6,
+      "end": 2.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "DIA!",
+      "start": 2.805,
+      "end": 3.045,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 3.045,
+      "end": 3.605,
+      "confidence": 0.3
+    },
+    {
+      "word": "OLÁ,",
+      "start": 3.605,
+      "end": 3.84,
+      "confidence": 1.0
+    },
+    {
+      "word": "PÁSSARO,",
+      "start": 4.2,
+      "end": 4.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "TCHAU!",
+      "start": 4.7,
+      "end": 4.905,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 4.905,
+      "end": 5.39,
+      "confidence": 0.3
+    },
+    {
+      "word": "EI,",
+      "start": 5.4,
+      "end": 5.6,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPERE,",
+      "start": 5.82,
+      "end": 6.06,
+      "confidence": 1.0
+    },
+    {
+      "word": "AONDE",
+      "start": 6.28,
+      "end": 6.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAI?",
+      "start": 6.505,
+      "end": 6.905,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 6.905,
+      "end": 7.305,
+      "confidence": 0.3
+    },
+    {
+      "word": "AONDE",
+      "start": 7.305,
+      "end": 7.565,
+      "confidence": 1.0
+    },
+    {
+      "word": "ME",
+      "start": 7.565,
+      "end": 7.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "LEVAR",
+      "start": 7.785,
+      "end": 8.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 8.045,
+      "end": 8.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "VENTO.",
+      "start": 8.5,
+      "end": 8.568,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 8.57,
+      "end": 8.915,
+      "confidence": 0.3
+    },
+    {
+      "word": "MAS",
+      "start": 8.915,
+      "end": 9.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 9.085,
+      "end": 9.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEMPRE",
+      "start": 9.325,
+      "end": 9.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "ASSIM?",
+      "start": 9.525,
+      "end": 9.885,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 9.885,
+      "end": 10.265,
+      "confidence": 0.3
+    },
+    {
+      "word": "SIM,",
+      "start": 10.265,
+      "end": 10.56,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 10.56,
+      "end": 10.93,
+      "confidence": 1.0
+    },
+    {
+      "word": "VENTO",
+      "start": 10.94,
+      "end": 11.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "MANDA",
+      "start": 11.07,
+      "end": 11.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "EM",
+      "start": 11.285,
+      "end": 11.53,
+      "confidence": 1.0
+    },
+    {
+      "word": "MIM.",
+      "start": 11.54,
+      "end": 11.588,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 11.59,
+      "end": 11.945,
+      "confidence": 0.3
+    },
+    {
+      "word": "MAS",
+      "start": 11.945,
+      "end": 12.185,
+      "confidence": 1.0
+    },
+    {
+      "word": "ISSO",
+      "start": 12.185,
+      "end": 12.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 12.46,
+      "end": 12.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 12.61,
+      "end": 12.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "JUSTO!",
+      "start": 12.865,
+      "end": 13.165,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 13.165,
+      "end": 13.61,
+      "confidence": 0.3
+    },
+    {
+      "word": "POR",
+      "start": 13.62,
+      "end": 13.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "MIM,",
+      "start": 13.73,
+      "end": 13.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTÁ",
+      "start": 14.18,
+      "end": 14.308,
+      "confidence": 1.0
+    },
+    {
+      "word": "TUDO",
+      "start": 14.31,
+      "end": 14.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "CERTO.",
+      "start": 14.665,
+      "end": 15.045,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 15.045,
+      "end": 15.425,
+      "confidence": 0.3
+    },
+    {
+      "word": "MAS",
+      "start": 15.425,
+      "end": 15.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "OLHE",
+      "start": 15.665,
+      "end": 15.865,
+      "confidence": 0.75
+    },
+    {
+      "word": "AQUELE",
+      "start": 15.865,
+      "end": 16.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "MORRO,",
+      "start": 16.145,
+      "end": 16.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÁ",
+      "start": 16.465,
+      "end": 16.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "PERTO!",
+      "start": 16.785,
+      "end": 17.045,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 17.045,
+      "end": 17.565,
+      "confidence": 0.3
+    },
+    {
+      "word": "SIM,",
+      "start": 17.565,
+      "end": 17.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "PÁSSARO,",
+      "start": 18.02,
+      "end": 18.22,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 18.4,
+      "end": 18.488,
+      "confidence": 1.0
+    },
+    {
+      "word": "SE",
+      "start": 18.49,
+      "end": 18.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "ASSUSTE.",
+      "start": 18.785,
+      "end": 19.125,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 19.125,
+      "end": 19.75,
+      "confidence": 0.3
+    },
+    {
+      "word": "NELE",
+      "start": 19.76,
+      "end": 19.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "VOCÊ",
+      "start": 19.81,
+      "end": 20.085,
+      "confidence": 1.0
+    },
+    {
+      "word": "VAI",
+      "start": 20.085,
+      "end": 20.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "BATER!",
+      "start": 20.305,
+      "end": 20.625,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 20.625,
+      "end": 20.985,
+      "confidence": 0.3
+    },
+    {
+      "word": "ENTÃO",
+      "start": 20.985,
+      "end": 21.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "COMEÇAREI",
+      "start": 21.285,
+      "end": 21.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 21.905,
+      "end": 22.31,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHOVER.",
+      "start": 22.32,
+      "end": 22.328,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 22.33,
+      "end": 22.585,
+      "confidence": 0.3
+    },
+    {
+      "word": "E",
+      "start": 22.585,
+      "end": 22.91,
+      "confidence": 1.0
+    },
+    {
+      "word": "TUDO",
+      "start": 22.92,
+      "end": 23.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "FLORIRÁ",
+      "start": 23.07,
+      "end": 23.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "NUM",
+      "start": 23.525,
+      "end": 23.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEGUNDO...",
+      "start": 23.765,
+      "end": 24.165,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "—",
+      "start": 24.165,
+      "end": 24.705,
+      "confidence": 0.3
+    },
+    {
+      "word": "SIM,",
+      "start": 24.705,
+      "end": 24.92,
+      "confidence": 1.0
+    },
+    {
+      "word": "CARREGO",
+      "start": 25.14,
+      "end": 25.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 25.445,
+      "end": 25.645,
+      "confidence": 1.0
+    },
+    {
+      "word": "BARRIGA",
+      "start": 25.645,
+      "end": 26.045,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 26.045,
+      "end": 26.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "MELHOR",
+      "start": 26.5,
+      "end": 26.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "COISA",
+      "start": 26.51,
+      "end": 26.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "DO",
+      "start": 26.805,
+      "end": 27.29,
+      "confidence": 1.0
+    },
+    {
+      "word": "MUNDO.",
+      "start": 27.3,
+      "end": 27.5,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.886,
+    "gaps_preserved": 0,
+    "gaps_filled": 77,
+    "gaps_review": 10,
+    "low_confidence_words": 15,
+    "prosody_preserved_score": 0.0,
+    "timing_precision_ms": 28.6,
+    "word_accuracy": 0.886,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—",
+    "OLHE",
+    "—",
+    "—",
+    "—",
+    "—",
+    "—"
+  ],
+  "timestamp_issues": {
+    "words_checked": 88,
+    "total_issues": 12,
+    "errors": 4,
+    "warnings": 8,
+    "issues_by_type": {
+      "too_short": 6,
+      "syllable_mismatch": 5,
+      "round_timestamps": 1
+    },
+    "issues": [
+      {
+        "word_index": 4,
+        "type": "too_short",
+        "message": "Word 'nuvem' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 4,
+        "type": "syllable_mismatch",
+        "message": "Word 'nuvem' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "too_short",
+        "message": "Word 'VENTO.' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 24,
+        "type": "syllable_mismatch",
+        "message": "Word 'VENTO.' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 36,
+        "type": "too_short",
+        "message": "Word 'MIM.' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 63,
+        "type": "too_short",
+        "message": "Word 'NELE' has very short duration (48ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 63,
+        "type": "syllable_mismatch",
+        "message": "Word 'NELE' (2 syllables) has only 48ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 71,
+        "type": "too_short",
+        "message": "Word 'CHOVER.' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 71,
+        "type": "syllable_mismatch",
+        "message": "Word 'CHOVER.' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "too_short",
+        "message": "Word 'MELHOR' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "syllable_mismatch",
+        "message": "Word 'MELHOR' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 84,
+        "type": "round_timestamps",
+        "message": "Word 'MELHOR' has suspiciously round timestamps (26.5-26.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

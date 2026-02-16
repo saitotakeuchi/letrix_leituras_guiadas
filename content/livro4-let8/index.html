@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livro4 Let8 - Letrix Leituras Guiadas</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+/* ============================================
+   WORDSYNC - LETRIX LEITURAS GUIADAS STYLES
+   Karaoke Word-Sync Player Styles
+   ============================================ */
+
+/* ============================================
+   FONTS
+   ============================================ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+/* ============================================
+   CSS VARIABLES
+   ============================================ */
+:root {
+    --color-accent: #fdbe3f; /* Themed color: header, title, play btn, text area */
+    --color-player: #fdbe3f; /* Yellow main player color (timeline - stays yellow) */
+    --color-progress: #d69a21; /* Dark yellow progress bar */
+    --color-progress-handle: #af7e1b; /* Progress handle color */
+    --color-border-dark: #221e03; /* Dark border for timeline */
+    --color-bg-page: #f9eacd; /* Beige page background */
+    --color-bg-text: #dba63a; /* Gold/brown text area */
+    --color-text-gray: #838383; /* Gray text */
+    --color-text-dark: #2a2a2a; /* Dark text */
+    --color-text-white: #ffffff; /* White text */
+    --color-highlight: #ffcb18; /* Karaoke highlight */
+    --color-read: #ffcb18; /* Read word color */
+
+    /* Fonts */
+    --font-primary: "Montserrat", sans-serif;
+    --font-player: arial;
+}
+
+/* ============================================
+   RESET & BASE
+   ============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: var(--font-primary);
+    color: var(--color-text-gray);
+    background-color: var(--color-bg-page);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+header {
+    height: 85px;
+    position: relative;
+    z-index: 99;
+    max-width: 1250px;
+    margin: 16px auto;
+    font-weight: 700;
+}
+
+.bg-header {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-header-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+.bg-header-middle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 100%;
+    z-index: 0;
+    background: url("./images/header-middle.svg") no-repeat;
+    background-size: auto 100%;
+}
+
+.bg-header-right {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+.bg-header-right-bottom {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    height: 5px;
+    width: 5px;
+    z-index: 0;
+    border-bottom: 10px solid;
+    border-left: 10px transparent solid !important;
+}
+
+.bg-header-left-bottom {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 5px;
+    width: 10px;
+    z-index: 0;
+    border-bottom: 10px solid;
+    border-right: 10px transparent solid !important;
+}
+
+.container-header {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.header-user a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.header-user img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 500px) {
+    header {
+        height: 65px;
+        margin: 10px auto;
+    }
+
+    .container-header {
+        padding: 0 15px;
+    }
+
+    .logo img {
+        max-height: 35px;
+    }
+
+    .header-user a {
+        font-size: 11px;
+    }
+
+    .header-user img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* ============================================
+   PAGE TITLE
+   ============================================ */
+.page-title-wrap {
+    text-align: center;
+    padding: 30px 15px 10px;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--color-accent);
+    filter: brightness(0.65);
+}
+
+@media (max-width: 500px) {
+    .page-title-wrap {
+        padding: 20px 15px 5px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+}
+
+/* ============================================
+   CONTENT CONTAINER
+   ============================================ */
+#content {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: var(--color-bg-page);
+    min-height: 100vh;
+}
+
+@media (max-width: 500px) {
+    #content {
+        padding-top: 30px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 80px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ============================================
+   CARD-LINK - Player Container
+   ============================================ */
+.card-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    z-index: 9;
+    height: 160px;
+    padding: 20px;
+}
+
+@media (max-width: 1025px) {
+    .card-link {
+        height: 165px;
+    }
+}
+
+@media (max-width: 990px) {
+    .card-link {
+        height: auto;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+}
+
+/* Background (3 parts: left, middle, right) */
+.bg-card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(-2deg);
+}
+
+.bg-card-link-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+}
+
+.bg-card-link-middle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    height: 100%;
+    z-index: -2;
+    transform: translateX(-50%);
+    background: url("./images/bg-card-middle.svg") no-repeat center / auto 100%;
+}
+
+@media (max-width: 500px) {
+    .bg-card-link-middle {
+        width: 95%;
+    }
+}
+
+.bg-card-link-right {
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+}
+
+/* ============================================
+   AUDIO PLAYER
+   ============================================ */
+.grid-audio {
+    flex: 0 0 100%;
+}
+
+.audio-player {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    z-index: 9;
+    position: relative;
+    font-family: var(--font-player);
+    color: white;
+    font-size: 1.75em;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(-2deg);
+}
+
+/* ============================================
+   CONTROLS
+   ============================================ */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex: 0 0 100%;
+    gap: 25px;
+}
+
+@media (max-width: 500px) {
+    .controls {
+        padding: 0;
+        gap: 0;
+    }
+}
+
+.controls > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============================================
+   PLAY BUTTON
+   ============================================ */
+.play-container {
+    width: 60px;
+    height: 60px;
+    border: 5px solid var(--color-accent);
+    filter: brightness(0.65);
+    flex: 0 0 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .play-container {
+        width: 40px;
+        height: 40px;
+        flex: 0 0 40px;
+        border: 3px solid var(--color-accent);
+    }
+}
+
+.toggle-play {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-play i {
+    cursor: pointer;
+    color: var(--color-accent);
+    font-size: 24px;
+}
+
+@media (max-width: 500px) {
+    .toggle-play i {
+        font-size: 16px;
+    }
+}
+
+.toggle-play .fa-pause {
+    display: none;
+}
+
+.toggle-play.playing .fa-play {
+    display: none;
+}
+
+.toggle-play.playing .fa-pause {
+    display: inline-block;
+}
+
+/* ============================================
+   TIMELINE / PROGRESS BAR
+   ============================================ */
+.timeline {
+    background: var(--color-player);
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    height: 17px;
+    border: 2px var(--color-border-dark) solid;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+@media (max-width: 500px) {
+    .timeline {
+        height: 10px;
+        border: 1px var(--color-border-dark) solid;
+    }
+}
+
+.progress {
+    position: relative;
+    background: var(--color-progress);
+    width: 0%;
+    height: 100%;
+    transition: 0.25s;
+    border-radius: 0px;
+    overflow: initial;
+}
+
+.progress::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: -25px;
+    width: 30px;
+    height: 30px;
+    background: var(--color-progress-handle);
+    border-radius: 50px;
+}
+
+@media (max-width: 500px) {
+    .progress::after {
+        top: -3px;
+        right: -12px;
+        width: 14.19px;
+        height: 14.19px;
+    }
+}
+
+/* ============================================
+   TIME DISPLAY
+   ============================================ */
+.time {
+    display: flex;
+    flex: 0 0 0%;
+    width: 0;
+    left: -75px;
+    bottom: -23px;
+    position: relative;
+    font-size: 21px;
+    font-family: var(--font-player);
+    color: var(--color-text-white);
+}
+
+@media (max-width: 500px) {
+    .time {
+        left: -35px;
+        bottom: -14px;
+        font-size: 13px;
+    }
+}
+
+.time > * {
+    padding: 2px;
+}
+
+.current,
+.divider,
+.length {
+    color: var(--color-text-white);
+}
+
+/* ============================================
+   FACE AVATAR
+   ============================================ */
+.face-avatar {
+    max-width: 150px;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .face-avatar {
+        max-width: 85px;
+        width: 100%;
+        padding-left: 15px;
+    }
+}
+
+.face-avatar img,
+.face-avatar svg {
+    width: 100%;
+}
+
+/* ============================================
+   KARAOKE TEXT AREA
+   ============================================ */
+.lk-karaoke-wrap {
+    padding: 0 0 3rem;
+    margin-top: 24px;
+}
+
+/* ============================================
+   TEXT PANEL
+   ============================================ */
+#lk-text-panel,
+.lk-text-panel {
+    position: relative;
+    padding: 0 2rem 2rem;
+    text-align: left;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+@media (min-width: 992px) {
+    #lk-text-panel,
+    .lk-text-panel {
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .lk-text-panel {
+        margin: 0 14px;
+        padding: 1.4rem 1.2rem;
+    }
+
+    .lk-text-panel .word {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-right: 0;
+    }
+}
+
+/* Background pseudo-element */
+#lk-text-panel::after,
+.lk-text-panel::after {
+    content: "";
+    filter: brightness(0.65);
+    z-index: 0;
+    position: absolute;
+    inset: -50px 0 0;
+    background-color: var(--color-accent) !important;
+    color: white !important;
+}
+
+#lk-text-panel > *,
+.lk-text-panel > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* ============================================
+   TITLE
+   ============================================ */
+#audio-container {
+    position: relative;
+    z-index: 1;
+}
+
+#audio-container h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    z-index: 9;
+    position: relative;
+}
+
+#audio-container h1 .word {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* ============================================
+   TRANSCRIPT - KARAOKE TEXT
+   ============================================ */
+.transcript-container {
+    position: relative;
+    z-index: 1;
+}
+
+.transcript-container span,
+.transcript-container .word,
+.word {
+    display: inline;
+    margin-right: 0px;
+    padding: 0;
+    border-radius: 4px;
+    /* Reduced from 120ms to 50ms for faster visual feedback during karaoke */
+    transition: background-color 50ms ease-out;
+    cursor: default;
+    line-height: 1.9;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .transcript-container span {
+        font-size: 16px !important;
+    }
+}
+
+/* Active/highlighted word */
+.transcript-container span.active,
+.transcript-container span.highlight,
+.word.active,
+.word.highlight {
+    background-color: var(--color-highlight);
+    color: var(--color-text-white);
+}
+
+/* Already read word */
+.transcript-container span.read,
+.word.read {
+    color: var(--color-read);
+}
+
+/* Low confidence indicator */
+.word[data-low-confidence="true"] {
+    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
+}
+
+/* ============================================
+   METRICS (Hidden by default)
+   ============================================ */
+.lk-metrics {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 18px auto 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.lk-metrics strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2a2a2a;
+}
+
+.lk-metrics p {
+    margin: 0.25rem 0;
+    font-size: 14px;
+    color: #2a2a2a;
+}
+
+/* ============================================
+   REFERENCE
+   ============================================ */
+.lk-ref {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 18px auto 0;
+    opacity: 0.85;
+    color: #2a2a2a;
+}
+
+.lk-ref strong {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.lk-ref p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.lk-ref em,
+.lk-ref i {
+    font-style: italic;
+}
+
+/* ============================================
+   UTILITIES
+   ============================================ */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-lg-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-lg-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.offset-lg-1 {
+    margin-left: 8.333333%;
+}
+
+.offset-lg-2 {
+    margin-left: 16.666667%;
+}
+
+@media (max-width: 992px) {
+    .col-lg-8,
+    .col-lg-10 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .offset-lg-1,
+    .offset-lg-2 {
+        margin-left: 0;
+    }
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.pt-lg-5 {
+    padding-top: 3rem;
+}
+
+@media (max-width: 992px) {
+    .pt-lg-5 {
+        padding-top: 1rem;
+    }
+}
+
+/* Hidden audio element */
+audio {
+    display: none;
+}
+
+  </style>
+
+  <style>
+    :root {
+      --color-accent: #61a165;
+      --color-bg-page: rgb(224, 249, 188);
+    }
+  </style>
+
+  <!-- Word Timestamps Data -->
+  <script>
+    window.WORDSYNC_DATA = {
+      words: [{"word": "A", "start": 0.0, "end": 0.51, "confidence": 1.0, "is_title": true}, {"word": "língua", "start": 0.52, "end": 0.548, "confidence": 1.0, "is_title": true}, {"word": "de", "start": 0.55, "end": 0.765, "confidence": 1.0}, {"word": "um", "start": 0.765, "end": 1.11, "confidence": 1.0}, {"word": "povo", "start": 1.12, "end": 1.128, "confidence": 1.0}, {"word": "dá", "start": 1.13, "end": 1.425, "confidence": 1.0}, {"word": "nome", "start": 1.425, "end": 1.605, "confidence": 1.0}, {"word": "para", "start": 1.605, "end": 1.905, "confidence": 1.0}, {"word": "todas", "start": 1.905, "end": 2.285, "confidence": 1.0}, {"word": "as", "start": 2.285, "end": 2.93, "confidence": 1.0}, {"word": "coisas", "start": 2.94, "end": 3.14, "confidence": 1.0, "line_break_after": true}, {"word": "A", "start": 3.28, "end": 3.465, "confidence": 1.0}, {"word": "LÍNGUA", "start": 3.465, "end": 3.705, "confidence": 1.0}, {"word": "DE", "start": 3.705, "end": 3.905, "confidence": 1.0}, {"word": "UM", "start": 3.905, "end": 4.27, "confidence": 1.0}, {"word": "POVO", "start": 4.28, "end": 4.288, "confidence": 1.0}, {"word": "É", "start": 4.29, "end": 4.458, "confidence": 1.0}, {"word": "QUE", "start": 4.46, "end": 4.588, "confidence": 1.0}, {"word": "DÁ", "start": 4.59, "end": 4.83, "confidence": 1.0, "line_break_after": true}, {"word": "NOME", "start": 4.84, "end": 4.948, "confidence": 1.0}, {"word": "PARA", "start": 4.95, "end": 5.285, "confidence": 1.0}, {"word": "TODAS", "start": 5.285, "end": 5.625, "confidence": 1.0}, {"word": "AS", "start": 5.625, "end": 6.27, "confidence": 1.0}, {"word": "COISAS.", "start": 6.28, "end": 6.48, "confidence": 1.0, "line_break_after": true}, {"word": "DÁ", "start": 6.78, "end": 6.888, "confidence": 1.0}, {"word": "NOME", "start": 6.89, "end": 7.065, "confidence": 1.0}, {"word": "PARA", "start": 7.065, "end": 7.325, "confidence": 1.0}, {"word": "PEIXE.", "start": 7.325, "end": 8.0, "confidence": 1.0, "line_break_after": true}, {"word": "DÁ", "start": 8.18, "end": 8.59, "confidence": 1.0}, {"word": "NOME", "start": 8.6, "end": 8.608, "confidence": 1.0}, {"word": "PARA", "start": 8.61, "end": 8.825, "confidence": 1.0}, {"word": "BICHO.", "start": 8.825, "end": 9.2, "confidence": 1.0, "line_break_after": true}, {"word": "DÁ", "start": 9.7, "end": 9.95, "confidence": 1.0}, {"word": "NOME", "start": 9.96, "end": 9.988, "confidence": 1.0}, {"word": "PARA", "start": 9.99, "end": 10.305, "confidence": 1.0}, {"word": "PAU.", "start": 10.305, "end": 10.62, "confidence": 1.0, "line_break_after": true}, {"word": "NOME", "start": 11.22, "end": 11.228, "confidence": 1.0}, {"word": "PARA", "start": 11.23, "end": 11.465, "confidence": 1.0}, {"word": "REMÉDIO.", "start": 11.465, "end": 12.0, "confidence": 1.0, "line_break_after": true}, {"word": "NOME", "start": 12.64, "end": 12.648, "confidence": 1.0}, {"word": "PARA", "start": 12.65, "end": 12.865, "confidence": 1.0}, {"word": "PLANTAÇÃO", "start": 12.865, "end": 13.345, "confidence": 1.0}, {"word": "DA", "start": 13.345, "end": 13.665, "confidence": 1.0}, {"word": "ROÇA.", "start": 13.665, "end": 13.98, "confidence": 1.0, "line_break_after": true}, {"word": "NOME", "start": 14.64, "end": 14.648, "confidence": 1.0}, {"word": "PARA", "start": 14.65, "end": 14.905, "confidence": 1.0}, {"word": "ÁGUA.", "start": 14.905, "end": 15.28, "confidence": 1.0, "line_break_after": true}, {"word": "NOME", "start": 15.94, "end": 15.948, "confidence": 1.0}, {"word": "PARA", "start": 15.95, "end": 16.265, "confidence": 1.0}, {"word": "SOL,", "start": 16.265, "end": 16.52, "confidence": 1.0, "line_break_after": true}, {"word": "NOME", "start": 16.92, "end": 16.928, "confidence": 1.0}, {"word": "PARA", "start": 16.93, "end": 17.205, "confidence": 1.0}, {"word": "LUA.", "start": 17.205, "end": 17.7, "confidence": 1.0, "line_break_after": true}, {"word": "NOME", "start": 18.1, "end": 18.108, "confidence": 1.0}, {"word": "PARA", "start": 18.11, "end": 18.385, "confidence": 1.0}, {"word": "ESTRELA.", "start": 18.385, "end": 18.84, "confidence": 1.0, "line_break_after": true}, {"word": "NOME", "start": 19.44, "end": 19.448, "confidence": 1.0}, {"word": "PARA", "start": 19.45, "end": 19.705, "confidence": 1.0}, {"word": "DANÇA.", "start": 19.705, "end": 20.12, "confidence": 1.0, "line_break_after": true}, {"word": "DÁ", "start": 20.54, "end": 20.725, "confidence": 1.0}, {"word": "NOME", "start": 20.725, "end": 20.905, "confidence": 1.0}, {"word": "PARA", "start": 20.905, "end": 21.165, "confidence": 1.0}, {"word": "AS", "start": 21.165, "end": 21.83, "confidence": 1.0}, {"word": "PESSOAS.", "start": 21.84, "end": 22.04, "confidence": 1.0, "line_break_after": true}, {"word": "DÁ", "start": 22.42, "end": 22.558, "confidence": 1.0}, {"word": "NOME", "start": 22.56, "end": 22.708, "confidence": 1.0}, {"word": "PARA", "start": 22.71, "end": 22.945, "confidence": 1.0}, {"word": "OS", "start": 22.945, "end": 23.425, "confidence": 1.0}, {"word": "ESPÍRITOS.", "start": 23.425, "end": 23.66, "confidence": 1.0, "line_break_after": true}, {"word": "DÁ", "start": 24.24, "end": 24.378, "confidence": 1.0}, {"word": "NOME", "start": 24.38, "end": 24.508, "confidence": 1.0}, {"word": "PARA", "start": 24.51, "end": 24.905, "confidence": 1.0}, {"word": "TUDO.", "start": 24.905, "end": 25.16, "confidence": 1.0}],
+      duration: 26.040000915527344,
+      title: "Livro4 Let8",
+      audioFile: "livro4_let8.mp3"
+    };
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header style="background-color: var(--color-accent);">
+    <div class="bg-header">
+      <div class="bg-header-right-bottom" style="border-color: var(--color-bg-page);"></div>
+      <div class="bg-header-left-bottom" style="border-color: var(--color-bg-page);"></div>
+      <img class="bg-header-left" src="./images/header-left.svg" alt="Background Form">
+      <div class="bg-header-middle"></div>
+      <img class="bg-header-right" src="./images/header-right.svg" alt="Background Form">
+    </div>
+    <div class="container-header">
+      <div class="logo">
+        <a href="https://homolog.meuletrix.com.br">
+          <img src="./images/letrix-4.png" alt="Logotipo Letrix">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <section id="content">
+    <div class="container">
+      <!-- Page Title -->
+      <div class="page-title-wrap">
+        <h1 class="page-title">
+          Leitura Guiada
+        </h1>
+      </div>
+
+      <!-- Player Row -->
+      <div class="row mt-2 pt-lg-5 pt-1">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="card-link">
+            <!-- Background do Card (3 partes) -->
+            <div class="bg-card-link">
+              <img src="./images/bg-card-left.svg" alt="" class="bg-card-link-left">
+              <div class="bg-card-link-middle"></div>
+              <img src="./images/bg-card-right.svg" alt="" class="bg-card-link-right">
+            </div>
+
+            <!-- Grid Audio -->
+            <div class="grid-audio">
+              <div class="item-grid-audio">
+                <div class="audio-player">
+                  <div class="controls">
+                    <!-- Play/Pause Button -->
+                    <div class="play-container">
+                      <div class="toggle-play play" id="playBtn">
+                        <i class="fas fa-play"></i>
+                        <i class="fas fa-pause"></i>
+                      </div>
+                    </div>
+
+                    <!-- Timeline -->
+                    <div class="timeline" id="timeline">
+                      <div class="progress" id="progress"></div>
+                    </div>
+
+                    <!-- Time Display -->
+                    <div class="time">
+                      <div class="current" id="currentTime">0:00</div>
+                      <div class="divider">/</div>
+                      <div class="length" id="duration">0:26</div>
+                    </div>
+
+                    <!-- Face Avatar -->
+                    <div class="face-avatar">
+                      <img src="./images/face-avatar.svg" alt="Avatar">
+                    </div>
+                  </div>
+
+                  <!-- Audio Element -->
+                  <audio id="audioElement" preload="metadata">
+                    <source src="./audio.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Karaoke Text Area -->
+      <div class="lk-karaoke-wrap mt-4">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="lk-text-panel" id="lk-text-panel">
+            <!-- Título -->
+            <div id="audio-container">
+              <h1>
+<span class="word" data-start="0.0" data-end="0.51">A </span><span class="word" data-start="0.52" data-end="0.548">língua </span>              </h1>
+            </div>
+
+            <!-- Transcript Container (body text only) -->
+            <div class="transcript-container" id="transcript">
+<span class="word" data-start="0.55" data-end="0.765">de </span><span class="word" data-start="0.765" data-end="1.11">um </span><span class="word" data-start="1.12" data-end="1.128">povo </span><span class="word" data-start="1.13" data-end="1.425">dá </span><span class="word" data-start="1.425" data-end="1.605">nome </span><span class="word" data-start="1.605" data-end="1.905">para </span><span class="word" data-start="1.905" data-end="2.285">todas </span><span class="word" data-start="2.285" data-end="2.93">as </span><span class="word" data-start="2.94" data-end="3.14">coisas </span><br><span class="word" data-start="3.28" data-end="3.465">A </span><span class="word" data-start="3.465" data-end="3.705">LÍNGUA </span><span class="word" data-start="3.705" data-end="3.905">DE </span><span class="word" data-start="3.905" data-end="4.27">UM </span><span class="word" data-start="4.28" data-end="4.288">POVO </span><span class="word" data-start="4.29" data-end="4.458">É </span><span class="word" data-start="4.46" data-end="4.588">QUE </span><span class="word" data-start="4.59" data-end="4.83">DÁ </span><br><span class="word" data-start="4.84" data-end="4.948">NOME </span><span class="word" data-start="4.95" data-end="5.285">PARA </span><span class="word" data-start="5.285" data-end="5.625">TODAS </span><span class="word" data-start="5.625" data-end="6.27">AS </span><span class="word" data-start="6.28" data-end="6.48">COISAS. </span><br><span class="word" data-start="6.78" data-end="6.888">DÁ </span><span class="word" data-start="6.89" data-end="7.065">NOME </span><span class="word" data-start="7.065" data-end="7.325">PARA </span><span class="word" data-start="7.325" data-end="8.0">PEIXE. </span><br><span class="word" data-start="8.18" data-end="8.59">DÁ </span><span class="word" data-start="8.6" data-end="8.608">NOME </span><span class="word" data-start="8.61" data-end="8.825">PARA </span><span class="word" data-start="8.825" data-end="9.2">BICHO. </span><br><span class="word" data-start="9.7" data-end="9.95">DÁ </span><span class="word" data-start="9.96" data-end="9.988">NOME </span><span class="word" data-start="9.99" data-end="10.305">PARA </span><span class="word" data-start="10.305" data-end="10.62">PAU. </span><br><span class="word" data-start="11.22" data-end="11.228">NOME </span><span class="word" data-start="11.23" data-end="11.465">PARA </span><span class="word" data-start="11.465" data-end="12.0">REMÉDIO. </span><br><span class="word" data-start="12.64" data-end="12.648">NOME </span><span class="word" data-start="12.65" data-end="12.865">PARA </span><span class="word" data-start="12.865" data-end="13.345">PLANTAÇÃO </span><span class="word" data-start="13.345" data-end="13.665">DA </span><span class="word" data-start="13.665" data-end="13.98">ROÇA. </span><br><span class="word" data-start="14.64" data-end="14.648">NOME </span><span class="word" data-start="14.65" data-end="14.905">PARA </span><span class="word" data-start="14.905" data-end="15.28">ÁGUA. </span><br><span class="word" data-start="15.94" data-end="15.948">NOME </span><span class="word" data-start="15.95" data-end="16.265">PARA </span><span class="word" data-start="16.265" data-end="16.52">SOL, </span><br><span class="word" data-start="16.92" data-end="16.928">NOME </span><span class="word" data-start="16.93" data-end="17.205">PARA </span><span class="word" data-start="17.205" data-end="17.7">LUA. </span><br><span class="word" data-start="18.1" data-end="18.108">NOME </span><span class="word" data-start="18.11" data-end="18.385">PARA </span><span class="word" data-start="18.385" data-end="18.84">ESTRELA. </span><br><span class="word" data-start="19.44" data-end="19.448">NOME </span><span class="word" data-start="19.45" data-end="19.705">PARA </span><span class="word" data-start="19.705" data-end="20.12">DANÇA. </span><br><span class="word" data-start="20.54" data-end="20.725">DÁ </span><span class="word" data-start="20.725" data-end="20.905">NOME </span><span class="word" data-start="20.905" data-end="21.165">PARA </span><span class="word" data-start="21.165" data-end="21.83">AS </span><span class="word" data-start="21.84" data-end="22.04">PESSOAS. </span><br><span class="word" data-start="22.42" data-end="22.558">DÁ </span><span class="word" data-start="22.56" data-end="22.708">NOME </span><span class="word" data-start="22.71" data-end="22.945">PARA </span><span class="word" data-start="22.945" data-end="23.425">OS </span><span class="word" data-start="23.425" data-end="23.66">ESPÍRITOS. </span><br><span class="word" data-start="24.24" data-end="24.378">DÁ </span><span class="word" data-start="24.38" data-end="24.508">NOME </span><span class="word" data-start="24.51" data-end="24.905">PARA </span><span class="word" data-start="24.905" data-end="25.16">TUDO. </span>            </div>
+          </div>
+        </div>
+
+        <!-- Referência -->
+        <div class="lk-ref">
+          <strong>Referência:</strong>
+          <p>PAULA, Eunice D. de; PAULA, Luiz G. de; AMARANTE, Elizabeth. História dos povos indígenas: 500 anos de luta no Brasil. 6. ed. Rio de Janeiro: Vozes; Conselho Indigenista Missionário, 1982. p. 62.</p>
+        </div>
+
+        <!-- Quality Metrics (hidden by default) -->
+        <div class="lk-metrics" id="metrics" style="display: none;">
+          <div class="metrics-content">
+            <strong>Quality Metrics</strong>
+            <p>Confidence: 100.0%</p>
+            <p>Timing: ±25.0ms</p>
+            <p>Gaps: 12 kept, 58 filled</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+/**
+ * WORDSYNC - Letrix Leituras Guiadas Player
+ * Karaoke-style audio player with word synchronization
+ *
+ * Features:
+ * - Word-level highlighting synced to audio
+ * - Smooth transitions between words
+ * - Keyboard controls (space, arrows)
+ * - Mobile-friendly touch support
+ * - Click-to-seek on transcript
+ */
+
+class WordSyncPlayer {
+  constructor(options = {}) {
+    // Configuration
+    this.options = {
+      audioSelector: '#audioElement',
+      playBtnSelector: '#playBtn',
+      timelineSelector: '#timeline',
+      progressSelector: '#progress',
+      currentTimeSelector: '#currentTime',
+      durationSelector: '#duration',
+      transcriptSelector: '#transcript',
+      wordSelector: '.word',
+      ...options
+    };
+
+    // DOM Elements
+    this.audio = document.querySelector(this.options.audioSelector);
+    this.playBtn = document.querySelector(this.options.playBtnSelector);
+    this.timeline = document.querySelector(this.options.timelineSelector);
+    this.progress = document.querySelector(this.options.progressSelector);
+    this.currentTimeEl = document.querySelector(this.options.currentTimeSelector);
+    this.durationEl = document.querySelector(this.options.durationSelector);
+    this.transcript = document.querySelector(this.options.transcriptSelector);
+
+    // State
+    this.isPlaying = false;
+    this.words = [];
+    this.currentWordIndex = -1;
+    this.previousWordIndex = -1;  // Track previous word for detecting skipped words
+    this.animationFrameId = null;  // For requestAnimationFrame loop
+
+    // Title-to-body word mirrors (for syncing highlight to title)
+    this.titleMirrors = [];
+
+    // Initialize
+    this.init();
+  }
+
+  init() {
+    if (!this.audio) {
+      console.warn('WordSyncPlayer: Audio element not found');
+      return;
+    }
+
+    // Collect words with timestamps
+    this.collectWords();
+
+    // Build title-to-body word mirror map
+    this.buildTitleMirror();
+
+    // Bind event listeners
+    this.bindEvents();
+
+    // Update duration when loaded
+    if (this.audio.readyState >= 2) {
+      this.updateDuration();
+    }
+  }
+
+  collectWords() {
+    const wordElements = document.querySelectorAll(this.options.wordSelector);
+
+    this.words = Array.from(wordElements)
+      .filter(el => {
+        // Skip words without timestamps (unspoken title with no-sync class)
+        if (el.classList.contains('no-sync')) return false;
+        if (el.dataset.start === undefined || el.dataset.end === undefined) return false;
+        const start = parseFloat(el.dataset.start);
+        const end = parseFloat(el.dataset.end);
+        // Skip words with zero timestamps (unspoken)
+        return !isNaN(start) && !isNaN(end) && (start > 0 || end > 0);
+      })
+      .map(el => ({
+        element: el,
+        start: parseFloat(el.dataset.start),
+        end: parseFloat(el.dataset.end),
+        text: el.textContent.trim()
+      }))
+      .sort((a, b) => a.start - b.start);
+  }
+
+  /**
+   * Build a positional map from title words to body words.
+   * Title word 0 mirrors body word 0, title word 1 mirrors body word 1, etc.
+   */
+  buildTitleMirror() {
+    const titleContainer = document.querySelector('#audio-container');
+    if (!titleContainer) {
+      this.titleMirrors = [];
+      return;
+    }
+
+    this.titleMirrors = Array.from(
+      titleContainer.querySelectorAll('.word.no-sync')
+    ).map((el, i) => ({
+      element: el,
+      bodyIndex: i
+    }));
+  }
+
+  /**
+   * Mirror highlight/read state from body words to their title counterparts.
+   */
+  mirrorToTitle() {
+    for (const mirror of this.titleMirrors) {
+      if (mirror.bodyIndex >= this.words.length) continue;
+      const bodyEl = this.words[mirror.bodyIndex].element;
+      const titleEl = mirror.element;
+      titleEl.classList.toggle('active', bodyEl.classList.contains('active'));
+      titleEl.classList.toggle('highlight', bodyEl.classList.contains('highlight'));
+      titleEl.classList.toggle('read', bodyEl.classList.contains('read'));
+    }
+  }
+
+  bindEvents() {
+    // Play/Pause button
+    if (this.playBtn) {
+      this.playBtn.addEventListener('click', () => this.togglePlay());
+    }
+
+    // Timeline click for seek
+    if (this.timeline) {
+      this.timeline.addEventListener('click', (e) => this.seekToPosition(e));
+    }
+
+    // Audio events
+    this.audio.addEventListener('loadedmetadata', () => this.updateDuration());
+    // Note: We still use timeupdate for progress bar updates (less critical)
+    // but word highlighting uses requestAnimationFrame for precision
+    this.audio.addEventListener('timeupdate', () => this.onTimeUpdateProgress());
+    this.audio.addEventListener('ended', () => this.onEnded());
+    this.audio.addEventListener('play', () => this.onPlay());
+    this.audio.addEventListener('pause', () => this.onPause());
+    this.audio.addEventListener('seeked', () => this.onSeeked());
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => this.handleKeyboard(e));
+
+    // Touch support for timeline
+    if (this.timeline) {
+      this.timeline.addEventListener('touchstart', (e) => this.handleTouch(e));
+    }
+  }
+
+  togglePlay() {
+    if (this.isPlaying) {
+      this.audio.pause();
+    } else {
+      this.audio.play().catch(err => {
+        console.log('Playback error:', err);
+      });
+    }
+  }
+
+  onPlay() {
+    this.isPlaying = true;
+    if (this.playBtn) {
+      this.playBtn.classList.remove('play');
+      this.playBtn.classList.add('playing');
+    }
+    // Reset words if restarting from the beginning
+    if (this.audio.currentTime < 0.1) {
+      this.resetWords();
+    }
+    // Start the high-precision highlight loop
+    this.startHighlightLoop();
+  }
+
+  onPause() {
+    this.isPlaying = false;
+    if (this.playBtn) {
+      this.playBtn.classList.add('play');
+      this.playBtn.classList.remove('playing');
+    }
+    // Stop the highlight loop
+    this.stopHighlightLoop();
+  }
+
+  onEnded() {
+    this.isPlaying = false;
+    if (this.playBtn) {
+      this.playBtn.classList.add('play');
+      this.playBtn.classList.remove('playing');
+    }
+    this.stopHighlightLoop();
+    // Mark the last active word as read, but don't reset all words.
+    // Words stay yellow (read) until the user presses play again.
+    if (this.currentWordIndex >= 0 && this.currentWordIndex < this.words.length) {
+      const el = this.words[this.currentWordIndex].element;
+      el.classList.remove('active', 'highlight');
+      el.classList.add('read');
+    }
+    this.mirrorToTitle();
+  }
+
+  onSeeked() {
+    // When user seeks, immediately update highlighting
+    // This handles the case where audio is paused but user seeks
+    const currentTime = this.audio.currentTime;
+    this.updateWordHighlight(currentTime);
+  }
+
+  /**
+   * Start the requestAnimationFrame loop for precise word highlighting.
+   * This runs at 60fps (16ms intervals) vs timeupdate's 100-250ms.
+   */
+  startHighlightLoop() {
+    if (this.animationFrameId) return; // Already running
+
+    const update = () => {
+      if (!this.isPlaying) return;
+
+      const currentTime = this.audio.currentTime;
+      this.updateWordHighlight(currentTime);
+
+      this.animationFrameId = requestAnimationFrame(update);
+    };
+
+    this.animationFrameId = requestAnimationFrame(update);
+  }
+
+  /**
+   * Stop the requestAnimationFrame loop.
+   */
+  stopHighlightLoop() {
+    if (this.animationFrameId) {
+      cancelAnimationFrame(this.animationFrameId);
+      this.animationFrameId = null;
+    }
+  }
+
+  /**
+   * Handle timeupdate for progress bar only (less timing-critical).
+   */
+  onTimeUpdateProgress() {
+    const currentTime = this.audio.currentTime;
+    const duration = this.audio.duration || 1;
+
+    // Update progress bar
+    if (this.progress) {
+      const percent = (currentTime / duration) * 100;
+      this.progress.style.width = `${percent}%`;
+    }
+
+    // Update time display
+    if (this.currentTimeEl) {
+      this.currentTimeEl.textContent = this.formatTime(currentTime);
+    }
+  }
+
+  updateWordHighlight(currentTime) {
+    // Find current word using binary search - O(log n)
+    const newWordIndex = this.findWordIndex(currentTime);
+
+    // No change needed
+    if (newWordIndex === this.currentWordIndex) return;
+
+    // When we're in a gap between words (newWordIndex === -1),
+    // just mark the current word as read and keep everything else.
+    // Don't touch previousWordIndex so jumped-over detection still works.
+    if (newWordIndex === -1) {
+      if (this.currentWordIndex >= 0 && this.currentWordIndex < this.words.length) {
+        const el = this.words[this.currentWordIndex].element;
+        el.classList.remove('active', 'highlight');
+        el.classList.add('read');
+      }
+      this.previousWordIndex = this.currentWordIndex;
+      this.currentWordIndex = -1;
+      this.mirrorToTitle();
+      return;
+    }
+
+    // Handle jumped-over words (key fix for visual skipping)
+    // Mark all words between last known word and current as "read"
+    const lastKnown = Math.max(this.currentWordIndex, this.previousWordIndex);
+    if (lastKnown >= 0 && newWordIndex > lastKnown + 1) {
+      for (let i = lastKnown + 1; i < newWordIndex; i++) {
+        if (i < this.words.length) {
+          const el = this.words[i].element;
+          el.classList.remove('active', 'highlight');
+          el.classList.add('read');
+        }
+      }
+    }
+
+    // Remove highlight from previous current word
+    if (this.currentWordIndex >= 0 && this.currentWordIndex < this.words.length) {
+      const prevEl = this.words[this.currentWordIndex].element;
+      prevEl.classList.remove('active', 'highlight');
+      prevEl.classList.add('read');
+    }
+
+    // Highlight new current word
+    const newEl = this.words[newWordIndex].element;
+    newEl.classList.add('active', 'highlight');
+    newEl.classList.remove('read');
+    this.scrollToWord(newEl);
+
+    // Handle actual seek backward (user clicked/dragged backward)
+    // Only when both indices are valid words (not gaps)
+    if (this.currentWordIndex >= 0 && newWordIndex < this.currentWordIndex) {
+      for (let i = newWordIndex + 1; i <= this.currentWordIndex && i < this.words.length; i++) {
+        this.words[i].element.classList.remove('read', 'active', 'highlight');
+      }
+    }
+
+    // Update state
+    this.previousWordIndex = this.currentWordIndex;
+    this.currentWordIndex = newWordIndex;
+
+    // Mirror highlight state to title words
+    this.mirrorToTitle();
+  }
+
+  /**
+   * Binary search to find current word index - O(log n)
+   */
+  findWordIndex(time) {
+    let low = 0;
+    let high = this.words.length - 1;
+
+    while (low <= high) {
+      const mid = Math.floor((low + high) / 2);
+      const word = this.words[mid];
+
+      if (time >= word.start && time < word.end) {
+        return mid;
+      } else if (time < word.start) {
+        high = mid - 1;
+      } else {
+        low = mid + 1;
+      }
+    }
+
+    // Return -1 if not in any word's range
+    // But check if we're past all words
+    if (low > 0 && low <= this.words.length) {
+      const prevWord = this.words[low - 1];
+      if (time >= prevWord.end) {
+        // We're in a gap after this word
+        return -1;
+      }
+    }
+
+    return -1;
+  }
+
+  scrollToWord(element) {
+    // Only auto-scroll if word is out of viewport
+    const rect = element.getBoundingClientRect();
+    const viewportHeight = window.innerHeight;
+
+    if (rect.top < 100 || rect.bottom > viewportHeight - 100) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
+  }
+
+  resetWords() {
+    this.currentWordIndex = -1;
+    this.previousWordIndex = -1;
+    this.words.forEach(word => {
+      word.element.classList.remove('active', 'highlight', 'read');
+    });
+    for (const mirror of this.titleMirrors) {
+      mirror.element.classList.remove('active', 'highlight', 'read');
+    }
+  }
+
+  seekToPosition(e) {
+    if (!this.timeline || !this.audio.duration) return;
+
+    const rect = this.timeline.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const percent = clickX / rect.width;
+    const seekTime = percent * this.audio.duration;
+
+    this.audio.currentTime = seekTime;
+  }
+
+  seekToWord(index) {
+    if (index < 0 || index >= this.words.length) return;
+
+    const word = this.words[index];
+    this.audio.currentTime = word.start;
+
+    // Start playing if not already
+    if (!this.isPlaying) {
+      this.audio.play().catch(() => {});
+    }
+  }
+
+  handleTouch(e) {
+    e.preventDefault();
+    const touch = e.touches[0];
+    const rect = this.timeline.getBoundingClientRect();
+    const touchX = touch.clientX - rect.left;
+    const percent = Math.max(0, Math.min(1, touchX / rect.width));
+    const seekTime = percent * this.audio.duration;
+
+    this.audio.currentTime = seekTime;
+  }
+
+  handleKeyboard(e) {
+    // Ignore if typing in input
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+      return;
+    }
+
+    switch (e.code) {
+      case 'Space':
+        e.preventDefault();
+        this.togglePlay();
+        break;
+
+      case 'ArrowLeft':
+        e.preventDefault();
+        this.audio.currentTime = Math.max(0, this.audio.currentTime - 5);
+        break;
+
+      case 'ArrowRight':
+        e.preventDefault();
+        this.audio.currentTime = Math.min(
+          this.audio.duration,
+          this.audio.currentTime + 5
+        );
+        break;
+
+      case 'ArrowUp':
+        e.preventDefault();
+        if (this.currentWordIndex > 0) {
+          this.seekToWord(this.currentWordIndex - 1);
+        }
+        break;
+
+      case 'ArrowDown':
+        e.preventDefault();
+        if (this.currentWordIndex < this.words.length - 1) {
+          this.seekToWord(this.currentWordIndex + 1);
+        }
+        break;
+
+      case 'Home':
+        e.preventDefault();
+        this.audio.currentTime = 0;
+        break;
+
+      case 'End':
+        e.preventDefault();
+        this.audio.currentTime = this.audio.duration;
+        break;
+    }
+  }
+
+  updateDuration() {
+    if (!this.durationEl || !this.audio.duration) return;
+    this.durationEl.textContent = this.formatTime(this.audio.duration);
+  }
+
+  formatTime(seconds) {
+    if (isNaN(seconds) || !isFinite(seconds)) return '0:00';
+
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  }
+
+  // Public API
+
+  /**
+   * Set audio source dynamically
+   * @param {string} src - Audio file URL
+   */
+  setSource(src) {
+    this.audio.src = src;
+    this.audio.load();
+    this.resetWords();
+  }
+
+  /**
+   * Get current playback state
+   * @returns {Object} - { isPlaying, currentTime, duration, currentWord }
+   */
+  getState() {
+    return {
+      isPlaying: this.isPlaying,
+      currentTime: this.audio.currentTime,
+      duration: this.audio.duration,
+      currentWord: this.currentWordIndex >= 0 ? this.words[this.currentWordIndex] : null
+    };
+  }
+
+  /**
+   * Load word data dynamically (for SPA usage)
+   * @param {Array} wordsData - Array of { word, start, end } objects
+   */
+  loadWords(wordsData) {
+    // Clear existing words
+    if (this.transcript) {
+      this.transcript.innerHTML = '';
+
+      wordsData.forEach(data => {
+        const span = document.createElement('span');
+        span.className = 'word';
+        span.textContent = data.word + ' ';
+        span.dataset.start = data.start;
+        span.dataset.end = data.end;
+        this.transcript.appendChild(span);
+      });
+
+      this.collectWords();
+    }
+  }
+}
+
+// Auto-initialize on DOM ready
+document.addEventListener('DOMContentLoaded', () => {
+  window.wordSyncPlayer = new WordSyncPlayer();
+});
+
+// Also support the legacy class name for backwards compatibility
+window.LeituraGuiadaPlayer = WordSyncPlayer;
+
+// Export for module usage
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = WordSyncPlayer;
+}
+
+  </script>
+
+  <!-- Initialize with preloaded data -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Player is initialized automatically by player.js
+      // Additional initialization can go here if needed
+
+      // Toggle metrics visibility (dev mode)
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'm' && e.ctrlKey) {
+          const metrics = document.getElementById('metrics');
+          if (metrics) {
+            metrics.style.display = metrics.style.display === 'none' ? 'block' : 'none';
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

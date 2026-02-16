@@ -1,0 +1,202 @@
+{
+  "audio_file": "livro5_let9.mp3",
+  "language": "pt",
+  "duration": 9.64,
+  "title": "Livro5 Let9",
+  "full_text": "Gente tem sobrenome\nTODAS AS COISAS\nTÊM NOME\nCASA, JANELA E JARDIM.\nCOISAS NÃO TÊM\nSOBRENOME,\nMAS A GENTE SIM.",
+  "word_count": 20,
+  "words": [
+    {
+      "word": "Gente",
+      "start": 0.0,
+      "end": 0.445,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "tem",
+      "start": 0.445,
+      "end": 0.705,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "sobrenome",
+      "start": 0.705,
+      "end": 1.26,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "TODAS",
+      "start": 1.74,
+      "end": 1.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 1.905,
+      "end": 2.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "COISAS",
+      "start": 2.345,
+      "end": 2.505,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "TÊM",
+      "start": 2.505,
+      "end": 3.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 3.065,
+      "end": 3.36,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "CASA,",
+      "start": 4.08,
+      "end": 4.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "JANELA",
+      "start": 4.42,
+      "end": 4.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 4.665,
+      "end": 4.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "JARDIM.",
+      "start": 4.905,
+      "end": 5.56,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "COISAS",
+      "start": 5.96,
+      "end": 5.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "NÃO",
+      "start": 5.97,
+      "end": 6.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÊM",
+      "start": 6.205,
+      "end": 6.485,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "SOBRENOME,",
+      "start": 6.485,
+      "end": 7.48,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MAS",
+      "start": 7.94,
+      "end": 8.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 8.07,
+      "end": 8.41,
+      "confidence": 1.0
+    },
+    {
+      "word": "GENTE",
+      "start": 8.42,
+      "end": 8.428,
+      "confidence": 1.0
+    },
+    {
+      "word": "SIM.",
+      "start": 8.43,
+      "end": 8.74,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 1.0,
+    "gaps_preserved": 2,
+    "gaps_filled": 14,
+    "gaps_review": 3,
+    "low_confidence_words": 0,
+    "prosody_preserved_score": 0.105,
+    "timing_precision_ms": 32.6,
+    "word_accuracy": 1.0,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [],
+  "timestamp_issues": {
+    "words_checked": 20,
+    "total_issues": 5,
+    "errors": 2,
+    "warnings": 3,
+    "issues_by_type": {
+      "large_gap": 1,
+      "too_short": 2,
+      "syllable_mismatch": 2
+    },
+    "issues": [
+      {
+        "word_index": 8,
+        "type": "large_gap",
+        "message": "Large gap (720ms) before 'CASA,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 12,
+        "type": "too_short",
+        "message": "Word 'COISAS' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 12,
+        "type": "syllable_mismatch",
+        "message": "Word 'COISAS' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "too_short",
+        "message": "Word 'GENTE' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "syllable_mismatch",
+        "message": "Word 'GENTE' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

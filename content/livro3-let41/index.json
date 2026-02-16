@@ -1,0 +1,399 @@
+{
+  "audio_file": "livro3_let41.mp3",
+  "language": "pt",
+  "duration": 20.2,
+  "title": "Livro3 Let41",
+  "full_text": "6 curiosidades sobre o sol que você precisa saber\n[...] O SOL ESTÁ TÃO DISTANTE, MAS TÃO DISTANTE DA TERRA QUE A SUA LUZ DEMORA 8 MINUTOS E 18 SEGUNDOS PARA CHEGAR AQUI. O ASTRO-REI, ALIÁS, É SÓ MAIS UMA ESTRELA NO MEIO DE OUTRAS 200 BILHÕES QUE EXISTEM NA NOSSA GALÁXIA.\n[...]",
+  "word_count": 53,
+  "words": [
+    {
+      "word": "6",
+      "start": 0.0,
+      "end": 0.545,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "curiosidades",
+      "start": 0.545,
+      "end": 1.265,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "sobre",
+      "start": 1.265,
+      "end": 1.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "o",
+      "start": 1.625,
+      "end": 2.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "sol",
+      "start": 2.08,
+      "end": 2.088,
+      "confidence": 1.0
+    },
+    {
+      "word": "que",
+      "start": 2.09,
+      "end": 2.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "você",
+      "start": 2.265,
+      "end": 2.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "precisa",
+      "start": 2.585,
+      "end": 2.985,
+      "confidence": 1.0
+    },
+    {
+      "word": "saber",
+      "start": 2.985,
+      "end": 3.345,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "[...]",
+      "start": 3.345,
+      "end": 4.345,
+      "confidence": 0.3
+    },
+    {
+      "word": "O",
+      "start": 4.345,
+      "end": 4.518,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOL",
+      "start": 4.52,
+      "end": 4.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTÁ",
+      "start": 4.65,
+      "end": 4.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÃO",
+      "start": 4.925,
+      "end": 5.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISTANTE,",
+      "start": 5.205,
+      "end": 5.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAS",
+      "start": 6.1,
+      "end": 6.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "TÃO",
+      "start": 6.305,
+      "end": 6.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "DISTANTE",
+      "start": 6.525,
+      "end": 6.925,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 6.925,
+      "end": 7.225,
+      "confidence": 1.0
+    },
+    {
+      "word": "TERRA",
+      "start": 7.225,
+      "end": 7.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 7.58,
+      "end": 7.668,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 7.67,
+      "end": 7.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "SUA",
+      "start": 7.865,
+      "end": 8.25,
+      "confidence": 1.0
+    },
+    {
+      "word": "LUZ",
+      "start": 8.26,
+      "end": 8.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "DEMORA",
+      "start": 8.29,
+      "end": 8.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "8",
+      "start": 8.705,
+      "end": 9.125,
+      "confidence": 1.0
+    },
+    {
+      "word": "MINUTOS",
+      "start": 9.125,
+      "end": 9.615,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 9.615,
+      "end": 9.785,
+      "confidence": 1.0
+    },
+    {
+      "word": "18",
+      "start": 9.785,
+      "end": 10.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEGUNDOS",
+      "start": 10.285,
+      "end": 10.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 10.765,
+      "end": 11.105,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHEGAR",
+      "start": 11.105,
+      "end": 11.365,
+      "confidence": 1.0
+    },
+    {
+      "word": "AQUI.",
+      "start": 11.365,
+      "end": 11.74,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 12.56,
+      "end": 12.915,
+      "confidence": 1.0
+    },
+    {
+      "word": "ASTRO-REI,",
+      "start": 12.915,
+      "end": 13.115,
+      "confidence": 0.625
+    },
+    {
+      "word": "ALIÁS,",
+      "start": 13.7,
+      "end": 14.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 14.34,
+      "end": 14.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "SÓ",
+      "start": 14.525,
+      "end": 14.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "MAIS",
+      "start": 14.705,
+      "end": 14.965,
+      "confidence": 1.0
+    },
+    {
+      "word": "UMA",
+      "start": 14.965,
+      "end": 15.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTRELA",
+      "start": 15.305,
+      "end": 15.585,
+      "confidence": 1.0
+    },
+    {
+      "word": "NO",
+      "start": 15.585,
+      "end": 15.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "MEIO",
+      "start": 15.96,
+      "end": 15.968,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 15.97,
+      "end": 16.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "OUTRAS",
+      "start": 16.325,
+      "end": 16.525,
+      "confidence": 1.0
+    },
+    {
+      "word": "200",
+      "start": 16.525,
+      "end": 17.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "BILHÕES",
+      "start": 17.165,
+      "end": 17.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 17.505,
+      "end": 17.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "EXISTEM",
+      "start": 17.905,
+      "end": 18.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "NA",
+      "start": 18.245,
+      "end": 18.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOSSA",
+      "start": 18.445,
+      "end": 18.805,
+      "confidence": 1.0
+    },
+    {
+      "word": "GALÁXIA.",
+      "start": 18.805,
+      "end": 19.325,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "[...]",
+      "start": 19.325,
+      "end": 20.2,
+      "confidence": 0.3
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.967,
+    "gaps_preserved": 2,
+    "gaps_filled": 47,
+    "gaps_review": 3,
+    "low_confidence_words": 3,
+    "prosody_preserved_score": 0.038,
+    "timing_precision_ms": 34.0,
+    "word_accuracy": 0.967,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "[...]",
+    "ASTRO-REI,",
+    "[...]"
+  ],
+  "timestamp_issues": {
+    "words_checked": 53,
+    "total_issues": 5,
+    "errors": 3,
+    "warnings": 2,
+    "issues_by_type": {
+      "too_short": 3,
+      "large_gap": 2
+    },
+    "issues": [
+      {
+        "word_index": 4,
+        "type": "too_short",
+        "message": "Word 'sol' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "too_short",
+        "message": "Word 'LUZ' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "large_gap",
+        "message": "Very large gap (820ms) before 'O'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 35,
+        "type": "large_gap",
+        "message": "Large gap (585ms) before 'ALIÁS,' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 42,
+        "type": "too_short",
+        "message": "Word 'MEIO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

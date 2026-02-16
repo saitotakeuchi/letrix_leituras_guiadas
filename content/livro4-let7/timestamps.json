@@ -1,0 +1,273 @@
+{
+  "audio_file": "livro4_let7.mp3",
+  "language": "pt",
+  "duration": 10.6,
+  "title": "Livro4 Let7",
+  "full_text": "No nome Luana\nNO NOME LUANA MORA A LUA E MORA A ANA,\nMORAM TAMBÉM O LUAN E O ALAN\nE UM PASSARINHO CHAMADO ANU,\nQUE ANUNCIA CHUVA E COME BANANA.",
+  "word_count": 31,
+  "words": [
+    {
+      "word": "No",
+      "start": 0.0,
+      "end": 0.305,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "nome",
+      "start": 0.305,
+      "end": 0.525,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "Luana",
+      "start": 0.525,
+      "end": 1.0,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NO",
+      "start": 1.38,
+      "end": 1.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 1.545,
+      "end": 1.745,
+      "confidence": 1.0
+    },
+    {
+      "word": "LUANA",
+      "start": 1.745,
+      "end": 2.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "MORA",
+      "start": 2.165,
+      "end": 2.505,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 2.505,
+      "end": 2.79,
+      "confidence": 1.0
+    },
+    {
+      "word": "LUA",
+      "start": 2.8,
+      "end": 2.808,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 2.81,
+      "end": 3.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "MORA",
+      "start": 3.165,
+      "end": 3.375,
+      "confidence": 1.0
+    },
+    {
+      "word": "A",
+      "start": 3.375,
+      "end": 3.545,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANA,",
+      "start": 3.545,
+      "end": 3.78,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "MORAM",
+      "start": 4.38,
+      "end": 4.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "TAMBÉM",
+      "start": 4.45,
+      "end": 4.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 4.825,
+      "end": 5.07,
+      "confidence": 1.0
+    },
+    {
+      "word": "LUAN",
+      "start": 5.08,
+      "end": 5.208,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 5.21,
+      "end": 5.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "O",
+      "start": 5.465,
+      "end": 5.67,
+      "confidence": 1.0
+    },
+    {
+      "word": "ALAN",
+      "start": 5.68,
+      "end": 5.88,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "E",
+      "start": 6.12,
+      "end": 6.248,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 6.25,
+      "end": 6.445,
+      "confidence": 1.0
+    },
+    {
+      "word": "PASSARINHO",
+      "start": 6.445,
+      "end": 6.845,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHAMADO",
+      "start": 6.845,
+      "end": 7.245,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANU,",
+      "start": 7.245,
+      "end": 7.52,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "QUE",
+      "start": 7.92,
+      "end": 8.008,
+      "confidence": 1.0
+    },
+    {
+      "word": "ANUNCIA",
+      "start": 8.01,
+      "end": 8.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "CHUVA",
+      "start": 8.405,
+      "end": 8.885,
+      "confidence": 1.0
+    },
+    {
+      "word": "E",
+      "start": 8.885,
+      "end": 9.19,
+      "confidence": 1.0
+    },
+    {
+      "word": "COME",
+      "start": 9.2,
+      "end": 9.268,
+      "confidence": 1.0
+    },
+    {
+      "word": "BANANA.",
+      "start": 9.27,
+      "end": 9.68,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 1.0,
+    "gaps_preserved": 1,
+    "gaps_filled": 26,
+    "gaps_review": 3,
+    "low_confidence_words": 0,
+    "prosody_preserved_score": 0.033,
+    "timing_precision_ms": 25.8,
+    "word_accuracy": 1.0,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [],
+  "timestamp_issues": {
+    "words_checked": 31,
+    "total_issues": 6,
+    "errors": 1,
+    "warnings": 5,
+    "issues_by_type": {
+      "too_short": 3,
+      "large_gap": 1,
+      "syllable_mismatch": 2
+    },
+    "issues": [
+      {
+        "word_index": 8,
+        "type": "too_short",
+        "message": "Word 'LUA' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "too_short",
+        "message": "Word 'MORAM' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "large_gap",
+        "message": "Large gap (600ms) before 'MORAM' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "syllable_mismatch",
+        "message": "Word 'MORAM' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "too_short",
+        "message": "Word 'COME' has very short duration (68ms)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "syllable_mismatch",
+        "message": "Word 'COME' (2 syllables) has only 68ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

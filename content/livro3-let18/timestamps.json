@@ -1,0 +1,325 @@
+{
+  "audio_file": "livro3_let18.mp3",
+  "language": "pt",
+  "duration": 22.05,
+  "title": "Livro3 Let18",
+  "full_text": "Tem picolé, seu José\nTEM PICOLÉ, SEU JOSÉ\nÉ DE MURICI, DONA LILI\nÉ DE ABACAXI, SEU GIGI\nÉ DE COCO, SEU TINOCO\nÉ DE CAJU, DONA JUJU\nÉ DE MARACUJÁ, DONA SINHÁ\nÉ UM TREMENDÃO, SEU BRANDÃO",
+  "word_count": 38,
+  "words": [
+    {
+      "word": "Tem",
+      "start": 0.0,
+      "end": 0.365,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "picolé,",
+      "start": 0.365,
+      "end": 0.78,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "seu",
+      "start": 1.28,
+      "end": 1.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "José",
+      "start": 1.39,
+      "end": 1.8,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "TEM",
+      "start": 2.76,
+      "end": 2.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "PICOLÉ,",
+      "start": 2.945,
+      "end": 3.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEU",
+      "start": 3.82,
+      "end": 3.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "JOSÉ",
+      "start": 3.93,
+      "end": 4.4,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "É",
+      "start": 5.34,
+      "end": 5.438,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 5.44,
+      "end": 5.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "MURICI,",
+      "start": 5.605,
+      "end": 6.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "DONA",
+      "start": 6.48,
+      "end": 6.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "LILI",
+      "start": 6.705,
+      "end": 7.04,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "É",
+      "start": 7.98,
+      "end": 8.145,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 8.145,
+      "end": 8.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "ABACAXI,",
+      "start": 8.345,
+      "end": 8.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEU",
+      "start": 9.28,
+      "end": 9.485,
+      "confidence": 1.0
+    },
+    {
+      "word": "GIGI",
+      "start": 9.485,
+      "end": 9.88,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "É",
+      "start": 10.84,
+      "end": 11.005,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 11.005,
+      "end": 11.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "COCO,",
+      "start": 11.305,
+      "end": 11.58,
+      "confidence": 0.75
+    },
+    {
+      "word": "SEU",
+      "start": 11.92,
+      "end": 12.068,
+      "confidence": 1.0
+    },
+    {
+      "word": "TINOCO",
+      "start": 12.07,
+      "end": 12.6,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "É",
+      "start": 13.62,
+      "end": 13.728,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 13.73,
+      "end": 13.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "CAJU,",
+      "start": 13.945,
+      "end": 14.3,
+      "confidence": 1.0
+    },
+    {
+      "word": "DONA",
+      "start": 14.7,
+      "end": 14.848,
+      "confidence": 1.0
+    },
+    {
+      "word": "JUJU",
+      "start": 14.85,
+      "end": 15.24,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "É",
+      "start": 16.24,
+      "end": 16.388,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 16.39,
+      "end": 16.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "MARACUJÁ,",
+      "start": 16.665,
+      "end": 17.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "DONA",
+      "start": 17.6,
+      "end": 17.748,
+      "confidence": 1.0
+    },
+    {
+      "word": "SINHÁ",
+      "start": 17.75,
+      "end": 18.44,
+      "confidence": 0.8,
+      "line_break_after": true
+    },
+    {
+      "word": "É",
+      "start": 19.1,
+      "end": 19.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 19.23,
+      "end": 19.405,
+      "confidence": 1.0
+    },
+    {
+      "word": "TREMENDÃO,",
+      "start": 19.405,
+      "end": 20.06,
+      "confidence": 1.0
+    },
+    {
+      "word": "SEU",
+      "start": 20.48,
+      "end": 20.628,
+      "confidence": 1.0
+    },
+    {
+      "word": "BRANDÃO",
+      "start": 20.63,
+      "end": 21.14,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.988,
+    "gaps_preserved": 7,
+    "gaps_filled": 22,
+    "gaps_review": 8,
+    "low_confidence_words": 1,
+    "prosody_preserved_score": 0.189,
+    "timing_precision_ms": 30.4,
+    "word_accuracy": 0.988,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [
+    "COCO,"
+  ],
+  "timestamp_issues": {
+    "words_checked": 38,
+    "total_issues": 7,
+    "errors": 0,
+    "warnings": 7,
+    "issues_by_type": {
+      "large_gap": 7
+    },
+    "issues": [
+      {
+        "word_index": 4,
+        "type": "large_gap",
+        "message": "Large gap (960ms) before 'TEM' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 8,
+        "type": "large_gap",
+        "message": "Large gap (940ms) before 'É' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 13,
+        "type": "large_gap",
+        "message": "Large gap (940ms) before 'É' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 18,
+        "type": "large_gap",
+        "message": "Large gap (960ms) before 'É' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 23,
+        "type": "large_gap",
+        "message": "Large gap (1020ms) before 'É' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 28,
+        "type": "large_gap",
+        "message": "Large gap (1000ms) before 'É' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "large_gap",
+        "message": "Large gap (660ms) before 'É' without punctuation",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}

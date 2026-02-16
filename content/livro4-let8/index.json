@@ -1,0 +1,669 @@
+{
+  "audio_file": "livro4_let8.mp3",
+  "language": "pt",
+  "duration": 26.04,
+  "title": "Livro4 Let8",
+  "full_text": "A língua de um povo dá nome para todas as coisas\nA LÍNGUA DE UM POVO É QUE DÁ\nNOME PARA TODAS AS COISAS.\nDÁ NOME PARA PEIXE.\nDÁ NOME PARA BICHO.\nDÁ NOME PARA PAU.\nNOME PARA REMÉDIO.\nNOME PARA PLANTAÇÃO DA ROÇA.\nNOME PARA ÁGUA.\nNOME PARA SOL,\nNOME PARA LUA.\nNOME PARA ESTRELA.\nNOME PARA DANÇA.\nDÁ NOME PARA AS PESSOAS.\nDÁ NOME PARA OS ESPÍRITOS.\nDÁ NOME PARA TUDO.",
+  "word_count": 73,
+  "words": [
+    {
+      "word": "A",
+      "start": 0.0,
+      "end": 0.51,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "língua",
+      "start": 0.52,
+      "end": 0.548,
+      "confidence": 1.0,
+      "is_title": true
+    },
+    {
+      "word": "de",
+      "start": 0.55,
+      "end": 0.765,
+      "confidence": 1.0
+    },
+    {
+      "word": "um",
+      "start": 0.765,
+      "end": 1.11,
+      "confidence": 1.0
+    },
+    {
+      "word": "povo",
+      "start": 1.12,
+      "end": 1.128,
+      "confidence": 1.0
+    },
+    {
+      "word": "dá",
+      "start": 1.13,
+      "end": 1.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "nome",
+      "start": 1.425,
+      "end": 1.605,
+      "confidence": 1.0
+    },
+    {
+      "word": "para",
+      "start": 1.605,
+      "end": 1.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "todas",
+      "start": 1.905,
+      "end": 2.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "as",
+      "start": 2.285,
+      "end": 2.93,
+      "confidence": 1.0
+    },
+    {
+      "word": "coisas",
+      "start": 2.94,
+      "end": 3.14,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "A",
+      "start": 3.28,
+      "end": 3.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "LÍNGUA",
+      "start": 3.465,
+      "end": 3.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "DE",
+      "start": 3.705,
+      "end": 3.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "UM",
+      "start": 3.905,
+      "end": 4.27,
+      "confidence": 1.0
+    },
+    {
+      "word": "POVO",
+      "start": 4.28,
+      "end": 4.288,
+      "confidence": 1.0
+    },
+    {
+      "word": "É",
+      "start": 4.29,
+      "end": 4.458,
+      "confidence": 1.0
+    },
+    {
+      "word": "QUE",
+      "start": 4.46,
+      "end": 4.588,
+      "confidence": 1.0
+    },
+    {
+      "word": "DÁ",
+      "start": 4.59,
+      "end": 4.83,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NOME",
+      "start": 4.84,
+      "end": 4.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 4.95,
+      "end": 5.285,
+      "confidence": 1.0
+    },
+    {
+      "word": "TODAS",
+      "start": 5.285,
+      "end": 5.625,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 5.625,
+      "end": 6.27,
+      "confidence": 1.0
+    },
+    {
+      "word": "COISAS.",
+      "start": 6.28,
+      "end": 6.48,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DÁ",
+      "start": 6.78,
+      "end": 6.888,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 6.89,
+      "end": 7.065,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 7.065,
+      "end": 7.325,
+      "confidence": 1.0
+    },
+    {
+      "word": "PEIXE.",
+      "start": 7.325,
+      "end": 8.0,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DÁ",
+      "start": 8.18,
+      "end": 8.59,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 8.6,
+      "end": 8.608,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 8.61,
+      "end": 8.825,
+      "confidence": 1.0
+    },
+    {
+      "word": "BICHO.",
+      "start": 8.825,
+      "end": 9.2,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DÁ",
+      "start": 9.7,
+      "end": 9.95,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 9.96,
+      "end": 9.988,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 9.99,
+      "end": 10.305,
+      "confidence": 1.0
+    },
+    {
+      "word": "PAU.",
+      "start": 10.305,
+      "end": 10.62,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NOME",
+      "start": 11.22,
+      "end": 11.228,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 11.23,
+      "end": 11.465,
+      "confidence": 1.0
+    },
+    {
+      "word": "REMÉDIO.",
+      "start": 11.465,
+      "end": 12.0,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NOME",
+      "start": 12.64,
+      "end": 12.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 12.65,
+      "end": 12.865,
+      "confidence": 1.0
+    },
+    {
+      "word": "PLANTAÇÃO",
+      "start": 12.865,
+      "end": 13.345,
+      "confidence": 1.0
+    },
+    {
+      "word": "DA",
+      "start": 13.345,
+      "end": 13.665,
+      "confidence": 1.0
+    },
+    {
+      "word": "ROÇA.",
+      "start": 13.665,
+      "end": 13.98,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NOME",
+      "start": 14.64,
+      "end": 14.648,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 14.65,
+      "end": 14.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "ÁGUA.",
+      "start": 14.905,
+      "end": 15.28,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NOME",
+      "start": 15.94,
+      "end": 15.948,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 15.95,
+      "end": 16.265,
+      "confidence": 1.0
+    },
+    {
+      "word": "SOL,",
+      "start": 16.265,
+      "end": 16.52,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NOME",
+      "start": 16.92,
+      "end": 16.928,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 16.93,
+      "end": 17.205,
+      "confidence": 1.0
+    },
+    {
+      "word": "LUA.",
+      "start": 17.205,
+      "end": 17.7,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NOME",
+      "start": 18.1,
+      "end": 18.108,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 18.11,
+      "end": 18.385,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESTRELA.",
+      "start": 18.385,
+      "end": 18.84,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "NOME",
+      "start": 19.44,
+      "end": 19.448,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 19.45,
+      "end": 19.705,
+      "confidence": 1.0
+    },
+    {
+      "word": "DANÇA.",
+      "start": 19.705,
+      "end": 20.12,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DÁ",
+      "start": 20.54,
+      "end": 20.725,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 20.725,
+      "end": 20.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 20.905,
+      "end": 21.165,
+      "confidence": 1.0
+    },
+    {
+      "word": "AS",
+      "start": 21.165,
+      "end": 21.83,
+      "confidence": 1.0
+    },
+    {
+      "word": "PESSOAS.",
+      "start": 21.84,
+      "end": 22.04,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DÁ",
+      "start": 22.42,
+      "end": 22.558,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 22.56,
+      "end": 22.708,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 22.71,
+      "end": 22.945,
+      "confidence": 1.0
+    },
+    {
+      "word": "OS",
+      "start": 22.945,
+      "end": 23.425,
+      "confidence": 1.0
+    },
+    {
+      "word": "ESPÍRITOS.",
+      "start": 23.425,
+      "end": 23.66,
+      "confidence": 1.0,
+      "line_break_after": true
+    },
+    {
+      "word": "DÁ",
+      "start": 24.24,
+      "end": 24.378,
+      "confidence": 1.0
+    },
+    {
+      "word": "NOME",
+      "start": 24.38,
+      "end": 24.508,
+      "confidence": 1.0
+    },
+    {
+      "word": "PARA",
+      "start": 24.51,
+      "end": 24.905,
+      "confidence": 1.0
+    },
+    {
+      "word": "TUDO.",
+      "start": 24.905,
+      "end": 25.16,
+      "confidence": 1.0
+    }
+  ],
+  "metrics": {
+    "average_confidence": 1.0,
+    "gaps_preserved": 12,
+    "gaps_filled": 58,
+    "gaps_review": 2,
+    "low_confidence_words": 0,
+    "prosody_preserved_score": 0.139,
+    "timing_precision_ms": 25.4,
+    "word_accuracy": 1.0,
+    "alignment_method": "dp",
+    "words_matched": 0,
+    "words_interpolated": 0,
+    "words_verified": 0,
+    "title_verified": false
+  },
+  "low_confidence_words": [],
+  "timestamp_issues": {
+    "words_checked": 73,
+    "total_issues": 25,
+    "errors": 12,
+    "warnings": 13,
+    "issues_by_type": {
+      "round_timestamps": 1,
+      "too_short": 12,
+      "syllable_mismatch": 12
+    },
+    "issues": [
+      {
+        "word_index": 0,
+        "type": "round_timestamps",
+        "message": "Word 'A' has suspiciously round timestamps (0.0-0.5)",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 1,
+        "type": "too_short",
+        "message": "Word 'língua' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 1,
+        "type": "syllable_mismatch",
+        "message": "Word 'língua' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 4,
+        "type": "too_short",
+        "message": "Word 'povo' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 4,
+        "type": "syllable_mismatch",
+        "message": "Word 'povo' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "too_short",
+        "message": "Word 'POVO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 15,
+        "type": "syllable_mismatch",
+        "message": "Word 'POVO' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 29,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (28ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 33,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 28ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 36,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 36,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 39,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 44,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 44,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 47,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 50,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 50,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 53,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 56,
+        "type": "too_short",
+        "message": "Word 'NOME' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 56,
+        "type": "syllable_mismatch",
+        "message": "Word 'NOME' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      }
+    ]
+  }
+}
