@@ -2,7 +2,7 @@
   "audio_file": "livro5_let76.mp3",
   "language": "pt",
   "duration": 90.28,
-  "title": "Livro5 Let76",
+  "title": "A arte carregada de emoções de Alex Senna",
   "full_text": "A arte carregada de emoções de Alex Senna\nLogo que vemos um graffiti, ilustração ou qualquer outra obra de Alex Senna, nos deparamos com algumas características típicas do artista, que tornam o seu trabalho inconfundível. Entre elas um lado emocional que sempre se faz presente.\nAlex nasceu em Orlândia, uma cidade que possui cerca de 40 000 habitantes, próxima a Ribeirão Preto, no interior de São Paulo.\nA paixão pela arte e pela pintura vem desde criança, quando começou a desenvolver seu lado artístico influenciado pela sua mãe e seu irmão.\nHoje consagrado como um dos maiores nomes do graffiti nacional, ele teve seu primeiro contato com a arte de rua em 2002.\n[...]\nEm termos de referências, é possível notar inspirações vindas de grandes nomes que variam entre os cartuns e a street art.\nEntre eles podemos citar Walt Disney, Will Eisner, Mauricio de Sousa, Ziraldo e Quino.\nSua arte consegue ser sensível e lúdica ao mesmo tempo, unindo signos do universo infantil ao preto e branco.\nAs criações de Alex, além de serem incríveis, transmitem uma dose de emoção sensacional através dos personagens, que conseguem ser melancólicos, carismáticos e inspiradores, contrastando com o cenário agressivo de grandes centros urbanos como a cidade de São Paulo, por exemplo.\nE já que falamos nos seus personagens, eles são bem variados. Por vezes encontramos casais jovens namorando, pessoas idosas, santas plácidas ou homens solitários. Isto sem falar em pássaros, corações [...]",
   "word_count": 240,
   "words": [
@@ -24,38 +24,44 @@
       "word": "carregada",
       "start": 0.525,
       "end": 1.065,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "de",
       "start": 1.065,
       "end": 1.325,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "emoções",
       "start": 1.325,
       "end": 1.625,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "de",
       "start": 1.625,
       "end": 1.965,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "Alex",
       "start": 1.965,
       "end": 2.305,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "Senna",
       "start": 2.305,
       "end": 2.62,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "Logo",
@@ -1481,299 +1487,5 @@
     "[...]",
     "cartuns",
     "[...]"
-  ],
-  "timestamp_issues": {
-    "words_checked": 240,
-    "total_issues": 40,
-    "errors": 22,
-    "warnings": 18,
-    "issues_by_type": {
-      "too_short": 18,
-      "large_gap": 6,
-      "syllable_mismatch": 15,
-      "round_timestamps": 1
-    },
-    "issues": [
-      {
-        "word_index": 8,
-        "type": "too_short",
-        "message": "Word 'Logo' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 8,
-        "type": "large_gap",
-        "message": "Large gap (520ms) before 'Logo' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 8,
-        "type": "syllable_mismatch",
-        "message": "Word 'Logo' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "large_gap",
-        "message": "Large gap (700ms) before 'ilustração' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "syllable_mismatch",
-        "message": "Word 'ilustração' (4 syllables) has only 88ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 35,
-        "type": "too_short",
-        "message": "Word 'Entre' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 35,
-        "type": "syllable_mismatch",
-        "message": "Word 'Entre' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 38,
-        "type": "too_short",
-        "message": "Word 'lado' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 38,
-        "type": "syllable_mismatch",
-        "message": "Word 'lado' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 38,
-        "type": "round_timestamps",
-        "message": "Word 'lado' has suspiciously round timestamps (14.5-14.5)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 43,
-        "type": "too_short",
-        "message": "Word 'faz' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 87,
-        "type": "too_short",
-        "message": "Word 'mãe' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 91,
-        "type": "too_short",
-        "message": "Word 'Hoje' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 91,
-        "type": "syllable_mismatch",
-        "message": "Word 'Hoje' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 108,
-        "type": "too_short",
-        "message": "Word 'arte' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 108,
-        "type": "syllable_mismatch",
-        "message": "Word 'arte' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 110,
-        "type": "too_short",
-        "message": "Word 'rua' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 118,
-        "type": "too_short",
-        "message": "Word 'é' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 135,
-        "type": "too_short",
-        "message": "Word 'Entre' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 135,
-        "type": "syllable_mismatch",
-        "message": "Word 'Entre' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 150,
-        "type": "syllable_mismatch",
-        "message": "Word 'arte' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 162,
-        "type": "too_short",
-        "message": "Word 'universo' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 162,
-        "type": "syllable_mismatch",
-        "message": "Word 'universo' (4 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 168,
-        "type": "too_short",
-        "message": "Word 'As' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 172,
-        "type": "too_short",
-        "message": "Word 'além' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 172,
-        "type": "syllable_mismatch",
-        "message": "Word 'além' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 174,
-        "type": "too_short",
-        "message": "Word 'serem' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 174,
-        "type": "syllable_mismatch",
-        "message": "Word 'serem' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 176,
-        "type": "large_gap",
-        "message": "Large gap (600ms) before 'transmitem' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 180,
-        "type": "too_short",
-        "message": "Word 'emoção' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 180,
-        "type": "syllable_mismatch",
-        "message": "Word 'emoção' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 189,
-        "type": "large_gap",
-        "message": "Large gap (620ms) before 'carismáticos' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 192,
-        "type": "large_gap",
-        "message": "Large gap (540ms) before 'contrastando' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 195,
-        "type": "too_short",
-        "message": "Word 'cenário' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 195,
-        "type": "syllable_mismatch",
-        "message": "Word 'cenário' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 203,
-        "type": "too_short",
-        "message": "Word 'cidade' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 203,
-        "type": "syllable_mismatch",
-        "message": "Word 'cidade' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 226,
-        "type": "too_short",
-        "message": "Word 'pessoas' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 226,
-        "type": "large_gap",
-        "message": "Large gap (560ms) before 'pessoas' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 226,
-        "type": "syllable_mismatch",
-        "message": "Word 'pessoas' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

@@ -2,7 +2,7 @@
   "audio_file": "livro5_let32.mp3",
   "language": "pt",
   "duration": 37.2,
-  "title": "Livro5 Let32",
+  "title": "O papagaio que faz CRÁ-CRÁ-CRÁ",
   "full_text": "O papagaio que faz CRÁ-CRÁ-CRÁ\nO PAPAGAIO QUE FAZ “CRÁ, CRÁ, CRÁ” ANTIGAMENTE FOI UM MENINO MUITO GULOSO. TINHA O COSTUME DE ENGOLIR A COMIDA SEM MASTIGÁ-LA.\nUMA VEZ SUA MÃE ACHOU FRUTOS DO BATO-I, “MANGABEIRA”, E ASSOU-OS NA CINZA. O FILHO COMEU TIRANDO-OS DIRETAMENTE DO FOGO. SÃO FRUTOS CUJA POLPA VISCOSA SE MANTÉM CALIDÍSSIMA POR MUITO TEMPO. COMENDO-OS TÃO QUENTES, SAPECARAM-LHE A GARGANTA, E O MENINO COMEÇOU A FAZER “CRÁ, CRÁ, CRÁ”, ESFORÇANDO-SE POR VOMITAR OS FRUTOS COMIDOS. CRESCERAM-LHE AS ASAS E AS PENAS; E TORNOU-SE UM PAPAGAIO QUE ATÉ HOJE CONTINUA FAZENDO “CRÁ, CRÁ, CRÁ”.",
   "word_count": 97,
   "words": [
@@ -24,20 +24,23 @@
       "word": "que",
       "start": 0.805,
       "end": 1.025,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "faz",
       "start": 1.025,
       "end": 1.38,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "CRÁ-CRÁ-CRÁ",
       "start": 2.2,
       "end": 2.4,
       "confidence": 0.333,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "O",

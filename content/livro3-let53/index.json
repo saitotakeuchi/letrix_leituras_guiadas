@@ -2,7 +2,7 @@
   "audio_file": "livro3_let53.mp3",
   "language": "pt",
   "duration": 59.76,
-  "title": "Livro3 Let53",
+  "title": "O gato e a raposa",
   "full_text": "O gato e a raposa\nO GATO E A RAPOSA IAM POR UM CAMINHO, CONVERSANDO. CONTARAM MUITA LOROTA, MUITA PROSA E, AFINAL DE CONTAS, FALARAM NO CACHORRO, QUE ERA INIMIGO DE AMBOS. AÍ, DISSE A RAPOSA:\n— QUAL O QUÊ! EU LÁ TENHO MEDO DE CACHORRO NADA! PARA ME LIVRAR DELE, EU TENHO MIL EXPEDIENTES.\n— POIS EU SÓ TENHO UM, DISSE O GATO. NISSO APARECE AO LONGO O CACHORRO, QUE VINHA DANADO, FAREJANDO A RAPOSA. O GATO PULOU NUM PÉ DE ÁRVORE E FICOU LÁ EM CIMA [...] DIZENDO À RAPOSA:\n — O MEU É ESTE.\nA RAPOSA, COITADA, METEU O PÉ NO MUNDO. VIROU, MEXEU, FOI, VEIO, ENTROU EM BURACO, SAIU DE BURACO, ESCONDEU-SE AQUI, ESCONDEU-SE ALI, FEZ MIL REMONDIOLAS, ATÉ QUE, JÁ MORTA DE CANSAÇO, O CACHORRO PULOU-LHE NO CACHAÇO E ESTRAÇALHOU-A.",
   "word_count": 135,
   "words": [
@@ -24,20 +24,23 @@
       "word": "e",
       "start": 0.685,
       "end": 0.925,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "a",
       "start": 0.925,
       "end": 1.47,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "raposa",
       "start": 1.48,
       "end": 1.68,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "O",
@@ -846,229 +849,5 @@
     "—",
     "PULOU-LHE",
     "ESTRAÇALHOU-A."
-  ],
-  "timestamp_issues": {
-    "words_checked": 135,
-    "total_issues": 30,
-    "errors": 15,
-    "warnings": 15,
-    "issues_by_type": {
-      "large_gap": 7,
-      "too_short": 12,
-      "syllable_mismatch": 10,
-      "round_timestamps": 1
-    },
-    "issues": [
-      {
-        "word_index": 5,
-        "type": "large_gap",
-        "message": "Large gap (840ms) before 'O' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 9,
-        "type": "too_short",
-        "message": "Word 'RAPOSA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 9,
-        "type": "syllable_mismatch",
-        "message": "Word 'RAPOSA' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 15,
-        "type": "too_short",
-        "message": "Word 'CONTARAM' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 15,
-        "type": "large_gap",
-        "message": "Very large gap (1140ms) before 'CONTARAM'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 15,
-        "type": "syllable_mismatch",
-        "message": "Word 'CONTARAM' (3 syllables) has only 48ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 24,
-        "type": "too_short",
-        "message": "Word 'FALARAM' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 24,
-        "type": "syllable_mismatch",
-        "message": "Word 'FALARAM' (3 syllables) has only 48ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 47,
-        "type": "too_short",
-        "message": "Word 'PARA' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 47,
-        "type": "large_gap",
-        "message": "Very large gap (1060ms) before 'PARA'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 47,
-        "type": "syllable_mismatch",
-        "message": "Word 'PARA' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 52,
-        "type": "too_short",
-        "message": "Word 'TENHO' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 52,
-        "type": "syllable_mismatch",
-        "message": "Word 'TENHO' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 55,
-        "type": "round_timestamps",
-        "message": "Word '—' has suspiciously round timestamps (24.5-25.5)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 61,
-        "type": "too_short",
-        "message": "Word 'DISSE' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 61,
-        "type": "syllable_mismatch",
-        "message": "Word 'DISSE' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 77,
-        "type": "too_short",
-        "message": "Word 'GATO' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 77,
-        "type": "syllable_mismatch",
-        "message": "Word 'GATO' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 82,
-        "type": "syllable_mismatch",
-        "message": "Word 'ÁRVORE' (3 syllables) has only 128ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 87,
-        "type": "too_short",
-        "message": "Word 'CIMA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 87,
-        "type": "syllable_mismatch",
-        "message": "Word 'CIMA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 89,
-        "type": "too_short",
-        "message": "Word 'DIZENDO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 89,
-        "type": "syllable_mismatch",
-        "message": "Word 'DIZENDO' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 97,
-        "type": "large_gap",
-        "message": "Very large gap (960ms) before 'A'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 102,
-        "type": "too_short",
-        "message": "Word 'PÉ' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 105,
-        "type": "large_gap",
-        "message": "Very large gap (1200ms) before 'VIROU,'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 112,
-        "type": "too_short",
-        "message": "Word 'SAIU' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 112,
-        "type": "large_gap",
-        "message": "Large gap (560ms) before 'SAIU' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 115,
-        "type": "large_gap",
-        "message": "Large gap (600ms) before 'ESCONDEU-SE' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 119,
-        "type": "too_short",
-        "message": "Word 'FEZ' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

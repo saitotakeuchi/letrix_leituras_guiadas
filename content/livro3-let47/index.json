@@ -2,7 +2,7 @@
   "audio_file": "livro3_let47.mp3",
   "language": "pt",
   "duration": 32.44,
-  "title": "Livro3 Let47",
+  "title": "Papo de gato",
   "full_text": "Papo de gato\nMIAU, PURR, HISS, UAW! EIS ALGUNS EXEMPLOS DO VOCABULÁRIO FELINO. USANDO COMPUTADORES, ZOÓLOGOS NORTE-AMERICANOS DESCOBRIRAM QUE O TRADICIONAL “MIAU” É UMA AGLUTINAÇÃO DE “MIU” E “AAU”. O SOM “MIU” É UMA ESPÉCIE DE OBSERVAÇÃO SEM AGRESSIVIDADE, O AAU É SOM DE FRUSTRAÇÃO, LIGEIRAMENTE AGRESSIVO. A COMBINAÇÃO DE AMBOS SIGNIFICA ALGO COMO “OI, TUDO BEM? ESTOU A FIM DE COMER, DE PREFERÊNCIA ‘JÁ’.”",
   "word_count": 65,
   "words": [
@@ -25,7 +25,8 @@
       "start": 1.24,
       "end": 1.44,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "MIAU,",
@@ -422,124 +423,5 @@
     "NORTE-AMERICANOS",
     "“AAU”.",
     "AAU"
-  ],
-  "timestamp_issues": {
-    "words_checked": 65,
-    "total_issues": 15,
-    "errors": 6,
-    "warnings": 9,
-    "issues_by_type": {
-      "large_gap": 6,
-      "too_short": 4,
-      "syllable_mismatch": 4,
-      "round_timestamps": 1
-    },
-    "issues": [
-      {
-        "word_index": 3,
-        "type": "large_gap",
-        "message": "Large gap (600ms) before 'MIAU,' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 7,
-        "type": "large_gap",
-        "message": "Very large gap (1060ms) before 'EIS'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "too_short",
-        "message": "Word 'USANDO' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "large_gap",
-        "message": "Very large gap (1260ms) before 'USANDO'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "syllable_mismatch",
-        "message": "Word 'USANDO' (3 syllables) has only 28ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 15,
-        "type": "large_gap",
-        "message": "Large gap (620ms) before 'ZOÓLOGOS' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "too_short",
-        "message": "Word 'TRADICIONAL' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "syllable_mismatch",
-        "message": "Word 'TRADICIONAL' (4 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 26,
-        "type": "too_short",
-        "message": "Word '“MIU”' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 26,
-        "type": "round_timestamps",
-        "message": "Word '“MIU”' has suspiciously round timestamps (15.0-15.0)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 29,
-        "type": "large_gap",
-        "message": "Very large gap (855ms) before 'O'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 36,
-        "type": "syllable_mismatch",
-        "message": "Word 'OBSERVAÇÃO' (4 syllables) has only 148ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 47,
-        "type": "large_gap",
-        "message": "Very large gap (920ms) before 'A'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 50,
-        "type": "syllable_mismatch",
-        "message": "Word 'AMBOS' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 59,
-        "type": "too_short",
-        "message": "Word 'FIM' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

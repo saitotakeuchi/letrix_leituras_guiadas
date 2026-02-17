@@ -2,7 +2,7 @@
   "audio_file": "livro5_let18.mp3",
   "language": "pt",
   "duration": 17.94,
-  "title": "Livro5 Let18",
+  "title": "Cinco-marias",
   "full_text": "Cinco-marias\nTAMBÉM CHAMADA DE TRÊS MARIAS, JOGO DO OSSO, [...] BATO, ARRIÓS, TELHOS, CHOCOS, NÉCARA, ETC.\nO JOGO, DE ORIGEM PRÉ-HISTÓRICA, PODE SER PRATICADO DE DIVERSAS MANEIRAS. UMA DELAS É LANÇAR UMA PEDRA PARA O ALTO E, ANTES QUE ELA CAIA NO CHÃO, PEGAR OUTRA PEÇA. [...]",
   "word_count": 47,
   "words": [
@@ -18,8 +18,7 @@
       "word": "TAMBÉM",
       "start": 1.5,
       "end": 1.705,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "CHAMADA",
@@ -313,52 +312,5 @@
     "[...]",
     "PRÉ-HISTÓRICA,",
     "[...]"
-  ],
-  "timestamp_issues": {
-    "words_checked": 47,
-    "total_issues": 5,
-    "errors": 1,
-    "warnings": 4,
-    "issues_by_type": {
-      "too_short": 2,
-      "syllable_mismatch": 3
-    },
-    "issues": [
-      {
-        "word_index": 6,
-        "type": "too_short",
-        "message": "Word 'JOGO' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 6,
-        "type": "syllable_mismatch",
-        "message": "Word 'JOGO' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "too_short",
-        "message": "Word 'UMA' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "syllable_mismatch",
-        "message": "Word 'UMA' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 37,
-        "type": "syllable_mismatch",
-        "message": "Word 'ANTES' (2 syllables) has only 98ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

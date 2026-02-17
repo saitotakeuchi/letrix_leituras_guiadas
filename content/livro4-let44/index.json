@@ -2,7 +2,7 @@
   "audio_file": "livro4_let44.mp3",
   "language": "pt",
   "duration": 24.76,
-  "title": "Livro4 Let44",
+  "title": "Era uma vez um barquinho",
   "full_text": "Era uma vez um barquinho\nERA UMA VEZ\nUM BARQUINHO\nQUE ANDAVA\nSEMPRE A NAVEGAR\nPASSARAM-SE\nUMA\nDUAS\nTRÊS\nQUATRO\nCINCO\nSEIS\nSETE\nOITO\nNOVE\nDEZ SEMANAS\nE O BARQUINHO\nSEMPRE A NAVEGAR\nSE ESTA HISTÓRIA\nPARECE MUITO CURTA,\nPODEMOS RECOMEÇAR\nERA UMA VEZ\nUM BARQUINHO...",
   "word_count": 46,
   "words": [
@@ -24,20 +24,23 @@
       "word": "vez",
       "start": 0.58,
       "end": 0.728,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "um",
       "start": 0.73,
       "end": 1.025,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "barquinho",
       "start": 1.025,
       "end": 1.36,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "ERA",
@@ -322,116 +325,5 @@
     "words_verified": 0,
     "title_verified": false
   },
-  "low_confidence_words": [],
-  "timestamp_issues": {
-    "words_checked": 46,
-    "total_issues": 14,
-    "errors": 3,
-    "warnings": 11,
-    "issues_by_type": {
-      "large_gap": 10,
-      "too_short": 3,
-      "syllable_mismatch": 1
-    },
-    "issues": [
-      {
-        "word_index": 15,
-        "type": "large_gap",
-        "message": "Large gap (540ms) before 'PASSARAM-SE' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 16,
-        "type": "large_gap",
-        "message": "Large gap (540ms) before 'UMA' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 17,
-        "type": "large_gap",
-        "message": "Large gap (680ms) before 'DUAS' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "large_gap",
-        "message": "Large gap (660ms) before 'TRÊS' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "large_gap",
-        "message": "Large gap (640ms) before 'CINCO' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 21,
-        "type": "large_gap",
-        "message": "Large gap (660ms) before 'SEIS' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 22,
-        "type": "large_gap",
-        "message": "Large gap (760ms) before 'SETE' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "large_gap",
-        "message": "Large gap (500ms) before 'OITO' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 24,
-        "type": "large_gap",
-        "message": "Large gap (600ms) before 'NOVE' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 25,
-        "type": "too_short",
-        "message": "Word 'DEZ' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 25,
-        "type": "large_gap",
-        "message": "Large gap (520ms) before 'DEZ' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 33,
-        "type": "too_short",
-        "message": "Word 'SE' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 41,
-        "type": "too_short",
-        "message": "Word 'ERA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 41,
-        "type": "syllable_mismatch",
-        "message": "Word 'ERA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  "low_confidence_words": []
 }

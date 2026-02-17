@@ -2,7 +2,7 @@
   "audio_file": "livro3_let36.mp3",
   "language": "pt",
   "duration": 26.78,
-  "title": "Livro3 Let36",
+  "title": "Bule de chá",
   "full_text": "Bule de chá\nHAVIA UM NAVIO QUE ZARPOU PRO MAR\nO NOME DELE ERA BULE DE CHÁ\nO VENTO FORTE SUA PROA AFUNDOU\nMARUJOS, VAMOS SOPRAR\nEM BREVE, O WELLERMAN VIRÁ\nCOM NOTÍCIAS, AÇÚCAR E CHÁ\nE QUANDO A CAÇA ACABAR\nPRA CASA VAMOS VOLTAR\nCHA RA RA RA RA RA RA RA RA RA RA",
   "word_count": 56,
   "words": [
@@ -25,7 +25,8 @@
       "start": 0.96,
       "end": 1.16,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "HAVIA",

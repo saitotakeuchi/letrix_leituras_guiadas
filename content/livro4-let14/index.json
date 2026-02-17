@@ -2,7 +2,7 @@
   "audio_file": "livro4_let14.mp3",
   "language": "pt",
   "duration": 53.71,
-  "title": "Livro4 Let14",
+  "title": "Conheça Polly, a cabra que só se acalma fantasiada de pato",
   "full_text": "Conheça Polly, a cabra que só se acalma fantasiada de pato\nAinda filhote, Polly vive em um santuário para cabras deficientes por ser cega e sofrer de ansiedade\nCom seis meses de idade, a cabra Polly, de Nova Jersey, nos Estados Unidos, é cega e sofre com crises de ansiedade. Como seus donos não tinham tempo para o cuidado constante [...], a filhote foi enviada ao santuário Goats of Anarchy, onde os novos cuidadores encontraram uma forma de acalmá-la: uma fantasia de pato.\n“Quando ela nasceu, era pequena, cega e não conseguia mamar”, contou a gerente do santuário, Leanne Lauricella [...].\nLeanne costumava se divertir publicando fotos em seu perfil no Instagram, nas quais vestia algumas cabras do santuário com fantasias. Quando [...] viu uma roupa de pato para bebês, resolveu comprá-la para Polly, que pareceu gostar da experiência. “Ela dormiu imediatamente, como se tivesse com um cobertor”, disse. [...]",
   "word_count": 150,
   "words": [
@@ -24,56 +24,65 @@
       "word": "a",
       "start": 1.02,
       "end": 1.37,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "cabra",
       "start": 1.38,
       "end": 1.408,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "que",
       "start": 1.41,
       "end": 1.625,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "só",
       "start": 1.625,
       "end": 1.845,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "se",
       "start": 1.845,
       "end": 2.105,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "acalma",
       "start": 2.105,
       "end": 2.265,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "fantasiada",
       "start": 2.265,
       "end": 2.965,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "de",
       "start": 2.965,
       "end": 3.225,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "pato",
       "start": 3.225,
       "end": 3.52,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "Ainda",
@@ -935,200 +944,5 @@
     "[...]",
     "comprá-la",
     "[...]"
-  ],
-  "timestamp_issues": {
-    "words_checked": 150,
-    "total_issues": 26,
-    "errors": 13,
-    "warnings": 13,
-    "issues_by_type": {
-      "too_short": 12,
-      "syllable_mismatch": 13,
-      "large_gap": 1
-    },
-    "issues": [
-      {
-        "word_index": 3,
-        "type": "too_short",
-        "message": "Word 'cabra' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 3,
-        "type": "syllable_mismatch",
-        "message": "Word 'cabra' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 28,
-        "type": "too_short",
-        "message": "Word 'Com' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 45,
-        "type": "too_short",
-        "message": "Word 'sofre' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 45,
-        "type": "syllable_mismatch",
-        "message": "Word 'sofre' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 47,
-        "type": "too_short",
-        "message": "Word 'crises' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 47,
-        "type": "syllable_mismatch",
-        "message": "Word 'crises' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 50,
-        "type": "syllable_mismatch",
-        "message": "Word 'Como' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 58,
-        "type": "too_short",
-        "message": "Word 'cuidado' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 58,
-        "type": "syllable_mismatch",
-        "message": "Word 'cuidado' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 70,
-        "type": "syllable_mismatch",
-        "message": "Word 'onde' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 86,
-        "type": "too_short",
-        "message": "Word 'era' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 86,
-        "type": "syllable_mismatch",
-        "message": "Word 'era' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 88,
-        "type": "too_short",
-        "message": "Word 'cega' has very short duration (-2ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 88,
-        "type": "large_gap",
-        "message": "Large gap (520ms) before 'cega' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 88,
-        "type": "syllable_mismatch",
-        "message": "Word 'cega' (2 syllables) has only -2ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 93,
-        "type": "too_short",
-        "message": "Word 'contou' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 93,
-        "type": "syllable_mismatch",
-        "message": "Word 'contou' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 98,
-        "type": "syllable_mismatch",
-        "message": "Word 'Leanne' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 122,
-        "type": "too_short",
-        "message": "Word '[...]' has very short duration (-2ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 127,
-        "type": "too_short",
-        "message": "Word 'pato' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 127,
-        "type": "syllable_mismatch",
-        "message": "Word 'pato' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 144,
-        "type": "too_short",
-        "message": "Word 'tivesse' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 144,
-        "type": "syllable_mismatch",
-        "message": "Word 'tivesse' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 148,
-        "type": "too_short",
-        "message": "Word 'disse.' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 148,
-        "type": "syllable_mismatch",
-        "message": "Word 'disse.' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

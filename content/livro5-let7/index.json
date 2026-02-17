@@ -2,7 +2,7 @@
   "audio_file": "livro5_let7.mp3",
   "language": "pt",
   "duration": 20.65,
-  "title": "Livro5 Let7",
+  "title": "Oliveira",
   "full_text": "Oliveira\n3.738.469 pessoas\nHá várias origens prováveis desse sobrenome português, mas todas remetem, de fato, ao que você está imaginando. Oliveira tem uma raiz geográfica, que faz referência à árvore da azeitona, registrada no português arcaico como “olveira”.\n[...]",
   "word_count": 39,
   "words": [
@@ -18,8 +18,7 @@
       "word": "3.738.469",
       "start": 3.14,
       "end": 5.105,
-      "confidence": 0.429,
-      "is_title": true
+      "confidence": 0.429
     },
     {
       "word": "pessoas",
@@ -264,61 +263,5 @@
   "low_confidence_words": [
     "3.738.469",
     "[...]"
-  ],
-  "timestamp_issues": {
-    "words_checked": 39,
-    "total_issues": 6,
-    "errors": 3,
-    "warnings": 3,
-    "issues_by_type": {
-      "too_long": 1,
-      "large_gap": 2,
-      "too_short": 2,
-      "syllable_mismatch": 1
-    },
-    "issues": [
-      {
-        "word_index": 1,
-        "type": "too_long",
-        "message": "Word '3.738.469' has unusually long duration (1965ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 1,
-        "type": "large_gap",
-        "message": "Large gap (2480ms) before '3.738.469' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 3,
-        "type": "too_short",
-        "message": "Word 'Há' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 3,
-        "type": "large_gap",
-        "message": "Large gap (520ms) before 'Há' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 29,
-        "type": "too_short",
-        "message": "Word 'árvore' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 29,
-        "type": "syllable_mismatch",
-        "message": "Word 'árvore' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

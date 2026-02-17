@@ -2,7 +2,7 @@
   "audio_file": "livro4_let64.mp3",
   "language": "pt",
   "duration": 176.17,
-  "title": "Livro4 Let64",
+  "title": "Advinha quem veio te visitar?",
   "full_text": "Advinha quem veio te visitar?\nReceber a visita de uma lagartixa é sempre uma surpresa – seja porque você adora observar bichos, seja porque é daqueles que gritam quando acham um bicho observando você. De um jeito ou de outro, a CHC arranjou um encontro seu com a lagartixa-da-areia.\nPouco conhecida dos cariocas e dos brasileiros em geral, a lagartixa-da-areia é um pequeno lagarto que só é encontrado em algumas praias do estado do Rio de Janeiro, entre a Restinga da Marambaia e Cabo Frio. Vive na vegetação rasteira que fica logo depois da areia. Esse é, portanto, seu hábitat.\nEsse bicho cinza, com uma faixa laranja nas costas e tiras brancas e marrons nas laterais, mede, quando adulto, cerca de 20 centímetros. Cava tocas de até um metro de profundidade, muitas vezes com mais de uma entrada. Essas tocas ajudam a lagartixa-da-areia a fugir de seus predadores (animais que a comem), principalmente as aves coruja-buraqueira e anu-branco e o caranguejo maria-farinha.\nA reprodução da lagartixa-da-areia ocorre de setembro a março, época em que as fêmeas colocam de 1 a 4 ovos, enterrando-os em buracos também escavados na areia.\nMas, com a urbanização e o crescimento das cidades, a vegetação na qual a lagartixa-da- -areia é encontrada vem sendo destruída. A construção de quadras de vôlei, o despejo de lixo e a instalação de trailers e barracas para vender refrigerantes, sanduíches, etc., também contribuem para a sua destruição.\nOs próprios banhistas frequentadores das praias muitas vezes agridem essa vegetação. Com o sumiço dessa vegetação, a lagartixa-da-areia está ameaçada de desaparecer completamente do planeta, já que só vive nesse hábitat.\nMesmo se tiver nojo ou medo de lagartixa, lembre-se de que esse animal tem seu papel na natureza. A lagartixa-da-areia se alimenta de pequenos animais, como os insetos. Estes, por sua vez, também são importantes, mas, como os outros bichos, devem ter seu número controlado para evitar um desequilíbrio. E, nesse ambiente de praia, o principal responsável por esse controle é a lagartixa-da-areia.\nAlém disso, a lagartixa-da-areia é uma espécie bioindicadora (indica a boa qualidade de um ambiente) do hábitat de praia, porque ela só consegue viver em ambientes limpos, sem poluição. Em outras palavras: ao detectarmos a presença da lagartixa-da-areia, sabemos que determinada praia é limpa e não foi muito destruída.\nA lagartixa-da-areia é um animal inofensivo que, como todas as outras espécies do planeta, tem o direito de continuar vivendo. Para isso ser possível, é necessário que seu hábitat seja preservado.\nVocê também pode ter um papel importante para evitar que a lagartixa-da-areia, esse típico representante da fauna do Rio de Janeiro, seja extinta. Proteja a vegetação das praias, evitando arrancar plantas ou mesmo andar sobre elas, e só jogue lixo nas latas feitas para ele. E aproveite para contar a seus amigos sobre a situação em que está a vegetação de praia e a lagartixa-da-areia.",
   "word_count": 477,
   "words": [
@@ -24,20 +24,23 @@
       "word": "veio",
       "start": 0.825,
       "end": 1.065,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "te",
       "start": 1.065,
       "end": 1.345,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "visitar?",
       "start": 1.345,
       "end": 2.02,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "Receber",

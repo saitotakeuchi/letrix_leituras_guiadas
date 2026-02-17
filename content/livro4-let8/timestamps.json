@@ -2,7 +2,7 @@
   "audio_file": "livro4_let8.mp3",
   "language": "pt",
   "duration": 26.04,
-  "title": "Livro4 Let8",
+  "title": "A língua de um povo dá nome para todas as coisas",
   "full_text": "A língua de um povo dá nome para todas as coisas\nA LÍNGUA DE UM POVO É QUE DÁ\nNOME PARA TODAS AS COISAS.\nDÁ NOME PARA PEIXE.\nDÁ NOME PARA BICHO.\nDÁ NOME PARA PAU.\nNOME PARA REMÉDIO.\nNOME PARA PLANTAÇÃO DA ROÇA.\nNOME PARA ÁGUA.\nNOME PARA SOL,\nNOME PARA LUA.\nNOME PARA ESTRELA.\nNOME PARA DANÇA.\nDÁ NOME PARA AS PESSOAS.\nDÁ NOME PARA OS ESPÍRITOS.\nDÁ NOME PARA TUDO.",
   "word_count": 73,
   "words": [
@@ -24,56 +24,65 @@
       "word": "de",
       "start": 0.55,
       "end": 0.765,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "um",
       "start": 0.765,
       "end": 1.11,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "povo",
       "start": 1.12,
       "end": 1.128,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "dá",
       "start": 1.13,
       "end": 1.425,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "nome",
       "start": 1.425,
       "end": 1.605,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "para",
       "start": 1.605,
       "end": 1.905,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "todas",
       "start": 1.905,
       "end": 2.285,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "as",
       "start": 2.285,
       "end": 2.93,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "coisas",
       "start": 2.94,
       "end": 3.14,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "A",

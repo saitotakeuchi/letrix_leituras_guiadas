@@ -2,7 +2,7 @@
   "audio_file": "livro4_let6.mp3",
   "language": "pt",
   "duration": 9.64,
-  "title": "Livro4 Let6",
+  "title": "Passe a bola",
   "full_text": "Passe a bola\nPASSE, PASSE\nPASSE A BOLA\nPASSE A BOLA\nSEM PARAR\nSE VOCÊ FICAR\nCOM A BOLA\nO SEU NOME VAI CANTAR!",
   "word_count": 24,
   "words": [
@@ -25,7 +25,8 @@
       "start": 0.82,
       "end": 1.02,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "PASSE,",

@@ -2,7 +2,7 @@
   "audio_file": "livro5_let23.mp3",
   "language": "pt",
   "duration": 37.58,
-  "title": "Livro5 Let23",
+  "title": "Curiosidades - Glossauro",
   "full_text": "Curiosidades - Glossauro\nDinossauros comiam frutas?\nAna Maria – 9 anos – por e-mail\nApenas uma parte deles conseguiu se alimentar de frutas. Dinossauros viveram na Era Mesozoica, nos períodos Triássico, Jurássico e Cretáceo, por 160 milhões de anos. Frutos verdadeiros, como os que conhecemos hoje, só apareceram no final da Era Mesozoica. Assim, apenas os dinossauros do final do período Cretáceo puderam provar essas delícias. No entanto, plantas como as ginkgos e até alguns pinheiros já produziam falsos frutos adocicados e nutritivos dos quais os dinossauros podiam se alimentar.",
   "word_count": 90,
   "words": [
@@ -25,7 +25,8 @@
       "start": 1.165,
       "end": 1.64,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "Dinossauros",
@@ -571,88 +572,5 @@
     "-",
     "–",
     "–"
-  ],
-  "timestamp_issues": {
-    "words_checked": 90,
-    "total_issues": 10,
-    "errors": 2,
-    "warnings": 8,
-    "issues_by_type": {
-      "large_gap": 1,
-      "syllable_mismatch": 5,
-      "too_short": 4
-    },
-    "issues": [
-      {
-        "word_index": 14,
-        "type": "large_gap",
-        "message": "Large gap (540ms) before 'Apenas' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 26,
-        "type": "syllable_mismatch",
-        "message": "Word 'Era' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 39,
-        "type": "too_short",
-        "message": "Word 'Frutos' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 39,
-        "type": "syllable_mismatch",
-        "message": "Word 'Frutos' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 51,
-        "type": "too_short",
-        "message": "Word 'Era' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 51,
-        "type": "syllable_mismatch",
-        "message": "Word 'Era' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 60,
-        "type": "too_short",
-        "message": "Word 'período' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 60,
-        "type": "syllable_mismatch",
-        "message": "Word 'período' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 68,
-        "type": "too_short",
-        "message": "Word 'plantas' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 68,
-        "type": "syllable_mismatch",
-        "message": "Word 'plantas' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

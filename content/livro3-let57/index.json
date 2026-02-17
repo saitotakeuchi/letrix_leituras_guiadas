@@ -2,7 +2,7 @@
   "audio_file": "livro3_let57.mp3",
   "language": "pt",
   "duration": 40.99,
-  "title": "Livro3 Let57",
+  "title": "Peteca",
   "full_text": "Peteca\nADIVINHE, SE PUDER!\nVOA, TEM PENA,\nMAS PÁSSARO NÃO É...\nESSE BRINQUEDO\nNÃO TEM SEGREDO.\nALEGRE E SAPECA,\nÉ A COLORIDA PETECA.\nQUEM JOGA?\nQUEM PEGA?\nQUEM VAI CONSEGUIR?\nA MÃO ESPALMADA,\nO TOQUE LIGEIRO,\nRECEBE E DEVOLVE,\nNUM GESTO CERTEIRO.\nQUEM JOGA?\nQUEM PEGA?\nQUEM VAI CONSEGUIR?\nESPERTO E ATENTO,\nESPERE ELA VIR,\nNÃO PODE DEIXAR\nA PETECA CAIR!",
   "word_count": 61,
   "words": [
@@ -18,8 +18,7 @@
       "word": "ADIVINHE,",
       "start": 1.24,
       "end": 2.325,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "SE",
@@ -411,193 +410,5 @@
     "words_verified": 0,
     "title_verified": false
   },
-  "low_confidence_words": [],
-  "timestamp_issues": {
-    "words_checked": 61,
-    "total_issues": 25,
-    "errors": 8,
-    "warnings": 17,
-    "issues_by_type": {
-      "large_gap": 15,
-      "too_short": 6,
-      "syllable_mismatch": 4
-    },
-    "issues": [
-      {
-        "word_index": 4,
-        "type": "large_gap",
-        "message": "Very large gap (1000ms) before 'VOA,'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 5,
-        "type": "too_short",
-        "message": "Word 'TEM' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 11,
-        "type": "large_gap",
-        "message": "Very large gap (1020ms) before 'ESSE'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 16,
-        "type": "large_gap",
-        "message": "Very large gap (1160ms) before 'ALEGRE'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "large_gap",
-        "message": "Very large gap (1000ms) before 'QUEM'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 25,
-        "type": "large_gap",
-        "message": "Very large gap (900ms) before 'QUEM'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "large_gap",
-        "message": "Very large gap (960ms) before 'QUEM'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 30,
-        "type": "large_gap",
-        "message": "Very large gap (1000ms) before 'A'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 31,
-        "type": "too_short",
-        "message": "Word 'MÃO' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 33,
-        "type": "large_gap",
-        "message": "Large gap (940ms) before 'O' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 34,
-        "type": "too_short",
-        "message": "Word 'TOQUE' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 34,
-        "type": "syllable_mismatch",
-        "message": "Word 'TOQUE' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 36,
-        "type": "too_short",
-        "message": "Word 'RECEBE' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 36,
-        "type": "large_gap",
-        "message": "Large gap (1340ms) before 'RECEBE' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 36,
-        "type": "syllable_mismatch",
-        "message": "Word 'RECEBE' (3 syllables) has only 48ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 39,
-        "type": "large_gap",
-        "message": "Large gap (760ms) before 'NUM' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 42,
-        "type": "large_gap",
-        "message": "Very large gap (1000ms) before 'QUEM'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 46,
-        "type": "too_short",
-        "message": "Word 'QUEM' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 46,
-        "type": "large_gap",
-        "message": "Very large gap (1160ms) before 'QUEM'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 49,
-        "type": "large_gap",
-        "message": "Very large gap (1440ms) before 'ESPERTO'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 49,
-        "type": "syllable_mismatch",
-        "message": "Word 'ESPERTO' (3 syllables) has only 128ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 52,
-        "type": "too_short",
-        "message": "Word 'ESPERE' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 52,
-        "type": "large_gap",
-        "message": "Large gap (1160ms) before 'ESPERE' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 52,
-        "type": "syllable_mismatch",
-        "message": "Word 'ESPERE' (3 syllables) has only 28ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 55,
-        "type": "large_gap",
-        "message": "Large gap (1020ms) before 'NÃO' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  "low_confidence_words": []
 }

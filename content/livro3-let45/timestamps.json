@@ -2,7 +2,7 @@
   "audio_file": "livro3_let45.mp3",
   "language": "pt",
   "duration": 42.98,
-  "title": "Livro3 Let45",
+  "title": "Como as aves escutam se elas não têm orelhas?",
   "full_text": "Como as aves escutam se elas não têm orelhas?\nNENHUMA ESPÉCIE DE AVE POSSUI ORELHAS, MAS TODAS TÊM OUVIDOS QUE FUNCIONAM MUITO BEM. AS AVES QUE MELHOR ESCUTAM SÃO AS CORUJAS. EXISTE ATÉ MESMO UMA ESPÉCIE CHAMADA CORUJA-ORELHUDA, QUE RECEBE ESSE NOME POR TER DOIS TUFOS DE PENAS NA CABEÇA. MAS O QUE REALIZA MUITO BEM A FUNÇÃO DAS ORELHAS É O CÍRCULO DE PENAS QUE ELAS TÊM NA FACE, CHAMADO DISCO FACIAL: ELE CAPTA O SOM E LEVA ATÉ OS OUVIDOS. ALIÁS, OS OUVIDOS NUNCA ESTÃO NA MESMA DIREÇÃO: O LADO ESQUERDO É VOLTADO PARA BAIXO, E O DIREITO, PARA CIMA, DE MODO A CAPTAR TODOS OS RUÍDOS DO AMBIENTE.",
   "word_count": 111,
   "words": [
@@ -24,44 +24,51 @@
       "word": "aves",
       "start": 0.9,
       "end": 0.908,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "escutam",
       "start": 0.91,
       "end": 1.465,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "se",
       "start": 1.465,
       "end": 1.745,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "elas",
       "start": 1.745,
       "end": 2.105,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "não",
       "start": 2.105,
       "end": 2.265,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "têm",
       "start": 2.265,
       "end": 2.485,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "orelhas?",
       "start": 2.485,
       "end": 2.96,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "NENHUMA",

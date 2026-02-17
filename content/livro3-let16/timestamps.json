@@ -2,7 +2,7 @@
   "audio_file": "livro3_let16.mp3",
   "language": "pt",
   "duration": 13.54,
-  "title": "Livro3 Let16",
+  "title": "Adivinha",
   "full_text": "Adivinha\nADIVINHA UM MAR QUE FAZ QÜEM-QÜEM\nE DE QUEM SE OUVE O ECO\nVAMOS, ME DIZ DEPRESSA\nNÃO É PATO, É…\nMARRECO",
   "word_count": 23,
   "words": [
@@ -18,8 +18,7 @@
       "word": "ADIVINHA",
       "start": 2.3,
       "end": 2.308,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "UM",

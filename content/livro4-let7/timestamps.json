@@ -2,7 +2,7 @@
   "audio_file": "livro4_let7.mp3",
   "language": "pt",
   "duration": 10.6,
-  "title": "Livro4 Let7",
+  "title": "No nome Luana",
   "full_text": "No nome Luana\nNO NOME LUANA MORA A LUA E MORA A ANA,\nMORAM TAMBÉM O LUAN E O ALAN\nE UM PASSARINHO CHAMADO ANU,\nQUE ANUNCIA CHUVA E COME BANANA.",
   "word_count": 31,
   "words": [
@@ -25,7 +25,8 @@
       "start": 0.525,
       "end": 1.0,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "NO",

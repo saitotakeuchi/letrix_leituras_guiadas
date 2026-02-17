@@ -2,7 +2,7 @@
   "audio_file": "livro3_let69.mp3",
   "language": "pt",
   "duration": 76.67,
-  "title": "Livro3 Let69",
+  "title": "Fim do mistério: zoológico na Inglaterra confirma que urso chinês é real e não um humano fantasiado",
   "full_text": "Fim do mistério: zoológico na Inglaterra confirma que urso chinês é real e não um humano fantasiado\nFIM DO MISTÉRIO: ZOOLÓGICO NA INGLATERRA CONFIRMA QUE URSO CHINÊS É REAL E NÃO UM HUMANO FANTASIADO\nIMAGENS DE UM URSO-MALAIO NA CHINA REPERCUTIRAM NAS REDES SOCIAIS, ONDE DIVERSAS SUPOSIÇÕES SOBRE O ANIMAL FORAM FEITAS\nMarina Toledo da CNN, em São Paulo 02/08/2023 às 09h50 | Atualizado 06/08/2023 às 07:47\nUMA ATRAÇÃO DO ZOOLÓGICO DE HANGZHOU, NA CHINA, GEROU DÚVIDAS E QUESTIONAMENTOS NOS INTERNAUTAS, LEVANDO A SUPOSIÇÕES DE QUE SE TRATAVA DE UM HOMEM FANTASIADO DE URSO. O LOCAL NEGOU A TEORIA, AFIRMANDO QUE É UM ANIMAL DA ESPÉCIE URSO-MALAIO – TAMBÉM CONHECIDO COMO URSO-DO-SOL.\nCOM A REPERCUSSÃO DO CASO, UM ZOOLÓGICO DA INGLATERRA DIVULGOU IMAGENS DE UM DOS SEUS URSOS-MALAIOS. [...]\n“PODEMOS CONFIRMAR QUE KYRA É UM URSO-DO-SOL”, DIZ A PUBLICAÇÃO.\nNAS REDES SOCIAIS, O ZOOLÓGICO DE HANGZHOU COMPARTILHOU IMAGENS DO ANIMAL DIZENDO QUE AS PESSOAS SE PERGUNTAM SE É UM URSO DE VERDADE OU APENAS ALGUÉM DISFARÇADO.\nSEGUNDO O LOCAL, OS URSOS-MALAIOS SÃO A MENOR ESPÉCIE “DE TODOS OS TEMPOS”",
   "word_count": 179,
   "words": [
@@ -24,92 +24,107 @@
       "word": "mistério:",
       "start": 0.605,
       "end": 1.18,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "zoológico",
       "start": 1.52,
       "end": 2.125,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "na",
       "start": 2.125,
       "end": 2.385,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "Inglaterra",
       "start": 2.385,
       "end": 2.925,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "confirma",
       "start": 2.925,
       "end": 3.385,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "que",
       "start": 3.385,
       "end": 3.665,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "urso",
       "start": 3.665,
       "end": 3.941,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "chinês",
       "start": 3.951,
       "end": 4.099,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "é",
       "start": 4.101,
       "end": 4.249,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "real",
       "start": 4.251,
       "end": 4.399,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "e",
       "start": 4.401,
       "end": 4.549,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "não",
       "start": 4.551,
       "end": 4.699,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "um",
       "start": 4.701,
       "end": 4.849,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "humano",
       "start": 4.851,
       "end": 4.999,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "fantasiado",
       "start": 5.001,
       "end": 5.149,
       "confidence": 0.3,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "FIM",

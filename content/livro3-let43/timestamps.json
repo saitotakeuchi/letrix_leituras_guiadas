@@ -2,7 +2,7 @@
   "audio_file": "livro3_let43.mp3",
   "language": "pt",
   "duration": 43.92,
-  "title": "Livro3 Let43",
+  "title": "Os vilões do oceano",
   "full_text": "Os vilões do oceano\nSOL, AREIA, DIVERSÃO! OLHANDO PARA A ÁGUA TUDO PARECE PERFEITO, MAS LÁ NO FUNDO (OU TAMBÉM NO RASO!) HÁ ALGO QUE VOCÊ PRECISA SABER: ALGUNS VILÕES ESTÃO AMEAÇANDO O OCEANO! [...]\nA POLUIÇÃO DO OCEANO É UM PROBLEMA, POR VEZES, INVISÍVEL. TEM GENTE QUE NEM ACREDITA QUE SEJA TÃO GRAVE PORQUE SE PERGUNTA: SE O OCEANO ESTÁ TÃO POLUÍDO, COMO EXISTEM TANTAS PRAIAS PARADISÍACAS, SEM QUALQUER SOMBRA DE LIXO?\n[...] COM A ÁGUA SE MOVIMENTANDO O TEMPO TODO, O QUE OCORRE EM UMA REGIÃO MUITO PROVAVELMENTE SE ESPALHARÁ PARA OUTRAS, PORQUE AS CORRENTES PODEM LEVAR PARA GRANDES DISTÂNCIAS TANTO ANIMAIS MARINHOS QUANTO LIXO HUMANO [...]",
   "word_count": 109,
   "words": [
@@ -24,14 +24,16 @@
       "word": "do",
       "start": 0.825,
       "end": 1.75,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "oceano",
       "start": 1.76,
       "end": 1.96,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "SOL,",

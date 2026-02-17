@@ -2,7 +2,7 @@
   "audio_file": "livro3_let11.mp3",
   "language": "pt",
   "duration": 12.54,
-  "title": "Livro3 Let11",
+  "title": "Quem quiser saber meu nome",
   "full_text": "Quem quiser saber meu nome\nQUEM QUISER SABER MEU NOME,\nDÊ UMA VOLTA NO JARDIM;\nQUE MEU NOME ESTÁ ESCRITO\nNUMA FOLHA DE JASMIM.",
   "word_count": 24,
   "words": [
@@ -24,20 +24,23 @@
       "word": "saber",
       "start": 0.785,
       "end": 1.165,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "meu",
       "start": 1.165,
       "end": 1.485,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "nome",
       "start": 1.485,
       "end": 1.78,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "QUEM",

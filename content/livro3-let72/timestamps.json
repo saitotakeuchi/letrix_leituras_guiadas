@@ -2,7 +2,7 @@
   "audio_file": "livro3_let72.mp3",
   "language": "pt",
   "duration": 49.39,
-  "title": "Livro3 Let72",
+  "title": "Os viajantes e o urso",
   "full_text": "Os viajantes e o urso\nDOIS AMIGOS VIAJAVAM JUNTOS POR UM TRECHO DO CAMINHO QUANDO UM URSO APARECEU-LHES DE REPENTE. UM DELES SUBIU BEM ALTO EM UMA ÁRVORE E LÁ SE ESCONDEU, E O OUTRO, A PONTO DE SER APANHADO, DEIXOU-SE CAIR NO CHÃO E FINGIU-SE DE MORTO. O URSO APROXIMOU DELE O FOCINHO E O CHEIROU DE TODOS OS LADOS, ENQUANTO ELE RETEVE A RESPIRAÇÃO, POIS DIZEM QUE O URSO NÃO TOCA EM ANIMAL MORTO. DEPOIS QUE O URSO SE AFASTOU, O HOMEM QUE ESTAVA NA ÁRVORE DESCEU E QUIS SABER O QUE O URSO LHE HAVIA DITO AO OUVIDO. E O OUTRO RESPONDEU: “ELE ME ACONSELHOU A NÃO MAIS VIAJAR, DAQUI PARA A FRENTE, COM OS AMIGOS QUE FOGEM NA HORA DO PERIGO”.\nMORAL: A FÁBULA MOSTRA QUE AS DESGRAÇAS PÕEM À PROVA OS VERDADEIROS AMIGOS.",
   "word_count": 138,
   "words": [
@@ -24,20 +24,23 @@
       "word": "e",
       "start": 1.005,
       "end": 1.325,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "o",
       "start": 1.325,
       "end": 1.63,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "urso",
       "start": 1.64,
       "end": 1.84,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "DOIS",

@@ -2,7 +2,7 @@
   "audio_file": "livro3_let37.mp3",
   "language": "pt",
   "duration": 15.5,
-  "title": "Livro3 Let37",
+  "title": "Lamento à beira-mar",
   "full_text": "Lamento à beira-mar\nQUEM GOSTA DE CAFÉ ADOÇADO COM AREIA,\nUMA PITADA DE SAL NO CHÁ QUE VAI TOMAR,\nSABOR DE PEIXE NO OVO ESTALADO – NÃO RECEIA\nAS LANCHONETES JUNTO AO MAR.",
   "word_count": 33,
   "words": [
@@ -25,7 +25,8 @@
       "start": 0.965,
       "end": 1.22,
       "confidence": 0.625,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "QUEM",

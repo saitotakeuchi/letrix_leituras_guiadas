@@ -2,7 +2,7 @@
   "audio_file": "livro3_let53.mp3",
   "language": "pt",
   "duration": 59.76,
-  "title": "Livro3 Let53",
+  "title": "O gato e a raposa",
   "full_text": "O gato e a raposa\nO GATO E A RAPOSA IAM POR UM CAMINHO, CONVERSANDO. CONTARAM MUITA LOROTA, MUITA PROSA E, AFINAL DE CONTAS, FALARAM NO CACHORRO, QUE ERA INIMIGO DE AMBOS. AÍ, DISSE A RAPOSA:\n— QUAL O QUÊ! EU LÁ TENHO MEDO DE CACHORRO NADA! PARA ME LIVRAR DELE, EU TENHO MIL EXPEDIENTES.\n— POIS EU SÓ TENHO UM, DISSE O GATO. NISSO APARECE AO LONGO O CACHORRO, QUE VINHA DANADO, FAREJANDO A RAPOSA. O GATO PULOU NUM PÉ DE ÁRVORE E FICOU LÁ EM CIMA [...] DIZENDO À RAPOSA:\n — O MEU É ESTE.\nA RAPOSA, COITADA, METEU O PÉ NO MUNDO. VIROU, MEXEU, FOI, VEIO, ENTROU EM BURACO, SAIU DE BURACO, ESCONDEU-SE AQUI, ESCONDEU-SE ALI, FEZ MIL REMONDIOLAS, ATÉ QUE, JÁ MORTA DE CANSAÇO, O CACHORRO PULOU-LHE NO CACHAÇO E ESTRAÇALHOU-A.",
   "word_count": 135,
   "words": [
@@ -24,20 +24,23 @@
       "word": "e",
       "start": 0.685,
       "end": 0.925,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "a",
       "start": 0.925,
       "end": 1.47,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "raposa",
       "start": 1.48,
       "end": 1.68,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "O",

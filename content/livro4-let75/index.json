@@ -2,7 +2,7 @@
   "audio_file": "livro4_let75.mp3",
   "language": "pt",
   "duration": 20.6,
-  "title": "Livro4 Let75",
+  "title": "Ipê-roxo",
   "full_text": "Ipê-roxo\nO IPÊ\nFOI PARA A CIDADE.\nO CABURÉ\nFICOU COM SAUDADE.\nO IPÊ\nENFEITOU A AVENIDA.\nO CABURÉ\nDESANIMOU DA VIDA.\nO IPÊ\nVIVE NA RUA.\nO CABURÉ CHORA PARA A LUA.\nO IPÊ\nVAI VOLTAR!\nO CABURÉ\nVAI SE ALEGRAR!\nO IPÊ CRÊ,\nO CABURÉ TEM FÉ!",
   "word_count": 49,
   "words": [
@@ -18,8 +18,7 @@
       "word": "O",
       "start": 1.48,
       "end": 1.478,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "IPÊ",
@@ -342,74 +341,5 @@
     "IPÊ",
     "IPÊ",
     "IPÊ"
-  ],
-  "timestamp_issues": {
-    "words_checked": 49,
-    "total_issues": 8,
-    "errors": 3,
-    "warnings": 5,
-    "issues_by_type": {
-      "too_short": 4,
-      "large_gap": 1,
-      "syllable_mismatch": 3
-    },
-    "issues": [
-      {
-        "word_index": 1,
-        "type": "too_short",
-        "message": "Word 'O' has very short duration (-2ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 1,
-        "type": "large_gap",
-        "message": "Large gap (660ms) before 'O' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 2,
-        "type": "too_short",
-        "message": "Word 'IPÊ' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 2,
-        "type": "syllable_mismatch",
-        "message": "Word 'IPÊ' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "too_short",
-        "message": "Word 'IPÊ' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "syllable_mismatch",
-        "message": "Word 'IPÊ' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 43,
-        "type": "too_short",
-        "message": "Word 'IPÊ' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 43,
-        "type": "syllable_mismatch",
-        "message": "Word 'IPÊ' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

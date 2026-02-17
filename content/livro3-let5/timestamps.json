@@ -2,7 +2,7 @@
   "audio_file": "livro3_let5.mp3",
   "language": "pt",
   "duration": 13.8,
-  "title": "Livro3 Let5",
+  "title": "Não falo, mas sempre explico",
   "full_text": "Não falo, mas sempre explico\nNÃO FALO, MAS SEMPRE EXPLICO\nSOU UM AMIGO CALADO\nABERTO, TUDO LHE DIGO:\nGUARDO SEGREDOS, FECHADO.",
   "word_count": 21,
   "words": [
@@ -24,20 +24,23 @@
       "word": "mas",
       "start": 1.16,
       "end": 1.325,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "sempre",
       "start": 1.325,
       "end": 1.625,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "explico",
       "start": 1.625,
       "end": 2.38,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "NÃO",
@@ -72,19 +75,19 @@
     },
     {
       "word": "SOU",
-      "start": 6.38,
+      "start": 6.18,
       "end": 6.468,
       "confidence": 1.0
     },
     {
       "word": "UM",
       "start": 6.47,
-      "end": 6.93,
+      "end": 6.63,
       "confidence": 1.0
     },
     {
       "word": "AMIGO",
-      "start": 6.94,
+      "start": 6.65,
       "end": 6.988,
       "confidence": 1.0
     },
@@ -97,7 +100,7 @@
     },
     {
       "word": "ABERTO,",
-      "start": 8.98,
+      "start": 8.68,
       "end": 9.18,
       "confidence": 1.0
     },

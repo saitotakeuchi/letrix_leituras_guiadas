@@ -2,7 +2,7 @@
   "audio_file": "livro4_let57.mp3",
   "language": "pt",
   "duration": 11.96,
-  "title": "Livro4 Let57",
+  "title": "O jacaré e a lagartixa",
   "full_text": "O jacaré e a lagartixa\nO JACARÉ\nÉ UMA\nLA...\nGAR...\nTI...\nI...\nI...\nI...\nI...\nI...\nXA\nQUE\nESPICHA...\nÉ OU NÃO É?",
   "word_count": 24,
   "words": [
@@ -24,20 +24,23 @@
       "word": "e",
       "start": 0.605,
       "end": 0.805,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "a",
       "start": 0.805,
       "end": 1.025,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "lagartixa",
       "start": 1.025,
       "end": 1.56,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "O",
@@ -192,45 +195,5 @@
     "I...",
     "I...",
     "XA"
-  ],
-  "timestamp_issues": {
-    "words_checked": 24,
-    "total_issues": 4,
-    "errors": 2,
-    "warnings": 2,
-    "issues_by_type": {
-      "too_short": 2,
-      "too_long": 2
-    },
-    "issues": [
-      {
-        "word_index": 5,
-        "type": "too_short",
-        "message": "Word 'O' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 17,
-        "type": "too_long",
-        "message": "Word 'XA' has unusually long duration (2240ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "too_long",
-        "message": "Word 'QUE' has unusually long duration (2220ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "too_short",
-        "message": "Word 'É' has very short duration (18ms)",
-        "severity": "error",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

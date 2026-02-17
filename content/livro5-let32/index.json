@@ -2,7 +2,7 @@
   "audio_file": "livro5_let32.mp3",
   "language": "pt",
   "duration": 37.2,
-  "title": "Livro5 Let32",
+  "title": "O papagaio que faz CRÁ-CRÁ-CRÁ",
   "full_text": "O papagaio que faz CRÁ-CRÁ-CRÁ\nO PAPAGAIO QUE FAZ “CRÁ, CRÁ, CRÁ” ANTIGAMENTE FOI UM MENINO MUITO GULOSO. TINHA O COSTUME DE ENGOLIR A COMIDA SEM MASTIGÁ-LA.\nUMA VEZ SUA MÃE ACHOU FRUTOS DO BATO-I, “MANGABEIRA”, E ASSOU-OS NA CINZA. O FILHO COMEU TIRANDO-OS DIRETAMENTE DO FOGO. SÃO FRUTOS CUJA POLPA VISCOSA SE MANTÉM CALIDÍSSIMA POR MUITO TEMPO. COMENDO-OS TÃO QUENTES, SAPECARAM-LHE A GARGANTA, E O MENINO COMEÇOU A FAZER “CRÁ, CRÁ, CRÁ”, ESFORÇANDO-SE POR VOMITAR OS FRUTOS COMIDOS. CRESCERAM-LHE AS ASAS E AS PENAS; E TORNOU-SE UM PAPAGAIO QUE ATÉ HOJE CONTINUA FAZENDO “CRÁ, CRÁ, CRÁ”.",
   "word_count": 97,
   "words": [
@@ -24,20 +24,23 @@
       "word": "que",
       "start": 0.805,
       "end": 1.025,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "faz",
       "start": 1.025,
       "end": 1.38,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "CRÁ-CRÁ-CRÁ",
       "start": 2.2,
       "end": 2.4,
       "confidence": 0.333,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "O",
@@ -618,166 +621,5 @@
     "SAPECARAM-LHE",
     "CRESCERAM-LHE",
     "TORNOU-SE"
-  ],
-  "timestamp_issues": {
-    "words_checked": 97,
-    "total_issues": 21,
-    "errors": 12,
-    "warnings": 9,
-    "issues_by_type": {
-      "large_gap": 1,
-      "too_short": 11,
-      "syllable_mismatch": 8,
-      "round_timestamps": 1
-    },
-    "issues": [
-      {
-        "word_index": 4,
-        "type": "large_gap",
-        "message": "Large gap (820ms) before 'CRÁ-CRÁ-CRÁ' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 8,
-        "type": "too_short",
-        "message": "Word 'FAZ' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 11,
-        "type": "too_short",
-        "message": "Word 'CRÁ”' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 15,
-        "type": "too_short",
-        "message": "Word 'MENINO' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 15,
-        "type": "syllable_mismatch",
-        "message": "Word 'MENINO' (3 syllables) has only 28ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "too_short",
-        "message": "Word 'TINHA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "syllable_mismatch",
-        "message": "Word 'TINHA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "round_timestamps",
-        "message": "Word 'TINHA' has suspiciously round timestamps (7.5-7.5)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 24,
-        "type": "too_short",
-        "message": "Word 'COMIDA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 24,
-        "type": "syllable_mismatch",
-        "message": "Word 'COMIDA' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "too_short",
-        "message": "Word 'UMA' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "syllable_mismatch",
-        "message": "Word 'UMA' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 41,
-        "type": "too_short",
-        "message": "Word 'FILHO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 41,
-        "type": "syllable_mismatch",
-        "message": "Word 'FILHO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 47,
-        "type": "too_short",
-        "message": "Word 'SÃO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 53,
-        "type": "too_short",
-        "message": "Word 'MANTÉM' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 53,
-        "type": "syllable_mismatch",
-        "message": "Word 'MANTÉM' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 69,
-        "type": "too_short",
-        "message": "Word 'FAZER' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 69,
-        "type": "syllable_mismatch",
-        "message": "Word 'FAZER' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 77,
-        "type": "too_short",
-        "message": "Word 'FRUTOS' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 77,
-        "type": "syllable_mismatch",
-        "message": "Word 'FRUTOS' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

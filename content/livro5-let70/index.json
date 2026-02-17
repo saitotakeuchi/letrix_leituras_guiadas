@@ -2,7 +2,7 @@
   "audio_file": "livro5_let70.mp3",
   "language": "pt",
   "duration": 10.6,
-  "title": "Livro5 Let70",
+  "title": "Irerê",
   "full_text": "Irerê\nGOSTA DE ASSOBIAR ENQUANTO VOA, PRINCIPALMENTE NAS NOITES DE CHUVA. COME PLANTAS, INSETOS AQUÁTICOS E TAMBÉM SEMENTES. EXISTE EM TODO O BRASIL.",
   "word_count": 23,
   "words": [
@@ -18,8 +18,7 @@
       "word": "GOSTA",
       "start": 1.16,
       "end": 1.168,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "DE",
@@ -163,88 +162,5 @@
     "words_verified": 0,
     "title_verified": false
   },
-  "low_confidence_words": [],
-  "timestamp_issues": {
-    "words_checked": 23,
-    "total_issues": 10,
-    "errors": 5,
-    "warnings": 5,
-    "issues_by_type": {
-      "too_short": 4,
-      "large_gap": 2,
-      "syllable_mismatch": 4
-    },
-    "issues": [
-      {
-        "word_index": 1,
-        "type": "too_short",
-        "message": "Word 'GOSTA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 1,
-        "type": "large_gap",
-        "message": "Large gap (580ms) before 'GOSTA' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 1,
-        "type": "syllable_mismatch",
-        "message": "Word 'GOSTA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 11,
-        "type": "too_short",
-        "message": "Word 'COME' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 11,
-        "type": "syllable_mismatch",
-        "message": "Word 'COME' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "too_short",
-        "message": "Word 'INSETOS' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "large_gap",
-        "message": "Large gap (520ms) before 'INSETOS' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "syllable_mismatch",
-        "message": "Word 'INSETOS' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "too_short",
-        "message": "Word 'EXISTE' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "syllable_mismatch",
-        "message": "Word 'EXISTE' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      }
-    ]
-  }
+  "low_confidence_words": []
 }

@@ -2,7 +2,7 @@
   "audio_file": "livro4_let15.mp3",
   "language": "pt",
   "duration": 11.07,
-  "title": "Livro4 Let15",
+  "title": "Borbolonça",
   "full_text": "Borbolonça\nA BORBOLONÇA,\nSE QUISER, PPODE VOAR HORAS SEM\nPARAR EM NENHUMA FLOR. TAMBÉM,\nCOM SUA MORDIDA VORAZ, JÁ\nCOMEU PARA O ALMOÇO,\nPARA O LANCHE A PARA O JANTAR!",
   "word_count": 30,
   "words": [
@@ -18,8 +18,7 @@
       "word": "A",
       "start": 1.38,
       "end": 1.448,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "BORBOLONÇA,",

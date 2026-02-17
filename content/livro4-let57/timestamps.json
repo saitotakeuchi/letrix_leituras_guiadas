@@ -2,7 +2,7 @@
   "audio_file": "livro4_let57.mp3",
   "language": "pt",
   "duration": 11.96,
-  "title": "Livro4 Let57",
+  "title": "O jacaré e a lagartixa",
   "full_text": "O jacaré e a lagartixa\nO JACARÉ\nÉ UMA\nLA...\nGAR...\nTI...\nI...\nI...\nI...\nI...\nI...\nXA\nQUE\nESPICHA...\nÉ OU NÃO É?",
   "word_count": 24,
   "words": [
@@ -24,20 +24,23 @@
       "word": "e",
       "start": 0.605,
       "end": 0.805,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "a",
       "start": 0.805,
       "end": 1.025,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "lagartixa",
       "start": 1.025,
       "end": 1.56,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "O",

@@ -2,7 +2,7 @@
   "audio_file": "livro4_let44.mp3",
   "language": "pt",
   "duration": 24.76,
-  "title": "Livro4 Let44",
+  "title": "Era uma vez um barquinho",
   "full_text": "Era uma vez um barquinho\nERA UMA VEZ\nUM BARQUINHO\nQUE ANDAVA\nSEMPRE A NAVEGAR\nPASSARAM-SE\nUMA\nDUAS\nTRÊS\nQUATRO\nCINCO\nSEIS\nSETE\nOITO\nNOVE\nDEZ SEMANAS\nE O BARQUINHO\nSEMPRE A NAVEGAR\nSE ESTA HISTÓRIA\nPARECE MUITO CURTA,\nPODEMOS RECOMEÇAR\nERA UMA VEZ\nUM BARQUINHO...",
   "word_count": 46,
   "words": [
@@ -24,20 +24,23 @@
       "word": "vez",
       "start": 0.58,
       "end": 0.728,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "um",
       "start": 0.73,
       "end": 1.025,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "barquinho",
       "start": 1.025,
       "end": 1.36,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "ERA",

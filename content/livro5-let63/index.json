@@ -2,7 +2,7 @@
   "audio_file": "livro5_let63.mp3",
   "language": "pt",
   "duration": 28.18,
-  "title": "Livro5 Let63",
+  "title": "O pássaro e a nuvem",
   "full_text": "O pássaro e a nuvem\n— OLÁ, NUVEM, BOM DIA!\n — OLÁ, PÁSSARO, TCHAU!\n— EI, ESPERE, AONDE VAI?\n— AONDE ME LEVAR O VENTO.\n— MAS É SEMPRE ASSIM?\n— SIM, O VENTO MANDA EM MIM.\n— MAS ISSO NÃO É JUSTO!\n— POR MIM, ESTÁ TUDO CERTO.\n— MAS OLHE AQUELE MORRO, LÁ PERTO!\n— SIM, PÁSSARO, NÃO SE ASSUSTE.\n— NELE VOCÊ VAI BATER!\n— ENTÃO COMEÇAREI A CHOVER.\n— E TUDO FLORIRÁ NUM SEGUNDO...\n— SIM, CARREGO NA BARRIGA A MELHOR COISA DO MUNDO.",
   "word_count": 88,
   "words": [
@@ -24,20 +24,23 @@
       "word": "e",
       "start": 0.685,
       "end": 0.905,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "a",
       "start": 0.905,
       "end": 1.25,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "nuvem",
       "start": 1.26,
       "end": 1.328,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "—",
@@ -582,102 +585,5 @@
     "—",
     "—",
     "—"
-  ],
-  "timestamp_issues": {
-    "words_checked": 88,
-    "total_issues": 12,
-    "errors": 4,
-    "warnings": 8,
-    "issues_by_type": {
-      "too_short": 6,
-      "syllable_mismatch": 5,
-      "round_timestamps": 1
-    },
-    "issues": [
-      {
-        "word_index": 4,
-        "type": "too_short",
-        "message": "Word 'nuvem' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 4,
-        "type": "syllable_mismatch",
-        "message": "Word 'nuvem' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 24,
-        "type": "too_short",
-        "message": "Word 'VENTO.' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 24,
-        "type": "syllable_mismatch",
-        "message": "Word 'VENTO.' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 36,
-        "type": "too_short",
-        "message": "Word 'MIM.' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 63,
-        "type": "too_short",
-        "message": "Word 'NELE' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 63,
-        "type": "syllable_mismatch",
-        "message": "Word 'NELE' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 71,
-        "type": "too_short",
-        "message": "Word 'CHOVER.' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 71,
-        "type": "syllable_mismatch",
-        "message": "Word 'CHOVER.' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 84,
-        "type": "too_short",
-        "message": "Word 'MELHOR' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 84,
-        "type": "syllable_mismatch",
-        "message": "Word 'MELHOR' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 84,
-        "type": "round_timestamps",
-        "message": "Word 'MELHOR' has suspiciously round timestamps (26.5-26.5)",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

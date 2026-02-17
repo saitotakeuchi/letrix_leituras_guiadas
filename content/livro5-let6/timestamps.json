@@ -2,7 +2,7 @@
   "audio_file": "livro5_let6.mp3",
   "language": "pt",
   "duration": 31.76,
-  "title": "Livro5 Let6",
+  "title": "Ana",
   "full_text": "Ana\n3.089.858 pessoas\nA origem do nome vem do hebraico Hannah, que significa “graciosa”. A etimologia explica a predileção brasileira: segundo o censo de 2010, esse é o 3º nome mais comum no Brasil, considerando os dois sexos, e o 2º entre as mulheres (só perde para Maria). Por aqui, geralmente é um nome composto (Ana Luíza, Ana Maria...), mas a pesquisa do IBGE considerou apenas o primeiro nome para levantar o número de registros. [...]",
   "word_count": 76,
   "words": [
@@ -18,8 +18,7 @@
       "word": "3.089.858",
       "start": 2.36,
       "end": 4.025,
-      "confidence": 0.429,
-      "is_title": true
+      "confidence": 0.429
     },
     {
       "word": "pessoas",

@@ -2,7 +2,7 @@
   "audio_file": "livro5_let70.mp3",
   "language": "pt",
   "duration": 10.6,
-  "title": "Livro5 Let70",
+  "title": "Irerê",
   "full_text": "Irerê\nGOSTA DE ASSOBIAR ENQUANTO VOA, PRINCIPALMENTE NAS NOITES DE CHUVA. COME PLANTAS, INSETOS AQUÁTICOS E TAMBÉM SEMENTES. EXISTE EM TODO O BRASIL.",
   "word_count": 23,
   "words": [
@@ -18,8 +18,7 @@
       "word": "GOSTA",
       "start": 1.16,
       "end": 1.168,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "DE",

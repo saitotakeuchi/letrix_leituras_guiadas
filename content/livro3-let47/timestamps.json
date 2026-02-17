@@ -2,7 +2,7 @@
   "audio_file": "livro3_let47.mp3",
   "language": "pt",
   "duration": 32.44,
-  "title": "Livro3 Let47",
+  "title": "Papo de gato",
   "full_text": "Papo de gato\nMIAU, PURR, HISS, UAW! EIS ALGUNS EXEMPLOS DO VOCABULÁRIO FELINO. USANDO COMPUTADORES, ZOÓLOGOS NORTE-AMERICANOS DESCOBRIRAM QUE O TRADICIONAL “MIAU” É UMA AGLUTINAÇÃO DE “MIU” E “AAU”. O SOM “MIU” É UMA ESPÉCIE DE OBSERVAÇÃO SEM AGRESSIVIDADE, O AAU É SOM DE FRUSTRAÇÃO, LIGEIRAMENTE AGRESSIVO. A COMBINAÇÃO DE AMBOS SIGNIFICA ALGO COMO “OI, TUDO BEM? ESTOU A FIM DE COMER, DE PREFERÊNCIA ‘JÁ’.”",
   "word_count": 65,
   "words": [
@@ -25,7 +25,8 @@
       "start": 1.24,
       "end": 1.44,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "MIAU,",

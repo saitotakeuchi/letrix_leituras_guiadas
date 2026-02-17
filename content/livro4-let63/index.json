@@ -2,7 +2,7 @@
   "audio_file": "livro4_let63.mp3",
   "language": "pt",
   "duration": 44.84,
-  "title": "Livro4 Let63",
+  "title": "A casa tem nome",
   "full_text": "A casa tem nome\nNA CASA DE TODOS OS NINHOS,\nQUANDO O SOL FOGE PARA LONGE\nE O CÉU FICA VERMELHO,\nQUANDO APARECE\nA PRIMEIRA ESTRELA NO HORIZONTE,\nNA HORA EXATA\nEM QUE NÃO É NOITE NEM DIA,\nA CORUJA-ORELHUDA ANUNCIA:\nUUUUU! ATENÇÃO, BICHARADA!\nQUEM JÁ SE RECOLHE\nE QUEM ACORDA AGORA,\nQUEM VOA\nE QUEM CAMINHA,\nQUEM É DO AR,\nDA LAGOA E DO MAR!\nUUUUU! ATENÇÃO, ÁRVORES,\nCIPÓS, ALGAS, ERVAS E MUDINHAS!\nO NOSSO LAR TEM UM NOME\nBEM FÁCIL DE SOLETRAR,\nBEM GOSTOSO DE MASTIGAR:\nRES-TIN-GA,\nUUUUUUU!\nE ATÉ QUEM AINDA ESTÁ DENTRO\nDO OVO ESCUTA\nE RESPONDE:\nRES-TIN-GA,\nUUUUUUU!",
   "word_count": 103,
   "words": [
@@ -24,14 +24,16 @@
       "word": "tem",
       "start": 0.525,
       "end": 0.765,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "nome",
       "start": 0.765,
       "end": 1.08,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "NA",
@@ -677,131 +679,5 @@
     "UUUUUUU!",
     "RES-TIN-GA,",
     "UUUUUUU!"
-  ],
-  "timestamp_issues": {
-    "words_checked": 103,
-    "total_issues": 16,
-    "errors": 8,
-    "warnings": 8,
-    "issues_by_type": {
-      "too_short": 8,
-      "large_gap": 5,
-      "syllable_mismatch": 2,
-      "round_timestamps": 1
-    },
-    "issues": [
-      {
-        "word_index": 10,
-        "type": "too_short",
-        "message": "Word 'QUANDO' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 10,
-        "type": "large_gap",
-        "message": "Large gap (520ms) before 'QUANDO' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 10,
-        "type": "syllable_mismatch",
-        "message": "Word 'QUANDO' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 12,
-        "type": "too_short",
-        "message": "Word 'SOL' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "too_short",
-        "message": "Word 'CÉU' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 22,
-        "type": "round_timestamps",
-        "message": "Word 'APARECE' has suspiciously round timestamps (7.0-7.5)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 41,
-        "type": "large_gap",
-        "message": "Very large gap (980ms) before 'UUUUU!'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 44,
-        "type": "too_short",
-        "message": "Word 'QUEM' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 55,
-        "type": "too_short",
-        "message": "Word 'QUEM' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 57,
-        "type": "too_short",
-        "message": "Word 'QUEM' has very short duration (-2ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 69,
-        "type": "large_gap",
-        "message": "Large gap (620ms) before 'CIPÓS,' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 71,
-        "type": "too_short",
-        "message": "Word 'ERVAS' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 71,
-        "type": "syllable_mismatch",
-        "message": "Word 'ERVAS' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 80,
-        "type": "too_short",
-        "message": "Word 'BEM' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 89,
-        "type": "large_gap",
-        "message": "Large gap (840ms) before 'UUUUUUU!' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 102,
-        "type": "large_gap",
-        "message": "Large gap (1880ms) before 'UUUUUUU!' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

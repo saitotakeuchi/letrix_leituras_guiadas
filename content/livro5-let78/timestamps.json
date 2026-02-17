@@ -2,7 +2,7 @@
   "audio_file": "livro5_let78.mp3",
   "language": "pt",
   "duration": 63.01,
-  "title": "Livro5 Let78",
+  "title": "O traço inconfundível de Alex Senna nas ruas de Pompeia",
   "full_text": "O traço inconfundível de Alex Senna nas ruas de Pompeia\nPor Leonor Macedo · Em 24 de outubro de 2018\n[...]\nComo você começou a grafitar? A vida na Pompeia te propiciou esse contato com a arte?\nComecei em 2004. Nessa época eu ainda não morava aqui, apenas a minha mãe. Mas eu me recordo de sempre ver os grafites nos escadões que são famosos daqui do bairro. Grandes artistas sempre passaram por aqui.\nPor que você só faz grafites em preto e branco? Quando você foi diagnosticado com daltonismo e como isso foi determinante na sua carreira?\nEu sempre soube que era daltônico, meu irmão também é. Na verdade, eu nunca tive muito apego por cor, nunca gostei de colorir, minha pegada era mais canetão, tinta nanquim, de acalcar a caneta mesmo. O que rola com o daltonismo é que eu não assimilo todos os tons, às vezes de longe eu nem diferencio, mas é só isso. Quando eu comecei a pintar na rua, eu pintava colorido, e claro, as minhas combinações eram completamente sem sentido. Nunca tive essa sensibilidade pra cor.",
   "word_count": 183,
   "words": [
@@ -24,50 +24,58 @@
       "word": "inconfundível",
       "start": 0.585,
       "end": 1.385,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "de",
       "start": 1.385,
       "end": 1.605,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "Alex",
       "start": 1.605,
       "end": 2.065,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "Senna",
       "start": 2.065,
       "end": 2.365,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "nas",
       "start": 2.365,
       "end": 2.645,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "ruas",
       "start": 2.645,
       "end": 2.885,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "de",
       "start": 2.885,
       "end": 3.245,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "Pompeia",
       "start": 3.245,
       "end": 3.54,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "Por",

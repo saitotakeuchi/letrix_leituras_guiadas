@@ -2,7 +2,7 @@
   "audio_file": "livro5_let63.mp3",
   "language": "pt",
   "duration": 28.18,
-  "title": "Livro5 Let63",
+  "title": "O pássaro e a nuvem",
   "full_text": "O pássaro e a nuvem\n— OLÁ, NUVEM, BOM DIA!\n — OLÁ, PÁSSARO, TCHAU!\n— EI, ESPERE, AONDE VAI?\n— AONDE ME LEVAR O VENTO.\n— MAS É SEMPRE ASSIM?\n— SIM, O VENTO MANDA EM MIM.\n— MAS ISSO NÃO É JUSTO!\n— POR MIM, ESTÁ TUDO CERTO.\n— MAS OLHE AQUELE MORRO, LÁ PERTO!\n— SIM, PÁSSARO, NÃO SE ASSUSTE.\n— NELE VOCÊ VAI BATER!\n— ENTÃO COMEÇAREI A CHOVER.\n— E TUDO FLORIRÁ NUM SEGUNDO...\n— SIM, CARREGO NA BARRIGA A MELHOR COISA DO MUNDO.",
   "word_count": 88,
   "words": [
@@ -24,20 +24,23 @@
       "word": "e",
       "start": 0.685,
       "end": 0.905,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "a",
       "start": 0.905,
       "end": 1.25,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "nuvem",
       "start": 1.26,
       "end": 1.328,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "—",

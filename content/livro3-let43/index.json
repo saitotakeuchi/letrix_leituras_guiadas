@@ -2,7 +2,7 @@
   "audio_file": "livro3_let43.mp3",
   "language": "pt",
   "duration": 43.92,
-  "title": "Livro3 Let43",
+  "title": "Os vilões do oceano",
   "full_text": "Os vilões do oceano\nSOL, AREIA, DIVERSÃO! OLHANDO PARA A ÁGUA TUDO PARECE PERFEITO, MAS LÁ NO FUNDO (OU TAMBÉM NO RASO!) HÁ ALGO QUE VOCÊ PRECISA SABER: ALGUNS VILÕES ESTÃO AMEAÇANDO O OCEANO! [...]\nA POLUIÇÃO DO OCEANO É UM PROBLEMA, POR VEZES, INVISÍVEL. TEM GENTE QUE NEM ACREDITA QUE SEJA TÃO GRAVE PORQUE SE PERGUNTA: SE O OCEANO ESTÁ TÃO POLUÍDO, COMO EXISTEM TANTAS PRAIAS PARADISÍACAS, SEM QUALQUER SOMBRA DE LIXO?\n[...] COM A ÁGUA SE MOVIMENTANDO O TEMPO TODO, O QUE OCORRE EM UMA REGIÃO MUITO PROVAVELMENTE SE ESPALHARÁ PARA OUTRAS, PORQUE AS CORRENTES PODEM LEVAR PARA GRANDES DISTÂNCIAS TANTO ANIMAIS MARINHOS QUANTO LIXO HUMANO [...]",
   "word_count": 109,
   "words": [
@@ -24,14 +24,16 @@
       "word": "do",
       "start": 0.825,
       "end": 1.75,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "oceano",
       "start": 1.76,
       "end": 1.96,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "SOL,",
@@ -685,222 +687,5 @@
     "[...]",
     "[...]",
     "[...]"
-  ],
-  "timestamp_issues": {
-    "words_checked": 109,
-    "total_issues": 29,
-    "errors": 14,
-    "warnings": 15,
-    "issues_by_type": {
-      "large_gap": 3,
-      "round_timestamps": 2,
-      "too_short": 12,
-      "syllable_mismatch": 12
-    },
-    "issues": [
-      {
-        "word_index": 4,
-        "type": "large_gap",
-        "message": "Large gap (980ms) before 'SOL,' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 6,
-        "type": "round_timestamps",
-        "message": "Word 'DIVERSÃO!' has suspiciously round timestamps (4.0-4.5)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 7,
-        "type": "too_short",
-        "message": "Word 'OLHANDO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 7,
-        "type": "large_gap",
-        "message": "Very large gap (1260ms) before 'OLHANDO'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 7,
-        "type": "syllable_mismatch",
-        "message": "Word 'OLHANDO' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 10,
-        "type": "too_short",
-        "message": "Word 'ÁGUA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 10,
-        "type": "syllable_mismatch",
-        "message": "Word 'ÁGUA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 17,
-        "type": "too_short",
-        "message": "Word 'FUNDO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 17,
-        "type": "syllable_mismatch",
-        "message": "Word 'FUNDO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "too_short",
-        "message": "Word 'ALGO' has very short duration (78ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "syllable_mismatch",
-        "message": "Word 'ALGO' (2 syllables) has only 78ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 28,
-        "type": "syllable_mismatch",
-        "message": "Word 'ALGUNS' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 33,
-        "type": "too_short",
-        "message": "Word 'OCEANO!' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 33,
-        "type": "syllable_mismatch",
-        "message": "Word 'OCEANO!' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 33,
-        "type": "round_timestamps",
-        "message": "Word 'OCEANO!' has suspiciously round timestamps (14.5-14.5)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 45,
-        "type": "large_gap",
-        "message": "Very large gap (1020ms) before 'TEM'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 53,
-        "type": "too_short",
-        "message": "Word 'GRAVE' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 53,
-        "type": "syllable_mismatch",
-        "message": "Word 'GRAVE' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 59,
-        "type": "too_short",
-        "message": "Word 'OCEANO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 59,
-        "type": "syllable_mismatch",
-        "message": "Word 'OCEANO' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 72,
-        "type": "too_short",
-        "message": "Word 'LIXO?' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 72,
-        "type": "syllable_mismatch",
-        "message": "Word 'LIXO?' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 76,
-        "type": "too_short",
-        "message": "Word 'ÁGUA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 76,
-        "type": "syllable_mismatch",
-        "message": "Word 'ÁGUA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 80,
-        "type": "too_short",
-        "message": "Word 'TEMPO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 80,
-        "type": "syllable_mismatch",
-        "message": "Word 'TEMPO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 82,
-        "type": "too_short",
-        "message": "Word 'O' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 84,
-        "type": "too_short",
-        "message": "Word 'OCORRE' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 84,
-        "type": "syllable_mismatch",
-        "message": "Word 'OCORRE' (3 syllables) has only 68ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

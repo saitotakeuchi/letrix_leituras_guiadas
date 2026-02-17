@@ -2,7 +2,7 @@
   "audio_file": "livro5_let9.mp3",
   "language": "pt",
   "duration": 9.64,
-  "title": "Livro5 Let9",
+  "title": "Gente tem sobrenome",
   "full_text": "Gente tem sobrenome\nTODAS AS COISAS\nTÊM NOME\nCASA, JANELA E JARDIM.\nCOISAS NÃO TÊM\nSOBRENOME,\nMAS A GENTE SIM.",
   "word_count": 20,
   "words": [
@@ -25,7 +25,8 @@
       "start": 0.705,
       "end": 1.26,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "TODAS",

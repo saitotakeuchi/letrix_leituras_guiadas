@@ -2,7 +2,7 @@
   "audio_file": "livro3_let18.mp3",
   "language": "pt",
   "duration": 22.05,
-  "title": "Livro3 Let18",
+  "title": "Tem picolé, seu José",
   "full_text": "Tem picolé, seu José\nTEM PICOLÉ, SEU JOSÉ\nÉ DE MURICI, DONA LILI\nÉ DE ABACAXI, SEU GIGI\nÉ DE COCO, SEU TINOCO\nÉ DE CAJU, DONA JUJU\nÉ DE MARACUJÁ, DONA SINHÁ\nÉ UM TREMENDÃO, SEU BRANDÃO",
   "word_count": 38,
   "words": [
@@ -24,14 +24,16 @@
       "word": "seu",
       "start": 1.28,
       "end": 1.388,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "José",
       "start": 1.39,
       "end": 1.8,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "TEM",

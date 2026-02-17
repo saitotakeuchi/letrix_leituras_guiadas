@@ -2,7 +2,7 @@
   "audio_file": "livro3_let69.mp3",
   "language": "pt",
   "duration": 76.67,
-  "title": "Livro3 Let69",
+  "title": "Fim do mistério: zoológico na Inglaterra confirma que urso chinês é real e não um humano fantasiado",
   "full_text": "Fim do mistério: zoológico na Inglaterra confirma que urso chinês é real e não um humano fantasiado\nFIM DO MISTÉRIO: ZOOLÓGICO NA INGLATERRA CONFIRMA QUE URSO CHINÊS É REAL E NÃO UM HUMANO FANTASIADO\nIMAGENS DE UM URSO-MALAIO NA CHINA REPERCUTIRAM NAS REDES SOCIAIS, ONDE DIVERSAS SUPOSIÇÕES SOBRE O ANIMAL FORAM FEITAS\nMarina Toledo da CNN, em São Paulo 02/08/2023 às 09h50 | Atualizado 06/08/2023 às 07:47\nUMA ATRAÇÃO DO ZOOLÓGICO DE HANGZHOU, NA CHINA, GEROU DÚVIDAS E QUESTIONAMENTOS NOS INTERNAUTAS, LEVANDO A SUPOSIÇÕES DE QUE SE TRATAVA DE UM HOMEM FANTASIADO DE URSO. O LOCAL NEGOU A TEORIA, AFIRMANDO QUE É UM ANIMAL DA ESPÉCIE URSO-MALAIO – TAMBÉM CONHECIDO COMO URSO-DO-SOL.\nCOM A REPERCUSSÃO DO CASO, UM ZOOLÓGICO DA INGLATERRA DIVULGOU IMAGENS DE UM DOS SEUS URSOS-MALAIOS. [...]\n“PODEMOS CONFIRMAR QUE KYRA É UM URSO-DO-SOL”, DIZ A PUBLICAÇÃO.\nNAS REDES SOCIAIS, O ZOOLÓGICO DE HANGZHOU COMPARTILHOU IMAGENS DO ANIMAL DIZENDO QUE AS PESSOAS SE PERGUNTAM SE É UM URSO DE VERDADE OU APENAS ALGUÉM DISFARÇADO.\nSEGUNDO O LOCAL, OS URSOS-MALAIOS SÃO A MENOR ESPÉCIE “DE TODOS OS TEMPOS”",
   "word_count": 179,
   "words": [
@@ -24,92 +24,107 @@
       "word": "mistério:",
       "start": 0.605,
       "end": 1.18,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "zoológico",
       "start": 1.52,
       "end": 2.125,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "na",
       "start": 2.125,
       "end": 2.385,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "Inglaterra",
       "start": 2.385,
       "end": 2.925,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "confirma",
       "start": 2.925,
       "end": 3.385,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "que",
       "start": 3.385,
       "end": 3.665,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "urso",
       "start": 3.665,
       "end": 3.941,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "chinês",
       "start": 3.951,
       "end": 4.099,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "é",
       "start": 4.101,
       "end": 4.249,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "real",
       "start": 4.251,
       "end": 4.399,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "e",
       "start": 4.401,
       "end": 4.549,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "não",
       "start": 4.551,
       "end": 4.699,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "um",
       "start": 4.701,
       "end": 4.849,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "humano",
       "start": 4.851,
       "end": 4.999,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "fantasiado",
       "start": 5.001,
       "end": 5.149,
       "confidence": 0.3,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "FIM",
@@ -1138,326 +1153,5 @@
     "KYRA",
     "URSO-DO-SOL”,",
     "URSOS-MALAIOS"
-  ],
-  "timestamp_issues": {
-    "words_checked": 179,
-    "total_issues": 44,
-    "errors": 22,
-    "warnings": 22,
-    "issues_by_type": {
-      "syllable_mismatch": 16,
-      "too_short": 13,
-      "large_gap": 15
-    },
-    "issues": [
-      {
-        "word_index": 15,
-        "type": "syllable_mismatch",
-        "message": "Word 'humano' (3 syllables) has only 148ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 16,
-        "type": "syllable_mismatch",
-        "message": "Word 'fantasiado' (4 syllables) has only 148ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 19,
-        "type": "syllable_mismatch",
-        "message": "Word 'MISTÉRIO:' (3 syllables) has only 148ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "syllable_mismatch",
-        "message": "Word 'ZOOLÓGICO' (4 syllables) has only 148ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 22,
-        "type": "syllable_mismatch",
-        "message": "Word 'INGLATERRA' (4 syllables) has only 148ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "too_short",
-        "message": "Word 'CONFIRMA' has very short duration (-2393ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "syllable_mismatch",
-        "message": "Word 'CONFIRMA' (3 syllables) has only -2393ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 25,
-        "type": "too_short",
-        "message": "Word 'URSO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 25,
-        "type": "syllable_mismatch",
-        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 32,
-        "type": "too_short",
-        "message": "Word 'HUMANO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 32,
-        "type": "syllable_mismatch",
-        "message": "Word 'HUMANO' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 34,
-        "type": "too_short",
-        "message": "Word 'IMAGENS' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 34,
-        "type": "large_gap",
-        "message": "Large gap (1080ms) before 'IMAGENS' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 34,
-        "type": "syllable_mismatch",
-        "message": "Word 'IMAGENS' (3 syllables) has only 68ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 49,
-        "type": "too_short",
-        "message": "Word 'ANIMAL' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 49,
-        "type": "syllable_mismatch",
-        "message": "Word 'ANIMAL' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 52,
-        "type": "large_gap",
-        "message": "Large gap (980ms) before 'Marina' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 57,
-        "type": "too_short",
-        "message": "Word 'São' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 59,
-        "type": "large_gap",
-        "message": "Large gap (1240ms) before '02/08/2023' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 61,
-        "type": "large_gap",
-        "message": "Large gap (820ms) before '09h50' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 63,
-        "type": "large_gap",
-        "message": "Large gap (1160ms) before 'Atualizado' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 64,
-        "type": "large_gap",
-        "message": "Large gap (1240ms) before '06/08/2023' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 66,
-        "type": "large_gap",
-        "message": "Large gap (1520ms) before '07:47' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 67,
-        "type": "large_gap",
-        "message": "Large gap (800ms) before 'UMA' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 81,
-        "type": "too_short",
-        "message": "Word 'LEVANDO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 81,
-        "type": "large_gap",
-        "message": "Large gap (660ms) before 'LEVANDO' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 81,
-        "type": "syllable_mismatch",
-        "message": "Word 'LEVANDO' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 90,
-        "type": "syllable_mismatch",
-        "message": "Word 'HOMEM' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 103,
-        "type": "too_short",
-        "message": "Word 'ANIMAL' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 103,
-        "type": "syllable_mismatch",
-        "message": "Word 'ANIMAL' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 111,
-        "type": "large_gap",
-        "message": "Large gap (740ms) before 'URSO-DO-SOL.' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 112,
-        "type": "too_short",
-        "message": "Word 'COM' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 112,
-        "type": "large_gap",
-        "message": "Very large gap (860ms) before 'COM'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 129,
-        "type": "large_gap",
-        "message": "Large gap (840ms) before '“PODEMOS' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 135,
-        "type": "large_gap",
-        "message": "Large gap (640ms) before 'URSO-DO-SOL”,' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 136,
-        "type": "too_short",
-        "message": "Word 'DIZ' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 139,
-        "type": "large_gap",
-        "message": "Very large gap (1120ms) before 'NAS'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 153,
-        "type": "too_short",
-        "message": "Word 'PESSOAS' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 153,
-        "type": "syllable_mismatch",
-        "message": "Word 'PESSOAS' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 155,
-        "type": "too_short",
-        "message": "Word 'PERGUNTAM' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 155,
-        "type": "syllable_mismatch",
-        "message": "Word 'PERGUNTAM' (3 syllables) has only 68ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 159,
-        "type": "too_short",
-        "message": "Word 'URSO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 159,
-        "type": "syllable_mismatch",
-        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 166,
-        "type": "large_gap",
-        "message": "Very large gap (1000ms) before 'SEGUNDO'",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

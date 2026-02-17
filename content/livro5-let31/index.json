@@ -2,7 +2,7 @@
   "audio_file": "livro5_let31.mp3",
   "language": "pt",
   "duration": 38.95,
-  "title": "Livro5 Let31",
+  "title": "O papagaio que fazia CRÁ-CRÁ",
   "full_text": "O papagaio que fazia CRÁ-CRÁ\nHAVIA UM MENINO MUITO GULOSO QUE MORAVA NA FLORESTA COM SUA GENTE. ELE COMIA TÃO RÁPIDO QUE ENGOLIA OS ALIMENTOS SEM MASTIGÁ-LOS.\nCERTA VEZ, A MÃE DELE CATOU MANGABAS PARA ASSAR. MANGABAS SÃO FRUTOS ARREDONDADOS E DOCES, COM POLPA MACIA E VÁRIOS CAROCINHOS.\nO FILHO TIROU AS MANGABAS DA BRASA E COMEU AS FRUTAS SEM QUE ESFRIASSEM. AS MANGABAS QUEIMARAM A BOCA E A GARGANTA DO MENINO. ELE COMEÇOU A FAZER CRÁ-CRÁ, CRÁ-CRÁ, POIS QUERIA VOMITAR OS FRUTOS.\nENQUANTO ISSO, NASCERAM ASAS E PENAS PELO CORPO DO MENINO, E ELE SE TRANSFORMOU NO PAPAGAIO, QUE ATÉ HOJE CONTINUA A GRITAR CRÁ-CRÁ, CRÁ-CRÁ...",
   "word_count": 107,
   "words": [
@@ -24,20 +24,23 @@
       "word": "que",
       "start": 0.785,
       "end": 0.965,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "fazia",
       "start": 0.965,
       "end": 1.4,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "CRÁ-CRÁ",
       "start": 1.72,
       "end": 1.92,
       "confidence": 0.5,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "HAVIA",
@@ -677,158 +680,5 @@
     "CRÁ-CRÁ,",
     "CRÁ-CRÁ,",
     "CRÁ-CRÁ..."
-  ],
-  "timestamp_issues": {
-    "words_checked": 107,
-    "total_issues": 20,
-    "errors": 7,
-    "warnings": 13,
-    "issues_by_type": {
-      "too_short": 8,
-      "large_gap": 4,
-      "syllable_mismatch": 8
-    },
-    "issues": [
-      {
-        "word_index": 5,
-        "type": "too_short",
-        "message": "Word 'HAVIA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 5,
-        "type": "large_gap",
-        "message": "Large gap (520ms) before 'HAVIA' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 5,
-        "type": "syllable_mismatch",
-        "message": "Word 'HAVIA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "too_short",
-        "message": "Word 'CERTA' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "large_gap",
-        "message": "Very large gap (900ms) before 'CERTA'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "syllable_mismatch",
-        "message": "Word 'CERTA' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 30,
-        "type": "too_short",
-        "message": "Word 'MÃE' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 49,
-        "type": "too_short",
-        "message": "Word 'FILHO' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 49,
-        "type": "syllable_mismatch",
-        "message": "Word 'FILHO' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 58,
-        "type": "too_short",
-        "message": "Word 'FRUTAS' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 58,
-        "type": "syllable_mismatch",
-        "message": "Word 'FRUTAS' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 66,
-        "type": "too_short",
-        "message": "Word 'BOCA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 66,
-        "type": "syllable_mismatch",
-        "message": "Word 'BOCA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 76,
-        "type": "large_gap",
-        "message": "Large gap (580ms) before 'CRÁ-CRÁ,' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 82,
-        "type": "too_short",
-        "message": "Word 'FRUTOS.' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 82,
-        "type": "syllable_mismatch",
-        "message": "Word 'FRUTOS.' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 88,
-        "type": "too_short",
-        "message": "Word 'PENAS' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 88,
-        "type": "syllable_mismatch",
-        "message": "Word 'PENAS' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 105,
-        "type": "large_gap",
-        "message": "Large gap (640ms) before 'CRÁ-CRÁ,' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 105,
-        "type": "syllable_mismatch",
-        "message": "Word 'CRÁ-CRÁ,' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

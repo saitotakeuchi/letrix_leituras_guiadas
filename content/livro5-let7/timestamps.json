@@ -2,7 +2,7 @@
   "audio_file": "livro5_let7.mp3",
   "language": "pt",
   "duration": 20.65,
-  "title": "Livro5 Let7",
+  "title": "Oliveira",
   "full_text": "Oliveira\n3.738.469 pessoas\nHá várias origens prováveis desse sobrenome português, mas todas remetem, de fato, ao que você está imaginando. Oliveira tem uma raiz geográfica, que faz referência à árvore da azeitona, registrada no português arcaico como “olveira”.\n[...]",
   "word_count": 39,
   "words": [
@@ -18,8 +18,7 @@
       "word": "3.738.469",
       "start": 3.14,
       "end": 5.105,
-      "confidence": 0.429,
-      "is_title": true
+      "confidence": 0.429
     },
     {
       "word": "pessoas",

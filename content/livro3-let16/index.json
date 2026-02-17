@@ -2,7 +2,7 @@
   "audio_file": "livro3_let16.mp3",
   "language": "pt",
   "duration": 13.54,
-  "title": "Livro3 Let16",
+  "title": "Adivinha",
   "full_text": "Adivinha\nADIVINHA UM MAR QUE FAZ QÜEM-QÜEM\nE DE QUEM SE OUVE O ECO\nVAMOS, ME DIZ DEPRESSA\nNÃO É PATO, É…\nMARRECO",
   "word_count": 23,
   "words": [
@@ -18,8 +18,7 @@
       "word": "ADIVINHA",
       "start": 2.3,
       "end": 2.308,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "UM",
@@ -169,81 +168,5 @@
   },
   "low_confidence_words": [
     "QÜEM-QÜEM"
-  ],
-  "timestamp_issues": {
-    "words_checked": 23,
-    "total_issues": 9,
-    "errors": 4,
-    "warnings": 5,
-    "issues_by_type": {
-      "too_short": 3,
-      "large_gap": 4,
-      "syllable_mismatch": 2
-    },
-    "issues": [
-      {
-        "word_index": 1,
-        "type": "too_short",
-        "message": "Word 'ADIVINHA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 1,
-        "type": "large_gap",
-        "message": "Large gap (1480ms) before 'ADIVINHA' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 1,
-        "type": "syllable_mismatch",
-        "message": "Word 'ADIVINHA' (4 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 7,
-        "type": "large_gap",
-        "message": "Large gap (880ms) before 'E' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 11,
-        "type": "too_short",
-        "message": "Word 'OUVE' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 11,
-        "type": "syllable_mismatch",
-        "message": "Word 'OUVE' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 14,
-        "type": "large_gap",
-        "message": "Large gap (880ms) before 'VAMOS,' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 15,
-        "type": "too_short",
-        "message": "Word 'ME' has very short duration (18ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "large_gap",
-        "message": "Large gap (700ms) before 'NÃO' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

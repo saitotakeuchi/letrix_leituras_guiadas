@@ -2,7 +2,7 @@
   "audio_file": "livro4_let75.mp3",
   "language": "pt",
   "duration": 20.6,
-  "title": "Livro4 Let75",
+  "title": "Ipê-roxo",
   "full_text": "Ipê-roxo\nO IPÊ\nFOI PARA A CIDADE.\nO CABURÉ\nFICOU COM SAUDADE.\nO IPÊ\nENFEITOU A AVENIDA.\nO CABURÉ\nDESANIMOU DA VIDA.\nO IPÊ\nVIVE NA RUA.\nO CABURÉ CHORA PARA A LUA.\nO IPÊ\nVAI VOLTAR!\nO CABURÉ\nVAI SE ALEGRAR!\nO IPÊ CRÊ,\nO CABURÉ TEM FÉ!",
   "word_count": 49,
   "words": [
@@ -18,8 +18,7 @@
       "word": "O",
       "start": 1.48,
       "end": 1.478,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "IPÊ",

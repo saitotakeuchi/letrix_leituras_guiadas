@@ -2,7 +2,7 @@
   "audio_file": "livro3_let18.mp3",
   "language": "pt",
   "duration": 22.05,
-  "title": "Livro3 Let18",
+  "title": "Tem picolé, seu José",
   "full_text": "Tem picolé, seu José\nTEM PICOLÉ, SEU JOSÉ\nÉ DE MURICI, DONA LILI\nÉ DE ABACAXI, SEU GIGI\nÉ DE COCO, SEU TINOCO\nÉ DE CAJU, DONA JUJU\nÉ DE MARACUJÁ, DONA SINHÁ\nÉ UM TREMENDÃO, SEU BRANDÃO",
   "word_count": 38,
   "words": [
@@ -24,14 +24,16 @@
       "word": "seu",
       "start": 1.28,
       "end": 1.388,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "José",
       "start": 1.39,
       "end": 1.8,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "TEM",
@@ -261,65 +263,5 @@
   },
   "low_confidence_words": [
     "COCO,"
-  ],
-  "timestamp_issues": {
-    "words_checked": 38,
-    "total_issues": 7,
-    "errors": 0,
-    "warnings": 7,
-    "issues_by_type": {
-      "large_gap": 7
-    },
-    "issues": [
-      {
-        "word_index": 4,
-        "type": "large_gap",
-        "message": "Large gap (960ms) before 'TEM' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 8,
-        "type": "large_gap",
-        "message": "Large gap (940ms) before 'É' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "large_gap",
-        "message": "Large gap (940ms) before 'É' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "large_gap",
-        "message": "Large gap (960ms) before 'É' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "large_gap",
-        "message": "Large gap (1020ms) before 'É' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 28,
-        "type": "large_gap",
-        "message": "Large gap (1000ms) before 'É' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 33,
-        "type": "large_gap",
-        "message": "Large gap (660ms) before 'É' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

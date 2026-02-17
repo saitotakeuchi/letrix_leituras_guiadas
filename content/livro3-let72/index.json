@@ -2,7 +2,7 @@
   "audio_file": "livro3_let72.mp3",
   "language": "pt",
   "duration": 49.39,
-  "title": "Livro3 Let72",
+  "title": "Os viajantes e o urso",
   "full_text": "Os viajantes e o urso\nDOIS AMIGOS VIAJAVAM JUNTOS POR UM TRECHO DO CAMINHO QUANDO UM URSO APARECEU-LHES DE REPENTE. UM DELES SUBIU BEM ALTO EM UMA ÁRVORE E LÁ SE ESCONDEU, E O OUTRO, A PONTO DE SER APANHADO, DEIXOU-SE CAIR NO CHÃO E FINGIU-SE DE MORTO. O URSO APROXIMOU DELE O FOCINHO E O CHEIROU DE TODOS OS LADOS, ENQUANTO ELE RETEVE A RESPIRAÇÃO, POIS DIZEM QUE O URSO NÃO TOCA EM ANIMAL MORTO. DEPOIS QUE O URSO SE AFASTOU, O HOMEM QUE ESTAVA NA ÁRVORE DESCEU E QUIS SABER O QUE O URSO LHE HAVIA DITO AO OUVIDO. E O OUTRO RESPONDEU: “ELE ME ACONSELHOU A NÃO MAIS VIAJAR, DAQUI PARA A FRENTE, COM OS AMIGOS QUE FOGEM NA HORA DO PERIGO”.\nMORAL: A FÁBULA MOSTRA QUE AS DESGRAÇAS PÕEM À PROVA OS VERDADEIROS AMIGOS.",
   "word_count": 138,
   "words": [
@@ -24,20 +24,23 @@
       "word": "e",
       "start": 1.005,
       "end": 1.325,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "o",
       "start": 1.325,
       "end": 1.63,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "urso",
       "start": 1.64,
       "end": 1.84,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "DOIS",
@@ -860,235 +863,5 @@
     "FINGIU-SE",
     "RETEVE",
     "A"
-  ],
-  "timestamp_issues": {
-    "words_checked": 138,
-    "total_issues": 31,
-    "errors": 16,
-    "warnings": 15,
-    "issues_by_type": {
-      "too_short": 16,
-      "large_gap": 3,
-      "syllable_mismatch": 12
-    },
-    "issues": [
-      {
-        "word_index": 5,
-        "type": "too_short",
-        "message": "Word 'DOIS' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 5,
-        "type": "large_gap",
-        "message": "Large gap (900ms) before 'DOIS' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 11,
-        "type": "too_short",
-        "message": "Word 'TRECHO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 11,
-        "type": "syllable_mismatch",
-        "message": "Word 'TRECHO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 16,
-        "type": "too_short",
-        "message": "Word 'URSO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 16,
-        "type": "syllable_mismatch",
-        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "too_short",
-        "message": "Word 'UM' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "large_gap",
-        "message": "Very large gap (1160ms) before 'UM'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 24,
-        "type": "too_short",
-        "message": "Word 'ALTO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 24,
-        "type": "syllable_mismatch",
-        "message": "Word 'ALTO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 36,
-        "type": "too_short",
-        "message": "Word 'PONTO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 36,
-        "type": "syllable_mismatch",
-        "message": "Word 'PONTO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 41,
-        "type": "too_short",
-        "message": "Word 'CAIR' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 43,
-        "type": "too_short",
-        "message": "Word 'CHÃO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 49,
-        "type": "too_short",
-        "message": "Word 'URSO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 49,
-        "type": "syllable_mismatch",
-        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 70,
-        "type": "too_short",
-        "message": "Word 'URSO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 70,
-        "type": "syllable_mismatch",
-        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 79,
-        "type": "too_short",
-        "message": "Word 'URSO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 79,
-        "type": "syllable_mismatch",
-        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 83,
-        "type": "too_short",
-        "message": "Word 'HOMEM' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 83,
-        "type": "syllable_mismatch",
-        "message": "Word 'HOMEM' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 87,
-        "type": "syllable_mismatch",
-        "message": "Word 'ÁRVORE' (3 syllables) has only 108ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 95,
-        "type": "too_short",
-        "message": "Word 'URSO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 95,
-        "type": "syllable_mismatch",
-        "message": "Word 'URSO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 103,
-        "type": "too_short",
-        "message": "Word 'OUTRO' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 103,
-        "type": "syllable_mismatch",
-        "message": "Word 'OUTRO' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 114,
-        "type": "too_short",
-        "message": "Word 'A' has very short duration (-2ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 125,
-        "type": "large_gap",
-        "message": "Very large gap (940ms) before 'MORAL:'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 134,
-        "type": "too_short",
-        "message": "Word 'PROVA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 134,
-        "type": "syllable_mismatch",
-        "message": "Word 'PROVA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

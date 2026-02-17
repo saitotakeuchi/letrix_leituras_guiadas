@@ -2,7 +2,7 @@
   "audio_file": "livro3_let71.mp3",
   "language": "pt",
   "duration": 63.62,
-  "title": "Livro3 Let71",
+  "title": "A chimpanzé que aprendeu a falar",
   "full_text": "A chimpanzé que aprendeu a falar\nA CHIMPANZÉ WASHOE, O ÚNICO ANIMAL DO MUNDO ATÉ O MOMENTO QUE CONSEGUIU APRENDER A LÍNGUA DE SINAIS AMERICANA, MORREU NO DIA 30 DE OUTUBRO DE 2007, AOS 42 ANOS, DE CAUSAS NATURAIS. WASHOE NASCEU NA ÁFRICA EM ALGUM MOMENTO DE 1965. É PROVÁVEL QUE SUA MÃE TENHA SIDO MORTA POR CAÇADORES, DEIXANDO-A ÓRFÃ. WASHOE FOI ENTÃO ADOTADA POR UM CASAL DE PESQUISADORES DA LINGUAGEM E VIVEU EM CATIVEIRO QUASE 40 ANOS, SEM JAMAIS CONHECER A VIDA NA FLORESTA E A LIBERDADE. ELA CONHECIA 250 PALAVRAS, SEGUNDO SEUS CUIDADORES. OS PESQUISADORES DIZEM QUE WASHOE ENSINOU A LINGUAGEM GESTUAL A TRÊS CHIMPANZÉS MAIS JOVENS, MAS ALGUNS ESTUDIOSOS DA LINGUAGEM AFIRMAM QUE ELA APENAS IMITAVA O GESTUAL DOS HUMANOS. DESDE 1980, ELA VIVIA NUMA INSTITUIÇÃO DE PESQUISAS NA UNIVERSIDADE DE WASHINGTON CENTRAL, ESTADOS UNIDOS.",
   "word_count": 138,
   "words": [
@@ -24,26 +24,30 @@
       "word": "que",
       "start": 0.975,
       "end": 1.145,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "aprendeu",
       "start": 1.145,
       "end": 1.725,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "a",
       "start": 1.725,
       "end": 2.21,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "falar",
       "start": 2.22,
       "end": 2.42,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "A",
@@ -858,223 +862,5 @@
     "WASHOE",
     "WASHOE",
     "WASHOE"
-  ],
-  "timestamp_issues": {
-    "words_checked": 138,
-    "total_issues": 29,
-    "errors": 13,
-    "warnings": 16,
-    "issues_by_type": {
-      "too_short": 10,
-      "large_gap": 7,
-      "syllable_mismatch": 10,
-      "too_long": 1,
-      "round_timestamps": 1
-    },
-    "issues": [
-      {
-        "word_index": 6,
-        "type": "too_short",
-        "message": "Word 'A' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 6,
-        "type": "large_gap",
-        "message": "Large gap (940ms) before 'A' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 10,
-        "type": "syllable_mismatch",
-        "message": "Word 'ÚNICO' (3 syllables) has only 108ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "too_short",
-        "message": "Word 'MUNDO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "syllable_mismatch",
-        "message": "Word 'MUNDO' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 16,
-        "type": "too_short",
-        "message": "Word 'MOMENTO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 16,
-        "type": "syllable_mismatch",
-        "message": "Word 'MOMENTO' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 21,
-        "type": "too_short",
-        "message": "Word 'LÍNGUA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 21,
-        "type": "syllable_mismatch",
-        "message": "Word 'LÍNGUA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 25,
-        "type": "large_gap",
-        "message": "Large gap (520ms) before 'MORREU' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 25,
-        "type": "syllable_mismatch",
-        "message": "Word 'MORREU' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "too_short",
-        "message": "Word 'DIA' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 39,
-        "type": "large_gap",
-        "message": "Very large gap (1220ms) before 'WASHOE'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 47,
-        "type": "too_long",
-        "message": "Word '1965.' has unusually long duration (1775ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 48,
-        "type": "large_gap",
-        "message": "Very large gap (980ms) before 'É'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 70,
-        "type": "too_short",
-        "message": "Word 'LINGUAGEM' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 70,
-        "type": "syllable_mismatch",
-        "message": "Word 'LINGUAGEM' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 82,
-        "type": "too_short",
-        "message": "Word 'VIDA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 82,
-        "type": "syllable_mismatch",
-        "message": "Word 'VIDA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 88,
-        "type": "too_short",
-        "message": "Word 'ELA' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 88,
-        "type": "large_gap",
-        "message": "Very large gap (900ms) before 'ELA'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 88,
-        "type": "syllable_mismatch",
-        "message": "Word 'ELA' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 92,
-        "type": "large_gap",
-        "message": "Large gap (520ms) before 'SEGUNDO' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 95,
-        "type": "large_gap",
-        "message": "Very large gap (940ms) before 'OS'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 102,
-        "type": "too_short",
-        "message": "Word 'LINGUAGEM' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 102,
-        "type": "syllable_mismatch",
-        "message": "Word 'LINGUAGEM' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 113,
-        "type": "too_short",
-        "message": "Word 'LINGUAGEM' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 113,
-        "type": "syllable_mismatch",
-        "message": "Word 'LINGUAGEM' (3 syllables) has only 8ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 113,
-        "type": "round_timestamps",
-        "message": "Word 'LINGUAGEM' has suspiciously round timestamps (51.0-51.0)",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

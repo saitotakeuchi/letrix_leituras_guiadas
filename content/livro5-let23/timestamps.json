@@ -2,7 +2,7 @@
   "audio_file": "livro5_let23.mp3",
   "language": "pt",
   "duration": 37.58,
-  "title": "Livro5 Let23",
+  "title": "Curiosidades - Glossauro",
   "full_text": "Curiosidades - Glossauro\nDinossauros comiam frutas?\nAna Maria – 9 anos – por e-mail\nApenas uma parte deles conseguiu se alimentar de frutas. Dinossauros viveram na Era Mesozoica, nos períodos Triássico, Jurássico e Cretáceo, por 160 milhões de anos. Frutos verdadeiros, como os que conhecemos hoje, só apareceram no final da Era Mesozoica. Assim, apenas os dinossauros do final do período Cretáceo puderam provar essas delícias. No entanto, plantas como as ginkgos e até alguns pinheiros já produziam falsos frutos adocicados e nutritivos dos quais os dinossauros podiam se alimentar.",
   "word_count": 90,
   "words": [
@@ -25,7 +25,8 @@
       "start": 1.165,
       "end": 1.64,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "Dinossauros",

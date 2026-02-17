@@ -2,7 +2,7 @@
   "audio_file": "livro5_let22.mp3",
   "language": "pt",
   "duration": 27.54,
-  "title": "Livro5 Let22",
+  "title": "Os 10 dinossauros em que você não gostaria de tropeçar",
   "full_text": "Os 10 dinossauros em que você não gostaria de tropeçar\nOs dinossauros eram monstros de todos os tamanhos, e o estômago de cada um deles também era específico para a sua alimentação. Claro, existiam os vegetarianos, mas os carnívoros possuíam as armas mais violentas para conseguir a sua presa.\nCouraças duríssimas, garras gigantescas, dentes superafiados: essas características tornavam alguns dinossauros temidos até por outros grandalhões. [...]",
   "word_count": 66,
   "words": [
@@ -24,50 +24,58 @@
       "word": "dinossauros",
       "start": 0.565,
       "end": 1.225,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "em",
       "start": 1.225,
       "end": 1.398,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "que",
       "start": 1.4,
       "end": 1.488,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "você",
       "start": 1.49,
       "end": 1.785,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "não",
       "start": 1.785,
       "end": 1.945,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "gostaria",
       "start": 1.945,
       "end": 2.405,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "de",
       "start": 2.405,
       "end": 2.945,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "tropeçar",
       "start": 2.945,
       "end": 3.18,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "Os",
@@ -424,87 +432,5 @@
   },
   "low_confidence_words": [
     "[...]"
-  ],
-  "timestamp_issues": {
-    "words_checked": 66,
-    "total_issues": 10,
-    "errors": 5,
-    "warnings": 5,
-    "issues_by_type": {
-      "too_short": 5,
-      "syllable_mismatch": 5
-    },
-    "issues": [
-      {
-        "word_index": 10,
-        "type": "too_short",
-        "message": "Word 'Os' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "syllable_mismatch",
-        "message": "Word 'estômago' (4 syllables) has only 128ms duration",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 41,
-        "type": "too_short",
-        "message": "Word 'armas' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 41,
-        "type": "syllable_mismatch",
-        "message": "Word 'armas' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 51,
-        "type": "too_short",
-        "message": "Word 'garras' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 51,
-        "type": "syllable_mismatch",
-        "message": "Word 'garras' (2 syllables) has only 48ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 53,
-        "type": "too_short",
-        "message": "Word 'dentes' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 53,
-        "type": "syllable_mismatch",
-        "message": "Word 'dentes' (2 syllables) has only 28ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 55,
-        "type": "too_short",
-        "message": "Word 'essas' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 55,
-        "type": "syllable_mismatch",
-        "message": "Word 'essas' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

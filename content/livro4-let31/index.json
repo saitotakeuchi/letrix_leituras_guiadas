@@ -2,7 +2,7 @@
   "audio_file": "livro4_let31.mp3",
   "language": "pt",
   "duration": 12.54,
-  "title": "Livro4 Let31",
+  "title": "Cadeira",
   "full_text": "Cadeira\nÉ O LUGAR ONDE AS CRIANÇAS\nDESCANSAM DEPOIS DE DESARRUMAR\nA CASA TODA. A CADEIRA TAMBÉM\nPODE SER O LUGAR ONDE AS\nCRIANÇAS GANHAM FORÇAS PARA, EM\nSEGUIDA, DESARRUMAR A CASA TODA.",
   "word_count": 33,
   "words": [
@@ -18,8 +18,7 @@
       "word": "É",
       "start": 1.0,
       "end": 1.068,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "O",
@@ -228,94 +227,5 @@
     "words_verified": 0,
     "title_verified": false
   },
-  "low_confidence_words": [],
-  "timestamp_issues": {
-    "words_checked": 33,
-    "total_issues": 11,
-    "errors": 5,
-    "warnings": 6,
-    "issues_by_type": {
-      "too_short": 6,
-      "syllable_mismatch": 5
-    },
-    "issues": [
-      {
-        "word_index": 1,
-        "type": "too_short",
-        "message": "Word 'É' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 3,
-        "type": "too_short",
-        "message": "Word 'LUGAR' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 3,
-        "type": "syllable_mismatch",
-        "message": "Word 'LUGAR' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 6,
-        "type": "too_short",
-        "message": "Word 'CRIANÇAS' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 6,
-        "type": "syllable_mismatch",
-        "message": "Word 'CRIANÇAS' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "too_short",
-        "message": "Word 'LUGAR' has very short duration (-2ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 20,
-        "type": "syllable_mismatch",
-        "message": "Word 'LUGAR' (2 syllables) has only -2ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "too_short",
-        "message": "Word 'CRIANÇAS' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "syllable_mismatch",
-        "message": "Word 'CRIANÇAS' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 31,
-        "type": "too_short",
-        "message": "Word 'CASA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 31,
-        "type": "syllable_mismatch",
-        "message": "Word 'CASA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  "low_confidence_words": []
 }

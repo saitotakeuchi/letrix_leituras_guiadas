@@ -2,7 +2,7 @@
   "audio_file": "livro5_let19.mp3",
   "language": "pt",
   "duration": 23.08,
-  "title": "Livro5 Let19",
+  "title": "Um mural com pinturas [...]",
   "full_text": "Um mural com pinturas [...]\nUm mural com PINTURAS da Pré-História está escondido no sertão brasileiro, no parque da Serra da Capivara. TIGRES, macacos e LAGARTOS foram pintados nas PAREDES das tocas pelos homens que habitaram o CONTINENTE há milhares de anos. Mas não é só isso. Cenas da vida dos POVOS pré-históricos, como CAÇA, luta e dança, também foram deixadas nas paredes. [...]",
   "word_count": 64,
   "words": [
@@ -24,20 +24,23 @@
       "word": "com",
       "start": 0.3,
       "end": 0.448,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "pinturas",
       "start": 0.45,
       "end": 0.598,
-      "confidence": 0.3
+      "confidence": 0.3,
+      "is_title": true
     },
     {
       "word": "[...]",
       "start": 0.6,
       "end": -0.002,
       "confidence": 0.3,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "Um",

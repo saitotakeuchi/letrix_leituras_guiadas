@@ -2,7 +2,7 @@
   "audio_file": "livro4_let14.mp3",
   "language": "pt",
   "duration": 53.71,
-  "title": "Livro4 Let14",
+  "title": "Conheça Polly, a cabra que só se acalma fantasiada de pato",
   "full_text": "Conheça Polly, a cabra que só se acalma fantasiada de pato\nAinda filhote, Polly vive em um santuário para cabras deficientes por ser cega e sofrer de ansiedade\nCom seis meses de idade, a cabra Polly, de Nova Jersey, nos Estados Unidos, é cega e sofre com crises de ansiedade. Como seus donos não tinham tempo para o cuidado constante [...], a filhote foi enviada ao santuário Goats of Anarchy, onde os novos cuidadores encontraram uma forma de acalmá-la: uma fantasia de pato.\n“Quando ela nasceu, era pequena, cega e não conseguia mamar”, contou a gerente do santuário, Leanne Lauricella [...].\nLeanne costumava se divertir publicando fotos em seu perfil no Instagram, nas quais vestia algumas cabras do santuário com fantasias. Quando [...] viu uma roupa de pato para bebês, resolveu comprá-la para Polly, que pareceu gostar da experiência. “Ela dormiu imediatamente, como se tivesse com um cobertor”, disse. [...]",
   "word_count": 150,
   "words": [
@@ -24,56 +24,65 @@
       "word": "a",
       "start": 1.02,
       "end": 1.37,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "cabra",
       "start": 1.38,
       "end": 1.408,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "que",
       "start": 1.41,
       "end": 1.625,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "só",
       "start": 1.625,
       "end": 1.845,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "se",
       "start": 1.845,
       "end": 2.105,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "acalma",
       "start": 2.105,
       "end": 2.265,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "fantasiada",
       "start": 2.265,
       "end": 2.965,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "de",
       "start": 2.965,
       "end": 3.225,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "pato",
       "start": 3.225,
       "end": 3.52,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "Ainda",

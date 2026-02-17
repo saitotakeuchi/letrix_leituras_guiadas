@@ -2,7 +2,7 @@
   "audio_file": "livro3_let41.mp3",
   "language": "pt",
   "duration": 20.2,
-  "title": "Livro3 Let41",
+  "title": "6 curiosidades sobre o sol que você precisa saber",
   "full_text": "6 curiosidades sobre o sol que você precisa saber\n[...] O SOL ESTÁ TÃO DISTANTE, MAS TÃO DISTANTE DA TERRA QUE A SUA LUZ DEMORA 8 MINUTOS E 18 SEGUNDOS PARA CHEGAR AQUI. O ASTRO-REI, ALIÁS, É SÓ MAIS UMA ESTRELA NO MEIO DE OUTRAS 200 BILHÕES QUE EXISTEM NA NOSSA GALÁXIA.\n[...]",
   "word_count": 53,
   "words": [
@@ -24,44 +24,51 @@
       "word": "sobre",
       "start": 1.265,
       "end": 1.625,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "o",
       "start": 1.625,
       "end": 2.07,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "sol",
       "start": 2.08,
       "end": 2.088,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "que",
       "start": 2.09,
       "end": 2.265,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "você",
       "start": 2.265,
       "end": 2.585,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "precisa",
       "start": 2.585,
       "end": 2.985,
-      "confidence": 1.0
+      "confidence": 1.0,
+      "is_title": true
     },
     {
       "word": "saber",
       "start": 2.985,
       "end": 3.345,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "[...]",
@@ -348,52 +355,5 @@
     "[...]",
     "ASTRO-REI,",
     "[...]"
-  ],
-  "timestamp_issues": {
-    "words_checked": 53,
-    "total_issues": 5,
-    "errors": 3,
-    "warnings": 2,
-    "issues_by_type": {
-      "too_short": 3,
-      "large_gap": 2
-    },
-    "issues": [
-      {
-        "word_index": 4,
-        "type": "too_short",
-        "message": "Word 'sol' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 23,
-        "type": "too_short",
-        "message": "Word 'LUZ' has very short duration (28ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 33,
-        "type": "large_gap",
-        "message": "Very large gap (820ms) before 'O'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 35,
-        "type": "large_gap",
-        "message": "Large gap (585ms) before 'ALIÁS,' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 42,
-        "type": "too_short",
-        "message": "Word 'MEIO' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

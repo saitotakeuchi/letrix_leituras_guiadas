@@ -2,7 +2,7 @@
   "audio_file": "livro3_let57.mp3",
   "language": "pt",
   "duration": 40.99,
-  "title": "Livro3 Let57",
+  "title": "Peteca",
   "full_text": "Peteca\nADIVINHE, SE PUDER!\nVOA, TEM PENA,\nMAS PÁSSARO NÃO É...\nESSE BRINQUEDO\nNÃO TEM SEGREDO.\nALEGRE E SAPECA,\nÉ A COLORIDA PETECA.\nQUEM JOGA?\nQUEM PEGA?\nQUEM VAI CONSEGUIR?\nA MÃO ESPALMADA,\nO TOQUE LIGEIRO,\nRECEBE E DEVOLVE,\nNUM GESTO CERTEIRO.\nQUEM JOGA?\nQUEM PEGA?\nQUEM VAI CONSEGUIR?\nESPERTO E ATENTO,\nESPERE ELA VIR,\nNÃO PODE DEIXAR\nA PETECA CAIR!",
   "word_count": 61,
   "words": [
@@ -18,8 +18,7 @@
       "word": "ADIVINHE,",
       "start": 1.24,
       "end": 2.325,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "SE",

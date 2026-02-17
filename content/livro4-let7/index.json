@@ -2,7 +2,7 @@
   "audio_file": "livro4_let7.mp3",
   "language": "pt",
   "duration": 10.6,
-  "title": "Livro4 Let7",
+  "title": "No nome Luana",
   "full_text": "No nome Luana\nNO NOME LUANA MORA A LUA E MORA A ANA,\nMORAM TAMBÉM O LUAN E O ALAN\nE UM PASSARINHO CHAMADO ANU,\nQUE ANUNCIA CHUVA E COME BANANA.",
   "word_count": 31,
   "words": [
@@ -25,7 +25,8 @@
       "start": 0.525,
       "end": 1.0,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "NO",
@@ -214,60 +215,5 @@
     "words_verified": 0,
     "title_verified": false
   },
-  "low_confidence_words": [],
-  "timestamp_issues": {
-    "words_checked": 31,
-    "total_issues": 6,
-    "errors": 1,
-    "warnings": 5,
-    "issues_by_type": {
-      "too_short": 3,
-      "large_gap": 1,
-      "syllable_mismatch": 2
-    },
-    "issues": [
-      {
-        "word_index": 8,
-        "type": "too_short",
-        "message": "Word 'LUA' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "too_short",
-        "message": "Word 'MORAM' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "large_gap",
-        "message": "Large gap (600ms) before 'MORAM' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "syllable_mismatch",
-        "message": "Word 'MORAM' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 29,
-        "type": "too_short",
-        "message": "Word 'COME' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 29,
-        "type": "syllable_mismatch",
-        "message": "Word 'COME' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  "low_confidence_words": []
 }

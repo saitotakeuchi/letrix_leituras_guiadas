@@ -2,7 +2,7 @@
   "audio_file": "livro4_let15.mp3",
   "language": "pt",
   "duration": 11.07,
-  "title": "Livro4 Let15",
+  "title": "Borbolonça",
   "full_text": "Borbolonça\nA BORBOLONÇA,\nSE QUISER, PPODE VOAR HORAS SEM\nPARAR EM NENHUMA FLOR. TAMBÉM,\nCOM SUA MORDIDA VORAZ, JÁ\nCOMEU PARA O ALMOÇO,\nPARA O LANCHE A PARA O JANTAR!",
   "word_count": 30,
   "words": [
@@ -18,8 +18,7 @@
       "word": "A",
       "start": 1.38,
       "end": 1.448,
-      "confidence": 1.0,
-      "is_title": true
+      "confidence": 1.0
     },
     {
       "word": "BORBOLONÇA,",
@@ -212,59 +211,5 @@
   },
   "low_confidence_words": [
     "A"
-  ],
-  "timestamp_issues": {
-    "words_checked": 30,
-    "total_issues": 6,
-    "errors": 1,
-    "warnings": 5,
-    "issues_by_type": {
-      "too_short": 3,
-      "syllable_mismatch": 3
-    },
-    "issues": [
-      {
-        "word_index": 1,
-        "type": "too_short",
-        "message": "Word 'A' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 3,
-        "type": "too_short",
-        "message": "Word 'SE' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 5,
-        "type": "syllable_mismatch",
-        "message": "Word 'PPODE' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 25,
-        "type": "too_short",
-        "message": "Word 'LANCHE' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 25,
-        "type": "syllable_mismatch",
-        "message": "Word 'LANCHE' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 27,
-        "type": "syllable_mismatch",
-        "message": "Word 'PARA' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

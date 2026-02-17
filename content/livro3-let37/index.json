@@ -2,7 +2,7 @@
   "audio_file": "livro3_let37.mp3",
   "language": "pt",
   "duration": 15.5,
-  "title": "Livro3 Let37",
+  "title": "Lamento à beira-mar",
   "full_text": "Lamento à beira-mar\nQUEM GOSTA DE CAFÉ ADOÇADO COM AREIA,\nUMA PITADA DE SAL NO CHÁ QUE VAI TOMAR,\nSABOR DE PEIXE NO OVO ESTALADO – NÃO RECEIA\nAS LANCHONETES JUNTO AO MAR.",
   "word_count": 33,
   "words": [
@@ -25,7 +25,8 @@
       "start": 0.965,
       "end": 1.22,
       "confidence": 0.625,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "QUEM",
@@ -230,88 +231,5 @@
     "à",
     "beira-mar",
     "–"
-  ],
-  "timestamp_issues": {
-    "words_checked": 33,
-    "total_issues": 10,
-    "errors": 3,
-    "warnings": 7,
-    "issues_by_type": {
-      "too_short": 4,
-      "large_gap": 3,
-      "syllable_mismatch": 3
-    },
-    "issues": [
-      {
-        "word_index": 3,
-        "type": "too_short",
-        "message": "Word 'QUEM' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 3,
-        "type": "large_gap",
-        "message": "Large gap (1400ms) before 'QUEM' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 10,
-        "type": "too_short",
-        "message": "Word 'UMA' has very short duration (68ms)",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 10,
-        "type": "large_gap",
-        "message": "Large gap (1060ms) before 'UMA' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 10,
-        "type": "syllable_mismatch",
-        "message": "Word 'UMA' (2 syllables) has only 68ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 13,
-        "type": "too_short",
-        "message": "Word 'SAL' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 19,
-        "type": "large_gap",
-        "message": "Large gap (1240ms) before 'SABOR' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 19,
-        "type": "syllable_mismatch",
-        "message": "Word 'SABOR' (2 syllables) has only 88ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 21,
-        "type": "too_short",
-        "message": "Word 'PEIXE' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 21,
-        "type": "syllable_mismatch",
-        "message": "Word 'PEIXE' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  ]
 }

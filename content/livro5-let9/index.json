@@ -2,7 +2,7 @@
   "audio_file": "livro5_let9.mp3",
   "language": "pt",
   "duration": 9.64,
-  "title": "Livro5 Let9",
+  "title": "Gente tem sobrenome",
   "full_text": "Gente tem sobrenome\nTODAS AS COISAS\nTÊM NOME\nCASA, JANELA E JARDIM.\nCOISAS NÃO TÊM\nSOBRENOME,\nMAS A GENTE SIM.",
   "word_count": 20,
   "words": [
@@ -25,7 +25,8 @@
       "start": 0.705,
       "end": 1.26,
       "confidence": 1.0,
-      "line_break_after": true
+      "line_break_after": true,
+      "is_title": true
     },
     {
       "word": "TODAS",
@@ -150,53 +151,5 @@
     "words_verified": 0,
     "title_verified": false
   },
-  "low_confidence_words": [],
-  "timestamp_issues": {
-    "words_checked": 20,
-    "total_issues": 5,
-    "errors": 2,
-    "warnings": 3,
-    "issues_by_type": {
-      "large_gap": 1,
-      "too_short": 2,
-      "syllable_mismatch": 2
-    },
-    "issues": [
-      {
-        "word_index": 8,
-        "type": "large_gap",
-        "message": "Large gap (720ms) before 'CASA,' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 12,
-        "type": "too_short",
-        "message": "Word 'COISAS' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 12,
-        "type": "syllable_mismatch",
-        "message": "Word 'COISAS' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "too_short",
-        "message": "Word 'GENTE' has very short duration (8ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 18,
-        "type": "syllable_mismatch",
-        "message": "Word 'GENTE' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      }
-    ]
-  }
+  "low_confidence_words": []
 }
