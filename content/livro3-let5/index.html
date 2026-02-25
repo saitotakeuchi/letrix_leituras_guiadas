@@ -612,16 +612,17 @@ header {
     z-index: 1;
 }
 
-#audio-container h1 {
+#audio-container h2 {
     color: white;
     font-size: 28px;
     font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 2rem;
     z-index: 9;
     position: relative;
 }
 
-#audio-container h1 .word {
+#audio-container h2 .word {
     font-size: 28px;
     font-weight: bold;
 }
@@ -669,11 +670,6 @@ header {
 .transcript-container span.read,
 .word.read {
     color: var(--color-read);
-}
-
-/* Low confidence indicator */
-.word[data-low-confidence="true"] {
-    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
 }
 
 /* ============================================
@@ -844,7 +840,7 @@ audio {
       <div class="page-title-wrap">
         <h1 class="page-title">
           Leitura Guiada
-        </h1>
+        </h2>
       </div>
 
       <!-- Player Row -->
@@ -907,8 +903,8 @@ audio {
           <div class="lk-text-panel" id="lk-text-panel">
             <!-- Título -->
             <div id="audio-container">
-              <h1>
-<span class="word" data-start="0.0" data-end="0.425">Não </span><span class="word" data-start="0.425" data-end="0.86">falo, </span><span class="word" data-start="1.16" data-end="1.325">mas </span><span class="word" data-start="1.325" data-end="1.625">sempre </span><span class="word" data-start="1.625" data-end="2.38">explico </span>              </h1>
+              <h2>
+<span class="word" data-start="0.0" data-end="0.425">Não </span><span class="word" data-start="0.425" data-end="0.86">falo, </span><span class="word" data-start="1.16" data-end="1.325">mas </span><span class="word" data-start="1.325" data-end="1.625">sempre </span><span class="word" data-start="1.625" data-end="2.38">explico </span>              </h2>
             </div>
 
             <!-- Transcript Container (body text only) -->
@@ -919,7 +915,6 @@ audio {
 
         <!-- Referência -->
         <div class="lk-ref">
-          <strong>Referência:</strong>
           <p>GARCIA, Alfredo. O que é, o que é? Adivinhe se puder! São Paulo: Paulinas, 1996. p. 13. (Cavalo Marinho).</p>
         </div>
 

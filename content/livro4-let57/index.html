@@ -612,16 +612,17 @@ header {
     z-index: 1;
 }
 
-#audio-container h1 {
+#audio-container h2 {
     color: white;
     font-size: 28px;
     font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 2rem;
     z-index: 9;
     position: relative;
 }
 
-#audio-container h1 .word {
+#audio-container h2 .word {
     font-size: 28px;
     font-weight: bold;
 }
@@ -669,11 +670,6 @@ header {
 .transcript-container span.read,
 .word.read {
     color: var(--color-read);
-}
-
-/* Low confidence indicator */
-.word[data-low-confidence="true"] {
-    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
 }
 
 /* ============================================
@@ -850,7 +846,7 @@ audio {
       <div class="page-title-wrap">
         <h1 class="page-title">
           Leitura Guiada
-        </h1>
+        </h2>
       </div>
 
       <!-- Player Row -->
@@ -913,19 +909,18 @@ audio {
           <div class="lk-text-panel" id="lk-text-panel">
             <!-- Título -->
             <div id="audio-container">
-              <h1>
-<span class="word" data-start="0.19" data-end="0.285">O </span><span class="word" data-start="0.285" data-end="0.605">jacaré </span><span class="word" data-start="0.605" data-end="0.805">e </span><span class="word" data-start="0.805" data-end="1.025">a </span><span class="word" data-start="1.025" data-end="1.56">lagartixa </span>              </h1>
+              <h2>
+<span class="word" data-start="0.19" data-end="0.285">O </span><span class="word" data-start="0.285" data-end="0.605">jacaré </span><span class="word" data-start="0.605" data-end="0.805">e </span><span class="word" data-start="0.805" data-end="1.025">a </span><span class="word" data-start="1.025" data-end="1.56">lagartixa </span>              </h2>
             </div>
 
             <!-- Transcript Container (body text only) -->
             <div class="transcript-container" id="transcript">
-<span class="word" data-start="2.02" data-end="2.048">O </span><span class="word" data-start="2.05" data-end="2.505">JACARÉ </span><br><span class="word" data-start="2.705" data-end="3.045">É </span><span class="word" data-start="3.045" data-end="3.645">UMA </span><br><span class="word" data-start="3.645" data-end="3.80" data-low-confidence="true">LA... </span><br><span class="word" data-start="4.22" data-end="4.43" data-low-confidence="true">GAR... </span><br><span class="word" data-start="4.694" data-end="4.84" data-low-confidence="true">TI... </span><br><span class="word" data-start="5.30" data-end="5.50" data-low-confidence="true">I... </span><br><span class="word" data-start="5.9" data-end="6.1" data-low-confidence="true">I... </span><br><span class="word" data-start="6.5" data-end="6.7" data-low-confidence="true">I... </span><br><span class="word" data-start="7.1" data-end="7.3" data-low-confidence="true">I... </span><br><span class="word" data-start="7.7" data-end="7.9" data-low-confidence="true">I... </span><br><span class="word" data-start="8.3" data-end="8.5" data-low-confidence="true">XA </span><br><span class="word" data-start="8.9" data-end="9.605">QUE </span><br><span class="word" data-start="9.605" data-end="10.1">ESPICHA... </span><br><span class="word" data-start="10.6" data-end="10.618">É </span><span class="word" data-start="10.62" data-end="10.775">OU </span><span class="word" data-start="10.775" data-end="10.945">NÃO </span><span class="word" data-start="10.945" data-end="11.145">É? </span>            </div>
+<span class="word" data-start="2.02" data-end="2.048">O </span><span class="word" data-start="2.05" data-end="2.505">JACARÉ </span><br><span class="word" data-start="2.705" data-end="3.045">É </span><span class="word" data-start="3.045" data-end="3.645">UMA </span><br><span class="word" data-start="3.645" data-end="3.80">LA... </span><br><span class="word" data-start="4.22" data-end="4.43">GAR... </span><br><span class="word" data-start="4.694" data-end="4.84">TI... </span><br><span class="word" data-start="5.30" data-end="5.50">I... </span><br><span class="word" data-start="5.9" data-end="6.1">I... </span><br><span class="word" data-start="6.5" data-end="6.7">I... </span><br><span class="word" data-start="7.1" data-end="7.3">I... </span><br><span class="word" data-start="7.7" data-end="7.9">I... </span><br><span class="word" data-start="8.3" data-end="8.5">XA </span><br><span class="word" data-start="8.9" data-end="9.605">QUE </span><br><span class="word" data-start="9.605" data-end="10.1">ESPICHA... </span><br><span class="word" data-start="10.6" data-end="10.618">É </span><span class="word" data-start="10.62" data-end="10.775">OU </span><span class="word" data-start="10.775" data-end="10.945">NÃO </span><span class="word" data-start="10.945" data-end="11.145">É? </span>            </div>
           </div>
         </div>
 
         <!-- Referência -->
         <div class="lk-ref">
-          <strong>Referência:</strong>
           <p>AZEVEDO, Alexandre. O jacaré e a lagartixa. Ciência Hoje das Crianças, Rio de Janeiro, n. 224, quarta capa, jun. 2011</p>
         </div>
 

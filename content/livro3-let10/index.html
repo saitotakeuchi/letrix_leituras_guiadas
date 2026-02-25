@@ -612,16 +612,17 @@ header {
     z-index: 1;
 }
 
-#audio-container h1 {
+#audio-container h2 {
     color: white;
     font-size: 28px;
     font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 2rem;
     z-index: 9;
     position: relative;
 }
 
-#audio-container h1 .word {
+#audio-container h2 .word {
     font-size: 28px;
     font-weight: bold;
 }
@@ -669,11 +670,6 @@ header {
 .transcript-container span.read,
 .word.read {
     color: var(--color-read);
-}
-
-/* Low confidence indicator */
-.word[data-low-confidence="true"] {
-    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
 }
 
 /* ============================================
@@ -844,7 +840,7 @@ audio {
       <div class="page-title-wrap">
         <h1 class="page-title">
           Leitura Guiada
-        </h1>
+        </h2>
       </div>
 
       <!-- Player Row -->
@@ -907,8 +903,8 @@ audio {
           <div class="lk-text-panel" id="lk-text-panel">
             <!-- Título -->
             <div id="audio-container">
-              <h1>
-<span class="word" data-start="0.0" data-end="0.345">Eu </span><span class="word" data-start="0.345" data-end="0.525">fui </span><span class="word" data-start="0.525" data-end="0.805">lá </span><span class="word" data-start="0.805" data-end="1.07">não </span><span class="word" data-start="1.08" data-end="1.228">sei </span><span class="word" data-start="1.23" data-end="1.72">aonde </span>              </h1>
+              <h2>
+<span class="word" data-start="0.0" data-end="0.345">Eu </span><span class="word" data-start="0.345" data-end="0.525">fui </span><span class="word" data-start="0.525" data-end="0.805">lá </span><span class="word" data-start="0.805" data-end="1.07">não </span><span class="word" data-start="1.08" data-end="1.228">sei </span><span class="word" data-start="1.23" data-end="1.72">aonde </span>              </h2>
             </div>
 
             <!-- Transcript Container (body text only) -->
@@ -919,7 +915,6 @@ audio {
 
         <!-- Referência -->
         <div class="lk-ref">
-          <strong>Referência:</strong>
           <p>BRASIL. Ministério da Educação. Secretaria de Alfabetização. Quadrinhas. Brasília: MEC/Sealf, 2020. Disponível em: https://alfabetizacao.mec.gov.br/images/ conta-pra-mim/livros/versao_colorir/quadrinhas_para_ colorir.pdf. Acesso em: 26 mar. 2024. p. 13.</p>
         </div>
 

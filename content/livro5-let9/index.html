@@ -612,16 +612,17 @@ header {
     z-index: 1;
 }
 
-#audio-container h1 {
+#audio-container h2 {
     color: white;
     font-size: 28px;
     font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 2rem;
     z-index: 9;
     position: relative;
 }
 
-#audio-container h1 .word {
+#audio-container h2 .word {
     font-size: 28px;
     font-weight: bold;
 }
@@ -669,11 +670,6 @@ header {
 .transcript-container span.read,
 .word.read {
     color: var(--color-read);
-}
-
-/* Low confidence indicator */
-.word[data-low-confidence="true"] {
-    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
 }
 
 /* ============================================
@@ -850,7 +846,7 @@ audio {
       <div class="page-title-wrap">
         <h1 class="page-title">
           Leitura Guiada
-        </h1>
+        </h2>
       </div>
 
       <!-- Player Row -->
@@ -913,8 +909,8 @@ audio {
           <div class="lk-text-panel" id="lk-text-panel">
             <!-- Título -->
             <div id="audio-container">
-              <h1>
-<span class="word" data-start="0.2" data-end="0.445">Gente </span><span class="word" data-start="0.445" data-end="0.705">tem </span><span class="word" data-start="0.705" data-end="1.26">sobrenome </span>              </h1>
+              <h2>
+<span class="word" data-start="0.2" data-end="0.445">Gente </span><span class="word" data-start="0.445" data-end="0.705">tem </span><span class="word" data-start="0.705" data-end="1.26">sobrenome </span>              </h2>
             </div>
 
             <!-- Transcript Container (body text only) -->
@@ -925,7 +921,6 @@ audio {
 
         <!-- Referência -->
         <div class="lk-ref">
-          <strong>Referência:</strong>
           <p>TOQUINHO; ANDREATO, Elifas. Gente tem sobrenome. Intérprete: Toquinho e Chico Buarque. In: TOQUINHO. Toquinho e convidados: canção dos direitos da criança. São Paulo: Radar Records, 1997. 1 CD, digital, estéreo. Faixa 3.</p>
         </div>
 

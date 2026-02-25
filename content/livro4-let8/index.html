@@ -612,16 +612,17 @@ header {
     z-index: 1;
 }
 
-#audio-container h1 {
+#audio-container h2 {
     color: white;
     font-size: 28px;
     font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 2rem;
     z-index: 9;
     position: relative;
 }
 
-#audio-container h1 .word {
+#audio-container h2 .word {
     font-size: 28px;
     font-weight: bold;
 }
@@ -669,11 +670,6 @@ header {
 .transcript-container span.read,
 .word.read {
     color: var(--color-read);
-}
-
-/* Low confidence indicator */
-.word[data-low-confidence="true"] {
-    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
 }
 
 /* ============================================
@@ -850,7 +846,7 @@ audio {
       <div class="page-title-wrap">
         <h1 class="page-title">
           Leitura Guiada
-        </h1>
+        </h2>
       </div>
 
       <!-- Player Row -->
@@ -913,8 +909,8 @@ audio {
           <div class="lk-text-panel" id="lk-text-panel">
             <!-- Título -->
             <div id="audio-container">
-              <h1>
-<span class="word" data-start="0.15" data-end="0.51">A </span><span class="word" data-start="0.52" data-end="0.548">língua </span><span class="word" data-start="0.55" data-end="0.765">de </span><span class="word" data-start="0.765" data-end="1.11">um </span><span class="word" data-start="1.12" data-end="1.128">povo </span><span class="word" data-start="1.13" data-end="1.425">dá </span><span class="word" data-start="1.425" data-end="1.605">nome </span><span class="word" data-start="1.605" data-end="1.905">para </span><span class="word" data-start="1.905" data-end="2.285">todas </span><span class="word" data-start="2.285" data-end="2.53">as </span><span class="word" data-start="2.54" data-end="3.14">coisas </span>              </h1>
+              <h2>
+<span class="word" data-start="0.15" data-end="0.51">A </span><span class="word" data-start="0.52" data-end="0.548">língua </span><span class="word" data-start="0.55" data-end="0.765">de </span><span class="word" data-start="0.765" data-end="1.11">um </span><span class="word" data-start="1.12" data-end="1.128">povo </span><span class="word" data-start="1.13" data-end="1.425">dá </span><span class="word" data-start="1.425" data-end="1.605">nome </span><span class="word" data-start="1.605" data-end="1.905">para </span><span class="word" data-start="1.905" data-end="2.285">todas </span><span class="word" data-start="2.285" data-end="2.53">as </span><span class="word" data-start="2.54" data-end="3.14">coisas </span>              </h2>
             </div>
 
             <!-- Transcript Container (body text only) -->
@@ -925,7 +921,6 @@ audio {
 
         <!-- Referência -->
         <div class="lk-ref">
-          <strong>Referência:</strong>
           <p>PAULA, Eunice D. de; PAULA, Luiz G. de; AMARANTE, Elizabeth. História dos povos indígenas: 500 anos de luta no Brasil. 6. ed. Rio de Janeiro: Vozes; Conselho Indigenista Missionário, 1982. p. 62.</p>
         </div>
 

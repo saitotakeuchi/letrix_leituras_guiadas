@@ -612,16 +612,17 @@ header {
     z-index: 1;
 }
 
-#audio-container h1 {
+#audio-container h2 {
     color: white;
     font-size: 28px;
     font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 2rem;
     z-index: 9;
     position: relative;
 }
 
-#audio-container h1 .word {
+#audio-container h2 .word {
     font-size: 28px;
     font-weight: bold;
 }
@@ -669,11 +670,6 @@ header {
 .transcript-container span.read,
 .word.read {
     color: var(--color-read);
-}
-
-/* Low confidence indicator */
-.word[data-low-confidence="true"] {
-    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
 }
 
 /* ============================================
@@ -844,7 +840,7 @@ audio {
       <div class="page-title-wrap">
         <h1 class="page-title">
           Leitura Guiada
-        </h1>
+        </h2>
       </div>
 
       <!-- Player Row -->
@@ -907,19 +903,18 @@ audio {
           <div class="lk-text-panel" id="lk-text-panel">
             <!-- Título -->
             <div id="audio-container">
-              <h1>
-<span class="word" data-start="0.1" data-end="0.82">Adivinha </span>              </h1>
+              <h2>
+<span class="word" data-start="0.1" data-end="0.82">Adivinha </span>              </h2>
             </div>
 
             <!-- Transcript Container (body text only) -->
             <div class="transcript-container" id="transcript">
-<span class="word" data-start="1.7" data-end="2.308">ADIVINHA </span><span class="word" data-start="2.31" data-end="2.585">UM </span><span class="word" data-start="2.585" data-end="2.745">MAR </span><span class="word" data-start="2.745" data-end="2.925">QUE </span><span class="word" data-start="2.925" data-end="3.24">FAZ </span><span class="word" data-start="3.2" data-end="3.9" data-low-confidence="true">QÜEM-QÜEM </span><br><span class="word" data-start="4.78" data-end="4.928">E </span><span class="word" data-start="4.93" data-end="5.17">DE </span><span class="word" data-start="5.18" data-end="5.288">QUEM </span><span class="word" data-start="5.29" data-end="5.73">SE </span><span class="word" data-start="5.74" data-end="5.768">OUVE </span><span class="word" data-start="5.77" data-end="6.17">O </span><span class="word" data-start="6.18" data-end="6.38">ECO </span><br><span class="word" data-start="7.26" data-end="7.68">VAMOS, </span><span class="word" data-start="8.14" data-end="8.158">ME </span><span class="word" data-start="8.16" data-end="8.325">DIZ </span><span class="word" data-start="8.325" data-end="9.3">DEPRESSA </span><br><span class="word" data-start="10.0" data-end="10.108">NÃO </span><span class="word" data-start="10.11" data-end="10.385">É </span><span class="word" data-start="10.385" data-end="10.76">PATO, </span><span class="word" data-start="11.08" data-end="11.645">É… </span><br><span class="word" data-start="12.000" data-end="12.68">MARRECO </span>            </div>
+<span class="word" data-start="1.7" data-end="2.308">ADIVINHA </span><span class="word" data-start="2.31" data-end="2.585">UM </span><span class="word" data-start="2.585" data-end="2.745">MAR </span><span class="word" data-start="2.745" data-end="2.925">QUE </span><span class="word" data-start="2.925" data-end="3.24">FAZ </span><span class="word" data-start="3.2" data-end="3.9">QÜEM-QÜEM </span><br><span class="word" data-start="4.78" data-end="4.928">E </span><span class="word" data-start="4.93" data-end="5.17">DE </span><span class="word" data-start="5.18" data-end="5.288">QUEM </span><span class="word" data-start="5.29" data-end="5.73">SE </span><span class="word" data-start="5.74" data-end="5.768">OUVE </span><span class="word" data-start="5.77" data-end="6.17">O </span><span class="word" data-start="6.18" data-end="6.38">ECO </span><br><span class="word" data-start="7.26" data-end="7.68">VAMOS, </span><span class="word" data-start="8.14" data-end="8.158">ME </span><span class="word" data-start="8.16" data-end="8.325">DIZ </span><span class="word" data-start="8.325" data-end="9.3">DEPRESSA </span><br><span class="word" data-start="10.0" data-end="10.108">NÃO </span><span class="word" data-start="10.11" data-end="10.385">É </span><span class="word" data-start="10.385" data-end="10.76">PATO, </span><span class="word" data-start="11.08" data-end="11.645">É… </span><br><span class="word" data-start="12.000" data-end="12.68">MARRECO </span>            </div>
           </div>
         </div>
 
         <!-- Referência -->
         <div class="lk-ref">
-          <strong>Referência:</strong>
           <p>CAPPARELLI, Sérgio. Adivinha. In: CAPPARELLI, Sérgio. Tigres no quintal. Porto Alegre: Kuarup, 1997. p. 100.</p>
         </div>
 
