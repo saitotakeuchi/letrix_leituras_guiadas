@@ -8,7 +8,7 @@
   "words": [
     {
       "word": "Eu",
-      "start": 0.0,
+      "start": 0.3,
       "end": 0.345,
       "confidence": 1.0,
       "is_title": true
@@ -82,13 +82,13 @@
     {
       "word": "AONDE,",
       "start": 3.77,
-      "end": 4.26,
+      "end": 4.2,
       "confidence": 1.0,
       "line_break_after": true
     },
     {
       "word": "VISITAR",
-      "start": 5.54,
+      "start": 4.22,
       "end": 5.82,
       "confidence": 1.0
     },
@@ -107,12 +107,12 @@
     {
       "word": "A",
       "start": 6.51,
-      "end": 6.91,
+      "end": 6.81,
       "confidence": 1.0
     },
     {
       "word": "QUEM.",
-      "start": 6.92,
+      "start": 6.82,
       "end": 7.12,
       "confidence": 1.0,
       "line_break_after": true
@@ -150,7 +150,7 @@
     },
     {
       "word": "GOSTANDO",
-      "start": 11.06,
+      "start": 10.0,
       "end": 11.38,
       "confidence": 1.0
     },
@@ -169,12 +169,12 @@
     {
       "word": "DE",
       "start": 12.11,
-      "end": 12.55,
+      "end": 12.35,
       "confidence": 1.0
     },
     {
       "word": "QUEM.",
-      "start": 12.56,
+      "start": 12.36,
       "end": 12.76,
       "confidence": 1.0
     }

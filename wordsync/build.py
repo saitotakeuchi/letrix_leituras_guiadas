@@ -18,9 +18,278 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+import html as html_module
+
 from wordsync.config import Settings, get_settings
 from wordsync.process import SyncResult, discover_pages, load_sync_result
 from wordsync.transcribe import get_audio_mime_type
+
+
+def _format_referencia(text: str) -> str:
+    """Apply ABNT italic formatting to a bibliographic reference.
+
+    Detects reference type and wraps the appropriate title in <em> tags.
+    Returns HTML-safe string with <em> around the italicized portion.
+    """
+    stripped = text.strip()
+
+    # Skip: very short, "Cultura popular", "sem referência."
+    if len(stripped) < 15 or stripped.lower() in ("cultura popular", "sem referência."):
+        return html_module.escape(stripped)
+
+    safe = html_module.escape(stripped)
+
+    # --- 1. "Texto não publicado" ---
+    texto_match = re.search(r'\.\s*Texto não publicado', stripped)
+    if texto_match:
+        before = stripped[:texto_match.start()]
+        author_end = _find_author_end(before)
+        title = before[author_end:].strip().rstrip('.')
+        if title:
+            safe_title = html_module.escape(title)
+            safe = safe.replace(safe_title, '<em>' + safe_title + '</em>', 1)
+        return safe
+
+    # --- 2. "In:" references ---
+    in_match = re.search(r'\.\s*In:\s*', stripped)
+    if in_match:
+        after_in = stripped[in_match.end():]
+
+        # Author after "In:" — ALL-CAPS name ending with period
+        author_after = re.match(
+            r'((?:[A-ZÀ-Ú]{2,}(?:,\s*[^.]+)?\.\s*)+)',
+            after_in,
+        )
+        title_start = author_after.end() if author_after else 0
+        rest = after_in[title_start:]
+
+        # Title ends at boundary
+        end_m = re.search(
+            r'\.\s+(?=\d+\.\s*ed\.)'
+            r'|\.\s+(?=s\.\s*p\.)'
+            r'|\.\s+(?=\d+\s+CD\b)'
+            r'|\.\s+(?=[A-ZÀ-Ú][a-zà-ú]+(?:\s+[A-ZÀ-Ú][a-zà-ú]+)*\s*:)'
+            r'|,\s+(?=p\.\s*\d)'
+            r'|,\s+(?=[A-ZÀ-Ú][a-zà-ú]+(?:\s+[A-ZÀ-Ú][a-zà-ú]+)*\s*,)'
+            r'|\.\s*$',
+            rest,
+        )
+        book_title = rest[:end_m.start()].strip() if end_m else rest.strip()
+        book_title = book_title.rstrip('.')
+
+        # If title has internal sentence boundaries ("? " or ". ") and the
+        # last segment is short + followed by metadata, it's a periodical name
+        # e.g., "QUE PAPO é este? Folhinha" → just "Folhinha"
+        for sep in ('? ', '. '):
+            if sep in book_title:
+                last_seg = book_title.rsplit(sep, 1)[-1].strip()
+                if last_seg and len(last_seg) < 30:
+                    book_title = last_seg
+                    break
+
+        if book_title:
+            safe_title = html_module.escape(book_title)
+            safe_in = html_module.escape(in_match.group().strip())
+            safe = safe.replace(safe_in, '<em>' + safe_in + '</em>', 1)
+            safe = safe.replace(safe_title, '<em>' + safe_title + '</em>', 1)
+        return safe
+
+    # --- 3. "Disponível em:" (online documents — checked before book/periodical) ---
+    if 'Disponível em:' in stripped:
+        disp_pos = stripped.index('Disponível em:')
+        before = stripped[:disp_pos].rstrip()
+        # Remove trailing period/space but remember if ? or !
+        trail_char = before[-1] if before else ''
+        before_clean = before.rstrip('.?! ')
+        # If there's also publication info (City: Publisher) before Disponível,
+        # extract title between author and pub info
+        city_in_before = re.search(
+            r'[.,;!?]\s*[A-ZÀ-Ú][a-zà-ú]+\s*:\s*[A-ZÀ-Ú]',
+            before_clean,
+        )
+        if city_in_before:
+            # Title is between author end and city:publisher
+            before_city = before_clean[:city_in_before.start()]
+            author_end = _find_author_end(before_city)
+            title = before_city[author_end:].strip().rstrip('.')
+        else:
+            author_end = _find_author_end(before_clean)
+            title = before_clean[author_end:].strip().rstrip('.')
+        # Restore trailing ? or ! (part of the title)
+        if trail_char in '?!' and not title.endswith(trail_char):
+            title = title + trail_char
+        if title:
+            safe_title = html_module.escape(title)
+            safe = safe.replace(safe_title, '<em>' + safe_title + '</em>', 1)
+        return safe
+
+    # --- 4. Periodical articles ---
+    # Periodical name appears after article title, followed by ", City,"
+    # or ", metadata". Must NOT have "City: Publisher" pattern.
+    has_city_pub = re.search(r'[A-ZÀ-Ú][a-zà-ú]+\s*:\s*[A-ZÀ-Ú]', stripped)
+    if not has_city_pub:
+        # Find each ". " or "? " boundary, check if what follows is
+        # "PeriodicalName, ..." with ABNT metadata. Use the LAST matching
+        # boundary (closest to the metadata), not the first.
+        best_name = None
+        for m in re.finditer(r'[.?!]\s+', stripped):
+            after = stripped[m.end():]
+            comma = after.find(',')
+            if comma <= 0:
+                continue
+            name = after[:comma].strip()
+            rest_after = after[comma + 1:]
+            if not name or not name[0].isupper() or len(name) > 50:
+                continue
+            if re.search(
+                r'\b(?:ano|n\.|p\.|v\.)\s*\d'
+                r'|(?:jan|fev|mar|abr|maio|jun|jul|ago|set|out|nov|dez)\b',
+                rest_after,
+                re.IGNORECASE,
+            ):
+                best_name = name
+        if best_name:
+            safe_name = html_module.escape(best_name)
+            safe = safe.replace(safe_name, '<em>' + safe_name + '</em>', 1)
+            return safe
+
+    # --- 5. Book references (City: Publisher pattern) ---
+    # City names may have lowercase prepositions: "Rio de Janeiro", "Santa Cruz"
+    city_pub_match = re.search(
+        r'[.,;!?]\s*(?:\d+\.\s*ed\.\s+)?'
+        r'[A-ZÀ-Ú][a-zà-ú]+(?:\s+(?:de|da|do|dos|das|[A-ZÀ-Ú])[a-zà-ú]*)*'
+        r'\s*:\s*[A-ZÀ-Ú]',
+        stripped,
+    )
+    if city_pub_match:
+        before_city = stripped[:city_pub_match.start()]
+        # Include trailing ! or ? in the title (e.g., "Adivinhe se puder!")
+        trail = stripped[city_pub_match.start():city_pub_match.start() + 1]
+        if trail in '!?':
+            before_city += trail
+        author_end = _find_author_end(before_city)
+        title = before_city[author_end:].strip().rstrip('.')
+        # Strip "; ilustrações..." or similar appendages
+        semi_pos = title.find(';')
+        if semi_pos > 0:
+            title = title[:semi_pos].strip()
+        ilust = re.search(r'\.\s+[Ii]lustra', title)
+        if ilust:
+            title = title[:ilust.start()].strip()
+        # No-author book: "ENTRY. BookTitle. City:" — take last ". "-segment
+        if author_end == 0 and '. ' in title:
+            title = title.rsplit('. ', 1)[-1]
+        if title:
+            safe_title = html_module.escape(title)
+            safe = safe.replace(safe_title, '<em>' + safe_title + '</em>', 1)
+        return safe
+
+    return safe
+
+
+def _find_author_end(text: str) -> int:
+    """Find where the author block ends in a reference string.
+
+    Scans ". " positions to find the first one that ends the author block
+    (i.e., is followed by the title, not by another author name).
+    Returns 0 for no-author entries.
+    """
+    # No-author patterns: ALL-CAPS word followed by lowercase
+    # "6 CURIOSIDADES sobre...", "CONHEÇA Polly...", "PAPO de gato..."
+    # "MAMÍFEROS voadores...", "JOGOS e brincadeiras..."
+    if re.match(r'(?:\d+\s+)?[A-ZÀ-Ú]+\s+[a-zà-ú]', text):
+        return 0
+    # "A ORIGEM dos..."
+    if re.match(r'[A-ZÀ-Ú]\s+[A-ZÀ-Ú]+\s+[a-zà-ú]', text):
+        return 0
+
+    # Institutional: "BRASIL. Ministério da Educação. Secretaria..."
+    # Each segment after ALL-CAPS starts with a capitalized word
+    inst = re.match(r'[A-ZÀ-Ú]{2,}\.\s+', text)
+    if inst:
+        pos = inst.end()
+        while pos < len(text):
+            next_seg = re.match(r'([^.]+)\.\s*', text[pos:])
+            if not next_seg:
+                break
+            seg_text = next_seg.group(1).strip()
+            if re.match(r'[A-ZÀ-Ú][a-zà-ú]', seg_text):
+                pos += next_seg.end()
+            else:
+                break
+        return pos
+
+    # Standard/multi-author: scan ". " boundaries
+    # An author-internal period is one that follows a single-letter initial
+    # (e.g., "A." in "Josca A.") or a preposition (e.g., "de." in "S. de.").
+    # The first ". " NOT followed by an ALL-CAPS surname and NOT an
+    # initial/preposition ends the author block.
+    last_author_dot = -1  # track last ". " that was part of author
+    pos = 0
+    while True:
+        dot = text.find('. ', pos)
+        if dot == -1:
+            break
+
+        after = text[dot + 2:]
+
+        # Single-letter initial before dot: author-internal
+        if dot >= 1 and text[dot - 1].isalpha() and (dot < 2 or text[dot - 2] in ' ,;'):
+            last_author_dot = dot
+            pos = dot + 2
+            continue
+
+        # Preposition before dot: author-internal
+        pre_word = re.search(r'(\w+)\s*$', text[:dot])
+        if pre_word and pre_word.group(1).lower() in ('de', 'da', 'das', 'dos', 'do'):
+            last_author_dot = dot
+            pos = dot + 2
+            continue
+
+        # What follows is ALL-CAPS surname? More authors ahead
+        if re.match(r'[A-ZÀ-Ú]{2,}[,.\s;]', after):
+            last_author_dot = dot
+            pos = dot + 2
+            continue
+
+        # This ". " ends the author block
+        return dot + 2
+
+    # No clear ". " boundary found.
+    # For multi-author with semicolons (e.g., "AUTHOR1; AUTHOR2. Title"),
+    # find the last "; ALLCAPS" pattern, then scan for a non-initial/preposition ". "
+    last_semi = -1
+    for sm in re.finditer(r';\s*[A-ZÀ-Ú]{2,}', text):
+        last_semi = sm.end()
+    if last_semi > 0:
+        search_pos = last_semi
+        while True:
+            dot_after = text.find('. ', search_pos)
+            if dot_after == -1:
+                break
+            # Skip single-letter initials
+            if dot_after >= 1 and text[dot_after - 1].isalpha() and (
+                dot_after < 2 or text[dot_after - 2] in ' ,;'
+            ):
+                search_pos = dot_after + 2
+                continue
+            # Skip prepositions
+            pw = re.search(r'(\w+)\s*$', text[:dot_after])
+            if pw and pw.group(1).lower() in ('de', 'da', 'das', 'dos', 'do'):
+                search_pos = dot_after + 2
+                continue
+            return dot_after + 2
+
+    # Use last author-internal dot as fallback
+    if last_author_dot >= 0:
+        return last_author_dot + 2
+
+    # Check for terminal "."
+    dot = text.rfind('.')
+    if dot > 0:
+        return dot + 2 if dot < len(text) - 1 and text[dot + 1] == ' ' else dot + 1
+
+    return 0
 
 
 def build_page(
@@ -100,6 +369,10 @@ def build_page(
         referencia_path = Path(source_audio_path).parent / "referencia.txt"
         if referencia_path.exists():
             referencia = referencia_path.read_text(encoding="utf-8").strip()
+
+    # Apply ABNT italic formatting to reference
+    if referencia:
+        referencia = _format_referencia(referencia)
 
     # Prepare template context
     context = _build_template_context(

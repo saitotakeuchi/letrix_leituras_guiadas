@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} - {{ project_name }}</title>
+  <link rel="icon" type="image/png" href="./images/favicon.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -151,7 +152,7 @@
         {% if referencia %}
         <!-- Referência -->
         <div class="lk-ref">
-          <p>{{ referencia }}</p>
+          <p>{{ referencia | safe }}</p>
         </div>
         {% endif %}
 
