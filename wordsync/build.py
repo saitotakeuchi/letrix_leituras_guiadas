@@ -254,12 +254,18 @@ def _build_template_context(
     css_content = _load_asset(settings.templates_dir / settings.templates.styles, settings)
     js_content = _load_asset(settings.templates_dir / settings.templates.player, settings)
 
+    # Classify: prose if any body line > 80 chars
+    lines = (sync_result.full_text or "").split("\n")
+    body_lines = lines[1:]  # skip title
+    is_prose = any(len(line) > 80 for line in body_lines)
+
     return {
         # Page content
         "title": sync_result.title or "Leitura Guiada",
         "full_text": sync_result.full_text,
         "words": words_data,
         "word_count": len(words_data),
+        "is_prose": is_prose,
 
         # Audio
         "audio_src": audio_src,

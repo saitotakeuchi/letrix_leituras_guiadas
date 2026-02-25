@@ -596,16 +596,17 @@ header {
     z-index: 1;
 }
 
-#audio-container h1 {
+#audio-container h2 {
     color: white;
     font-size: 28px;
     font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 2rem;
     z-index: 9;
     position: relative;
 }
 
-#audio-container h1 .word {
+#audio-container h2 .word {
     font-size: 28px;
     font-weight: bold;
 }
@@ -653,11 +654,6 @@ header {
 .transcript-container span.read,
 .word.read {
     color: var(--color-read);
-}
-
-/* Low confidence indicator */
-.word[data-low-confidence="true"] {
-    border-bottom: 2px dotted rgba(255, 100, 100, 0.5);
 }
 
 /* ============================================

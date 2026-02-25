@@ -136,14 +136,14 @@
           <div class="lk-text-panel" id="lk-text-panel">
             <!-- Título -->
             <div id="audio-container">
-              <h1>
+              <h2>
                 {% for word in words %}{% if word.is_title %}{% if word.start == 0 and word.end == 0 %}<span class="word no-sync">{{ word.word }} </span>{% else %}<span class="word" data-start="{{ word.start }}" data-end="{{ word.end }}">{{ word.word }} </span>{% endif %}{% endif %}{% endfor %}
-              </h1>
+              </h2>
             </div>
 
             <!-- Transcript Container (body text only) -->
             <div class="transcript-container" id="transcript">
-              {% for word in words %}{% if not word.is_title %}<span class="word" data-start="{{ word.start }}" data-end="{{ word.end }}"{% if word.confidence < 0.8 %} data-low-confidence="true"{% endif %}>{{ word.word }} </span>{% if word.line_break_after %}<br>{% endif %}{% endif %}{% endfor %}
+              {% for word in words %}{% if not word.is_title %}<span class="word" data-start="{{ word.start }}" data-end="{{ word.end }}">{{ word.word }} </span>{% if word.line_break_after %}{% if is_prose %}<br><br>{% else %}<br>{% endif %}{% endif %}{% endif %}{% endfor %}
             </div>
           </div>
         </div>
@@ -151,7 +151,6 @@
         {% if referencia %}
         <!-- Referência -->
         <div class="lk-ref">
-          <strong>Referência:</strong>
           <p>{{ referencia }}</p>
         </div>
         {% endif %}
