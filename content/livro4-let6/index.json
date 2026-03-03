@@ -120,12 +120,12 @@
     {
       "word": "A",
       "start": 6.865,
-      "end": 7.33,
+      "end": 7.065,
       "confidence": 1.0
     },
     {
       "word": "BOLA",
-      "start": 7.34,
+      "start": 7.67,
       "end": 7.54,
       "confidence": 1.0,
       "line_break_after": true
