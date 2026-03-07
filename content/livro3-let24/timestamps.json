@@ -1,7 +1,7 @@
 {
   "audio_file": "livro3_let24.mp3",
   "language": "pt",
-  "duration": 56.08,
+  "duration": 52.77,
   "title": "O bicho-preguiça",
   "full_text": "O bicho-preguiça\nDIZEM QUE O GATO TEM SETE FÔLEGOS E QUE O BICHO-PREGUIÇA TEM SETE PREGUIÇAS.\nUMA VEZ, UMA PREGUIÇA ESTAVA EMBAIXO DE UMA EMBAÚBA ESPERANDO ELA FLORESCER. QUANDO AS FLORES ROXAS VIESSEM, A PREGUIÇA, QUE É MUITO GULOSA POR BANANINHAS DE EMBAÚBA, COMEÇAVA A SUBIR. PENSAVA QUE, ATÉ CHEGAR LÁ EM CIMA, JÁ AS FRUTAS TINHAM VINDO E ESTAVAM MADURAS.\nENTÃO ELA FOI SUBINDO, SUBINDO. SETE ANOS SE PASSARAM. SETE VEZES A EMBAÚBA FLORESCEU E FRUTIFICOU. QUANDO A PREGUIÇA ACABOU A VIAGEM E IA COMER OS FRUTOS, ARREBENTOU O GALHO, E ELA VEIO PARA O CHÃO QUE NEM UM BOLO. SANTA PACIÊNCIA! VOLTOU À ÁRVORE E COMEÇOU A SUBIR, MAIS SETE ANOS.\nAINDA ESTÁ LÁ.",
   "word_count": 116,
@@ -9,715 +9,715 @@
     {
       "word": "O",
       "start": 0.0,
-      "end": 0.47,
+      "end": 0.49,
       "confidence": 1.0,
       "is_title": true
     },
     {
       "word": "bicho-preguiça",
-      "start": 0.47,
-      "end": 1.26,
+      "start": 0.49,
+      "end": 1.18,
       "confidence": 0.615,
       "line_break_after": true,
       "is_title": true
     },
     {
       "word": "DIZEM",
-      "start": 2.54,
-      "end": 2.618,
+      "start": 2.52,
+      "end": 2.578,
       "confidence": 1.0
     },
     {
       "word": "QUE",
-      "start": 2.62,
-      "end": 2.748,
+      "start": 2.58,
+      "end": 2.688,
       "confidence": 1.0
     },
     {
       "word": "O",
-      "start": 2.75,
-      "end": 3.15,
+      "start": 2.69,
+      "end": 3.11,
       "confidence": 1.0
     },
     {
       "word": "GATO",
-      "start": 3.16,
-      "end": 3.168,
+      "start": 3.12,
+      "end": 3.128,
       "confidence": 1.0
     },
     {
       "word": "TEM",
-      "start": 3.17,
-      "end": 3.465,
+      "start": 3.13,
+      "end": 3.405,
       "confidence": 1.0
     },
     {
       "word": "SETE",
-      "start": 3.465,
-      "end": 3.785,
+      "start": 3.405,
+      "end": 3.765,
       "confidence": 1.0
     },
     {
       "word": "FÔLEGOS",
-      "start": 3.785,
-      "end": 4.325,
-      "confidence": 0.7
+      "start": 3.765,
+      "end": 4.25,
+      "confidence": 0.857
     },
     {
       "word": "E",
-      "start": 4.325,
-      "end": 4.518,
+      "start": 4.26,
+      "end": 4.398,
       "confidence": 1.0
     },
     {
       "word": "QUE",
-      "start": 4.52,
-      "end": 4.668,
+      "start": 4.4,
+      "end": 4.565,
       "confidence": 1.0
     },
     {
       "word": "O",
-      "start": 4.67,
-      "end": 4.985,
+      "start": 4.565,
+      "end": 4.925,
       "confidence": 1.0
     },
     {
       "word": "BICHO-PREGUIÇA",
-      "start": 4.985,
-      "end": 5.405,
+      "start": 4.925,
+      "end": 5.345,
       "confidence": 0.615
     },
     {
       "word": "TEM",
-      "start": 5.405,
-      "end": 5.745,
+      "start": 5.345,
+      "end": 5.685,
       "confidence": 1.0
     },
     {
       "word": "SETE",
-      "start": 5.745,
-      "end": 6.105,
+      "start": 5.685,
+      "end": 6.045,
       "confidence": 1.0
     },
     {
       "word": "PREGUIÇAS.",
-      "start": 6.105,
-      "end": 6.68,
+      "start": 6.045,
+      "end": 6.62,
       "confidence": 1.0,
       "line_break_after": true
     },
     {
       "word": "UMA",
-      "start": 7.9,
-      "end": 7.908,
+      "start": 7.72,
+      "end": 7.885,
       "confidence": 1.0
     },
     {
       "word": "VEZ,",
-      "start": 7.91,
-      "end": 8.28,
+      "start": 7.885,
+      "end": 8.22,
       "confidence": 1.0
     },
     {
       "word": "UMA",
-      "start": 8.48,
-      "end": 8.628,
+      "start": 8.38,
+      "end": 8.625,
       "confidence": 1.0
     },
     {
       "word": "PREGUIÇA",
-      "start": 8.63,
-      "end": 9.085,
+      "start": 8.625,
+      "end": 9.025,
       "confidence": 1.0
     },
     {
       "word": "ESTAVA",
-      "start": 9.085,
-      "end": 9.445,
+      "start": 9.025,
+      "end": 9.405,
       "confidence": 1.0
     },
     {
       "word": "EMBAIXO",
-      "start": 9.445,
-      "end": 9.965,
+      "start": 9.405,
+      "end": 9.925,
       "confidence": 1.0
     },
     {
       "word": "DE",
-      "start": 9.965,
-      "end": 10.215,
+      "start": 9.925,
+      "end": 10.175,
       "confidence": 1.0
     },
     {
       "word": "UMA",
-      "start": 10.215,
-      "end": 10.385,
+      "start": 10.175,
+      "end": 10.345,
       "confidence": 1.0
     },
     {
       "word": "EMBAÚBA",
-      "start": 10.385,
-      "end": 10.805,
+      "start": 10.345,
+      "end": 10.765,
       "confidence": 0.857
     },
     {
       "word": "ESPERANDO",
-      "start": 10.805,
-      "end": 11.345,
+      "start": 10.765,
+      "end": 11.305,
       "confidence": 1.0
     },
     {
       "word": "ELA",
-      "start": 11.345,
-      "end": 11.685,
+      "start": 11.305,
+      "end": 11.665,
       "confidence": 1.0
     },
     {
       "word": "FLORESCER.",
-      "start": 11.685,
-      "end": 12.2,
+      "start": 11.665,
+      "end": 12.16,
       "confidence": 1.0
     },
     {
       "word": "QUANDO",
-      "start": 13.26,
-      "end": 13.348,
+      "start": 13.28,
+      "end": 13.308,
       "confidence": 1.0
     },
     {
       "word": "AS",
-      "start": 13.35,
-      "end": 13.91,
+      "start": 13.31,
+      "end": 13.89,
       "confidence": 1.0
     },
     {
       "word": "FLORES",
-      "start": 13.92,
-      "end": 13.928,
+      "start": 13.9,
+      "end": 13.908,
       "confidence": 1.0
     },
     {
       "word": "ROXAS",
-      "start": 13.93,
-      "end": 14.325,
+      "start": 13.91,
+      "end": 14.305,
       "confidence": 1.0
     },
     {
       "word": "VIESSEM,",
-      "start": 14.325,
-      "end": 14.94,
+      "start": 14.305,
+      "end": 14.92,
       "confidence": 1.0
     },
     {
       "word": "A",
-      "start": 15.9,
-      "end": 16.225,
+      "start": 15.22,
+      "end": 15.545,
       "confidence": 1.0
     },
     {
       "word": "PREGUIÇA,",
-      "start": 16.225,
-      "end": 16.62,
+      "start": 15.545,
+      "end": 15.9,
       "confidence": 1.0
     },
     {
       "word": "QUE",
-      "start": 16.9,
-      "end": 16.988,
+      "start": 16.22,
+      "end": 16.308,
       "confidence": 1.0
     },
     {
       "word": "É",
-      "start": 16.99,
-      "end": 17.205,
+      "start": 16.31,
+      "end": 16.505,
       "confidence": 1.0
     },
     {
       "word": "MUITO",
-      "start": 17.205,
-      "end": 17.465,
+      "start": 16.505,
+      "end": 16.745,
       "confidence": 1.0
     },
     {
       "word": "GULOSA",
-      "start": 17.465,
-      "end": 17.925,
-      "confidence": 1.0
+      "start": 16.745,
+      "end": 17.185,
+      "confidence": 0.667
     },
     {
       "word": "POR",
-      "start": 17.925,
-      "end": 18.205,
+      "start": 17.185,
+      "end": 17.465,
       "confidence": 1.0
     },
     {
       "word": "BANANINHAS",
-      "start": 18.205,
-      "end": 18.725,
+      "start": 17.465,
+      "end": 17.965,
       "confidence": 1.0
     },
     {
       "word": "DE",
-      "start": 18.725,
-      "end": 19.045,
+      "start": 17.965,
+      "end": 18.305,
       "confidence": 1.0
     },
     {
       "word": "EMBAÚBA,",
-      "start": 19.045,
-      "end": 19.48,
+      "start": 18.305,
+      "end": 18.7,
       "confidence": 0.857
     },
     {
       "word": "COMEÇAVA",
-      "start": 19.9,
-      "end": 20.245,
+      "start": 19.14,
+      "end": 19.445,
       "confidence": 1.0
     },
     {
       "word": "A",
-      "start": 20.245,
-      "end": 20.69,
+      "start": 19.445,
+      "end": 19.93,
       "confidence": 1.0
     },
     {
       "word": "SUBIR.",
-      "start": 20.7,
-      "end": 20.9,
+      "start": 19.94,
+      "end": 20.14,
       "confidence": 1.0
     },
     {
       "word": "PENSAVA",
-      "start": 22.12,
-      "end": 22.168,
+      "start": 21.12,
+      "end": 21.385,
       "confidence": 1.0
     },
     {
       "word": "QUE,",
-      "start": 22.17,
-      "end": 22.5,
+      "start": 21.385,
+      "end": 21.72,
       "confidence": 1.0
     },
     {
       "word": "ATÉ",
-      "start": 22.8,
-      "end": 22.848,
+      "start": 22.02,
+      "end": 22.088,
       "confidence": 1.0
     },
     {
       "word": "CHEGAR",
-      "start": 22.85,
-      "end": 23.205,
+      "start": 22.09,
+      "end": 22.445,
       "confidence": 1.0
     },
     {
       "word": "LÁ",
-      "start": 23.205,
-      "end": 23.505,
+      "start": 22.445,
+      "end": 22.745,
       "confidence": 1.0
     },
     {
       "word": "EM",
-      "start": 23.505,
-      "end": 23.89,
+      "start": 22.745,
+      "end": 23.19,
       "confidence": 1.0
     },
     {
       "word": "CIMA,",
-      "start": 23.9,
-      "end": 24.1,
+      "start": 23.2,
+      "end": 23.376,
       "confidence": 1.0
     },
     {
       "word": "JÁ",
-      "start": 24.18,
-      "end": 24.465,
+      "start": 23.42,
+      "end": 23.705,
       "confidence": 1.0
     },
     {
       "word": "AS",
-      "start": 24.465,
-      "end": 24.89,
+      "start": 23.705,
+      "end": 24.15,
       "confidence": 1.0
     },
     {
       "word": "FRUTAS",
-      "start": 24.9,
-      "end": 24.968,
+      "start": 24.16,
+      "end": 24.188,
       "confidence": 1.0
     },
     {
       "word": "TINHAM",
-      "start": 24.97,
-      "end": 25.325,
+      "start": 24.19,
+      "end": 24.545,
       "confidence": 1.0
     },
     {
       "word": "VINDO",
-      "start": 25.325,
-      "end": 25.725,
+      "start": 24.545,
+      "end": 24.945,
       "confidence": 1.0
     },
     {
       "word": "E",
-      "start": 25.725,
-      "end": 26.31,
+      "start": 24.945,
+      "end": 25.55,
       "confidence": 1.0
     },
     {
       "word": "ESTAVAM",
-      "start": 26.32,
-      "end": 26.328,
+      "start": 25.56,
+      "end": 25.568,
       "confidence": 1.0
     },
     {
       "word": "MADURAS.",
-      "start": 26.33,
-      "end": 26.88,
+      "start": 25.57,
+      "end": 26.1,
       "confidence": 1.0,
       "line_break_after": true
     },
     {
       "word": "ENTÃO",
-      "start": 27.76,
-      "end": 28.185,
+      "start": 27.04,
+      "end": 27.425,
       "confidence": 1.0
     },
     {
       "word": "ELA",
-      "start": 28.185,
-      "end": 28.525,
+      "start": 27.425,
+      "end": 27.765,
       "confidence": 1.0
     },
     {
       "word": "FOI",
-      "start": 28.525,
-      "end": 28.785,
+      "start": 27.765,
+      "end": 28.025,
       "confidence": 1.0
     },
     {
       "word": "SUBINDO,",
-      "start": 28.785,
-      "end": 29.28,
+      "start": 28.025,
+      "end": 28.48,
       "confidence": 1.0
     },
     {
       "word": "SUBINDO.",
-      "start": 29.68,
-      "end": 30.12,
+      "start": 28.9,
+      "end": 29.32,
       "confidence": 1.0
     },
     {
       "word": "SETE",
-      "start": 31.5,
-      "end": 31.528,
+      "start": 30.72,
+      "end": 30.748,
       "confidence": 1.0
     },
     {
       "word": "ANOS",
-      "start": 31.53,
-      "end": 31.805,
+      "start": 30.75,
+      "end": 31.025,
       "confidence": 1.0
     },
     {
       "word": "SE",
-      "start": 31.805,
-      "end": 32.245,
+      "start": 31.025,
+      "end": 31.465,
       "confidence": 1.0
     },
     {
       "word": "PASSARAM.",
-      "start": 32.245,
-      "end": 32.82,
+      "start": 31.465,
+      "end": 32.04,
       "confidence": 1.0
     },
     {
       "word": "SETE",
-      "start": 33.98,
-      "end": 34.028,
+      "start": 33.2,
+      "end": 33.248,
       "confidence": 1.0
     },
     {
       "word": "VEZES",
-      "start": 34.03,
-      "end": 34.425,
+      "start": 33.25,
+      "end": 33.685,
       "confidence": 1.0
     },
     {
       "word": "A",
-      "start": 34.425,
-      "end": 34.765,
+      "start": 33.685,
+      "end": 34.065,
       "confidence": 1.0
     },
     {
       "word": "EMBAÚBA",
-      "start": 34.765,
-      "end": 35.085,
+      "start": 34.065,
+      "end": 34.345,
       "confidence": 0.857
     },
     {
       "word": "FLORESCEU",
-      "start": 35.085,
-      "end": 35.705,
+      "start": 34.345,
+      "end": 34.965,
       "confidence": 1.0
     },
     {
       "word": "E",
-      "start": 35.705,
-      "end": 35.925,
+      "start": 34.965,
+      "end": 35.225,
       "confidence": 1.0
     },
     {
       "word": "FRUTIFICOU.",
-      "start": 35.925,
-      "end": 36.48,
+      "start": 35.225,
+      "end": 35.76,
       "confidence": 1.0
     },
     {
       "word": "QUANDO",
-      "start": 37.78,
-      "end": 38.505,
+      "start": 36.86,
+      "end": 36.868,
       "confidence": 1.0
     },
     {
       "word": "A",
-      "start": 38.505,
-      "end": 39.21,
+      "start": 36.87,
+      "end": 37.35,
       "confidence": 1.0
     },
     {
       "word": "PREGUIÇA",
-      "start": 39.22,
-      "end": 39.308,
+      "start": 37.36,
+      "end": 37.448,
       "confidence": 1.0
     },
     {
       "word": "ACABOU",
-      "start": 39.31,
-      "end": 39.665,
+      "start": 37.45,
+      "end": 37.785,
       "confidence": 1.0
     },
     {
       "word": "A",
-      "start": 39.665,
-      "end": 39.885,
+      "start": 37.785,
+      "end": 38.045,
       "confidence": 1.0
     },
     {
       "word": "VIAGEM",
-      "start": 39.885,
-      "end": 40.305,
+      "start": 38.045,
+      "end": 38.445,
       "confidence": 1.0
     },
     {
       "word": "E",
-      "start": 40.305,
-      "end": 40.66,
+      "start": 38.445,
+      "end": 38.745,
       "confidence": 1.0
     },
     {
       "word": "IA",
-      "start": 41.08,
-      "end": 41.805,
-      "confidence": 0.2
+      "start": 38.745,
+      "end": 38.945,
+      "confidence": 1.0
     },
     {
       "word": "COMER",
-      "start": 41.805,
-      "end": 42.365,
-      "confidence": 0.714
+      "start": 38.945,
+      "end": 39.185,
+      "confidence": 1.0
     },
     {
       "word": "OS",
-      "start": 42.365,
-      "end": 42.79,
+      "start": 39.185,
+      "end": 39.81,
       "confidence": 1.0
     },
     {
       "word": "FRUTOS,",
-      "start": 42.8,
-      "end": 43.0,
+      "start": 39.82,
+      "end": 40.02,
       "confidence": 1.0
     },
     {
       "word": "ARREBENTOU",
-      "start": 43.5,
-      "end": 43.705,
+      "start": 40.36,
+      "end": 40.665,
       "confidence": 1.0
     },
     {
       "word": "O",
-      "start": 43.705,
-      "end": 44.17,
+      "start": 40.665,
+      "end": 41.15,
       "confidence": 1.0
     },
     {
       "word": "GALHO,",
-      "start": 44.18,
-      "end": 44.188,
+      "start": 41.16,
+      "end": 41.168,
       "confidence": 1.0
     },
     {
       "word": "E",
-      "start": 44.19,
-      "end": 44.605,
+      "start": 41.17,
+      "end": 41.605,
       "confidence": 1.0
     },
     {
       "word": "ELA",
-      "start": 44.605,
-      "end": 44.865,
+      "start": 41.605,
+      "end": 41.895,
       "confidence": 1.0
     },
     {
       "word": "VEIO",
-      "start": 44.865,
-      "end": 45.085,
+      "start": 41.895,
+      "end": 42.065,
       "confidence": 1.0
     },
     {
       "word": "PARA",
-      "start": 45.085,
-      "end": 45.345,
+      "start": 42.065,
+      "end": 42.325,
       "confidence": 1.0
     },
     {
       "word": "O",
-      "start": 45.345,
-      "end": 45.69,
+      "start": 42.325,
+      "end": 42.69,
       "confidence": 1.0
     },
     {
       "word": "CHÃO",
-      "start": 45.7,
-      "end": 45.708,
+      "start": 42.7,
+      "end": 42.708,
       "confidence": 1.0
     },
     {
       "word": "QUE",
-      "start": 45.71,
-      "end": 45.945,
+      "start": 42.71,
+      "end": 42.965,
       "confidence": 1.0
     },
     {
       "word": "NEM",
-      "start": 45.945,
-      "end": 46.145,
+      "start": 42.965,
+      "end": 43.185,
       "confidence": 1.0
     },
     {
       "word": "UM",
-      "start": 46.145,
-      "end": 46.57,
+      "start": 43.185,
+      "end": 43.67,
       "confidence": 1.0
     },
     {
       "word": "BOLO.",
-      "start": 46.58,
-      "end": 46.78,
+      "start": 43.68,
+      "end": 43.88,
       "confidence": 1.0
     },
     {
       "word": "SANTA",
-      "start": 47.82,
-      "end": 47.968,
+      "start": 44.86,
+      "end": 44.988,
       "confidence": 1.0
     },
     {
       "word": "PACIÊNCIA!",
-      "start": 47.97,
-      "end": 48.7,
+      "start": 44.99,
+      "end": 45.74,
       "confidence": 1.0
     },
     {
       "word": "VOLTOU",
-      "start": 50.02,
-      "end": 50.088,
+      "start": 47.0,
+      "end": 47.128,
       "confidence": 1.0
     },
     {
       "word": "À",
-      "start": 50.09,
-      "end": 50.61,
+      "start": 47.13,
+      "end": 47.65,
       "confidence": 1.0
     },
     {
       "word": "ÁRVORE",
-      "start": 50.62,
-      "end": 50.668,
+      "start": 47.66,
+      "end": 47.708,
       "confidence": 1.0
     },
     {
       "word": "E",
-      "start": 50.67,
-      "end": 51.025,
+      "start": 47.71,
+      "end": 48.045,
       "confidence": 1.0
     },
     {
       "word": "COMEÇOU",
-      "start": 51.025,
-      "end": 51.285,
+      "start": 48.045,
+      "end": 48.365,
       "confidence": 1.0
     },
     {
       "word": "A",
-      "start": 51.285,
-      "end": 51.85,
+      "start": 48.365,
+      "end": 48.85,
       "confidence": 1.0
     },
     {
       "word": "SUBIR,",
-      "start": 51.86,
-      "end": 52.06,
+      "start": 48.86,
+      "end": 48.868,
       "confidence": 1.0
     },
     {
       "word": "MAIS",
-      "start": 52.22,
-      "end": 52.505,
+      "start": 48.87,
+      "end": 49.245,
       "confidence": 1.0
     },
     {
       "word": "SETE",
-      "start": 52.505,
-      "end": 53.075,
+      "start": 49.245,
+      "end": 49.645,
       "confidence": 1.0
     },
     {
       "word": "ANOS.",
-      "start": 53.075,
-      "end": 53.275,
+      "start": 49.645,
+      "end": 49.94,
       "confidence": 1.0,
       "line_break_after": true
     },
     {
       "word": "AINDA",
-      "start": 54.54,
-      "end": 54.588,
+      "start": 51.22,
+      "end": 51.288,
       "confidence": 1.0
     },
     {
       "word": "ESTÁ",
-      "start": 54.59,
-      "end": 55.025,
+      "start": 51.29,
+      "end": 51.725,
       "confidence": 1.0
     },
     {
       "word": "LÁ.",
-      "start": 55.025,
-      "end": 55.26,
+      "start": 51.725,
+      "end": 51.96,
       "confidence": 1.0
     }
   ],
   "metrics": {
-    "average_confidence": 0.978,
-    "gaps_preserved": 13,
-    "gaps_filled": 94,
+    "average_confidence": 0.986,
+    "gaps_preserved": 11,
+    "gaps_filled": 96,
     "gaps_review": 8,
-    "low_confidence_words": 5,
-    "prosody_preserved_score": 0.113,
-    "timing_precision_ms": 33.0,
-    "word_accuracy": 0.978,
+    "low_confidence_words": 3,
+    "prosody_preserved_score": 0.096,
+    "timing_precision_ms": 31.7,
+    "word_accuracy": 0.986,
     "alignment_method": "dp",
     "words_matched": 0,
     "words_interpolated": 0,
@@ -726,40 +726,38 @@
   },
   "low_confidence_words": [
     "bicho-preguiça",
-    "FÔLEGOS",
     "BICHO-PREGUIÇA",
-    "IA",
-    "COMER"
+    "GULOSA"
   ],
   "timestamp_issues": {
     "words_checked": 116,
-    "total_issues": 44,
-    "errors": 16,
-    "warnings": 28,
+    "total_issues": 41,
+    "errors": 15,
+    "warnings": 26,
     "issues_by_type": {
       "too_short": 15,
-      "large_gap": 13,
-      "syllable_mismatch": 16
+      "large_gap": 11,
+      "syllable_mismatch": 15
     },
     "issues": [
       {
         "word_index": 2,
         "type": "too_short",
-        "message": "Word 'DIZEM' has very short duration (78ms)",
+        "message": "Word 'DIZEM' has very short duration (58ms)",
         "severity": "warning",
         "suggested_correction": null
       },
       {
         "word_index": 2,
         "type": "large_gap",
-        "message": "Large gap (1280ms) before 'DIZEM' without punctuation",
+        "message": "Large gap (1340ms) before 'DIZEM' without punctuation",
         "severity": "warning",
         "suggested_correction": null
       },
       {
         "word_index": 2,
         "type": "syllable_mismatch",
-        "message": "Word 'DIZEM' (2 syllables) has only 78ms duration",
+        "message": "Word 'DIZEM' (2 syllables) has only 58ms duration",
         "severity": "warning",
         "suggested_correction": null
       },
@@ -779,36 +777,29 @@
       },
       {
         "word_index": 16,
+        "type": "large_gap",
+        "message": "Very large gap (1100ms) before 'UMA'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 28,
         "type": "too_short",
-        "message": "Word 'UMA' has very short duration (8ms)",
+        "message": "Word 'QUANDO' has very short duration (28ms)",
         "severity": "error",
         "suggested_correction": null
       },
       {
-        "word_index": 16,
-        "type": "large_gap",
-        "message": "Very large gap (1220ms) before 'UMA'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 16,
-        "type": "syllable_mismatch",
-        "message": "Word 'UMA' (2 syllables) has only 8ms duration",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
         "word_index": 28,
         "type": "large_gap",
-        "message": "Very large gap (1060ms) before 'QUANDO'",
+        "message": "Very large gap (1120ms) before 'QUANDO'",
         "severity": "warning",
         "suggested_correction": null
       },
       {
         "word_index": 28,
         "type": "syllable_mismatch",
-        "message": "Word 'QUANDO' (2 syllables) has only 88ms duration",
+        "message": "Word 'QUANDO' (2 syllables) has only 28ms duration",
         "severity": "warning",
         "suggested_correction": null
       },
@@ -827,58 +818,37 @@
         "suggested_correction": null
       },
       {
-        "word_index": 33,
-        "type": "large_gap",
-        "message": "Large gap (960ms) before 'A' without punctuation",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 46,
-        "type": "too_short",
-        "message": "Word 'PENSAVA' has very short duration (48ms)",
-        "severity": "error",
-        "suggested_correction": null
-      },
-      {
         "word_index": 46,
         "type": "large_gap",
-        "message": "Very large gap (1220ms) before 'PENSAVA'",
+        "message": "Very large gap (980ms) before 'PENSAVA'",
         "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 46,
-        "type": "syllable_mismatch",
-        "message": "Word 'PENSAVA' (3 syllables) has only 48ms duration",
-        "severity": "error",
         "suggested_correction": null
       },
       {
         "word_index": 48,
         "type": "too_short",
-        "message": "Word 'ATÉ' has very short duration (48ms)",
-        "severity": "error",
+        "message": "Word 'ATÉ' has very short duration (68ms)",
+        "severity": "warning",
         "suggested_correction": null
       },
       {
         "word_index": 48,
         "type": "syllable_mismatch",
-        "message": "Word 'ATÉ' (2 syllables) has only 48ms duration",
+        "message": "Word 'ATÉ' (2 syllables) has only 68ms duration",
         "severity": "warning",
         "suggested_correction": null
       },
       {
         "word_index": 55,
         "type": "too_short",
-        "message": "Word 'FRUTAS' has very short duration (68ms)",
-        "severity": "warning",
+        "message": "Word 'FRUTAS' has very short duration (28ms)",
+        "severity": "error",
         "suggested_correction": null
       },
       {
         "word_index": 55,
         "type": "syllable_mismatch",
-        "message": "Word 'FRUTAS' (2 syllables) has only 68ms duration",
+        "message": "Word 'FRUTAS' (2 syllables) has only 28ms duration",
         "severity": "warning",
         "suggested_correction": null
       },
@@ -899,7 +869,7 @@
       {
         "word_index": 61,
         "type": "large_gap",
-        "message": "Very large gap (880ms) before 'ENTÃO'",
+        "message": "Very large gap (940ms) before 'ENTÃO'",
         "severity": "warning",
         "suggested_correction": null
       },
@@ -913,7 +883,7 @@
       {
         "word_index": 66,
         "type": "large_gap",
-        "message": "Very large gap (1380ms) before 'SETE'",
+        "message": "Very large gap (1400ms) before 'SETE'",
         "severity": "warning",
         "suggested_correction": null
       },
@@ -947,8 +917,22 @@
       },
       {
         "word_index": 77,
+        "type": "too_short",
+        "message": "Word 'QUANDO' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 77,
         "type": "large_gap",
-        "message": "Very large gap (1300ms) before 'QUANDO'",
+        "message": "Very large gap (1100ms) before 'QUANDO'",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 77,
+        "type": "syllable_mismatch",
+        "message": "Word 'QUANDO' (2 syllables) has only 8ms duration",
         "severity": "warning",
         "suggested_correction": null
       },
@@ -957,13 +941,6 @@
         "type": "syllable_mismatch",
         "message": "Word 'PREGUIÇA' (3 syllables) has only 88ms duration",
         "severity": "error",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 88,
-        "type": "large_gap",
-        "message": "Large gap (500ms) before 'ARREBENTOU' without punctuation",
-        "severity": "warning",
         "suggested_correction": null
       },
       {
@@ -990,28 +967,14 @@
       {
         "word_index": 101,
         "type": "large_gap",
-        "message": "Very large gap (1040ms) before 'SANTA'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 103,
-        "type": "too_short",
-        "message": "Word 'VOLTOU' has very short duration (68ms)",
+        "message": "Very large gap (980ms) before 'SANTA'",
         "severity": "warning",
         "suggested_correction": null
       },
       {
         "word_index": 103,
         "type": "large_gap",
-        "message": "Very large gap (1320ms) before 'VOLTOU'",
-        "severity": "warning",
-        "suggested_correction": null
-      },
-      {
-        "word_index": 103,
-        "type": "syllable_mismatch",
-        "message": "Word 'VOLTOU' (2 syllables) has only 68ms duration",
+        "message": "Very large gap (1260ms) before 'VOLTOU'",
         "severity": "warning",
         "suggested_correction": null
       },
@@ -1030,23 +993,37 @@
         "suggested_correction": null
       },
       {
+        "word_index": 109,
+        "type": "too_short",
+        "message": "Word 'SUBIR,' has very short duration (8ms)",
+        "severity": "error",
+        "suggested_correction": null
+      },
+      {
+        "word_index": 109,
+        "type": "syllable_mismatch",
+        "message": "Word 'SUBIR,' (2 syllables) has only 8ms duration",
+        "severity": "warning",
+        "suggested_correction": null
+      },
+      {
         "word_index": 113,
         "type": "too_short",
-        "message": "Word 'AINDA' has very short duration (48ms)",
-        "severity": "error",
+        "message": "Word 'AINDA' has very short duration (68ms)",
+        "severity": "warning",
         "suggested_correction": null
       },
       {
         "word_index": 113,
         "type": "large_gap",
-        "message": "Very large gap (1265ms) before 'AINDA'",
+        "message": "Very large gap (1280ms) before 'AINDA'",
         "severity": "warning",
         "suggested_correction": null
       },
       {
         "word_index": 113,
         "type": "syllable_mismatch",
-        "message": "Word 'AINDA' (2 syllables) has only 48ms duration",
+        "message": "Word 'AINDA' (2 syllables) has only 68ms duration",
         "severity": "warning",
         "suggested_correction": null
       }
